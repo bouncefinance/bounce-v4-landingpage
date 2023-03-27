@@ -1,0 +1,93 @@
+import React from 'react';
+import { useKeyFeaturesStyles } from './useKeyFeaturesStyles';
+import { Container, Typography, Box, Grid } from '@material-ui/core';
+import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
+import { WithAnimation } from 'src/modules/WithAnimation';
+import classNames from 'classnames';
+
+const KeyFeature: React.FC = () => {
+  const classes = useKeyFeaturesStyles();
+  const industryList = [
+    {
+      title: 'Exclusive Ads',
+      content:
+        'Bid and win the exclusive right to display your ads on your desired platform. No competing with other advertisements or having your message lost in the noise.',
+    },
+    {
+      title: 'Joint Ads',
+      content:
+        'Bid for an ad placement and join forces with other businesses. Create a larger advertising footprint and reach a wider audience.',
+    },
+  ];
+  return (
+    <WithScrollFreezing>
+      <div className={classes.root} id="industry-block">
+        <Container maxWidth="xl" className={classes.container}>
+          <WithAnimation>
+            <Typography className={classes.industryTitle}>
+              Key Features of Our Advertisement Auction
+            </Typography>
+          </WithAnimation>
+          <Grid container spacing={2}>
+            <Grid item xs={6}>
+              <Box className={classNames(classes.industryItem)}>
+                <WithAnimation>
+                  <Typography className={classes.industryItemTitle}>
+                    <img
+                      className={classes.icon}
+                      src="/images/advertisementSolution/icon1.png"
+                      alt=""
+                    />
+                    Exclusive Ads
+                  </Typography>
+                </WithAnimation>
+                <WithAnimation>
+                  <Typography className={classes.industryItemContent}>
+                    Bid and win the exclusive right to display your ads on your
+                    desired platform. No competing with other advertisements or
+                    having your message lost in the noise.
+                  </Typography>
+                </WithAnimation>
+              </Box>
+            </Grid>
+            <Grid
+              item
+              xs={6}
+              style={{
+                marginBottom: 80,
+              }}
+            >
+              <Box className={classNames(classes.industryItem2)}>
+                <WithAnimation>
+                  <Typography className={classes.industryItemTitle}>
+                    <img
+                      className={classes.icon}
+                      src="/images/advertisementSolution/icon2.png"
+                      alt=""
+                    />
+                    Joint Ads
+                  </Typography>
+                </WithAnimation>
+                <WithAnimation>
+                  <Typography className={classes.industryItemContent}>
+                    Bid for an ad placement and join forces with other
+                    businesses. Create a larger advertising footprint and reach
+                    a wider audience.
+                  </Typography>
+                </WithAnimation>
+                <img
+                  className={classes.rightBg}
+                  src="/images/advertisementSolution/bg.png"
+                  alt=""
+                />
+              </Box>
+            </Grid>
+          </Grid>
+          <img className={classNames(classes.fullImg)} src="/images/advertisementSolution/p1.png" alt="" />
+        </Container>
+      </div>
+    </WithScrollFreezing>
+  );
+};
+
+export default KeyFeature;

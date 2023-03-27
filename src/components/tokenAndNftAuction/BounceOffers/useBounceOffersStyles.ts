@@ -1,0 +1,75 @@
+import { makeStyles, Theme } from '@material-ui/core';
+
+export const useBounceOffersStyles = makeStyles<Theme>(theme => ({
+  root: {
+    position: 'relative',
+    backgroundColor: '#2B51DA',
+    minHeight: '100vh',
+    pointerEvents: 'auto',
+    '&::before': {
+      content: `''`,
+      display: 'block',
+      position: 'absolute',
+      top: -54,
+      width: '100%',
+      background: '#2B51DA',
+      height: 60,
+      borderRadius: '28px 28px 0 0',
+    },
+    [theme.breakpoints.up('md')]: {
+      '&::before': {
+        borderRadius: '60px 60px 0 0',
+      },
+    },
+  },
+  container: {
+    position: 'relative',
+    width: '100% !important',
+    maxWidth: '1080px !important',
+    paddingTop: 93,
+    paddingBottom: 120,
+    display: 'flex',
+    flexFlow: 'column nowrap',
+    margin: '0 auto',
+  },
+  logo: {
+    display: 'block',
+    width: 40,
+    height: 60,
+    margin: '0 auto',
+    marginBottom: 32,
+  },
+  title: {
+    fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
+    fontWeight: 500,
+    fontSize: 44,
+    color: '#fff',
+    textAlign: 'center',
+    marginBottom: 55,
+  },
+  item: {
+    width: '100%',
+    height: '360px',
+    background: '#fff',
+    borderRadius: 24,
+    padding: '40px 28px',
+  },
+  itemTitle: {
+    fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
+    fontWeight: 500,
+    fontSize: 24,
+    color: '#2B51DA',
+    marginBottom: 24,
+    textAlign: 'left',
+    lineHeight: '34px',
+    height: 108,
+  },
+  itemDesc: {
+    fontFamily: `'Inter'`,
+    fontWeight: 400,
+    fontSize: 16,
+    color: '#171717',
+    lineHeight: '24px',
+    textAlign: 'left',
+  },
+}));

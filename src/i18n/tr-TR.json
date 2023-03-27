@@ -1,0 +1,485 @@
+{
+    "common": {
+      "site-title": "Bounce",
+      "meta": {
+        "keywords": "bounce, bounce Finans, Finans, DeFi, bot",
+        "description": "Bounce, açık artırmalar için bir ürün ekosistemine güç verir. Birden fazla blok zincirinde her türlü varlığı, jetonu ve NFT'yi oluşturun, tasarlayın, bağlayın, toplayın ve takas edin."
+      },
+      "og": {
+        "title": "Bounce",
+        "description": "Bounce, açık artırmalar için bir ürün ekosistemine güç verir. Birden fazla blok zincirinde her türlü varlığı, jetonu ve NFT'yi oluşturun, tasarlayın, bağlayın, toplayın ve takas edin."
+      },
+      "no-js": "JavaScript is required!",
+      "launch-app": "Uygulamayı başlat",
+      "learn-more": "Daha fazla bilgi edinin",
+      "coming-soon": "Çok yakında",
+      "landing-page": "Açılış sayfası"
+    },
+    "header": {
+      "investment": "Açık Artırma",
+      "jobs": "İşler",
+      "jobs-employers": "İş bul",
+      "jobs-talents": "Yetenek bul",
+      "service": "Hizmet",
+      "ecosystem": "Ekosistem",
+      "company": "Şirket",
+      "tools": "Araçlar",
+      "tools-token": "Bounce Jeton",
+      "tools-labs": "Bounce Laboratuvarlar",
+      "labs": "Laboratuvarlar",
+      "labs-fangible": "Fangible",
+      "labs-metalents": "Metalents",
+      "login": "Giriş",
+      "launch-app": "Oturum Aç"
+    },
+    "home-page": {
+      "banner": {
+        "title": "Hizmet Olarak Açık Artırma",
+        "text": "Web3 ve DeFi'nin tümü için oluşturulmuş açık bir açık artırma altyapısı ve araçları ağı: bireylerden kurumlara",
+        "demo": "Demo İste",
+        "docs": "Dokümanlar"
+      },
+      "build-with-bounce": {
+        "title": "Bounce ile İnşa Edin",
+        "finance-btn": "Merkezi Olmayan Açık Artırma",
+        "nfts-btn": "nfts (çok yakında)",
+        "managment-btn": "şirket yönetimi",
+        "market-btn": "iş piyasası",
+        "description": "Açık Artırma Finansmanının potansiyelini ortaya çıkarın",
+        "detail": "Bounce, merkezi olmayan açık artırma araçlarından oluşan eksiksiz bir paket sunmaktadır: İmza niteliğindeki merkezi olmayan açık artırma platformumuz, Açık Artırmalar için SDK altyapımız ve NFT açık artırmalarımız. Güvenilir uygulamalar, araçlar ve çözümlerden oluşan altyapımızla merkezi olmayan açık artırmalar oluşturun ve bunlara katılın."
+      },
+      "companyList": {
+        "title": "Web3'ün en yenilikçi şirketlerini takip edin ve yatırım yapın",
+        "more": "Daha fazla şirket göster"
+      },
+      "top-stack": {
+        "title": "Teknoloji Yığını",
+        "list": {
+          "item1-title": "Hibrit Altyapı Yaklaşımı",
+          "item1-text": "Kitlelere hizmet etmek üzere tasarlanmış bir platform oluştururken, hem merkezi hem de merkezi olmayan teknolojiyi kullanan bir sistem tasarladık. Bu sayede, kullanıcılar e-posta ve sosyal medya gibi Web2 kimlik bilgileri aracılığıyla platformumuza erişebilir ve yalnızca web3 ürünlerimizi kullanırken merkezsizleştirme ve dağıtılmış defterlerin avantajlarından yararlanabilir.",
+          "item2-title": "Merkezi olmayan uygulama Araç Kutusu",
+          "item2-text": "Kendi benzersiz ihtiyaçlarınıza uyacak şekilde Bounce'un çok çeşitli akıllı sözleşme çözümlerinden yararlanın; esneklik ve birlikte çalışabilirlik ile merkezi olmayan uygulamanızı oluşturun. ",
+          "item3-title": "QR kodu ve dijital kart",
+          "item3-text1": "Her Bounce kullanıcısı, Bounce'taki profillerine otomatik olarak atanacak benzersiz bir QR kodu alacaktır.",
+          "item3-text2": "Başlamak için dijital kodu tarayın ve Web3 arkadaş ağınızı keşfedin!"
+        }
+      },
+      "bounce-labs": {
+        "title": "Bounce Laboratuvarlar:",
+        "description": "Merkezi Olmayan İnovasyonun Geleceğini Kuluçkaya Yatırmak",
+        "detail": "Bounce Laboratuvarlar, her biri mevcut Bounce uygulamaları ekosisteminin ötesinde kavram ve fikirleri yenilemek amacıyla çok çeşitli Web3 yerel girişimlerini kuluçkaya yatırıyor. Girişimlerimize göz atın ve bugün bizimle birlikte inşa edin!",
+        "list": {
+          "bounce-v1": "Bounce V1",
+          "bounce-v2": "Bounce V2",
+          "fangible": "Fangible",
+          "metalents": "Metalents",
+          "m&a-defi": "M&A Defi",
+          "bounce-metaverse": "Bounce Metaverse",
+          "syndicate-defi": "Syndicate Defi",
+          "bounce-v3": "Bounce V3"
+        },
+        "celebrities": {
+          "eimi-fukada": {
+            "name": "Eimi Fukada",
+            "text": "Eimi Fukada, 2017'den beri Japon Yetişkin Video oyuncusu. 2020'de satışlara göre üçüncü sırada yer alan AV oyuncusu oldu."
+          },
+          "kyle-kuzma": {
+            "name": "Kyle Kuzma",
+            "text": "Kyle Kuzma, NBA takımlarından Los Angeles Lakers'ta forma giyen Amerikalı profesyonel basketbol oyuncusudur."
+          },
+          "nick-young": {
+            "name": "Nick Young",
+            "text": "Nick \"Swaggy P\" Young, Los Angeles, Kaliforniya'dan NBA'in eski bir profesyonel basketbol oyuncusudur."
+          },
+          "skyy-clark": {
+            "name": "Skyy Clark",
+            "text": "Skyy Clark Los Angeles, CA'dan 5 yıldızlı bir lise basketbol oyuncusu."
+          },
+          "asap-rocky": {
+            "name": "A$AP Rocky",
+            "text": "A$AP Rocky, New Yorklu bir rapçi, şarkıcı, söz yazarı ve aktördür."
+          },
+          "deandre-hopkins": {
+            "name": "DeAndre Hopkins",
+            "text": "DeAndre \"Nuk\" Hopkins, NFL'de Arizona Cardinals forması giyen bir Amerikan futbolu oyuncusudur."
+          },
+          "devon-dotson": {
+            "name": "Devon Dotson",
+            "text": "Devon Dotson, NBA takımlarından Chicago Bulls'un 21 yaşındaki profesyonel basketbolcusudur."
+          }
+        }
+      }
+    },
+    "investment-page": {
+      "banner": {
+        "title": "Açık artırma",
+        "text": "Bounce'un Kapsamlı Açık Artırma Araçları ile Web3 Yatırımını Başlatın ve Finanse Edin",
+        "sign-up-btn": "Şimdi kaydolun",
+        "card1": {
+          "title": "Yatırımcılar",
+          "paragraph1": "Bounce açık artırma ile aşağıdakiler de dahil olmak üzere çok çeşitli açık artırma tekliflerine göz atın: Token açık artırmaları ve NFT açık artırmaları.",
+          "paragraph2": "Bounce'un önde gelen Web3 şirket bilgilerinden oluşan açık dizini ile en son açık artırma bilgileri ve fırsatlarından haberdar olun."
+        },
+        "card2": {
+          "title": "Kurucular ve Şirketler",
+          "paragraph1": "Benzersiz açık artırma stratejilerinizi desteklemek için tak ve çalıştır araçları.",
+          "paragraph2": "Şirketinizin bireysel taleplerine uygun, özelleştirilebilir açık artırma uygulamaları."
+        },
+        "tips1": "* Bounce sadece yatırım için araçlar sağlar ve herhangi bir taraf için herhangi bir yatırım faaliyetine ev sahipliği yapmaz.",
+        "tips2": "Belirli ülkelerde belirli yatırım faaliyetleri kısıtlanmıştır"
+      }
+    },
+    "jobs-employers-page": {
+      "banner": {
+        "title": "İşverenler için yetenek",
+        "description": "Vizyonunuzu oluşturmanıza yardımcı olacak yetenekleri işe alın",
+        "detail": "Dünyanın dört bir yanından 8 milyondan fazla motive olmuş, \"startup'a hazır\" iş arayan ve işe almanız için gereken tüm araçlar ve ayrıntılarla.",
+        "sign-up-btn": "Şimdi kaydolun",
+        "post-job-btn": "Ücretsiz İş Gönder"
+      }
+    },
+    "jobs-talents-page": {
+      "banner": {
+        "title": "Yetenekler için işler",
+        "description": "En iyi yetenekleri en iyi şirketlerle eşleştirmek",
+        "description1": "En iyi yetenekleri eşleştirmek",
+        "description2": "en iyi şirketlerle",
+        "detail": "Dünyanın dört bir yanından 8 milyondan fazla motive olmuş, \"startup'a hazır\" iş arayan ve işe almanız için gereken tüm araçlar ve ayrıntılarla.",
+        "sign-up-btn": "Şimdi kaydolun",
+        "post-job-btn": "Ücretsiz İş Gönder"
+      }
+    },
+    "company-page": {
+      "banner": {
+        "title": "Şirket",
+        "description": "Web3 vizyonunuzu destekleyecek altyapı",
+        "description1": "Desteklenecek altyapı",
+        "description2": "Web3 vizyonunuz",
+        "detail": "Misyonumuz, yeni nesil yatırımcılara ve kuruculara bir fon veya girişim başlatmak ve ölçeklendirmek için ihtiyaç duydukları her şeyi sağlayarak onlara ilham vermektir",
+        "join-btn": "Şimdi katıl",
+        "card1": {
+          "title": "İş Piyasası",
+          "paragraph": "İnovasyon tutkusu olan herkesin dünyayı değiştiren girişimlere yatırım yapabilmesi gerektiğine inanıyoruz."
+        },
+        "card2": {
+          "title": "Merkezi olmayan uygulama araç kutusu",
+          "paragraph": "Kendi benzersiz ihtiyaçlarınıza uyacak şekilde Bounce'un çok çeşitli akıllı sözleşme çözümlerinden yararlanın; esneklik ve birlikte çalışabilirlik ile merkezi olmayan uygulamanızı oluşturun."
+        },
+        "card3": {
+          "title": "QR kodu ve dijital kart",
+          "paragraph": "Her Bounce kullanıcısı, Bounce'taki profillerine otomatik olarak atanacak benzersiz bir QR kodu alacaktır. Başlamak için dijital kodu tarayın ve Web3 arkadaş ağınızı keşfedin!"
+        },
+        "jobs-market": {
+          "title": "İş Piyasası",
+          "description": "Bounce'un araçları, ister yeni bir fon kuruyor ve ölçeklendiriyor ister yerleşik yöneticilerle birlikte yatırım yapıyor olsunlar, tüm melekler ve VC'ler için yatırım sürecini kolaylaştırır.",
+          "post-job-btn": "Ücretsiz İş İlanı Gönder"
+        }
+      },
+      "innovative-company": {
+        "title1": "Yenilikçi Web3 Şirketleri",
+        "title2": "İş kurma süreci"
+      },
+      "digital-card": {
+        "title": "QR kodunuzu ve dijital kartınızı paylaşın",
+        "description": "QR destekli kartvizitlerimizi kullanarak dijital olarak ağ kurun - ticaretin geleceği burada!",
+        "item1": "QR destekli kartvizitleri kullanarak etkileşimi artırın ve potansiyel işverenler/çalışanlar ile benzersiz bir bağlantı kurun- öne çıkın ve hatırlanın!",
+        "item2": "Kartvizitler için çarpıcı profil sayfaları oluşturmanıza yardımcı olur. Başkalarının sizi takip etmesini ve sizi daha iyi tanımasını çok kolaylaştırır.",
+        "item3": "Zaman dilimleri - zaman dilimlerine göre filtreleyebilir ve bir adayın tam olarak kaç saat ileride veya geride olduğunu görebilirsiniz",
+        "item4": "Kendi mükemmel sosyal medya açılış sayfanızı oluşturun ve çevrimdışı ziyaretçilerinizi hayranlara ve takipçilere dönüştürün.",
+        "get-card-btn": "Dijital Kartvizitinizi Alın",
+        "people-promotion": "Önemli yatırımcılar ve girişimciler",
+        "toolbox": {
+          "title": "Merkezi olmayan uygulama araç kutusu",
+          "description": "Platformumuz aracılığıyla açık artırmadan otc'ye, birleşme ve satın almaya kadar farklı yatırım teklifleri bulun.",
+          "create-btn": "Etkinlik Oluştur"
+        }
+      }
+    },
+    "tools-token-page": {
+      "banner": {
+        "title": "$AUCTION",
+        "sub-title": "Ve Bounce Jeton",
+        "description": "AUCTION, Bounce'un merkezi olmayan uygulamalardan oluşan tüm ekosistemini, yönetişim, stake etme, uygulama içi pazar yeri / açık artırma para birimi ve sahipler için ödüller dahil olmak üzere çok çeşitli yardımcı programlarla güçlendirir.",
+        "launch-btn": "Jeton portalını başlat",
+        "card1": {
+          "title": "Govermance",
+          "paragraph": "Tamamen merkezi olmayan ve topluluk tarafından yönetilen bir protokol olan Bounce, yalnızca AUCTION Jeton sahipleri tarafından yönetilir."
+        },
+        "card2": {
+          "title": "Dinamik Staking",
+          "paragraph": "AUCTION, Bounce ürün ekosistemi tarafından üretilen ödülleri ve getiriyi pasif olarak kazanmak için stake edilebilir."
+        },
+        "card3": {
+          "title": "Premium Hesap",
+          "paragraph": "Bounce Jeton sahipleri, premium hesap izinleriyle Bounce V3'ün ek avantajlarının kilidini açabilirler."
+        },
+        "card4": {
+          "title": "Bounce Pazaryeri",
+          "paragraph": "Spend your AUCTION at a variety of different Bounce Pazaryeri; from hiring & paying talent purchasing in-game items within the Bounce Metaverse!"
+        }
+      }
+    },
+    "chains-block": {
+      "tiles": {
+        "bounce-auction": "Bounce Finans",
+        "fangible": "Bounce Fangible",
+        "polka": "Bounce Metalents",
+        "toolbox": "Bounce Dao Araç Kiti",
+        "metaverse": "Bounce Zincirler"
+      },
+      "chains": {
+        "title": "Play across<br />chains",
+        "text": "Bounce products are available across multiple blockchains for more play, more possibility, more potential."
+      },
+      "participation": {
+        "title": {
+          "part-one": "Tam ölçek",
+          "part-two": "katılım"
+        },
+        "text": "Her türlü insanın merkezi olmayan açık artırmalara katılmasına olanak tanıyan, gelişen bir ürün ekosistemi.",
+        "item1": "Kendi açık artırma platformunuzu oluşturun",
+        "item2": "Kitle kredileri aracılığıyla projeler yürütmek veya kıt dijital varlıklarla ticaret yapmak",
+        "item3": "Yaratıcı ekonomide pay sahibi olun",
+        "hint": "Her şey masada."
+      }
+    },
+    "bounce-auction": {
+      "brand": "Bounce Finans",
+      "title": "Açık finansın potansiyelini ortaya çıkarın",
+      "text": "Çok yönlü, merkezi olmayan ve güvenilir açık artırma platformumuzda rekabetçi bir takas ortamında az bulunan dijital varlıkların ticaretini yapın.",
+      "item1": "Aşağıdakiler de dahil olmak üzere bir dizi açık artırma türü arasından seçim yapın: Sabit takas, Kapalı teklif, Hollanda ve İngiliz açık artırması.",
+      "item2": "Halka açık veya özel olarak OTC ticareti yapın.",
+      "item3": "Otomatik yürütme, beklenmedik durum, izinsiz işlemlerden yararlanın.",
+      "item4": "Zincir üzerinde yönetişim ile çalışın."
+    },
+    "fangible": {
+      "brand": "Fangible",
+      "title": "NFT Marketplace. En büyük yıldızlar. En nadir çalışmaları. Hayranları için doğrudan erişilebilir.",
+      "text": "Yeni bir hayran deneyimi türü olan Fangible, yaratıcı ekonomisine dahil olmayı ve pay sahibi olmayı kolaylaştırıyor. Sanatçıları hayranlarına bağlar ve herkesin NFT sohbetine katılmasını sağlar.",
+      "celebrities": {
+        "title": "Bounce ile Ünlüler:",
+        "eimi-fukada": {
+          "name": "Eimi Fukada",
+          "text": "Eimi Fukada, 2017'den beri Japon Yetişkin Video oyuncusu. 2020'de satışlara göre üçüncü sırada yer alan AV oyuncusu oldu."
+        },
+        "kyle-kuzma": {
+          "name": "Kyle Kuzma",
+          "text": "Kyle Kuzma, NBA takımlarından Los Angeles Lakers'ta forma giyen Amerikalı profesyonel basketbol oyuncusudur."
+        },
+        "nick-young": {
+          "name": "Nick Young",
+          "text": "Nick \"Swaggy P\" Young, Los Angeles, Kaliforniya'dan NBA'in eski bir profesyonel basketbol oyuncusudur."
+        },
+        "skyy-clark": {
+          "name": "Skyy Clark",
+          "text": "Skyy Clark Los Angeles, CA'dan 5 yıldızlı bir lise basketbol oyuncusu."
+        },
+        "asap-rocky": {
+          "name": "A$AP Rocky",
+          "text": "A$AP Los Angeles, Kaliforniya'dan 5 yıldızlı bir lise basketbol oyuncusudur."
+        },
+        "deandre-hopkins": {
+          "name": "DeAndre Hopkins",
+          "text": "DeAndre \"Nuk\" Hopkins, NFL'de Arizona Cardinals forması giyen bir Amerikan futbolu oyuncusudur."
+        },
+        "devon-dotson": {
+          "name": "Devon Dotson",
+          "text": "Devon Dotson NBA'de Chicago Bulls forması giyen 21 yaşında profesyonel bir basketbol oyuncusudur."
+        }
+      }
+    },
+    "bounce-polkadot": {
+      "brand": "Metalents",
+      "title": "Dijital serbest çalışan arz ve talebinin eşleştirilmesi",
+      "text": "Geleneksel resimler ve elektronik posterler gibi NFT'leri birbirine bağlamanın geleneksel biçimlerine ek olarak, özelleştirilmiş, standart olmayan teslimat ve elektronik olarak teslim edilen eserlerin de NFT dünyasına bağlanabileceğine inanıyoruz. Teslimat kimlik bilgileri olarak NFT'ler ve blok zinciri merkezi olmayan ağının değişmez kayıt işlevi kullanılarak, yazar, alıcı, işlem zamanı ve eser URL'si kalıcı olarak izlenecek ve kaydedilecektir."
+    },
+    "bounce-toolbox": {
+      "brand": "Bounce DAO Araç Kutusu",
+      "title": "Kendi merkezi olmayan açık artırma platformunuzu oluşturmak için ihtiyacınız olan her şey.",
+      "text": "Merkezi olmayan açık artırmaların gücünden yararlanmayı hiç olmadığı kadar kolaylaştıran kapsamlı bir geliştirici araçları seti. UI kitleri, Bounce NFT'lere API erişimi, açık kaynaklı akıllı sözleşmeler. DeFi'yi kitlelere ulaştırmak için ihtiyacınız olan her şey."
+    },
+    "binance-exchange": {
+      "brand": "Bounce",
+      "title": "Binance Borsası",
+      "text": "Binance ekosistemine giren ilk projelerden biri olan Bounce, BNB Chain'in En Değerli Oluşturucu programı için mentorluk rolünü ilerletmek de dahil olmak üzere Binance ekosisteminin temel taşı haline geldi.",
+      "btn-text": "Binance'te Açık Artırma Ticareti"
+    },
+    "backed-by": {
+      "title": "Backed by"
+    },
+    "language": {
+      "en-US": "English",
+      "zh-CN": "中文",
+      "tr-TR": "Türkçe",
+      "ja-JP": "日本語",
+      "ru-RU": "Русский",
+      "fr-FR": "Français",
+      "de-DE": "Deutsch",
+      "ko-KR": "한국어",
+      "id-ID": "Indonesia"
+    },
+    "bounce-metaverse": {
+      "brand": "Bounce Laboratuvarlar",
+      "title": "Bounce Metaverse",
+      "text": "Daha fazla kullanıcıyı Bounce ekosistemine dahil etmek amacıyla, Bounce'un Metaverse Şehri ni geliştirmek için çalıştık. Bize göre, Bounce'un Metaverse'i geleceğimizin en önemli parçası olacak ve ürünlerimizin her birini sorunsuz, sürükleyici bir deneyim için bir araya getirecek sanal bir ana üs olacak.",
+      "btnText": "eşfedin",
+      "metaverse-city": "Metaverse Şehri",
+      "metaverse-city-info": "Tüm Bounce ekosisteminin tek bir sanal dünyada yer alması, kullanıcılarımıza Bounce'un sunduğu tüm araçları en iyi kullanıcı deneyimi ile keşfetme fırsatı veriyor. Bu birleştirme (eğer isterseniz) tamamlandığında, kripto alanındaki tüm farklı kullanıcılar için fayda sağlayan, birbirine bağlı Web3 projelerinin ilk tam paketini oluşturmuş olacağız. Metaverse City'nin bazı özellikleri şunlardır: Atölyeler, Oyun Alanı, Galeri, Oyunlar ve bir Alışveriş Merkezi."
+    },
+    "test": {
+      "label": "test sayfası",
+      "title": "test sayfası başlığı",
+      "back": "ana sayfaya geri dön"
+    },
+    "auction-block": {
+      "title": "Bounce Müzayede",
+      "subtitle": "Bounce'un ünlü <br /> Merkezi Olmayan Açık Artırma Platformu ile izinsiz finans başlatın ve katılın.",
+      "auction-type": {
+        "title": "Bounce, aşağıdakiler de dahil olmak üzere popüler Açık Artırma türlerinden oluşan kapsamlı bir paket sunar:",
+        "fixed-swap": "Sabit Takas Açık Artırması",
+        "english-auction": "İngilizce Müzayede",
+        "dutch-auction": "Dutch Auction",
+        "sealed-bid-auction": "Kapalı ve Teklifli Açık Artırma",
+        "lottery-auction": "Piyango Müzayedesi"
+      },
+      "function": {
+        "title": "Premium fonksiyonlar:",
+        "whitelisting": "Beyaz liste",
+        "schedule": "Zaman damgası kilitleme programı",
+        "dutch-auction": "Dutch Auction Kota Kontrolü",
+        "nft-certificate": "NFT sertifikası"
+      },
+      "tip": "* Desteklenen Varlık: ERC20, ERC721, ERC1155"
+    },
+    "bounce-otc": {
+      "title": "Açık Artırma SDK'sı ve Eklentisi",
+      "subtitle": "Bounce, bir açık artırma oluşturmak için gereken her şeyi bir araya getirerek çevrimiçi açık artırmalar oluşturmak ve barındırmak için bir SDK ve Eklenti sağlar. Kendi açık artırmalarınızı web sitenizde barındırabilirsiniz."
+    },
+    "bounce-M&A": {
+      "title": "Bounce Geliştiricileri",
+      "smallTitle": "",
+      "subtitle": "Güçlü ve kullanımı kolay API'ler ile daha hızlı gönderi yapın",
+      "mergeProcess": "Entegrasyon Süreci",
+      "input": "GİRİŞ",
+      "output": "ÇIKIŞ",
+      "features": "Özellikler",
+      "featureList": {
+        "title1": "Belirteçlerin bileşimi",
+        "info1": "Proje parçacığı ERC20'den NFT'lere kadar çeşitli tokenları destekler",
+        "title2": "Dinamik yapılandırma",
+        "info2": "Özelleştirilebilir parametreler ve çeşitli giriş ve çıkış seçenekleri ile kimyanızı ihtiyaçlarınızı karşılayacak şekilde tasarlayın",
+        "title3": "Otomatik, Kod yürütme yok",
+        "info3": "Yeni tokenlar konsolidasyon sürecimizin ardından refleks olarak çıkarılacaktır, yani kendi yeni tokenlarınızı çıkarmanız gerekmeyecektir",
+        "title4": "İzinsiz ortam",
+        "info4": "Herkes istediği zaman bir kimya başlatabilir"
+      }
+    },
+    "bounce-NFT": {
+      "title": "Bounce NFT",
+      "smallTitle": "(Launchpad & Marketplace)",
+      "subtitle": "Bounce NFT, kullanıcıların yalnızca pazar yerimizle NFT'leri satın almalarını, satmalarını ve yönetmelerini değil, aynı zamanda launchpad'imizi kullanarak kendi NFT projelerini başlatmalarını ve oluşturmalarını sağlar."
+    },
+    "job-tools": {
+      "title": "İşe almak için ihtiyaç duyduğunuz araçlar ve kaynaklar tek bir yerde",
+      "subtitle": "10 dakikadan kısa sürede işe alım yapmaya başlayın",
+      "person-list": {
+        "title1": "İş durumu",
+        "info1": " - bir adayın iş tekliflerine açık olup olmadığını ve/veya görüşmeye hazır olup olmadığını size bildireceğiz",
+        "title2": "Beceriler ve deneyim",
+        "info2": " - adaylara bunu en büyük başarılarını ve daha fazlasını detaylandırmak gibi benzersiz şekillerde sergileme olanağı veriyoruz!",
+        "title3": "Timezones",
+        "info3": " - saat dilimlerine göre filtreleyebilir ve bir adayın tam olarak kaç saat ileride veya geride olduğunu görebilirsiniz",
+        "title4": "Uzak tercihler",
+        "info4": " - uzaktan veya yüz yüze çalışmaya açık adayları arayın, tercih ettikleri çalışma ortamı türünü keşfedin",
+        "title5": "Şirket detayları",
+        "info5": " - adayların becerilerini daha fazla değerlendirmenize yardımcı olması için ilgili şirket profilini görüntüleyin"
+      }
+    },
+    "freelance-market": {
+      "title": "Serbest piyasa"
+    },
+    "crypto-currencies": {
+      "title": "Fiat Para Birimleri ile Kripto Satın Alın",
+      "subtitle": "Satın almak istediğiniz kriptoyu, ağı ve satın almak istediğiniz miktarı seçmeniz yeterlidir.",
+      "subtitle2": "Bounce, sağlayıcıları karşılaştıracak ve size en iyi oranı sunacaktır.",
+      "poweredBy": "Tarafından desteklenmektedir:"
+    },
+    "chain-block": {
+      "title": "Bireylerden kurumlara kadar tüm Web3 için oluşturulmuş açık bir Açık Artırma Altyapısı ve araçları ağı",
+      "circle": {
+        "label1": "Şirketler ve Yatırımcılar",
+        "label2": "Bireyler",
+        "label3": "Düzenlenen Açık Artırmalar",
+        "label4": "NFT'ler Başlatıldı",
+        "label5": "Gönderilen İşler"
+      }
+    },
+    "partners": {
+      "title": "500'den fazla şirket, ortak ve yatırımcı tarafından güvenilir"
+    },
+    "footer": {
+      "copyrights": "©{yıl} Bounce dao Ltd. Tüm hakları saklıdır. ",
+      "terms-of-service": "Hizmet Koşulları",
+      "privacy-policy": "Gizlilik Politikası",
+      "social": "Sosyal:",
+      "developer": "Geliştirici:",
+      "links": {
+        "company": "Şirket",
+        "auction-homepage": "Müzayede Ana Sayfası",
+        "company-list": {
+          "create-profile": "Profil Oluştur",
+          "find-investors": "Yatırımcıları Bul",
+          "team-management": "Ekip Yönetimi",
+          "defi-tools": "Defi Araçları",
+          "browse-startup-idea": "Startup Fikrine Göz Atın"
+        },
+        "service": "Hizmet",
+        "investment": "Yatırım",
+        "investment-list": {
+          "defi-market": "Defi Market",
+          "browse-company": "Şirkete Gözat",
+          "browse-market": "Pazara Göz At",
+          "browse-pool": "Havuza Gözat",
+          "auction-pool": "Müzayede Havuzu",
+          "nft-launchpad": "NFT Launchpad",
+          "mergers-acquisitions": "Birleşme ve Devralmalar",
+          "share-startup-idea": "Startup Fikrini Paylaş",
+          "web3-id-verified": "Web3 Kimliği ve Doğrulandı",
+          "team-management": "Ekip Yönetimi"
+        },
+        "jobs": "İşler",
+        "jobs-list": {
+          "for-employers": "İşverenler İçin İşler",
+          "pos-job": "Ücretsiz İş Gönder",
+          "browse-talent": "Yeteneğe Göz At",
+          "for-talents": "Yetenekler İçin İş İlanları",
+          "browse-jobs": "İşlere Göz At",
+          "create-portfolio": "Portföy Oluştur"
+        },
+        "tools": "Araçlar",
+        "tools-list": {
+          "defi-tools": "Defi Araçları",
+          "auctions": "Açık Artırmalar",
+          "nft-launchpad": "NFT Launchpad",
+          "mergers-acquisitions": "Birleşmeler & Satın Almalar",
+          "startup-tools": "Başlangıç Araçları",
+          "share-idea": "Fikrinizi Paylaşın",
+          "web3-verified": "Web3 ID & Doğrulanmış"
+        },
+        "labs": "Laboratuvarlar",
+        "labs-list": {
+          "bounce-labs": "Bounce Laboratuvarlar",
+          "bounce-v1": "Bounce V1",
+          "bounce-v2": "Bounce V2",
+          "fangible": "Fangible",
+          "metalent": "Metalent",
+          "bounce-metaverse": "Bounce Metaverse"
+        }
+      }
+    },
+    "extra": {
+      "recently-posted-jobs": "Yakın zamanda yayınlanan işler",
+      "featured-jobs": "Öne Çıkan İşler",
+      "best-talent": "Benzersiz ihtiyaçlarınıza uygun en iyi yetenekler"
+    }
+  }

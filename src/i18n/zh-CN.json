@@ -1,0 +1,485 @@
+{
+  "common": {
+    "site-title": "Bounce",
+    "meta": {
+      "keywords": "bounce, bounce 金融, 金融, DeFi, 捆绑",
+      "description": "通过提供具有竞争力的Swap环境，Bounce致力于释放开放式金融潜力。"
+    },
+    "og": {
+      "title": "Bounce",
+      "description": "通过提供具有竞争力的Swap环境，Bounce致力于释放开放式金融潜力。"
+    },
+    "no-js": "JavaScript is required!",
+    "launch-app": "启动应用",
+    "learn-more": "了解更多",
+    "coming-soon": "敬请期待",
+    "landing-page": "跳转着陆页"
+  },
+  "header": {
+    "investment": "拍卖",
+    "jobs": "工作",
+    "jobs-employers": "找工作",
+    "jobs-talents": "找人才",
+    "service": "服务",
+    "ecosystem": "生态系统",
+    "company": "企业",
+    "tools": "工具",
+    "tools-token": "Bounce令牌",
+    "tools-labs": "Bounce实验室",
+    "labs": "实验室",
+    "labs-fangible": "Fangible",
+    "labs-metalents": "Metalents",
+    "login": "登录",
+    "launch-app": "登录"
+  },
+  "home-page": {
+    "banner": {
+      "title": "拍卖作为一种服务",
+      "text": "一个为所有Web3和DeFi建立的开放的拍卖基础设施和工具网络：从个人到机构",
+      "demo": "申请演示",
+      "docs": "文档"
+    },
+    "build-with-bounce": {
+      "title": "使用Bounce构建",
+      "finance-btn": "去中心化拍卖",
+      "nfts-btn": "基金会 (即将推出)",
+      "managment-btn": "企业管理",
+      "market-btn": "人才市场",
+      "description": "释放开放金融的潜力",
+      "detail": "Bounce 提供全套 defi 工具：我们标志性的去中心化拍卖平台、并购活动的基础设施、场外交易市场和我们的 NFT 启动板。 使用我们的免信任应用程序、工具和解决方案基础设施构建和参与 defi。"
+    },
+    "companyList": {
+      "title": "关注并投资 Web3 最具创新力的企业",
+      "more": "显示更多企业"
+    },
+    "top-stack": {
+      "title": "技术栈",
+      "list": {
+        "item1-title": "混合基础架构方法",
+        "item1-text": "在构建旨在为大众服务的平台时，我们设计了一个利用中心化和去中心化技术的系统。 通过这样做，用户可以通过电子邮件和社交媒体等 Web2 凭据访问我们的平台，并仅在使用我们的 web3 产品时享受去中心化和分布式账本的好处。",
+        "item2-title": "去中心化应用工具箱",
+        "item2-text": "利用 Bounce 广泛的智能合约解决方案来满足您自己的独特需求； 构建具有灵活性和互操作性的去中心化应用程序。",
+        "item3-title": "二维码和数字卡",
+        "item3-text1": "每个 Bounce 用户都会收到一个唯一的二维码，该二维码会自动分配到他们在 Bounce 上的个人资料中。 ",
+        "item3-text2": "扫描数字代码开始探索您的 Web3 朋友网络！"
+      }
+    },
+    "bounce-labs": {
+      "title": "Bounce实验室：",
+      "description": "孵化去中心化创新的未来",
+      "detail": "Bounce实验室孵化了范围广泛的 Web3 原生初创公司，每个初创公司都旨在创新概念和想法，超越现有的 Bounce 应用程序生态系统。 查看我们的计划并立即与我们一起建设！",
+      "list": {
+        "bounce-v1": "Bounce V1",
+        "bounce-v2": "Bounce V2",
+        "fangible": "Fangible",
+        "metalents": "Metalents",
+        "m&a-defi": "M&A Defi",
+        "bounce-metaverse": "Bounce元宇宙",
+        "syndicate-defi": "基金会",
+        "bounce-v3": "Bounce V3"
+      },
+      "celebrities": {
+        "eimi-fukada": {
+          "name": "深田咏美",
+        "text": "深田咏美2017年进入日本成人视频行业，并在2020年位列女优收入排行榜第三名。"
+        },
+        "kyle-kuzma": {
+          "name": "凯尔·库兹马",
+        "text": "凯尔·库兹马为美国职业篮球运动员，效力于NBA洛杉矶湖人队。"
+        },
+        "nick-young": {
+          "name": "尼克·杨",
+          "text": "尼克·杨（绰号：Swaggy P）来自加利福尼亚州洛杉矶，是前美国职业篮球运动员。"
+        },
+        "skyy-clark": {
+          "name": "Skyy Clark",
+          "text": "Skyy Clark来自加利福尼亚州洛杉矶，是一名五星高中篮球运动员。"
+        },
+        "asap-rocky": {
+          "name": "A$AP Rocky",
+          "text": "A$AP Rocky来自美国纽约，既是一名饶舌歌手、歌曲作家，也是一名演员。"
+        },
+        "deandre-hopkins": {
+          "name": "德安德烈·霍普金斯,",
+          "text": "德安德烈·霍普金斯是美国橄榄球联盟亚利桑那红雀队的橄榄球外接手。"
+        },
+        "devon-dotson": {
+          "name": "德文·多特森",
+          "text": "德文·多特森，现年21岁，是一名效力于芝加哥公牛队的美国职业篮球运动员。"
+        }
+      }
+    }
+  },
+  "investment-page": {
+    "banner": {
+      "title": "拍卖",
+      "text": "使用 Bounce 的全套 DeFi 工具启动 Web3 投资并为其融资",
+      "sign-up-btn": "立即注册",
+      "card1": {
+        "title": "投资者",
+        "paragraph1": "使用 Bounce Invest 浏览范围广泛的投资产品，包括：拍卖、场外交易、并购和 NFT。",
+        "paragraph2": "通过 Bounce 的著名 Web3 公司信息开放目录，了解最新的投资信息和机会。"
+      },
+      "card2": {
+        "title": "创始人和公司",
+        "paragraph1": "即插即用工具，支持您独特的筹款和投资策略。",
+        "paragraph2": "可定制的 DeFi 应用程序可满足贵公司的个性化需求：拍卖、场外交易和并购。"
+      },
+      "tips1": "* Bounce仅提供投资工具，不为任何一方举办任何投资活动。 ",
+      "tips2": "某些投资活动在某些国家/地区受到限制"
+    }
+  },
+  "jobs-employers-page": {
+    "banner": {
+      "title": "雇用人才",
+      "description": "聘请人才来帮助您建立愿景",
+      "detail": "拥有超过 800 万来自世界各地的积极进取、“准备好创业”的求职者，以及您需要雇用的所有工具和详细信息。",
+      "sign-up-btn": "立即注册",
+      "post-job-btn": "发布免费工作"
+    }
+  },
+  "jobs-talents-page": {
+    "banner": {
+      "title": "人才招聘",
+      "description": "将顶尖人才与顶尖公司相匹配",
+      "description1": "将顶尖人才",
+      "description2": "与顶尖公司相匹配",
+      "detail": "拥有超过 800 万来自世界各地的积极进取、“准备好创业”的求职者，以及您需要雇用的所有工具和详细信息。",
+      "sign-up-btn": "立即注册",
+      "post-job-btn": "发布免费工作"
+    }
+  },
+  "company-page": {
+    "banner": {
+      "title": "企业",
+      "description": "支持你的Web3愿景的基础建设",
+      "description1": "支持的基础建设",
+      "description2": "您的Web3愿景",
+      "detail": "我们的使命是通过为新一代投资者和创始人提供启动和扩大基金或初创企业所需的一切来激励他们",
+      "join-btn": "立即参与",
+      "card1": {
+        "title": "就业市场",
+        "paragraph": "我们相信任何对创新充满热情的人都应该能够投资于改变世界的初创公司。"
+      },
+      "card2": {
+        "title": "去中心化应用工具箱",
+        "paragraph": "利用 Bounce 广泛的智能合约解决方案来满足您自己的独特需求； 构建具有灵活性和互操作性的去中心化应用程"
+      },
+      "card3": {
+        "title": "二维码和数字卡",
+        "paragraph": "每个 Bounce 用户都会收到一个唯一的二维码，该二维码会自动分配到他们在 Bounce 上的个人资料中。 扫描数字代码开始探索您的 Web3 朋友网络！"
+      },
+      "jobs-market": {
+        "title": "就业市场",
+        "description": "Bounce 的工具简化了所有天使投资人和风险投资人的投资流程，无论他们是在创立和扩大新基金，还是与成熟的管理人一起投资。",
+        "post-job-btn": "发布免费工作"
+      }
+    },
+    "innovative-company": {
+      "title1": "创新的 Web3 公司",
+      "title2": "创业企业流程"
+    },
+    "digital-card": {
+      "title": "分享您的二维码和数字卡",
+      "description": "使用我们支持二维码的名片进行数字网络 - 商业的未来就在这里！",
+      "item1": "通过使用支持 QR 的名片来增加参与度并与潜在的雇主/员工建立独特的联系 - 脱颖而出并被记住！",
+      "item2": "帮助您为名片生成令人惊叹的个人资料页面。 让其他人很容易跟随您并更好地了解您。",
+      "item3": "时区 - 您可以按时区过滤并准确查看候选人提前或落后多少小时",
+      "item4": "创建您自己的完美社交媒体登录页面，并将您的线下访问者转化为粉丝和追随者。",
+      "get-card-btn": "获取您的数字名片",
+      "people-promotion": "知名投资人和企业家",
+      "toolbox": {
+        "title": "去中心化应用工具箱",
+        "description": "通过我们的平台查找从拍卖、场外交易到并购的不同类型的投资产品。",
+        "create-btn": "创建活动"
+      }
+    }
+  },
+  "tools-token-page": {
+    "banner": {
+      "title": "$AUCTION",
+      "sub-title": "Bounce令牌",
+      "description": "AUCTION 为 Bounce 的整个去中心化应用程序生态系统提供了广泛的实用性，包括：治理、质押、应用程序内市场/拍卖货币以及对持有者的奖励。",
+      "launch-btn": "启动令牌门户",
+      "card1": {
+        "title": "管理",
+        "paragraph": "Bounce 是一个完全去中心化和社区管理的协议，由 AUCTION 代币持有者独家管理。"
+      },
+      "card2": {
+        "title": "动态质押",
+        "paragraph": "可以抵押 AUCTION 以被动赚取 Bounce 产品生态系统产生的奖励和收益。"
+      },
+      "card3": {
+        "title": "至尊帐号",
+        "paragraph": "Bounce 代币持有者能够通过高级帐户权限解锁 Bounce V3 的额外好处。"
+      },
+      "card4": {
+        "title": "Bounce市场",
+        "paragraph": "在各种不同的 Bounce 市场上进行拍卖； 在 Bounce Metaverse 中雇佣和支付人才购买游戏内物品！"
+      }
+    }
+  },
+  "chains-block": {
+    "tiles": {
+      "bounce-auction": "Bounce金融",
+      "fangible": "Bounce Fangible",
+      "polka": "Bounce Metalents",
+      "toolbox": "Bounce Dao 工具箱",
+      "metaverse": "Bounce元宇宙"
+    },
+    "chains": {
+      "title": "多链探索<br />链条",
+      "text": "Bounce产品已多链部署，探索更多样玩法、更多可能性以及更大潜力。"
+    },
+    "participation": {
+      "title": {
+        "part-one": "深入",
+        "part-two": "参与"
+      },
+      "text": "一个不断发展的产品生态平台，让任何人都能参与去中心化拍卖。",
+      "item1": "搭建专属拍卖平台",
+      "item2": "通过众贷运作项目或使用稀有数字资产进行交易",
+      "item3": "加入创作者经济",
+      "hint": "全部呈现"
+    }
+  },
+  "bounce-auction": {
+    "brand": "Bounce金融",
+    "title": "释放开放式金融潜力",
+    "text": "Bounce拍卖平台兑换便捷、去中心化、免信任，为数字资产交易者提供具有竞争力的swap环境。",
+    "item1": "请选择拍卖类型：固价交易、密封投标、荷兰拍、英式拍",
+    "item2": "公开或私下OTC交易.",
+    "item3": "从自动执行、依存性和免授权中受益",
+    "item4": "通过链上治理进行运作"
+  },
+  "fangible": {
+    "brand": "Fangible",
+    "title": "NFT交易市场。 著名明星、稀有艺术作品，直接面向粉丝。",
+    "text": "Fangible旨在提供全新的粉丝体验，简化加入创作者经济的流程。同时连接起艺术家和粉丝，让每个人都能参与NFT交易。",
+    "celebrities": {
+      "title": "Bounce签约明星:",
+      "eimi-fukada": {
+        "name": "深田咏美",
+        "text": "深田咏美2017年进入日本成人视频行业，并在2020年位列女优收入排行榜第三名。"
+      },
+      "凯尔·库兹马": {
+        "name": "凯尔·库兹马",
+        "text": "凯尔·库兹马为美国职业篮球运动员，效力于NBA洛杉矶湖人队。"
+      },
+      "尼克·杨": {
+        "name": "尼克·杨",
+        "text": "尼克·杨（绰号：Swaggy P）来自加利福尼亚州洛杉矶，是前美国职业篮球运动员。"
+      },
+      "skyy-clark": {
+        "name": "Skyy Clark",
+        "text": "Skyy Clark来自加利福尼亚州洛杉矶，是一名五星高中篮球运动员。"
+      },
+      "asap-rocky": {
+        "name": "A$AP Rocky",
+        "text": "A$AP Rocky来自美国纽约，既是一名饶舌歌手、歌曲作家，也是一名演员。"
+      },
+      "deandre-hopkins": {
+        "name": "德安德烈·霍普金斯,",
+        "text": "德安德烈·霍普金斯是美国橄榄球联盟亚利桑那红雀队的橄榄球外接手。"
+      },
+      "devon-dotson": {
+        "name": "德文·多特森",
+        "text": "德文·多特森，现年21岁，是一名效力于芝加哥公牛队的美国职业篮球运动员。"
+      }
+    }
+  },
+  "bounce-polkadot": {
+    "brand": "Metalents",
+    "title": "匹配数字自由职业者的供需",
+    "text": "我们认为，除了传统绘画、电子海报等传统形式的链接 NFT 之外，任何定制化、非标准交付、电子交付的作品都可以链接到 NFT 的世界。使用 NFT 作为交付凭证和区块链去中心化网络的不可变记录功能，作者、购买者、交易时间和作品 URL 将被永久追踪和记录。"
+  },
+  "bounce-toolbox": {
+    "brand": "Bounce DAO 工具箱",
+    "title": "包含所有搭建专属去中心化拍卖平台所需的技术支持",
+    "text": "丰富的开发者工具，轻松掌握去中心化拍卖的优势。UI设计工具箱、Bounce NFTs接入API、开源智能合约，囊括将Defi呈现给广大交易者的所需工具。"
+  },
+  "binance-exchange": {
+    "brand": "Bounce",
+    "title": "币安交易所",
+    "text": "作为首批进入币安生态系统的项目之一，Bounce 成为币安生态系统的基石，包括进一步发挥其作为 BNB Chain 最有价值建设者计划导师的作用。",
+    "btn-text": "币安交易拍卖"
+  },
+  "backed-by": {
+    "title": "合作伙伴"
+  },
+  "language": {
+    "en-US": "English",
+    "zh-CN": "中文",
+    "tr-TR": "Türkçe",
+    "ja-JP": "日本語",
+    "ru-RU": "Русский",
+    "fr-FR": "Français",
+    "de-DE": "Deutsch",
+    "ko-KR": "한국어",
+    "id-ID": "Indonesia"
+  },
+  "bounce-metaverse": {
+    "brand": "Bounce 实验",
+    "title": "Bounce 元宇宙",
+    "text": "为了让更多用户加入 Bounce 生态系统，我们致力于开发 Bounce 的“元界城市”。 在我们看来，Bounce 的 Metaverse 将成为我们未来的核心，一个虚拟的基地，将我们的每个产品连接在一起，提供无缝、身临其境的体验。",
+    "btnText": "探索",
+    "metaverse-city": "元宇宙城",
+    "metaverse-city-info": "将整个 Bounce 生态系统置于一个虚拟世界中，让我们的用户有机会探索 Bounce 提供的所有工具以及最佳用户体验。 当这个“合并”（如果你愿意的话）完成后，我们将构建第一个“全套”互连的 Web3 项目，为加密空间中的所有不同用户提供实用程序。 Metaverse City的一些功能包括：“工作坊”、“游乐场”、“画廊”、“游戏”和“商城”。"
+  },
+  "test": {
+    "label": "测试页面",
+    "title": "测试标题",
+    "back": "返回首页"
+  },
+  "auction-block": {
+    "title": "Bounce拍卖",
+    "subtitle": "使用 Bounce 著名的 <br /> 去中心化拍卖平台启动并参与无需许可的融资。",
+    "auction-type": {
+      "title": "Bounce 提供一套全面的流行拍卖类型，包括：",
+      "fixed-swap": "固定掉期拍卖",
+      "english-auction": "英式拍卖",
+      "dutch-auction": "荷兰拍卖",
+      "sealed-bid-auction": "密封和投标拍卖",
+      "lottery-auction": "彩票拍卖"
+    },
+    "function": {
+      "title": "高级功能：",
+      "whitelisting": "白名单",
+      "schedule": "时间戳锁定时间表",
+      "dutch-auction": "荷兰式拍卖配额控制",
+      "nft-certificate": "NFT通证"
+    },
+    "tip": "* 支持的资产：ERC20、ERC721、ERC1155"
+  },
+  "bounce-otc": {
+    "title": "Bounce场外交易",
+    "subtitle": "Bounce OTC（场外交易）允许参与者以极具吸引力的价格在场外交易任何受支持的代币类型（ERC20、ERC721、ERC1155），没有限制，也没有任何滑点。 场外交易的正确方式。"
+  },
+  "bounce-M&A": {
+    "title": "Bounce开发者",
+    "smallTitle": "",
+    "subtitle": "使用 Bounce 著名的去中心化拍卖平台启动并参与无需许可的融资。",
+    "mergeProcess": "合并过程",
+    "input": "输入",
+    "output": "输出",
+    "features": "特征",
+    "featureList": {
+      "title1": "令牌的组成",
+      "info1": "项目粒子支持从ERC20到NFTs的多种代币",
+      "title2": "动态配置",
+      "info2": "通过可定制的参数和各种输入和输出选项设计您的化学以满足您的需求",
+      "title3": "自动、无代码执行",
+      "info3": "新代币将在我们的合并过程后反射性地发行，这意味着您将不必发行自己的新代币",
+      "title4": "无许可环境",
+      "info4": "任何人都可以随时发起化学反应"
+    }
+  },
+  "bounce-NFT": {
+    "title": "Bounce NFT",
+    "smallTitle": "（启动板和市场）",
+    "subtitle": "Bounce NFT 使用户不仅可以在我们的市场上购买、销售和管理 NFT，还可以使用我们的启动板启动和创建他们自己的 NFT 项目。"
+  },
+  "job-tools": {
+    "title": "您需要租用的工具和资源都集中在一个地方",
+    "subtitle": "在 10 分钟内开始招聘",
+    "person-list": {
+      "title1": "工作现状",
+      "info1": " - 如果候选人愿意接受工作机会和/或准备好面试，我们会通知您",
+      "title2": "技能和经验",
+      "info2": "- 我们让候选人能够以独特的方式展示这一点，比如详细介绍他们最大的成就等等！",
+      "title3": "时区",
+      "info3": "- 您可以按时区过滤并准确查看候选人提前或落后多少小时",
+      "title4": "远程首选项",
+      "info4": "- 寻找对远程或面对面工作持开放态度的候选人，探索他们喜欢的工作环境类型",
+      "title5": "公司详情",
+      "info5": "- 查看相关公司简介，帮助您进一步评估候选人的技能"
+    }
+  },
+  "freelance-market": {
+    "title": "自由市场"
+  },
+  "crypto-currencies": {
+    "title": "用法定货币购买加密货币",
+    "subtitle": "只需选择您想要购买的加密货币、网络和您想要购买的数量。",
+    "subtitle2": "Bounce 将比较供应商并为您提供最优惠的价格。",
+    "poweredBy": "供应："
+  },
+  "chain-block": {
+    "title": "为所有 web3 构建的基础设施和工具的开放网络，从个人到机构",
+    "circle": {
+      "label1": "公司和投资者",
+      "label2": "个人",
+      "label3": "举办拍卖会",
+      "label4": "NFT 推出",
+      "label5": "职位发布"
+    }
+  },
+  "partners": {
+    "title": "受到 500 多家公司、合作伙伴和投资者的信赖"
+  },
+  "footer": {
+    "copyrights": "©{year} Bounce dao Ltd. 版权所有。",
+    "terms-of-service": "服务条款",
+    "privacy-policy": "隐私政策",
+    "social": "社会的：",
+    "developer": "开发商：",
+    "links": {
+      "company": "企业",
+      "auction-homepage": "拍卖会主页",
+      "company-list": {
+        "create-profile": "创建个人资料",
+        "find-investors": "寻找投资人",
+        "team-management": "团队管理",
+        "defi-tools": "Defi工具",
+        "browse-startup-idea": "浏览初创企业的想法"
+      },
+      "service": "服务",
+      "investment": "投资",
+      "investment-list": {
+        "defi-market": "Defi市场",
+        "browse-company": "浏览企业",
+        "browse-market": "浏览市场",
+        "browse-pool": "浏览池子",
+        "auction-pool": "拍卖池",
+        "nft-launchpad": "NFT启动板",
+        "mergers-acquisitions": "兼并与收购",
+        "share-startup-idea": "分享创业想法",
+        "web3-id-verified": "Web3 ID & Verified",
+        "team-management": "团队管理"
+      },
+      "jobs": "工作",
+      "jobs-list": {
+        "for-employers": "对于雇主",
+        "pos-job": "发布免费工作",
+        "browse-talent": "浏览人才",
+        "for-talents": "对于人才",
+        "browse-jobs": "浏览职位",
+        "create-portfolio": "创建投资组合"
+      },
+      "tools": "工具箱",
+      "tools-list": {
+        "defi-tools": "Defi工具箱",
+        "auctions": "拍卖会",
+        "nft-launchpad": "NFT 发射台",
+        "mergers-acquisitions": "并购",
+        "startup-tools": "启动工具",
+        "share-idea": "分享您的想法",
+        "web3-verified": "Web3 ID & 验证"
+      },
+      "labs": "实验室",
+      "labs-list": {
+        "bounce-labs": "Bounce实验室",
+        "bounce-v1": "Bounce V1",
+        "bounce-v2": "Bounce V2",
+        "fangible": "Fangible",
+        "metalent": "Metalent",
+        "bounce-metaverse": "Bounce元宇宙"
+      }
+    }
+  },
+  "extra": {
+    "recently-posted-jobs": "最近发布的工作",
+    "featured-jobs": "特色工作",
+    "best-talent": "匹配最好的人才以满足你的独特需求"
+  }
+}

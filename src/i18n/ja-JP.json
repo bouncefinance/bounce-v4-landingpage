@@ -1,0 +1,485 @@
+{
+  "common": {
+    "site-title": "Bounce",
+    "meta": {
+      "keywords": "bounce, bounce 金融, ファイナンス, DeFi,  ボット",
+      "description": "Bounceは、オークションのための製品のエコシステムをパワーアップします。複数のブロックチェーンにまたがるあらゆる種類の資産、トークン、NFTを構築、設計、接続、収集、取引することができます。"
+    },
+    "og": {
+      "title": "Bounce",
+      "description": "Bounceは、オークションのための製品のエコシステムを提供します。複数のブロックチェーンにまたがるあらゆる種類のアセット、トークン、NFTを構築、設計、接続、収集、取引することができます。"
+    },
+    "no-js": "JavaScript is required!",
+    "launch-app": "アプリを起動する",
+    "learn-more": "詳細はこちら",
+    "coming-soon": "近日公開",
+    "landing-page": "ランディングページ"
+  },
+  "header": {
+    "investment": "オークション",
+    "jobs": "求人情報",
+    "jobs-employers": "仕事を探す",
+    "jobs-talents": "人材を探す",
+    "service": "サービス",
+    "ecosystem": "エコシステム",
+    "company": "企業情報",
+    "tools": "ツール",
+    "tools-token": "Bounce トークン",
+    "tools-labs": "Bounce 研究室",
+    "labs": "ラボ",
+    "labs-fangible": "Fangible",
+    "labs-metalents": "Metalents",
+    "login": "ログイン",
+    "launch-app": "サインイン"
+  },
+  "home-page": {
+    "banner": {
+      "title": "オークション・アズ・ア・サービス",
+      "text": "Web3とDeFiのすべてのために構築されたオークションのインフラとツールのオープンネットワーク: 個人から機関投資家まで",
+      "demo": "デモのリクエスト",
+      "docs": "ドキュメント"
+    },
+    "build-with-bounce": {
+      "title": "使用Bounceビルド",
+      "finance-btn": "分散型オークション",
+      "nfts-btn": "nfts (近日公開)",
+      "managment-btn": "会社経営",
+      "market-btn": "求人市場",
+      "description": "オークションファイナンスの可能性を解き放つ",
+      "detail": "Bounceは、分散型オークションツールの完全なスイートを提供します。バウンスの特徴である分散型オークションプラットフォーム、オークション用SDKインフラ、そしてNFTオークションです。信頼できるアプリケーション、ツール、およびソリューションのインフラストラクチャを使用して、分散型オークションを構築し、参加することができます。"
+    },
+    "companyList": {
+      "title": "Web3の最も革新的な企業をフォロー&インベストメント",
+      "more": "他の企業を表示"
+    },
+    "top-stack": {
+      "title": "テックスタック",
+      "list": {
+        "item1-title": "ハイブリッドインフラストラクチャーのアプローチ",
+        "item1-text": "大衆のために設計されたプラットフォームを構築するにあたり、私たちは集中型と分散型の両方の技術を利用するシステムを設計しました。そうすることで、ユーザーはメールやソーシャルメディアなどのWeb2認証で私たちのプラットフォームにアクセスし、Web3製品を使っている間だけ分散化・分散型台帳のメリットを享受することができます。",
+        "item2-title": "分散型アプリケーションToolbox",
+        "item2-text": "Bounceの幅広いスマートコントラクトソリューションは、お客様独自のニーズに合わせて利用でき、柔軟性と相互運用性を備えた分散型アプリケーションを構築できます。",
+        "item3-title": "QRコードとデジタルカード",
+        "item3-text1": "Bounceのユーザーにはそれぞれ固有のQRコードが発行され、Bounceのプロフィールに自動的に割り当てられます。",
+        "item3-text2": "デジタルコードをスキャンして、Web3フレンドのネットワークを広げてください。"
+      }
+    },
+    "bounce-labs": {
+      "title": "Bounce 研究室:",
+      "description": "分散型イノベーションの未来をインキュベートする",
+      "detail": "Bounce Labsは、既存のBounceアプリケーションのエコシステムを超えて、コンセプトやアイデアを革新することを目的として、Web3ネイティブのスタートアップ企業を幅広くインキュベートしています。私たちの取り組みをチェックして、一緒に作りましょう",
+      "list": {
+        "bounce-v1": "Bounce V1",
+        "bounce-v2": "Bounce V2",
+        "fangible": "Fangible",
+        "metalents": "Metalents",
+        "m&a-defi": "M&A Defi",
+        "bounce-metaverse": "Bounce メタバース",
+        "syndicate-defi": "Syndicate Defi",
+        "bounce-v3": "Bounce V3"
+      },
+      "celebrities": {
+        "eimi-fukada": {
+          "name": "深田栄美",
+          "text": "深田栄美は、2017年から日本のアダルトビデオ女優である。2020年、売上高ランキング3位のAV女優。"
+        },
+        "kyle-kuzma": {
+          "name": "カイル・クズマ",
+          "text": "カイル・クズマは、NBAのロサンゼルス・レイカーズに所属するアメリカのプロバスケットボール選手である"
+        },
+        "nick-young": {
+          "name": "ニック・ヤング",
+          "text": "Nick \"Swaggy P\" ヤングは、カリフォルニア州ロサンゼルス出身のNBAの元プロバスケットボール選手。"
+        },
+        "skyy-clark": {
+          "name": "スカイ・クラーク",
+          "text": "カリフォルニア州ロサンゼルス出身の5つ星高校生バスケットボール選手、スカイ・クラーク。"
+        },
+        "asap-rocky": {
+          "name": "A$AP Rocky",
+          "text": "A$AP Rockyは、ニューヨーク出身のラッパー、シンガー、ソングライター、俳優である"
+        },
+        "deandre-hopkins": {
+          "name": "デアンドレ・ホプキンス",
+          "text": "DeAndre  \"Nuk\" ホプキンスは、NFLのアリゾナ・カージナルスに所属するアメリカンフットボールのワイドレシーバーである。"
+        },
+        "devon-dotson": {
+          "name": "HDevon Dotson",
+          "text": "デボン・ドットソンは、NBAのシカゴ・ブルズに所属する21歳のプロバスケットボール選手である。"
+        }
+      }
+    }
+  },
+  "investment-page": {
+    "banner": {
+      "title": "オークション",
+      "text": "バウンスの包括的なオークションツールでWeb3投資の立ち上げと資金調達を実現",
+      "sign-up-btn": "今すぐ登録する",
+      "card1": {
+        "title": "投資家情報",
+        "paragraph1": "バウンスオークションで、幅広いオークションの出品を閲覧できます。トークン・オークション、NFTオークションなど。",
+        "paragraph2": "バウンスの著名なWeb3企業情報のオープンディレクトリで、最新のオークション情報とビジネスチャンスを入手できます。"
+      },
+      "card2": {
+        "title": "創業者・企業",
+        "paragraph1": "お客様独自のオークション戦略をサポートするプラグアンドプレイツール。",
+        "paragraph2": "お客様のご要望に合わせたカスタマイズ可能なオークションアプリケーションです。"
+      },
+      "tips1": "* Bounceは投資のためのツールを提供するだけであり、いかなる当事者のための投資活動を主催するものではありません。",
+      "tips2": "一部の国では投資活動が制限されています。"
+    }
+  },
+  "jobs-employers-page": {
+    "banner": {
+      "title": "雇用主にとっての才能",
+      "description": "ビジョン構築を支援する人材を採用する",
+      "detail": "800万人以上のモチベーションで\"スタートアップレディ\"世界中の求職者と、採用に必要なすべてのツールや詳細を提供します。",
+      "sign-up-btn": "今すぐ登録する",
+      "post-job-btn": "無料求人情報の掲載"
+    }
+  },
+  "jobs-talents-page": {
+    "banner": {
+      "title": "タレントの求人",
+      "description": "優秀な人材とトップ企業のマッチング",
+      "description1": "優秀な人材のマッチング",
+      "description2": "トップ企業とのマッチング",
+      "detail": "800万人以上のモチベーションで\"スタートアップレディ\"世界中の求職者と、採用に必要なすべてのツールや詳細を提供します。",
+      "sign-up-btn": "今すぐ登録する",
+      "post-job-btn": "無料求人情報の掲載"
+    }
+  },
+  "company-page": {
+    "banner": {
+      "title": "会社案内",
+      "description": "Web3ビジョンを支えるインフラ",
+      "description1": "サポートするインフラ",
+      "description2": "あなたのWeb3ビジョン",
+      "detail": "私たちのミッションは、新世代の投資家や創業者にインスピレーションを与え、ファンドやスタートアップを立ち上げ、拡大するために必要なすべてを提供することです。",
+      "join-btn": "今すぐ参加する",
+      "card1": {
+        "title": "ジョブズ・マーケット",
+        "paragraph": "イノベーションへの情熱がある人なら誰でも、世界を変えるスタートアップに投資できるはずだと考えています。"
+      },
+      "card2": {
+        "title": "分散型アプリツールボックス",
+        "paragraph": "Bounceの幅広いスマートコントラクトソリューションを利用して、お客様独自のニーズに合わせ、柔軟性と相互運用性を備えた分散型アプリケーションを構築してください。"
+      },
+      "card3": {
+        "title": "QRコードとデジタルカード",
+        "paragraph": "Bounceの各ユーザーには固有のQRコードが付与され、Bounceのプロフィールに自動的に割り当てられます。このQRコードを読み取ることで、Web3フレンドのネットワークが広がります。"
+      },
+      "jobs-market": {
+        "title": "ジョブズ・マーケット",
+        "description": "バウンスのツールは、新しいファンドを設立して規模を拡大する場合でも、既存のマネージャーと一緒に投資する場合でも、すべてのエンジェルやVCの投資プロセスを合理化します。",
+        "post-job-btn": "無料求人情報の掲載"
+      }
+    },
+    "innovative-company": {
+      "title1": "イノベーティブWeb3社",
+      "title2": "スタートアップ企業のプロセス"
+    },
+    "digital-card": {
+      "title": "QRコードとデジタルカードを共有する",
+      "description": "QRコード付き名刺を使ってデジタルでネットワーク - 商取引の未来はここにある！",
+      "item1": "QR付き名刺を使用することで、潜在的な雇用主や従業員との関わりを増やし、ユニークなつながりを確立することができます",
+      "item2": "名刺用の魅力的なプロフィールページを作成することができます。他の人があなたをフォローしたり、あなたをよりよく知ることがとても簡単になります。",
+      "item3": "タイムゾーン - タイムゾーンでフィルタリングし、候補者が何時間前または後ろにあるかを正確に見ることができます",
+      "item4": "あなた自身の完璧なソーシャルメディアのランディングページを作成し、オフラインの訪問者をファンやフォロワーに変換する",
+      "get-card-btn": "デジタル名刺を手に入れる",
+      "people-promotion": "著名な投資家・起業家",
+      "toolbox": {
+        "title": "分散型アプリケーションツールボックス",
+        "description": "オークション、OTC、M&Aなど、様々なタイプの投資案件をプラットフォームを通じて見つけることができます。",
+        "create-btn": "アクティビティを作成する"
+      }
+    }
+  },
+  "tools-token-page": {
+    "banner": {
+      "title": "$AUCTION",
+      "sub-title": "その Bounce トークン",
+      "description": "AUCTIONは、ガバナンス、ステーキング、アプリ内マーケットプレイス/オークション通貨、保有者への報酬など、幅広い実用性を備えた分散型アプリケーションのBounceのエコシステム全体を強化します。",
+      "launch-btn": "トークンポータルを立ち上げる",
+      "card1": {
+        "title": "ガバメント",
+        "paragraph": "完全に分散化され、コミュニティが管理するプロトコルであるBounceは、AUCTIONトークン所有者のみによって管理されています。"
+      },
+      "card2": {
+        "title": "ダイナミックステーキング",
+        "paragraph": "AUCTIONは、製品のBounceエコシステムによって生成された報酬と利回りを受動的に獲得するためにステーキングすることができます。"
+      },
+      "card3": {
+        "title": "プレミアムアカウント",
+        "paragraph": "Bounceトークンをお持ちの方は、プレミアムアカウントの権限でBounce V3の追加特典を解除することができます。"
+      },
+      "card4": {
+        "title": "バウンスマーケットプレイス",
+        "paragraph": "オークションは、バウンスメタバース内の様々なマーケットプレイスで使用することができます。"
+      }
+    }
+  },
+  "chains-block": {
+    "tiles": {
+      "bounce-auction": "Bounce ファイナンス",
+      "fangible": "Bounce Fangible",
+      "polka": "Bounce Metalents",
+      "toolbox": "Bounce Dao ツールキット",
+      "metaverse": "Bounce メタバース"
+    },
+    "chains": {
+      "title": "Play across <br /> チェーン",
+      "text": "バウンス商品は複数のブロックチェーンで利用できるため、より多くの遊び、より多くの可能性、より多くの可能性を得ることができる"
+    },
+    "participation": {
+      "title": {
+        "part-one": "フルスケール",
+        "part-two": "参加"
+      },
+      "text": "あらゆる人が分散型オークションに参加できる、進化するプロダクトのエコシステム。",
+      "item1": "独自のオークションプラットフォームを構築",
+      "item2": "クラウドローンによるプロジェクト運営や希少なデジタルアセットのトレードが可能",
+      "item3": "クリエイターエコノミーの一翼を担う",
+      "hint": "全てはテーブルの上に"
+    }
+  },
+  "bounce-auction": {
+    "brand": "Bounce ファイナンス",
+    "title": "オープンファイナンスの可能性を解き放つ",
+    "text": "多機能、分散型、信頼性の高いオークションプラットフォームで、希少なデジタル資産を競争力のあるスワップ環境で取引しましょう。",
+    "item1": "以下のような豊富なオークションタイプから選択できます。固定スワップ、Sealed-bid、Dutch、Englishの各オークションから選択可能です。",
+    "item2": "OTCを公開または非公開で取引する。",
+    "item3": "自動執行、コンティンジェンシー、パーミッションレスで利益を得ることができます。",
+    "item4": "オンチェーンガバナンスで実行"
+  },
+  "fangible": {
+    "brand": "Fangible",
+    "title": "NFTマーケットプレイス 大スター。彼らの最も希少な作品。ファンの皆様へ直接お届けします。",
+    "text": "新しいタイプのファン体験であるFangibleは、クリエイターエコノミーのシェアに簡単に参入し、所有することができます。アーティストとファンをつなぎ、誰でもNFTの会話に参加することができるのです。",
+    "celebrities": {
+      "title": "バウンスのあるセレブリティ",
+      "eimi-fukada": {
+        "name": "深田栄美",
+        "text": "深田栄美は、2017年から日本のアダルトビデオ女優である。2020年、売上高ランキング3位のAV女優。"
+      },
+      "kyle-kuzma": {
+        "name": "カイル・クズマ",
+        "text": "カイル・クズマは、NBAのロサンゼルス・レイカーズに所属するアメリカのプロバスケットボール選手である。"
+      },
+      "nick-young": {
+        "name": "ニック・ヤング",
+        "text": "Nick \"Swaggy P\" ヤングは、カリフォルニア州ロサンゼルス出身のNBAの元プロバスケットボール選手である。"
+      },
+      "skyy-clark": {
+        "name": "スカイ・クラーク",
+        "text": "スカイ・クラーク選手は、カリフォルニア州ロサンゼルス出身の5つ星高校バスケットボール選手です。"
+      },
+      "asap-rocky": {
+        "name": "A$AP Rocky",
+        "text": "A$AP Rockyはニューヨーク出身のラッパー、シンガー、ソングライター、俳優である。"
+      },
+      "deandre-hopkins": {
+        "name": "デアンドレ・ホプキンス",
+        "text": "DeAndre \"Nuk\" Hopkins is an American football wide receiver for the Arizona Cardinals of the NFL"
+      },
+      "devon-dotson": {
+        "name": "デボン・ドットソン",
+        "text": "デボン・ドットソンは、NBAのシカゴ・ブルズに所属する21歳のプロバスケットボール選手です。"
+      }
+    }
+  },
+  "bounce-polkadot": {
+    "brand": "Metalents",
+    "title": "デジタルフリーランスの需要と供給のマッチング",
+    "text": "従来の絵画や電子ポスターといったNFTの連携形態に加え、カスタマイズされた作品、規格外の配送、電子的に配送された作品であれば、NFTの世界と連携させることが可能だと考えています。NFTを配送証明書として使用し、ブロックチェーン分散型ネットワークの不変の記録機能により、作者、購入者、取引時間、作品のURLを永久に追跡・記録することができるようになります"
+  },
+  "bounce-toolbox": {
+    "brand": "Bounce DAO Toolbox",
+    "title": "あなた自身の分散型オークションプラットフォームを構築するために必要なすべてのもの。",
+    "text": "分散型オークションのパワーを活用するための開発者ツールの広範なセットは、それが今までよりも簡単になります。UIキット、Bounce NFTへのAPIアクセス、オープンソースのスマートコントラクト。DeFiを大衆に届けるために必要なものすべてが揃っています。"
+  },
+  "binance-exchange": {
+    "brand": "Bounce",
+    "title": "バイナンス取引所",
+    "text": "Bounceは、バイナンスのエコシステムに参入した最初のプロジェクトの1つとして、BNB ChainのMost Valuable Builderプログラムのメンターとしての役割をさらに高めるなど、バイナンスのエコシステムの礎となりました。",
+    "btn-text": "バイナンスでオークションを取引する"
+  },
+  "backed-by": {
+    "title": "バッキング・バイ"
+  },
+  "language": {
+    "en-US": "English",
+    "zh-CN": "中文",
+    "tr-TR": "Türkçe",
+    "ja-JP": "日本語",
+    "ru-RU": "Русский",
+    "fr-FR": "Français",
+    "de-DE": "Deutsch",
+    "ko-KR": "한국어",
+    "id-ID": "Indonesia"
+  },
+  "bounce-metaverse": {
+    "brand": "Bounce バウンス",
+    "title": "Bounce メタバース",
+    "text": "より多くのユーザーをバウンスのエコシステムに取り込むために、私たちはバウンスの「メタバースシティ」の開発に取り組んできました。バウンスのメタバースは、私たちの未来の中心であり、各製品をシームレスで没入感のある体験のために結びつける仮想の本拠地となるものと考えています。",
+    "btnText": "エクスペリエンス",
+    "metaverse-city": "メタバースシティ",
+    "metaverse-city-info": "Bounceのエコシステム全体が1つの仮想世界に収容されることで、ユーザーはBounceが提供するすべてのツールを最高のユーザー体験で探求する機会を得られます。この マージ が完了したとき、私たちは暗号空間のすべての異なるユーザーに有用性を提供する、相互接続されたWeb3プロジェクトの最初の 完全なスイート を構築しているでしょう。Metaverse Cityの特徴としては、以下のようなものがあります。"
+  },
+  "test": {
+    "label": "テストページ",
+    "title": "テストページのタイトル",
+    "back": "トップページに戻る"
+  },
+  "auction-block": {
+    "title": "Bounce オークション",
+    "subtitle": "バウンスの有名な<br />分散型オークションプラットフォームで、パーミッションレス金融を立ち上げ、参加することができます。",
+    "auction-type": {
+      "title": "Bounceは、以下のような一般的なAuctionタイプを包括的に提供しています。",
+      "fixed-swap": "固定スワップオークション",
+      "english-auction": "英語オークション",
+      "dutch-auction": "ダッチオークション",
+      "sealed-bid-auction": "シール・アンド・ビッド・オークション",
+      "lottery-auction": "ロッタリーオークション"
+    },
+    "function": {
+      "title": "プレミアム機能",
+      "whitelisting": "ホワイトリスト機能",
+      "schedule": "タイムスタンプロックアップスケジュール",
+      "dutch-auction": "ダッチオークション・クォータコントロール",
+      "nft-certificate": "NFT証明書"
+    },
+    "tip": "* 対応アセット：ERC20、ERC721、ERC1155"
+  },
+  "bounce-otc": {
+    "title": "オークションSDKとプラグイン",
+    "subtitle": "Bounceは、オークションをオンラインで作成・開催するためのSDKとPluginを提供し、オークションを構築するために必要なすべてを集約しています。  あなたのウェブサイト上でオークションを開催することができます。"
+  },
+  "bounce-M&A": {
+    "title": "Bounce Developers",
+    "smallTitle": "",
+    "subtitle": "パワフルで使いやすいAPIで、より迅速な出荷を実現",
+    "mergeProcess": "統合プロセス",
+    "input": "入力",
+    "output": "出力",
+    "features": "特徴",
+    "featureList": {
+      "title1": "トークンの構成",
+      "info1": "プロジェクトのパーティクルは、ERC20からNFTまで様々なトークンをサポートしています",
+      "title2": "動的な構成",
+      "info2": "カスタマイズ可能なパラメータと多様な入出力オプションで、ニーズに合わせてケミストリーを設計",
+      "title3": "自動的、ノーコード実行",
+      "info3": "新しいトークンは、私たちの統合プロセスに従って反射的に発行されます。",
+      "title4": "パーミッションレス環境",
+      "info4": "誰でもいつでもケミストリーを開始することができます"
+    }
+  },
+  "bounce-NFT": {
+    "title": "Bounce NFT",
+    "smallTitle": "(ローンチパッド＆マーケットプレイス)",
+    "subtitle": "Bounce NFTは、マーケットプレイスによるNFTの売買や管理だけでなく、ローンチパッドによる独自のNFTプロジェクトの立ち上げや創造も可能です。"
+  },
+  "job-tools": {
+    "title": "採用活動に必要なツールやリソースを一挙公開",
+    "subtitle": "10分以内に採用を開始する",
+    "person-list": {
+      "title1": "求人状況",
+      "info1": " - 候補者が仕事のオファーに前向きかどうか、および/または、面接の準備ができているかどうかをお知らせします",
+      "title2": "スキル・経験",
+      "info2": "- 候補者には、最大の達成事項の詳細など、ユニークな方法でこれをアピールすることができます。",
+      "title3": "タイムゾーン",
+      "info3": " - タイムゾーンでフィルタリングし、候補者が何時間進んでいるか、遅れているかを正確に確認することができます。",
+      "title4": "リモート環境設定",
+      "info4": "- リモートワークや直接雇用に前向きな候補者を検索し、どのような職場環境を好むかを調べることができます",
+      "title5": "会社の詳細",
+      "info5": "- 候補者のスキルを評価するために、関連する企業プロフィールを表示します。"
+    }
+  },
+  "freelance-market": {
+    "title": "フリーランスマーケット"
+  },
+  "crypto-currencies": {
+    "title": "フィアット通貨でクリプトを購入する",
+    "subtitle": "購入したい暗号、ネットワーク、購入金額を選択するだけです。",
+    "subtitle2": "Bounceはプロバイダーを比較し、最適なレートを提案します。",
+    "poweredBy": "搭載しています:"
+  },
+  "chain-block": {
+    "title": "個人から機関まで、Web3のすべての人のために構築されたオークションインフラ＆ツールのオープンネットワーク",
+    "circle": {
+      "label1": "企業・投資家情報",
+      "label2": "個人",
+      "label3": "主催オークション",
+      "label4": "NFTの発売開始について",
+      "label5": "求人情報"
+    }
+  },
+  "partners": {
+    "title": "500社以上の企業、パートナー、投資家に信頼されている"
+  },
+  "footer": {
+    "copyrights": "©{year} Bounce dao Ltd. All rights reserved. ",
+    "terms-of-service": "利用規約",
+    "privacy-policy": "プライバシーポリシー",
+    "social": "ソーシャル:",
+    "developer": "デベロッパー:",
+    "links": {
+      "company": "会社",
+      "auction-homepage": "オークションホームページ",
+      "company-list": {
+        "create-profile": "プロフィールの作成",
+        "find-investors": "投資家を探す",
+        "team-management": "チームマネジメント",
+        "defi-tools": "デフィツール",
+        "browse-startup-idea": "スタートアップアイデアを見る"
+      },
+      "service": "サービス",
+      "investment": "投資",
+      "investment-list": {
+        "defi-market": "Defi 市場",
+        "browse-company": "会社をブラウズする",
+        "browse-market": "ブラウズ・マーケット",
+        "browse-pool": "プールをブラウズ",
+        "auction-pool": "オークションプール",
+        "nft-launchpad": "NFT Launchpad",
+        "mergers-acquisitions": "合併・買収",
+        "share-startup-idea": "スタートアップアイデアを共有する",
+        "web3-id-verified": "Web3 ID & Verified",
+        "team-management": "チームマネジメント"
+      },
+      "jobs": "ジョブズ",
+      "jobs-list": {
+        "for-employers": "求人情報 採用企業様向け",
+        "pos-job": "無料求人情報の掲載",
+        "browse-talent": "タレントを見る",
+        "for-talents": "タレントの求人",
+        "browse-jobs": "求人を見る",
+        "create-portfolio": "ポートフォリオを作成する"
+      },
+      "tools": "ツール",
+      "tools-list": {
+        "defi-tools": "Defi ツール",
+        "auctions": "オークション",
+        "nft-launchpad": "NFTローンチパッド",
+        "mergers-acquisitions": "M&A 合併・買収",
+        "startup-tools": "スタートアップツール",
+        "share-idea": "アイデアを共有する",
+        "web3-verified": "Web3のIDを確認する"
+      },
+      "labs": "ラボ",
+      "labs-list": {
+        "bounce-labs": "Bounce 研究室",
+        "bounce-v1": "Bounce V1",
+        "bounce-v2": "Bounce V2",
+        "fangible": "Fangible",
+        "metalent": "Metalent",
+        "bounce-metaverse": "Bounce メタバース"
+      }
+    }
+  },
+  "extra": {
+    "recently-posted-jobs": "最近掲載された求人情報",
+    "featured-jobs": "注目の求人情報",
+    "best-talent": "お客様独自のニーズに合わせた最適な人材"
+  }
+}

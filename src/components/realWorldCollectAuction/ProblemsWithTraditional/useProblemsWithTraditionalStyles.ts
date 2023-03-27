@@ -1,0 +1,92 @@
+import { makeStyles, Theme } from '@material-ui/core';
+import { PARALLAX_MARGIN } from 'src/modules/theme/const';
+import { PALETTE } from 'src/modules/theme/mainTheme';
+
+export const useProblemsWithTraditionalStyles = makeStyles<Theme>(theme => ({
+  root: {
+    position: 'relative',
+    background: '#fff',
+    color: PALETTE.text.light,
+    minHeight: '100vh',
+    pointerEvents: 'auto',
+    borderRadius: '28px 28px 0 0',
+    '& ::selection': {
+      background: PALETTE.background.default,
+      color: PALETTE.text.reverse,
+    },
+    [theme.breakpoints.up('md')]: {
+      '&::before': {
+        borderRadius: '60px 60px 0 0',
+      },
+    },
+  },
+  container: {
+    padding: '120px 0 150px',
+    maxWidth: '1080px !important',
+    margin: '0 auto',
+  },
+  shoe: {
+    position: 'absolute',
+    left: 0,
+    top: '800px',
+    width: '150px',
+    animationDelay: '0.6s',
+  },
+  watch: {
+    position: 'absolute',
+    left: 105,
+    top: 127,
+    width: 84,
+  },
+  glass: {
+    position: 'absolute',
+    right: 0,
+    top: 506,
+    width: 200,
+  },
+  industryTitle: {
+    width: '695px',
+    fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
+    fontWeight: 500,
+    fontSize: 44,
+    color: '#171717',
+    textAlign: 'center',
+    margin: '0 auto 40px',
+  },
+  industryItem: {
+    position: 'relative',
+    background: '#E6E8F1',
+    borderRadius: '16px',
+    padding: '24px 24px 0',
+    height: '315px',
+    display: 'flex',
+    flexFlow: 'column nowrap',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-start',
+    cursor: 'pointer',
+  },
+  industryItem2: {
+    background: '#F5F6F8',
+  },
+  industryBg: {
+    background: `url('/images/home/industry-solutions/bg.png') no-repeat center center / cover`,
+  },
+  itemIcon: {
+    width: 64,
+    height: 64,
+    marginBottom: 14,
+  },
+  industryItemTitle: {
+    fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
+    fontWeight: 500,
+    fontSize: 18,
+    color: '#171717',
+    marginBottom: 14,
+  },
+  industryItemContent: {
+    fontFamily: `'Inter'`,
+    fontWeight: 400,
+    fontSize: 14,
+    color: '#171717',
+  },
+}));

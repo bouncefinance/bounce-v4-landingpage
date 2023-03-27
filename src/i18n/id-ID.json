@@ -1,0 +1,485 @@
+{
+    "common": {
+      "site-title": "Bounce",
+      "meta": {
+        "keywords": "bounce, bounce keuangan, keuangan, DeFi, bot",
+        "description": "Bounce memperkuat ekosistem produk untuk lelang. Bangun, rancang, hubungkan, kumpulkan, dan perdagangkan semua jenis aset, token, dan NFT di berbagai blockchain.Bounce"
+      },
+      "og": {
+        "title": "Bounce",
+        "description": "Bounce memberdayakan ekosistem produk untuk lelang. Membangun, mendesain, menghubungkan, mengumpulkan, dan memperdagangkan semua jenis aset, token, dan NFT di berbagai blockchain."
+      },
+      "no-js": "JavaScript is required!",
+      "launch-app": "Luncurkan aplikasi",
+      "learn-more": "Pelajari lebih lanjut",
+      "coming-soon": "Segera hadir",
+      "landing-page": "Halaman arahan"
+    },
+    "header": {
+      "investment": "Lelang",
+      "jobs": "Pekerjaan",
+      "jobs-employers": "Temukan pekerjaan",
+      "jobs-talents": "Temukan bakat",
+      "service": "Layanan",
+      "ecosystem": "Ekosistem",
+      "company": "Perusahaan",
+      "tools": "Alat",
+      "tools-token": "Bounce Token ",
+      "tools-labs": "Laboratorium Bounce",
+      "labs": "Laboratorium",
+      "labs-fangible": "Fangible",
+      "labs-metalents": "Metalents",
+      "login": "Masuk",
+      "launch-app": "Masuk"
+    },
+    "home-page": {
+      "banner": {
+        "title": "Lelang sebagai Layanan",
+        "text": "Jaringan infrastruktur dan alat lelang terbuka yang dibangun untuk semua Web3 dan DeFi: individu hingga institusi",
+        "demo": "Minta Demo",
+        "docs": "Dokumen"
+      },
+      "build-with-bounce": {
+        "title": "Bangun dengan Bounce",
+        "finance-btn": "Lelang Terdesentralisasi",
+        "nfts-btn": "nfts (segera hadir)",
+        "managment-btn": "manajemen perusahaan",
+        "market-btn": "pasar kerja",
+        "description": "Membuka potensi Keuangan Lelang",
+        "detail": "Bounce menyediakan rangkaian lengkap alat lelang terdesentralisasi: Platform lelang terdesentralisasi khas kami, infrastruktur SDK untuk Lelang, dan lelang NFT kami. Bangun dan berpartisipasi dalam lelang terdesentralisasi dengan infrastruktur aplikasi, alat, dan solusi kami yang tidak dapat dipercaya."
+      },
+      "companyList": {
+        "title": "Ikuti & Investasikan pada perusahaan paling inovatif di Web3",
+        "more": "Tampilkan lebih banyak perusahaan"
+      },
+      "top-stack": {
+        "title": "Tumpukan Teknologi",
+        "list": {
+          "item1-title": "Pendekatan Infrastruktur Hibrida",
+          "item1-text": "Dalam membangun platform yang dirancang untuk melayani masyarakat luas, kami telah merancang sistem yang memanfaatkan teknologi terpusat dan terdesentralisasi. Dengan demikian, pengguna dapat mengakses platform kami melalui kredensial Web2, seperti email & media sosial, dan menikmati manfaat desentralisasi & buku besar terdistribusi hanya dengan menggunakan produk web3 kami.",
+          "item2-title": "Toolbox aplikasi terdesentralisasi",
+          "item2-text": "Manfaatkan berbagai solusi kontrak pintar Bounce agar sesuai dengan kebutuhan unik Anda; bangun aplikasi terdesentralisasi Anda dengan fleksibilitas dan interoperabilitas. ",
+          "item3-title": "Kode QR dan kartu digital",
+          "item3-text1": "Setiap pengguna Bounce akan menerima kode QR unik yang akan secara otomatis ditetapkan ke profil mereka di Bounce.",
+          "item3-text2": "Pindai kode digital untuk memulai dan jelajahi jaringan teman Web3 Anda!"
+        }
+      },
+      "bounce-labs": {
+        "title": "Bounce Labs:",
+        "description": "Menginkubasi Masa Depan Inovasi yang Terdesentralisasi",
+        "detail": "Bounce Labs menginkubasi berbagai macam startup asli Web3, masing-masing dengan tujuan untuk berinovasi dalam konsep dan ide di luar ekosistem aplikasi Bounce yang sudah ada. Lihat inisiatif kami dan bangun bersama kami hari ini!",
+        "list": {
+          "bounce-v1": "Bounce V1",
+          "bounce-v2": "Bounce V2",
+          "fangible": "Fangible",
+          "metalents": "Metalents",
+          "m&a-defi": "M&A Defi",
+          "bounce-metaverse": "Bounce Metaverse",
+          "syndicate-defi": "Sindikat Defi",
+          "bounce-v3": "Bounce V3"
+        },
+        "celebrities": {
+          "eimi-fukada": {
+            "name": "Eimi Fukada",
+            "text": "Eimi Fukada adalah seorang aktris Video Dewasa Jepang sejak tahun 2017. Pada tahun 2020, dia adalah aktris AV peringkat ketiga berdasarkan penjualan."
+          },
+          "kyle-kuzma": {
+            "name": "Kyle Kuzma",
+            "text": "Kyle Kuzma adalah seorang pemain bola basket profesional Amerika Serikat untuk Los Angeles Lakers dari NBA."
+          },
+          "nick-young": {
+            "name": "Nick Young",
+            "text": "Nick Swaggy P Young adalah mantan pemain bola basket profesional NBA dari Los Angeles, California."
+          },
+          "skyy-clark": {
+            "name": "Skyy Clark",
+            "text": "Skyy Clark adalah pemain bola basket Sekolah Menengah Atas bintang 5 dari Los Angeles, CA."
+          },
+          "asap-rocky": {
+            "name": "A$AP Rocky",
+            "text": "A$AP Rocky adalah seorang rapper, penyanyi, penulis lagu, dan aktor dari New York City."
+          },
+          "deandre-hopkins": {
+            "name": "DeAndre Hopkins",
+            "text": "DeAndre \"Nuk\" Hopkins adalah seorang pemain sepak bola Amerika yang bermain untuk Arizona Cardinals dari NFL."
+          },
+          "devon-dotson": {
+            "name": "Devon Dotson",
+            "text": "Devon Dotson adalah pemain bola basket profesional berusia 21 tahun untuk Chicago Bulls dari NBA."
+          }
+        }
+      }
+    },
+    "investment-page": {
+      "banner": {
+        "title": "Lelang",
+        "text": "Meluncurkan dan Membiayai Investasi Web3 dengan Perangkat Lelang Bounce yang Komprehensif",
+        "sign-up-btn": "Daftar sekarang",
+        "card1": {
+          "title": "Investor",
+          "paragraph1": "Jelajahi berbagai penawaran lelang dengan lelang Bounce, termasuk: Lelang token dan lelang NFT.",
+          "paragraph2": "Tetap up to date dengan informasi dan peluang lelang terbaru dengan direktori terbuka Bounce tentang informasi perusahaan Web3 terkemuka."
+        },
+        "card2": {
+          "title": "Pendiri dan Perusahaan",
+          "paragraph1": "Alat plug and play untuk mendukung strategi lelang unik Anda.",
+          "paragraph2": "Aplikasi lelang yang dapat disesuaikan agar sesuai dengan kebutuhan perusahaan Anda."
+        },
+        "tips1": "* Bounce hanya menyediakan alat untuk investasi dan tidak menyelenggarakan kegiatan investasi untuk pihak mana pun.",
+        "tips2": "Kegiatan investasi tertentu dibatasi di negara-negara tertentu"
+      }
+    },
+    "jobs-employers-page": {
+      "banner": {
+        "title": "Bakat untuk pengusaha",
+        "description": "Pekerjakan talenta untuk membantu membangun visi Anda",
+        "detail": "Dengan lebih dari 8 juta pencari kerja yang termotivasi dan \"siap untuk memulai\" dari seluruh dunia dan semua alat dan detail yang Anda butuhkan untuk merekrut.",
+        "sign-up-btn": "Daftar sekarang",
+        "post-job-btn": "Pasang Lowongan Kerja Gratis"
+      }
+    },
+    "jobs-talents-page": {
+      "banner": {
+        "title": "Pekerjaan untuk talenta",
+        "description": "Mencocokkan talenta terbaik dengan perusahaan terbaik",
+        "description1": "Mencocokkan talenta terbaik",
+        "description2": "dengan perusahaan top",
+        "detail": "Dengan lebih dari 8 juta pencari kerja yang \"siap untuk memulai\" dari seluruh dunia dan semua alat dan detail yang Anda butuhkan untuk merekrut.",
+        "sign-up-btn": "Daftar sekarang",
+        "post-job-btn": "Pasang Lowongan Kerja Gratis"
+      }
+    },
+    "company-page": {
+      "banner": {
+        "title": "Perusahaan",
+        "description": "Infrastruktur untuk mendukung visi Web3 Anda",
+        "description1": "Infrastruktur untuk mendukung",
+        "description2": "visi Web3 Anda",
+        "detail": "Misi kami adalah untuk menginspirasi generasi baru investor dan pendiri dengan menyediakan semua yang mereka butuhkan untuk meluncurkan dan meningkatkan dana atau startup",
+        "join-btn": "Bergabung sekarang",
+        "card1": {
+          "title": "Pasar Pekerjaan",
+          "paragraph": "Kami percaya siapa pun yang memiliki hasrat untuk berinovasi harus bisa berinvestasi di perusahaan rintisan yang mengubah dunia."
+        },
+        "card2": {
+          "title": "Kotak peralatan aplikasi terdesentralisasi",
+          "paragraph": "Manfaatkan berbagai solusi kontrak pintar Bounce yang sesuai dengan kebutuhan unik Anda; bangun aplikasi terdesentralisasi Anda dengan fleksibilitas dan interoperabilitas."
+        },
+        "card3": {
+          "title": "Kode QR dan kartu digital",
+          "paragraph": "Setiap pengguna Bounce akan menerima kode QR unik yang akan secara otomatis ditetapkan ke profil mereka di Bounce. Pindai kode digital untuk memulai dan jelajahi jaringan teman Web3 Anda!"
+        },
+        "jobs-market": {
+          "title": "Bursa Lowongan Kerja",
+          "description": "Alat Bounce menyederhanakan proses investasi untuk semua angel dan VC, baik mereka yang mendirikan dan meningkatkan dana baru atau berinvestasi bersama manajer yang sudah mapan.",
+          "post-job-btn": "Pasang Lowongan Kerja Gratis"
+        }
+      },
+      "innovative-company": {
+        "title1": "Perusahaan Web3 yang Inovatif",
+        "title2": "Proses bisnis start-up"
+      },
+      "digital-card": {
+        "title": "Bagikan kode QR dan kartu digital Anda",
+        "description": "Jalin jaringan secara digital menggunakan kartu bisnis bertenaga QR kami - masa depan perdagangan ada di sini!",
+        "item1": "Tingkatkan keterlibatan dan jalin hubungan yang unik dengan calon pemberi kerja/karyawan dengan menggunakan kartu nama bertenaga QR - tampil beda dan diingat!",
+        "item2": "Membantu Anda menghasilkan halaman profil yang memukau untuk kartu nama. Memudahkan orang lain untuk mengikuti Anda dan mengenal Anda lebih baik.",
+        "item3": "Zona waktu - Anda dapat memfilter berdasarkan zona waktu dan melihat dengan tepat berapa jam di depan atau di belakang kandidat",
+        "item4": "Buat halaman arahan media sosial Anda sendiri yang sempurna dan ubah pengunjung offline Anda menjadi penggemar dan pengikut.",
+        "get-card-btn": "Dapatkan Kartu Bisnis Digital Anda",
+        "people-promotion": "Investor dan pengusaha terkemuka",
+        "toolbox": {
+          "title": "Kotak peralatan aplikasi terdesentralisasi",
+          "description": "Temukan berbagai jenis penawaran investasi mulai dari lelang, otc, hingga merger dan akuisisi melalui platform kami.",
+          "create-btn": "Buat Aktivitas"
+        }
+      }
+    },
+    "tools-token-page": {
+      "banner": {
+        "title": "$AUCTION",
+        "sub-title": "The Bounce Token",
+        "description": "LELANG memberdayakan seluruh ekosistem aplikasi terdesentralisasi Bounce dengan berbagai macam kegunaan, termasuk: tata kelola, staking, pasar dalam aplikasi/mata uang lelang, dan hadiah untuk pemegangnya.",
+        "launch-btn": "Luncurkan portal token",
+        "card1": {
+          "title": "Tata Kelola",
+          "paragraph": "Protokol yang sepenuhnya terdesentralisasi dan diatur oleh komunitas, Bounce diatur secara eksklusif oleh pemegang token LELANG."
+        },
+        "card2": {
+          "title": "Staking Dinamis",
+          "paragraph": "LELANG dapat dipertaruhkan untuk secara pasif mendapatkan hadiah dan hasil yang dihasilkan oleh ekosistem produk Bounce."
+        },
+        "card3": {
+          "title": "Akun Premium",
+          "paragraph": "Pemegang Token Bounce dapat membuka manfaat tambahan dari Bounce V3 dengan izin akun premium."
+        },
+        "card4": {
+          "title": "Pasar Bounce",
+          "paragraph": "Habiskan LELANG Anda di berbagai Bounce Marketplace yang berbeda; mulai dari mempekerjakan & membayar talenta hingga membeli item dalam game di dalam Bounce Metaverse!"
+        }
+      }
+    },
+    "chains-block": {
+      "tiles": {
+        "bounce-auction": "Keuangan Bounce",
+        "fangible": "Bounce Fangible",
+        "polka": "Bounce Metalents",
+        "toolbox": "Bounce Dao ToolkitBounce Metaverse",
+        "metaverse": "Bounce Metaverse"
+      },
+      "chains": {
+        "title": "bermain di seluruh<br />chain",
+        "text": "Produk bounce tersedia di beberapa blockchain untuk lebih banyak permainan, lebih banyak kemungkinan, lebih banyak potensi."
+      },
+      "participation": {
+        "title": {
+          "part-one": "Skala penuh",
+          "part-two": "partisipasi"
+        },
+        "text": "Ekosistem produk yang terus berkembang yang memungkinkan semua orang untuk berpartisipasi dalam lelang terdesentralisasi.",
+        "item1": "Bangun platform lelang Anda sendiri",
+        "item2": "Menjalankan proyek melalui pinjaman bersama atau memperdagangkan aset digital yang langka",
+        "item3": "Memiliki bagian dalam ekonomi kreator",
+        "hint": "Semuanya ada di atas meja."
+      }
+    },
+    "bounce-auction": {
+      "brand": "Bounce Keuangan",
+      "title": "Membuka potensi keuangan terbuka",
+      "text": "Perdagangkan aset digital yang langka dalam lingkungan pertukaran yang kompetitif di platform lelang kami yang serbaguna, terdesentralisasi, dan tidak dapat dipercaya.",
+      "item1": "Choose from an array of auction types, including: Fixed swap, Sealed-bid, Dutch and English auction.",
+      "item2": "Berdagang OTC secara publik atau pribadi.",
+      "item3": "Dapatkan manfaat dari eksekusi otomatis, kontingensi, tanpa izin.",
+      "item4": "Dijalankan dengan tata kelola on-chain."
+    },
+    "fangible": {
+      "brand": "Fangible",
+      "title": "Pasar NFT. Bintang terbesar. Their rarest work. Directly accessible to fans.",
+      "text": "Jenis pengalaman penggemar yang baru, Fangible memudahkan Anda untuk masuk dan memiliki bagian dari ekonomi kreator. Fangible menghubungkan artis dengan penggemar mereka dan memungkinkan siapa pun bergabung dalam percakapan NFT.",
+      "celebrities": {
+        "title": "Selebriti dengan Bounce:",
+        "eimi-fukada": {
+          "name": "Eimi Fukada",
+          "text": "Eimi Fukada adalah seorang aktris Video Dewasa Jepang sejak tahun 2017. Pada tahun 2020, dia adalah aktris AV peringkat ketiga berdasarkan penjualan."
+        },
+        "kyle-kuzma": {
+          "name": "Kyle Kuzma",
+          "text": "Kyle Kuzma adalah seorang pemain bola basket profesional Amerika Serikat untuk Los Angeles Lakers dari NBA."
+        },
+        "nick-young": {
+          "name": "Nick Young",
+          "text": "Nick Swaggy P Young adalah mantan pemain bola basket profesional NBA dari Los Angeles, California."
+        },
+        "skyy-clark": {
+          "name": "Skyy Clark",
+          "text": "Skyy Clark adalah pemain bola basket Sekolah Menengah Atas bintang 5 dari Los Angeles, CA."
+        },
+        "asap-rocky": {
+          "name": "A$AP Rocky",
+          "text": "A$AP Rocky adalah seorang rapper, penyanyi, penulis lagu, dan aktor dari New York City."
+        },
+        "deandre-hopkins": {
+          "name": "DeAndre Hopkins",
+          "text": "DeAndre \"Nuk\" Hopkins adalah seorang pemain sepak bola Amerika yang bermain untuk Arizona Cardinals dari NFL."
+        },
+        "devon-dotson": {
+          "name": "Devon Dotson",
+          "text": "Devon Dotson adalah pemain bola basket profesional berusia 21 tahun untuk Chicago Bulls dari NBA."
+        }
+      }
+    },
+    "bounce-polkadot": {
+      "brand": "Metalents",
+      "title": "Mencocokkan penawaran dan permintaan pekerja lepas digital",
+      "text": "Kami percaya bahwa, selain bentuk tradisional yang menghubungkan NFT seperti lukisan tradisional dan poster elektronik, setiap karya yang disesuaikan, pengiriman non-standar, dan dikirim secara elektronik dapat dihubungkan ke dunia NFT. Dengan menggunakan NFT sebagai kredensial pengiriman dan fungsi pencatatan yang tidak dapat diubah dari jaringan desentralisasi blockchain, penulis, pembeli, waktu transaksi, dan URL karya akan dilacak dan dicatat secara permanen."
+    },
+    "bounce-toolbox": {
+      "brand": "Bounce Kotak Alat DAO",
+      "title": "Semua yang Anda butuhkan untuk membangun platform lelang terdesentralisasi Anda sendiri.",
+      "text": "Seperangkat alat pengembang yang luas yang membuat memanfaatkan kekuatan lelang terdesentralisasi lebih mudah dari sebelumnya. Kit UI, akses API ke Bounce NFT, kontrak pintar sumber terbuka. Semua yang Anda butuhkan untuk menghadirkan DeFi ke masyarakat."
+    },
+    "binance-exchange": {
+      "brand": "Bounce",
+      "title": "Binance Pertukaran",
+      "text": "Sebagai salah satu proyek pertama yang memasuki ekosistem Binance, Bounce menjadi landasan ekosistem Binance, termasuk memajukan perannya sebagai mentor untuk program BNB Chain's Most Valuable Builder.",
+      "btn-text": "Lelang Perdagangan di Binance"
+    },
+    "backed-by": {
+      "title": "Didukung oleh"
+    },
+    "language": {
+      "en-US": "English",
+      "zh-CN": "中文",
+      "tr-TR": "Türkçe",
+      "ja-JP": "日本語",
+      "ru-RU": "Русский",
+      "fr-FR": "Français",
+      "de-DE": "Deutsch",
+      "ko-KR": "한국어",
+      "id-ID": "Indonesia"
+    },
+    "bounce-metaverse": {
+      "brand": "Bounce laboratorium",
+      "title": "Bounce Metaverse",
+      "text": "Dalam upaya untuk memasukkan lebih banyak pengguna ke dalam ekosistem Bounce, kami telah bekerja untuk mengembangkan Kota Metaverse Bounce. Di mata kami, Metaverse Bounce akan menjadi pusat masa depan kami, sebuah homebase virtual yang akan menjembatani setiap produk kami untuk pengalaman yang mulus dan imersif.",
+      "btnText": "Jelajahi",
+      "metaverse-city": "Kota Metaverse",
+      "metaverse-city-info": "Memiliki seluruh ekosistem Bounce yang ditempatkan dalam satu dunia virtual memberi pengguna kami kesempatan untuk menjelajahi semua alat yang ditawarkan Bounce dengan pengalaman pengguna terbaik. Ketika penggabungan ini (jika Anda mau) selesai, kami akan membangun rangkaian lengkap pertama dari proyek Web3 yang saling berhubungan yang menyediakan utilitas untuk semua pengguna yang berbeda di ruang kripto. Beberapa fitur Metaverse City meliputi: Lokakarya, Taman Bermain, Galeri, Permainan, dan Mall."
+    },
+    "test": {
+      "label": "halaman uji coba",
+      "title": "test page title",
+      "back": "back to home page"
+    },
+    "auction-block": {
+      "title": "Bounce Lelang",
+      "subtitle": "Luncurkan dan berpartisipasi dalam pembiayaan tanpa izin dengan Bounce yang terkenal<br /> Platform Lelang Terdesentralisasi.",
+      "auction-type": {
+        "title": "Bounce menawarkan rangkaian lengkap jenis Lelang populer, termasuk:",
+        "fixed-swap": "Lelang Swap Tetap",
+        "english-auction": "Lelang Bahasa Inggris",
+        "dutch-auction": "Lelang Belanda",
+        "sealed-bid-auction": "Lelang Tertutup dan Lelang Tawaran",
+        "lottery-auction": "Lelang Lotere"
+      },
+      "function": {
+        "title": "Fungsi premium:",
+        "whitelisting": "Daftar putih",
+        "schedule": "Jadwal penguncian stempel waktu",
+        "dutch-auction": "Kontrol Kuota Lelang Belanda",
+        "nft-certificate": "Sertifikat NFT"
+      },
+      "tip": "* Aset yang Didukung: ERC20, ERC721, ERC1155"
+    },
+    "bounce-otc": {
+      "title": "Lelang SDK dan Plugin",
+      "subtitle": "Bounce menyediakan SDK dan Plugin untuk membuat dan menyelenggarakan lelang secara online, menyatukan semua yang diperlukan untuk membuat lelang. Anda dapat menyelenggarakan lelang Anda sendiri di situs web Anda."
+    },
+    "bounce-M&A": {
+      "title": "Bounce Pengembang",
+      "smallTitle": "",
+      "subtitle": "Kirim lebih cepat dengan API yang kuat dan mudah digunakan",
+      "mergeProcess": "Proses Integrasi",
+      "input": "Masukan",
+      "output": "Keluaran",
+      "features": "Fitur",
+      "featureList": {
+        "title1": "Komposisi token",
+        "info1": "Partikel proyek mendukung berbagai token dari ERC20 hingga NFT",
+        "title2": "Konfigurasi dinamis",
+        "info2": "Rancang kimia Anda untuk memenuhi kebutuhan Anda dengan parameter yang dapat disesuaikan & berbagai opsi input & output",
+        "title3": "Otomatis, eksekusi tanpa kode",
+        "info3": "Token baru akan dikeluarkan secara refleks mengikuti proses konsolidasi kami yang berarti Anda tidak perlu mengeluarkan token baru Anda sendiri",
+        "title4": "Lingkungan tanpa izin",
+        "info4": "Siapa pun dapat memulai kimia kapan saja"
+      }
+    },
+    "bounce-NFT": {
+      "title": "Bounce NFT",
+      "smallTitle": "(Landasan peluncuran & Pasar)",
+      "subtitle": "Bounce NFT memungkinkan pengguna untuk tidak hanya membeli, menjual, dan mengelola NFT dengan marketplace kami, tetapi juga untuk meluncurkan dan membuat proyek NFT mereka sendiri dengan menggunakan launchpad kami."
+    },
+    "job-tools": {
+      "title": "Alat dan sumber daya yang Anda butuhkan untuk merekrut, semuanya di satu tempat",
+      "subtitle": "1Mulai merekrut dalam waktu kurang dari 10 menit",
+      "person-list": {
+        "title1": "Status pekerjaan",
+        "info1": " - kami akan memberi tahu Anda jika seorang kandidat terbuka untuk tawaran kerja dan/atau siap untuk wawancara",
+        "title2": "Keterampilan & pengalaman",
+        "info2": " - kami memberikan kandidat kemampuan untuk menunjukkannya dengan cara yang unik, seperti merinci pencapaian terbesar mereka dan masih banyak lagi!",
+        "title3": "Zona waktu",
+        "info3": " - Anda bisa memfilter berdasarkan zona waktu dan melihat dengan tepat berapa jam lebih cepat atau lebih lambat dari kandidat",
+        "title4": "Preferensi jarak jauh",
+        "info4": " - cari kandidat yang terbuka untuk bekerja jarak jauh atau tatap muka, jelajahi jenis lingkungan kerja yang mereka sukai",
+        "title5": "Detail perusahaan",
+        "info5": " - lihat profil perusahaan terkait untuk membantu Anda mengevaluasi keterampilan kandidat lebih jauh"
+      }
+    },
+    "freelance-market": {
+      "title": "Pasar pekerja lepas"
+    },
+    "crypto-currencies": {
+      "title": "Beli Kripto dengan Mata Uang Fiat",
+      "subtitle": "Cukup pilih kripto yang ingin Anda beli, jaringan, dan jumlah yang ingin Anda beli.",
+      "subtitle2": "Bounce akan membandingkan penyedia dan menawarkan harga terbaik.",
+      "poweredBy": "Didukung oleh:"
+    },
+    "chain-block": {
+      "title": "Jaringan terbuka Infrastruktur Lelang & alat yang dibangun untuk semua Web3, dari individu hingga institusi",
+      "circle": {
+        "label1": "Perusahaan dan Investor",
+        "label2": "Individu",
+        "label3": "Lelang Diselenggarakan",
+        "label4": "NFT Diluncurkan",
+        "label5": "Lowongan Kerja Diposting"
+      }
+    },
+    "partners": {
+      "title": "Dipercaya oleh lebih dari 500 perusahaan, mitra, dan investor"
+    },
+    "footer": {
+      "copyrights": "©{tahun} Bounce dao Ltd. Semua hak dilindungi undang-undang. ",
+      "terms-of-service": "Ketentuan Layanan",
+      "privacy-policy": "Kebijakan Privasi",
+      "social": "sosial:",
+      "developer": "Pengembang",
+      "links": {
+        "company": "Perusahaan",
+        "auction-homepage": "Beranda Lelang",
+        "company-list": {
+          "create-profile": "Buat Profil",
+          "find-investors": "Temukan Investor",
+          "team-management": "Manajemen Tim",
+          "defi-tools": "Defi Tools",
+          "browse-startup-idea": "Jelajahi Ide Startup"
+        },
+        "service": "Layanan",
+        "investment": "Investasi",
+        "investment-list": {
+          "defi-market": "Pasar Defi",
+          "browse-company": "Jelajahi Perusahaan",
+          "browse-market": "Jelajahi Pasar",
+          "browse-pool": "Jelajahi Pool",
+          "auction-pool": "Kumpulan Lelang",
+          "nft-launchpad": "Landasan Peluncuran NFT",
+          "mergers-acquisitions": "Merger & Akuisisi",
+          "share-startup-idea": "Bagikan Ide Startup",
+          "web3-id-verified": "ID Web3 & Terverifikasi",
+          "team-management": "Manajemen Tim"
+        },
+        "jobs": "Pekerjaan",
+        "jobs-list": {
+          "for-employers": "Pekerjaan Untuk Pengusaha",
+          "pos-job": "Posting Pekerjaan Gratis",
+          "browse-talent": "Jelajahi Bakat",
+          "for-talents": "Pekerjaan Untuk Bakat",
+          "browse-jobs": "Jelajahi Pekerjaan",
+          "create-portfolio": "Buat Portofolio"
+        },
+        "tools": "Alat",
+        "tools-list": {
+          "defi-tools": "Alat Defi",
+          "auctions": "Lelang",
+          "nft-launchpad": "Landasan peluncuran NFT",
+          "mergers-acquisitions": "Merger & Akuisisi",
+          "startup-tools": "Alat Startup",
+          "share-idea": "Bagikan Ide Anda",
+          "web3-verified": "ID Web3 & Terverifikasi"
+        },
+        "labs": "laboratorium",
+        "labs-list": {
+          "bounce-labs": "Laboratorium Bounce",
+          "bounce-v1": "Bounce V1",
+          "bounce-v2": "Bounce V2",
+          "fangible": "Fangible",
+          "metalent": "Metalent",
+          "bounce-metaverse": "Bounce Metaverse"
+        }
+      }
+    },
+    "extra": {
+      "recently-posted-jobs": "Pekerjaan yang baru saja diposting",
+      "featured-jobs": "Pekerjaan Unggulan",
+      "best-talent": "Talenta terbaik yang sesuai dengan kebutuhan unik Anda"
+    }
+  }

@@ -1,0 +1,781 @@
+[
+    {
+      "id": 27,
+      "userId": 1000122,
+      "userName": "Nataliya",
+      "avatar": "https://main-res.metalents.com/1b9c9dc603ef1cf862576181c6a9b972-1652774663.jpg",
+      "userAvatar": {
+        "id": 426,
+        "type": 1,
+        "userId": 0,
+        "fileName": "",
+        "fileType": "",
+        "fileSize": "0",
+        "fileUrl": "https://main-res.metalents.com/1b9c9dc603ef1cf862576181c6a9b972-1652774663.jpg",
+        "fileThumbnailUrl": "https://main-res.metalents.com/1b9c9dc603ef1cf862576181c6a9b972-1652774663.jpg"
+      },
+      "shopname": "Nataliya Tsygankova",
+      "sellerLevels": 0,
+      "levels": 0,
+      "sellerIsVerify": "verified",
+      "title": "3D Modeling",
+      "category": "ArtVideo & Animation",
+      "subcategory": "",
+      "subServices": [
+        {
+          "id": 73,
+          "serviceId": 27,
+          "budgetAmount": "400",
+          "coinId": 4,
+          "deliverTime": 4,
+          "finalDocs": "FBX, OBJ",
+          "revisions": 1,
+          "level": 1,
+          "status": 1
+        },
+        {
+          "id": 74,
+          "serviceId": 27,
+          "budgetAmount": "",
+          "coinId": 1,
+          "deliverTime": 0,
+          "finalDocs": "",
+          "revisions": -1,
+          "level": 2,
+          "status": 2
+        },
+        {
+          "id": 75,
+          "serviceId": 27,
+          "budgetAmount": "500",
+          "coinId": 4,
+          "deliverTime": 2,
+          "finalDocs": "FBX, OBJ",
+          "revisions": 1,
+          "level": 3,
+          "status": 1
+        }
+      ],
+      "description": "Low and high poly modeling of game tools",
+      "status": 1,
+      "posts": [
+        {
+          "id": 1749,
+          "type": 3,
+          "userId": 1000122,
+          "fileName": "character1_3.png",
+          "fileType": "image/png",
+          "fileSize": "625663",
+          "fileUrl": "https://main-res.metalents.com/6e6167ec2bd6acf1c56036dd469fa2ca-1659434302.png",
+          "fileThumbnailUrl": "https://main-res.metalents.com/6e6167ec2bd6acf1c56036dd469fa2ca-1659434302.png"
+        },
+        {
+          "id": 1750,
+          "type": 3,
+          "userId": 1000122,
+          "fileName": "bottleopener2_m.png",
+          "fileType": "image/png",
+          "fileSize": "1187393",
+          "fileUrl": "https://main-res.metalents.com/88ad0f6c3bc13562c133c5231eff4c66-1652774037.png",
+          "fileThumbnailUrl": "https://main-res.metalents.com/88ad0f6c3bc13562c133c5231eff4c66-1652774037.png"
+        },
+        {
+          "id": 1751,
+          "type": 3,
+          "userId": 1000122,
+          "fileName": "knife_OSNormal.png",
+          "fileType": "image/png",
+          "fileSize": "841133",
+          "fileUrl": "https://main-res.metalents.com/b85e2ba4d861492681527f55f188b975-1652774027.png",
+          "fileThumbnailUrl": "https://main-res.metalents.com/b85e2ba4d861492681527f55f188b975-1652774027.png"
+        }
+      ],
+      "postids": "1749,1750,1751",
+      "scope": 0,
+      "avgScope": "",
+      "total": 0,
+      "inQueue": 0,
+      "followed": 0,
+      "isFollowing": false,
+      "totalAmount": "400",
+      "createdAt": 1652774115
+    },
+    {
+      "id": 79,
+      "userId": 1000628,
+      "userName": "User02456330",
+      "avatar": "https://main-res.metalents.com/21d8caae8ffb2328037a97991e02dd93-1653558117.png",
+      "userAvatar": {
+        "id": 953,
+        "type": 1,
+        "userId": 0,
+        "fileName": "",
+        "fileType": "",
+        "fileSize": "0",
+        "fileUrl": "https://main-res.metalents.com/21d8caae8ffb2328037a97991e02dd93-1653558117.png",
+        "fileThumbnailUrl": "https://main-res.metalents.com/21d8caae8ffb2328037a97991e02dd93-1653558117.png"
+      },
+      "shopname": "ElfeNoir3D",
+      "sellerLevels": 0,
+      "levels": 0,
+      "sellerIsVerify": "verified",
+      "title": "3D modeling",
+      "category": "ArtVideo & Animation",
+      "subcategory": "",
+      "subServices": [
+        {
+          "id": 217,
+          "serviceId": 79,
+          "budgetAmount": "20",
+          "coinId": 1,
+          "deliverTime": 10,
+          "finalDocs": "3D asset",
+          "revisions": -1,
+          "level": 1,
+          "status": 1
+        },
+        {
+          "id": 218,
+          "serviceId": 79,
+          "budgetAmount": "",
+          "coinId": 1,
+          "deliverTime": 0,
+          "finalDocs": "",
+          "revisions": -1,
+          "level": 2,
+          "status": 2
+        },
+        {
+          "id": 219,
+          "serviceId": 79,
+          "budgetAmount": "",
+          "coinId": 1,
+          "deliverTime": 0,
+          "finalDocs": "",
+          "revisions": -1,
+          "level": 3,
+          "status": 2
+        }
+      ],
+      "description": "I design and create 3D models. Excellent quality, stylish and beautiful artworks. Making it in the best way for you! Always.",
+      "status": 1,
+      "posts": [
+        {
+          "id": 956,
+          "type": 3,
+          "userId": 1000628,
+          "fileName": "profile.png",
+          "fileType": "image/png",
+          "fileSize": "1977126",
+          "fileUrl": "https://main-res.metalents.com/fd49e00c8dae94ba6a5a8652b34f65ed-1653559423.png",
+          "fileThumbnailUrl": "https://main-res.metalents.com/fd49e00c8dae94ba6a5a8652b34f65ed-1653559423.png"
+        }
+      ],
+      "postids": "956",
+      "scope": 0,
+      "avgScope": "",
+      "total": 0,
+      "inQueue": 0,
+      "followed": 0,
+      "isFollowing": false,
+      "totalAmount": "32512.4",
+      "createdAt": 1653559574
+    },
+    {
+      "id": 91,
+      "userId": 1000693,
+      "userName": "Anwar2025",
+      "avatar": "",
+      "userAvatar": {
+        "id": 0,
+        "type": 0,
+        "userId": 0,
+        "fileName": "",
+        "fileType": "",
+        "fileSize": "",
+        "fileUrl": "",
+        "fileThumbnailUrl": ""
+      },
+      "shopname": "AnwarArs",
+      "sellerLevels": 0,
+      "levels": 0,
+      "sellerIsVerify": "verified",
+      "title": "3D Modelling",
+      "category": "ArtVideo & Animation",
+      "subcategory": "",
+      "subServices": [
+        {
+          "id": 250,
+          "serviceId": 91,
+          "budgetAmount": "0.18",
+          "coinId": 1,
+          "deliverTime": 3,
+          "finalDocs": "JPEG, PNG, PDF",
+          "revisions": 2,
+          "level": 1,
+          "status": 1
+        },
+        {
+          "id": 251,
+          "serviceId": 91,
+          "budgetAmount": "",
+          "coinId": 1,
+          "deliverTime": 0,
+          "finalDocs": "",
+          "revisions": -1,
+          "level": 2,
+          "status": 2
+        },
+        {
+          "id": 252,
+          "serviceId": 91,
+          "budgetAmount": "",
+          "coinId": 1,
+          "deliverTime": 0,
+          "finalDocs": "",
+          "revisions": -1,
+          "level": 3,
+          "status": 2
+        }
+      ],
+      "description": "Create your 3D Modelling for your design, welcome please",
+      "status": 1,
+      "posts": [
+        {
+          "id": 1171,
+          "type": 3,
+          "userId": 1000693,
+          "fileName": "DPRD SEMARANG 1.png",
+          "fileType": "image/png",
+          "fileSize": "631872",
+          "fileUrl": "https://main-res.metalents.com/cb3619a9c33d11ea8158bab1872383e4-1653886214.png",
+          "fileThumbnailUrl": "https://main-res.metalents.com/cb3619a9c33d11ea8158bab1872383e4-1653886214.png"
+        }
+      ],
+      "postids": "1171",
+      "scope": 0,
+      "avgScope": "",
+      "total": 0,
+      "inQueue": 0,
+      "followed": 0,
+      "isFollowing": false,
+      "totalAmount": "292.61",
+      "createdAt": 1653886316
+    },
+    {
+      "id": 36,
+      "userId": 1000142,
+      "userName": "Artem Makarenko",
+      "avatar": "https://main-res.metalents.com/496565ffe02c83701f217f99d48b608b-1652774652.png",
+      "userAvatar": {
+        "id": 427,
+        "type": 1,
+        "userId": 0,
+        "fileName": "",
+        "fileType": "",
+        "fileSize": "0",
+        "fileUrl": "https://main-res.metalents.com/496565ffe02c83701f217f99d48b608b-1652774652.png",
+        "fileThumbnailUrl": "https://main-res.metalents.com/496565ffe02c83701f217f99d48b608b-1652774652.png"
+      },
+      "shopname": "Makarenko",
+      "sellerLevels": 0,
+      "levels": 0,
+      "sellerIsVerify": "verified",
+      "title": "3D NFT (Static)",
+      "category": "Digital Art & Design",
+      "subcategory": "",
+      "subServices": [
+        {
+          "id": 97,
+          "serviceId": 36,
+          "budgetAmount": "0.1",
+          "coinId": 1,
+          "deliverTime": 15,
+          "finalDocs": "c4d, png\\jpeg",
+          "revisions": 2,
+          "level": 1,
+          "status": 1
+        },
+        {
+          "id": 98,
+          "serviceId": 36,
+          "budgetAmount": "0.2",
+          "coinId": 1,
+          "deliverTime": 10,
+          "finalDocs": "c4d, png\\jpeg",
+          "revisions": 4,
+          "level": 2,
+          "status": 1
+        },
+        {
+          "id": 99,
+          "serviceId": 36,
+          "budgetAmount": "0.3",
+          "coinId": 1,
+          "deliverTime": 8,
+          "finalDocs": "c4d, png\\jpeg",
+          "revisions": 4,
+          "level": 3,
+          "status": 1
+        }
+      ],
+      "description": "3D Artworks for your NFT projects in static. It could be one piece or whole series.",
+      "status": 1,
+      "posts": [
+        {
+          "id": 603,
+          "type": 3,
+          "userId": 1000142,
+          "fileName": "188117488_167623659_281267693401691_6025421844556662822_n.jpg",
+          "fileType": "image/jpeg",
+          "fileSize": "93957",
+          "fileUrl": "https://main-res.metalents.com/9ac0ba881fc6311aac006a74d76dfeca-1652790528.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/9ac0ba881fc6311aac006a74d76dfeca-1652790528.jpg"
+        },
+        {
+          "id": 604,
+          "type": 3,
+          "userId": 1000142,
+          "fileName": "188117488_147894183_229982225493029_2158941805801260532_n.jpg",
+          "fileType": "image/jpeg",
+          "fileSize": "182182",
+          "fileUrl": "https://main-res.metalents.com/d5765db30e4e66b4c2e916d7cc4824fd-1652790518.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/d5765db30e4e66b4c2e916d7cc4824fd-1652790518.jpg"
+        },
+        {
+          "id": 605,
+          "type": 3,
+          "userId": 1000142,
+          "fileName": "188117488_123570360_2897790687167772_8833495830110805292_n.jpg",
+          "fileType": "image/jpeg",
+          "fileSize": "75153",
+          "fileUrl": "https://main-res.metalents.com/226fc8d1ff7c8f5396d3ddffbfc0cc96-1652790515.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/226fc8d1ff7c8f5396d3ddffbfc0cc96-1652790515.jpg"
+        },
+        {
+          "id": 606,
+          "type": 3,
+          "userId": 1000142,
+          "fileName": "188117488_126458381_664772577571533_6858582457596393893_n.jpg",
+          "fileType": "image/jpeg",
+          "fileSize": "61757",
+          "fileUrl": "https://main-res.metalents.com/a04c6a6af3c412b9b1fdd374eace614d-1652790507.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/a04c6a6af3c412b9b1fdd374eace614d-1652790507.jpg"
+        },
+        {
+          "id": 607,
+          "type": 3,
+          "userId": 1000142,
+          "fileName": "188117488_126452133_1043553776121342_1411838030687658633_n.jpg",
+          "fileType": "image/jpeg",
+          "fileSize": "85428",
+          "fileUrl": "https://main-res.metalents.com/6c6270dd4e2a87a2d3ae9e9e03c69c7d-1652790504.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/6c6270dd4e2a87a2d3ae9e9e03c69c7d-1652790504.jpg"
+        }
+      ],
+      "postids": "603,604,605,606,607",
+      "scope": 0,
+      "avgScope": "",
+      "total": 0,
+      "inQueue": 0,
+      "followed": 0,
+      "isFollowing": false,
+      "totalAmount": "162.56",
+      "createdAt": 1652790605
+    },
+    {
+      "id": 102,
+      "userId": 1000644,
+      "userName": "Marosh",
+      "avatar": "https://main-res.metalents.com/94f980ca54c7ddd62136c15df82d9a33-1653701095.jpeg",
+      "userAvatar": {
+        "id": 1003,
+        "type": 1,
+        "userId": 0,
+        "fileName": "",
+        "fileType": "",
+        "fileSize": "0",
+        "fileUrl": "https://main-res.metalents.com/94f980ca54c7ddd62136c15df82d9a33-1653701095.jpeg",
+        "fileThumbnailUrl": "https://main-res.metalents.com/94f980ca54c7ddd62136c15df82d9a33-1653701095.jpeg"
+      },
+      "shopname": "Still Mind Designs",
+      "sellerLevels": 0,
+      "levels": 0,
+      "sellerIsVerify": "verified",
+      "title": "Abstract Photography",
+      "category": "Digital Art & Design",
+      "subcategory": "",
+      "subServices": [
+        {
+          "id": 280,
+          "serviceId": 102,
+          "budgetAmount": "20",
+          "coinId": 3,
+          "deliverTime": 5,
+          "finalDocs": "Image NFT with metadata",
+          "revisions": -1,
+          "level": 1,
+          "status": 1
+        },
+        {
+          "id": 281,
+          "serviceId": 102,
+          "budgetAmount": "",
+          "coinId": 1,
+          "deliverTime": 0,
+          "finalDocs": "",
+          "revisions": -1,
+          "level": 2,
+          "status": 2
+        },
+        {
+          "id": 282,
+          "serviceId": 102,
+          "budgetAmount": "",
+          "coinId": 1,
+          "deliverTime": 0,
+          "finalDocs": "",
+          "revisions": -1,
+          "level": 3,
+          "status": 2
+        }
+      ],
+      "description": "I enjoy capturing abstract nature photos and I seem to be particularly drawn to water. Lets figure out what your looking for",
+      "status": 1,
+      "posts": [
+        {
+          "id": 1305,
+          "type": 3,
+          "userId": 1000644,
+          "fileName": "IMG_0342.CR2 (1).jpg",
+          "fileType": "image/jpeg",
+          "fileSize": "709760",
+          "fileUrl": "https://main-res.metalents.com/ba30162e63780f0a8f3466abef1d027c-1654099380.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/ba30162e63780f0a8f3466abef1d027c-1654099380.jpg"
+        },
+        {
+          "id": 1306,
+          "type": 3,
+          "userId": 1000644,
+          "fileName": "IMG_4145.JPG",
+          "fileType": "image/jpeg",
+          "fileSize": "4783473",
+          "fileUrl": "https://main-res.metalents.com/914398e798f05c9132b4391a7c6c91a4-1654099382.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/914398e798f05c9132b4391a7c6c91a4-1654099382.jpg"
+        },
+        {
+          "id": 1307,
+          "type": 3,
+          "userId": 1000644,
+          "fileName": "IMG_2661.JPG",
+          "fileType": "image/jpeg",
+          "fileSize": "3241697",
+          "fileUrl": "https://main-res.metalents.com/9e0773892c09d6609d42cbd845c1e7e3-1654099377.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/9e0773892c09d6609d42cbd845c1e7e3-1654099377.jpg"
+        },
+        {
+          "id": 1308,
+          "type": 3,
+          "userId": 1000644,
+          "fileName": "IMG_5549.jpg",
+          "fileType": "image/jpeg",
+          "fileSize": "704254",
+          "fileUrl": "https://main-res.metalents.com/af136787ca5327a8afadd8b2d88e64d4-1654099007.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/af136787ca5327a8afadd8b2d88e64d4-1654099007.jpg"
+        },
+        {
+          "id": 1309,
+          "type": 3,
+          "userId": 1000644,
+          "fileName": "IMG_5774.jpg",
+          "fileType": "image/jpeg",
+          "fileSize": "399377",
+          "fileUrl": "https://main-res.metalents.com/53ef5e24bf082b9aa5916be38c18c908-1654098948.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/53ef5e24bf082b9aa5916be38c18c908-1654098948.jpg"
+        },
+        {
+          "id": 1310,
+          "type": 3,
+          "userId": 1000644,
+          "fileName": "IMG_5178.JPG",
+          "fileType": "image/jpeg",
+          "fileSize": "2051819",
+          "fileUrl": "https://main-res.metalents.com/81615a962a7f3e87b0399f6a84acdcf6-1654098941.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/81615a962a7f3e87b0399f6a84acdcf6-1654098941.jpg"
+        }
+      ],
+      "postids": "1305,1306,1307,1308,1309,1310",
+      "scope": 0,
+      "avgScope": "",
+      "total": 0,
+      "inQueue": 0,
+      "followed": 0,
+      "isFollowing": false,
+      "totalAmount": "118.4",
+      "createdAt": 1654099122
+    },
+    {
+      "id": 74,
+      "userId": 1000610,
+      "userName": "Flab",
+      "avatar": "https://main-res.metalents.com/d10db5e40ba8df38d3bb915823b4c203-1653298982.jpeg",
+      "userAvatar": {
+        "id": 888,
+        "type": 1,
+        "userId": 0,
+        "fileName": "",
+        "fileType": "",
+        "fileSize": "0",
+        "fileUrl": "https://main-res.metalents.com/d10db5e40ba8df38d3bb915823b4c203-1653298982.jpeg",
+        "fileThumbnailUrl": "https://main-res.metalents.com/d10db5e40ba8df38d3bb915823b4c203-1653298982.jpeg"
+      },
+      "shopname": "Flab Mastering",
+      "sellerLevels": 0,
+      "levels": 0,
+      "sellerIsVerify": "verified",
+      "title": "Audio Editing",
+      "category": "ArtVideo & Animation",
+      "subcategory": "",
+      "subServices": [
+        {
+          "id": 202,
+          "serviceId": 74,
+          "budgetAmount": "150",
+          "coinId": 4,
+          "deliverTime": 7,
+          "finalDocs": "Cleaned and edited 1 audio track",
+          "revisions": 4,
+          "level": 1,
+          "status": 1
+        },
+        {
+          "id": 203,
+          "serviceId": 74,
+          "budgetAmount": "250",
+          "coinId": 4,
+          "deliverTime": 7,
+          "finalDocs": "Cleaned and edited 1 audio track synchro to your video",
+          "revisions": 10,
+          "level": 2,
+          "status": 1
+        },
+        {
+          "id": 204,
+          "serviceId": 74,
+          "budgetAmount": "900",
+          "coinId": 4,
+          "deliverTime": 7,
+          "finalDocs": "Cleaned and edited a compilation of several tracks, total duration less than 30mn",
+          "revisions": -1,
+          "level": 3,
+          "status": 1
+        }
+      ],
+      "description": "I realize the sound editing of your audio track.\nEditing takes place after recording. I perform cleaning of individual tracks if necessary (hiss, crackle, etc). I edit the separate tracks, grouped, or directly the stereo record/mix. \nI can act on the structure of the track, recalibrate or add an element to the tempo, edit an alternative version (advertising format, radio format...), make a synchro sound editing to your video, or simply put together tracks in a compilation.\nI advise you to send me your files in .wav or .aiff format, and at the highest resolution/sample rate used during the mixing (ex: 24bit 48Khz stereo export). All formats are accepted.\nIf you want help exporting your project to the correct format, contact me.\n\nBasic package : Cleaning and editing 1 audio track (music, vocals, speech, instrument,...).\nStandard package : Cleaning and editing 1 audio track synchro to your video (music clip, advertisement, speech,...). \nPremium package : Cleaning and editing a compilation of several tracks, total duration less than 30mn.",
+      "status": 1,
+      "posts": [
+        {
+          "id": 902,
+          "type": 3,
+          "userId": 1000610,
+          "fileName": "Flab Mastering.png",
+          "fileType": "image/png",
+          "fileSize": "47320",
+          "fileUrl": "https://main-res.metalents.com/7a17b343c9a76277a62ea85cfaa1ea31-1653321189.png",
+          "fileThumbnailUrl": "https://main-res.metalents.com/7a17b343c9a76277a62ea85cfaa1ea31-1653321189.png"
+        },
+        {
+          "id": 903,
+          "type": 3,
+          "userId": 1000610,
+          "fileName": "ProToolsEditing02.png",
+          "fileType": "image/png",
+          "fileSize": "536288",
+          "fileUrl": "https://main-res.metalents.com/35656d43043c56ff2974f462aa8d9781-1653321186.png",
+          "fileThumbnailUrl": "https://main-res.metalents.com/35656d43043c56ff2974f462aa8d9781-1653321186.png"
+        },
+        {
+          "id": 904,
+          "type": 3,
+          "userId": 1000610,
+          "fileName": "ProToolsEditing01.png",
+          "fileType": "image/png",
+          "fileSize": "212009",
+          "fileUrl": "https://main-res.metalents.com/51ec42d05e59a52dd82f355b0e196273-1653321169.png",
+          "fileThumbnailUrl": "https://main-res.metalents.com/51ec42d05e59a52dd82f355b0e196273-1653321169.png"
+        }
+      ],
+      "postids": "902,903,904",
+      "scope": 0,
+      "avgScope": "",
+      "total": 0,
+      "inQueue": 0,
+      "followed": 0,
+      "isFollowing": false,
+      "totalAmount": "150",
+      "createdAt": 1653321297
+    },
+    {
+      "id": 93,
+      "userId": 1000668,
+      "userName": "ThatAudioGuy",
+      "avatar": "https://main-res.metalents.com/01771bab18cc3e33cddddc3d65c97cd3-1653810414.jpg",
+      "userAvatar": {
+        "id": 1079,
+        "type": 1,
+        "userId": 0,
+        "fileName": "",
+        "fileType": "",
+        "fileSize": "0",
+        "fileUrl": "https://main-res.metalents.com/01771bab18cc3e33cddddc3d65c97cd3-1653810414.jpg",
+        "fileThumbnailUrl": "https://main-res.metalents.com/01771bab18cc3e33cddddc3d65c97cd3-1653810414.jpg"
+      },
+      "shopname": "All Things Audio",
+      "sellerLevels": 0,
+      "levels": 0,
+      "sellerIsVerify": "verified",
+      "title": "Audio Restoration",
+      "category": "ArtVideo & Animation",
+      "subcategory": "",
+      "subServices": [
+        {
+          "id": 256,
+          "serviceId": 93,
+          "budgetAmount": "100",
+          "coinId": 5,
+          "deliverTime": 2,
+          "finalDocs": "wav. I can also provide other types on request.",
+          "revisions": 1,
+          "level": 1,
+          "status": 1
+        },
+        {
+          "id": 257,
+          "serviceId": 93,
+          "budgetAmount": "130",
+          "coinId": 5,
+          "deliverTime": 2,
+          "finalDocs": "wav. I can also provide other types on request.",
+          "revisions": 2,
+          "level": 2,
+          "status": 1
+        },
+        {
+          "id": 258,
+          "serviceId": 93,
+          "budgetAmount": "180",
+          "coinId": 5,
+          "deliverTime": 2,
+          "finalDocs": "wav. I can also provide other types on request.",
+          "revisions": 4,
+          "level": 3,
+          "status": 1
+        }
+      ],
+      "description": "However the condition is, I'm here to considerably improve the quality of your audio file quickly and precisely.\n\nI use my time-proven skills and an AI-based algorithm to remove/reduce noises and make desired sounds clearer.\n\nI can work with anything from ambient noises to distorted audio.",
+      "status": 1,
+      "posts": [
+        {
+          "id": 1198,
+          "type": 3,
+          "userId": 1000668,
+          "fileName": "KakaoTalk_20220531_105444212_03.jpg",
+          "fileType": "image/jpeg",
+          "fileSize": "2008169",
+          "fileUrl": "https://main-res.metalents.com/0ceb6a27eebd776a36899742f6c3c839-1653962395.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/0ceb6a27eebd776a36899742f6c3c839-1653962395.jpg"
+        }
+      ],
+      "postids": "1198",
+      "scope": 0,
+      "avgScope": "",
+      "total": 0,
+      "inQueue": 0,
+      "followed": 0,
+      
+      "isFollowing": false,
+      "totalAmount": "100",
+      "createdAt": 1653962589
+    },
+    {
+      "id": 50,
+      "userId": 1000280,
+      "userName": "msyafris",
+      "avatar": "https://main-res.metalents.com/d1fe6fbec37c4dc210308688db243bd8-1652801825.jpg",
+      "userAvatar": {
+        "id": 676,
+        "type": 1,
+        "userId": 0,
+        "fileName": "",
+        "fileType": "",
+        "fileSize": "0",
+        "fileUrl": "https://main-res.metalents.com/d1fe6fbec37c4dc210308688db243bd8-1652801825.jpg",
+        "fileThumbnailUrl": "https://main-res.metalents.com/d1fe6fbec37c4dc210308688db243bd8-1652801825.jpg"
+      },
+      "shopname": "MineArt",
+      "sellerLevels": 0,
+      "levels": 0,
+      "sellerIsVerify": "verified",
+      "title": "Community Management",
+      "category": "Services & Marketing",
+      "subcategory": "",
+      "subServices": [
+        {
+          "id": 133,
+          "serviceId": 50,
+          "budgetAmount": "0.5",
+          "coinId": 1,
+          "deliverTime": 2,
+          "finalDocs": "just tell me oke",
+          "revisions": -1,
+          "level": 1,
+          "status": 1
+        },
+        {
+          "id": 134,
+          "serviceId": 50,
+          "budgetAmount": "",
+          "coinId": 1,
+          "deliverTime": 0,
+          "finalDocs": "",
+          "revisions": -1,
+          "level": 2,
+          "status": 2
+        },
+        {
+          "id": 135,
+          "serviceId": 50,
+          "budgetAmount": "",
+          "coinId": 1,
+          "deliverTime": 0,
+          "finalDocs": "",
+          "revisions": -1,
+          "level": 3,
+          "status": 2
+        }
+      ],
+      "description": "im the best choice",
+      "status": 1,
+      "posts": [
+        {
+          "id": 678,
+          "type": 3,
+          "userId": 1000280,
+          "fileName": "piWD7Mkm_400x400.jpg",
+          "fileType": "image/jpeg",
+          "fileSize": "29469",
+          "fileUrl": "https://main-res.metalents.com/b10ee3f51faaef758235fda079ecbede-1652801976.jpg",
+          "fileThumbnailUrl": "https://main-res.metalents.com/b10ee3f51faaef758235fda079ecbede-1652801976.jpg"
+        }
+      ],
+      "postids": "678",
+      "scope": 0,
+      "avgScope": "",
+      "total": 0,
+      "inQueue": 0,
+      "followed": 0,
+      "isFollowing": false,
+      "totalAmount": "812.81",
+      "createdAt": 1652802016
+    }
+  ]
