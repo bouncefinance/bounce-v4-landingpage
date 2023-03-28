@@ -3,9 +3,12 @@ import { useHowAuctionWorksStyles } from './useHowAuctionWorksStyles';
 import { Container, Typography } from '@material-ui/core';
 import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
 import { WithAnimation } from 'src/modules/WithAnimation';
+import { useIsMDDown } from '../../../modules/theme';
 
 const HowAuctionWorks: React.FC = () => {
   const classes = useHowAuctionWorksStyles();
+  const isMd = useIsMDDown();
+
   return (
     <WithScrollFreezing>
       <div className={classes.root} id="industry-block">
@@ -18,7 +21,11 @@ const HowAuctionWorks: React.FC = () => {
           <WithAnimation>
             <img
               className={classes.img}
-              src={'/images/realWorldAuction/how-auction-works.png'}
+              src={
+                isMd
+                  ? '/images/realWorldAuction/how-auction-works-sm.png'
+                  : '/images/realWorldAuction/how-auction-works.png'
+              }
               alt={''}
             />
           </WithAnimation>

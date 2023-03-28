@@ -4,9 +4,11 @@ import { Container, Typography, Box, Grid } from '@material-ui/core';
 import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import classNames from 'classnames';
+import { useIsMDDown } from '../../../modules/theme';
 
 const KeyFeatures: React.FC = () => {
   const classes = useProblemsWithTraditionalStyles();
+  const isMd = useIsMDDown();
   const industryList = [
     {
       icon: '/images/realWorldAuction/p1.svg',
@@ -49,34 +51,38 @@ const KeyFeatures: React.FC = () => {
   return (
     <WithScrollFreezing>
       <div className={classes.root} id="industry-block">
-        <WithAnimation rootMargin={'50%'}>
-          <img
-            className={classes.shoe}
-            src="/images/realWorldAuction/icon1.png"
-            alt=""
-          />
-        </WithAnimation>
-        <WithAnimation rootMargin={'50%'}>
-          <img
-            className={classes.watch}
-            src="/images/realWorldAuction/watch.png"
-            alt=""
-          />
-        </WithAnimation>
-        <WithAnimation rootMargin={'50%'}>
-          <img
-            className={classes.glass}
-            src="/images/realWorldAuction/glass.png"
-            alt=""
-          />
-        </WithAnimation>
-        <WithAnimation rootMargin={'50%'}>
-          <img
-            className={classes.shoe}
-            src="/images/realWorldAuction/icon1.png"
-            alt=""
-          />
-        </WithAnimation>
+        {!isMd && (
+          <>
+            <WithAnimation rootMargin={'50%'}>
+              <img
+                className={classes.shoe}
+                src="/images/realWorldAuction/icon1.png"
+                alt=""
+              />
+            </WithAnimation>
+            <WithAnimation rootMargin={'50%'}>
+              <img
+                className={classes.watch}
+                src="/images/realWorldAuction/watch.png"
+                alt=""
+              />
+            </WithAnimation>
+            <WithAnimation rootMargin={'50%'}>
+              <img
+                className={classes.glass}
+                src="/images/realWorldAuction/glass.png"
+                alt=""
+              />
+            </WithAnimation>
+            <WithAnimation rootMargin={'50%'}>
+              <img
+                className={classes.shoe}
+                src="/images/realWorldAuction/icon1.png"
+                alt=""
+              />
+            </WithAnimation>
+          </>
+        )}
         <Container maxWidth="xl" className={classes.container}>
           <WithAnimation>
             <Typography className={classes.industryTitle}>
