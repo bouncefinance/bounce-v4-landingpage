@@ -1,9 +1,9 @@
 import React from 'react';
-import {WithAnimation} from 'src/modules/WithAnimation';
-import {Box, Typography, Grid} from '@material-ui/core';
-import {useAuctionContentStyles} from './useAuctionContentStyles';
+import { WithAnimation } from 'src/modules/WithAnimation';
+import { Box, Typography, Grid } from '@material-ui/core';
+import { useAuctionContentStyles } from './useAuctionContentStyles';
 import classNames from 'classnames';
-import {useIsMDDown} from "../../../../../modules/theme";
+import { useIsMDDown } from '../../../../../modules/theme';
 
 const AutionTitle: React.FC = () => {
   const classes = useAuctionContentStyles();
@@ -12,43 +12,43 @@ const AutionTitle: React.FC = () => {
     {
       url: '/images/home/auction/slide-right-animation/p5.png',
       style: {
-        top: 327,
-        left: 259,
-        width: 1180,
-        height: 282,
+        top: isMDDown ? 160 : 327,
+        left: isMDDown ? 177 : 259,
+        width: isMDDown ? 708 : 1180,
+        height: isMDDown ? 169 : 282,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/p1.png',
       style: {
-        top: 144,
+        top: isMDDown ? 70 : 144,
         left: 0,
-        width: 284,
+        width: isMDDown ? 183 : 284,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/icon1.png',
       style: {
-        top: 370,
-        left: 80,
-        width: 240,
+        top: isMDDown ? 220 : 370,
+        left: isMDDown ? 60 : 80,
+        width: isMDDown ? 140 : 240,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/icon3.png',
       style: {
         top: 0,
-        left: 267,
-        width: 58,
-        height: 58,
+        left: isMDDown ? 180 : 267,
+        width: isMDDown ? 34 : 58,
+        height: isMDDown ? 34 : 58,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/p2.png',
       style: {
-        top: 102,
-        left: 326,
-        width: 686,
+        top: isMDDown ? 34 : 102,
+        left: isMDDown ? 217 : 326,
+        width: isMDDown ? 416 : 686,
       },
     },
     {
@@ -109,7 +109,7 @@ const AutionTitle: React.FC = () => {
         </Box>
         <Grid container spacing={0}>
           <Grid item md={6} sm={12}>
-            <Typography className={classes.desc} style={{paddingTop: '16px'}}>
+            <Typography className={classes.desc} style={{ paddingTop: '16px' }}>
               <img
                 className={classes.leftTopArrow}
                 src="/images/home/auction/left-top-arrow.svg"
@@ -122,7 +122,7 @@ const AutionTitle: React.FC = () => {
             </Typography>
           </Grid>
           <Grid item md={6} sm={12}>
-            <Typography className={classes.desc} style={{paddingTop: '16px'}}>
+            <Typography className={classes.desc} style={{ paddingTop: '16px' }}>
               The types of auction that Bounce provides include fixed-price
               auction, English auction, Dutch auction, sealed-bid auction,
               random selection auction, playable auction, order book auction,

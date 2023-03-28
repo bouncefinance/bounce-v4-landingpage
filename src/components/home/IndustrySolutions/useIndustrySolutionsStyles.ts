@@ -1,5 +1,4 @@
 import { makeStyles, Theme } from '@material-ui/core';
-import { PARALLAX_MARGIN } from 'src/modules/theme/const';
 import { PALETTE } from 'src/modules/theme/mainTheme';
 
 export const useIndustrySolutionsStyles = makeStyles<Theme>(theme => ({
@@ -75,6 +74,7 @@ export const useIndustrySolutionsStyles = makeStyles<Theme>(theme => ({
       marginLeft: '16px',
       marginRight: '16px',
       height: 'auto',
+      padding: '32px 20px 32px',
     },
   },
   industryBg: {
