@@ -3,8 +3,11 @@ import { useTopBlockStyles } from './useTopBlockStyles';
 import { Container, Typography, Box } from '@material-ui/core';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import ComBtn from 'src/components/common/ComBtn';
+import { useIsMDDown } from '../../../modules/theme';
+
 export const TopBlock = () => {
   const classes = useTopBlockStyles();
+  const isMd = useIsMDDown();
 
   return (
     <div className={classes.pageRoot}>
@@ -28,15 +31,17 @@ export const TopBlock = () => {
               type="text"
               placeholder="Type your question here..."
             />
-            <ComBtn
-              style={{
-                width: 130,
-                textAlign: 'center',
-                padding: '0',
-                marginLeft: 30,
-              }}
-              text={'Search'}
-            ></ComBtn>
+            {!isMd && (
+              <ComBtn
+                style={{
+                  width: 130,
+                  textAlign: 'center',
+                  padding: '0',
+                  marginLeft: 30,
+                }}
+                text={'Search'}
+              ></ComBtn>
+            )}
           </Box>
         </WithAnimation>
       </Container>

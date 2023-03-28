@@ -47,6 +47,8 @@ export const useFAQStyles = makeStyles<Theme>(theme => ({
     [theme.breakpoints.down('sm')]: {
       fontSize: 22,
       marginBottom: 40,
+      textAlign: 'center',
+      margin: '0 auto 40px',
     },
   },
   item: {
@@ -60,6 +62,10 @@ export const useFAQStyles = makeStyles<Theme>(theme => ({
     marginBottom: 32,
     display: 'flex',
     flexFlow: 'row nowrap',
+    [theme.breakpoints.down('sm')]: {
+      marginBottom: 0,
+      height: 'auto',
+    },
   },
   question: {
     flex: 1,
@@ -72,6 +78,12 @@ export const useFAQStyles = makeStyles<Theme>(theme => ({
     fontWeight: 500,
     fontSize: 18,
     color: '#fff',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 16,
+      marginBottom: 24,
+      lineHeight: '22.4px',
+      height: 'auto',
+    },
   },
   answer: {
     lineHeight: '32px',
@@ -80,6 +92,10 @@ export const useFAQStyles = makeStyles<Theme>(theme => ({
     fontSize: 20,
     color: 'rgba(255, 255, 255, 0.8)',
     paddingBottom: '32px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 15,
+      paddingBottom: '24px',
+    },
   },
   btn: {
     display: 'inline-block',

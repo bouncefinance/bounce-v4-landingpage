@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
 import { useFAQStyles } from './useFAQStyles';
-import { Container, Typography, Box, Grid } from '@material-ui/core';
+import { Container, Typography, Box } from '@material-ui/core';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
 import Footer from 'src/components/common/Footer';
 import classNames from 'classnames';
+import { useIsMDDown } from '../../../modules/theme';
+
 export interface FooterProps {
   text?: string;
   handleClick?: () => void;
   isCurrent?: boolean;
   style?: React.CSSProperties;
 }
+
 const ComBtn: React.FC<FooterProps> = ({
   text = '',
   handleClick,
@@ -34,6 +37,7 @@ const ComBtn: React.FC<FooterProps> = ({
 };
 export const FAQ = () => {
   const classes = useFAQStyles();
+  const isMd = useIsMDDown();
   const offerList = [
     {
       question: 'How to sign up for an account?',
@@ -72,16 +76,25 @@ export const FAQ = () => {
             <WithAnimation>
               <Box className={classes.item}>
                 <Box className={classes.questionBox}>
-                  <Typography className={classes.question}>
+                  <Typography
+                    className={classes.question}
+                    onClick={() => {
+                      if (isMd) {
+                        setCurrentIndex(index);
+                      }
+                    }}
+                  >
                     {item.question}
                   </Typography>
-                  <ComBtn
-                    isCurrent={index === currentIndex}
-                    handleClick={() => {
-                      setCurrentIndex(index);
-                    }}
-                    text={'View more'}
-                  ></ComBtn>
+                  {!isMd && (
+                    <ComBtn
+                      isCurrent={index === currentIndex}
+                      handleClick={() => {
+                        setCurrentIndex(index);
+                      }}
+                      text={'View more'}
+                    ></ComBtn>
+                  )}
                 </Box>
                 {currentIndex === index && (
                   <Typography className={classes.answer}>

@@ -8,7 +8,8 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     minHeight: '90vh',
     paddingBottom: 120,
     [theme.breakpoints.down('sm')]: {
-      paddingBottom: 10,
+      paddingBottom: 0,
+      minHeight: '30vh',
     },
     display: 'flex',
     overflow: 'hidden',
@@ -26,18 +27,16 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     flexWrap: 'nowrap',
     justifyContent: 'center',
     background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / 100% auto`,
-    [theme.breakpoints.down('sm')]: {
-      paddingTop: 150,
-    },
+    [theme.breakpoints.down('sm')]: {},
   },
   title: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
     fontSize: 58,
     [theme.breakpoints.down('sm')]: {
-      fontSize: 32,
-      lineHeight: '41.6px',
-      marginBottom: 0,
+      fontSize: 22,
+      lineHeight: '28.6px',
+      marginBottom: 32,
     },
     lineHeight: '75px',
     color: '#171717',
@@ -57,6 +56,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     background: '#FFFFFF',
     border: '1px solid #878A8E',
     borderRadius: '40px',
+    [theme.breakpoints.down('sm')]: {
+      width: '100%',
+      height: 61,
+    },
   },
   searchInput: {
     display: 'inline-block',
@@ -69,5 +72,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     fontFamily: `'Inter'`,
     fontWeight: 400,
     fontSize: 16,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 14,
+      marginLeft: 20,
+    },
   },
 }));
