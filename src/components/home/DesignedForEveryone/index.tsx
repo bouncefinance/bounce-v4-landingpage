@@ -1,8 +1,9 @@
 import React from 'react';
-import {useDesignedForEveryoneStyle} from './useDesignedForEveryoneStyle';
-import {Container, Box, Typography, Grid} from '@material-ui/core';
-import {WithScrollFreezing} from 'src/modules/WithScrollFreezing';
-import {useIsMDDown} from "../../../modules/theme";
+import { useDesignedForEveryoneStyle } from './useDesignedForEveryoneStyle';
+import { Container, Box, Typography, Grid } from '@material-ui/core';
+import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
+import { useIsMDDown } from '../../../modules/theme';
+import {WithAnimation} from 'src/modules/WithAnimation';
 
 const AuctionBlock: React.FC = () => {
   const classes = useDesignedForEveryoneStyle();
@@ -22,36 +23,42 @@ const AuctionBlock: React.FC = () => {
       desc: 'Launch auctions and submit bids through only one click',
     },
   ];
-  const BeginTitle = <Typography className={classes.leftTitle}>
-    For Beginners
-  </Typography>
-  const DevTitle = <Typography className={classes.rightTitle}>
-    For Developers
-  </Typography>
+  const BeginTitle = (
+    <Typography className={classes.leftTitle}>For Beginners</Typography>
+  );
+  const DevTitle = (
+    <Typography className={classes.rightTitle}>For Developers</Typography>
+  );
 
   function BeginDesc() {
     return beginners.map(item => {
       return (
         <Box className={classes.beginnerRow}>
-          <Typography className={classes.beginnerTitle}>
-            <img
-              className={classes.beginnerTitleIcon}
-              src="/images/home/auction/left-icon.svg"
-            />
-            {item.title}
-          </Typography>
-          <Typography className={classes.beginnerDesc}>
-            {item.desc}
-          </Typography>
+          <WithAnimation>
+            <Typography className={classes.beginnerTitle}>
+              <img
+                className={classes.beginnerTitleIcon}
+                src="/images/home/auction/left-icon.svg"
+              />
+              {item.title}
+            </Typography>
+          </WithAnimation>
+          <WithAnimation>
+            <Typography className={classes.beginnerDesc}>
+              {item.desc}
+            </Typography>
+          </WithAnimation>
         </Box>
       );
-    })
+    });
   }
 
-  const DevDesc = <img
-    className={classes.beginnerRightImg}
-    src="/images/home/auction/right-img.png"
-  />
+  const DevDesc = (
+    <img
+      className={classes.beginnerRightImg}
+      src="/images/home/auction/right-img.png"
+    />
+  );
 
   return (
     <WithScrollFreezing>
@@ -87,14 +94,10 @@ const AuctionBlock: React.FC = () => {
           {isMd && (
             <Box className={classes.content}>
               <Box>
-                <Box className={classes.bothTitle}>
-                  {BeginTitle}
-                </Box>
+                <Box className={classes.bothTitle}>{BeginTitle}</Box>
                 {BeginDesc()}
                 <Box className={classes.centerLine}></Box>
-                <Box className={classes.bothTitle}>
-                  {DevTitle}
-                </Box>
+                <Box className={classes.bothTitle}>{DevTitle}</Box>
                 {DevDesc}
               </Box>
             </Box>

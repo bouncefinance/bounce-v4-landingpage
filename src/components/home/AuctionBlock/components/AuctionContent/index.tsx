@@ -122,7 +122,7 @@ const AutionTitle: React.FC = () => {
             </Typography>
           </Grid>
           <Grid item md={6} sm={12}>
-            <Typography className={classes.desc}>
+            <Typography className={classes.desc} style={{paddingTop: '16px'}}>
               The types of auction that Bounce provides include fixed-price
               auction, English auction, Dutch auction, sealed-bid auction,
               random selection auction, playable auction, order book auction,
