@@ -1,5 +1,5 @@
-import {makeStyles, Theme} from '@material-ui/core';
-import {PALETTE} from 'src/modules/theme/mainTheme';
+import { makeStyles, Theme } from '@material-ui/core';
+import { PALETTE } from 'src/modules/theme/mainTheme';
 
 export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
   root: {
@@ -38,7 +38,7 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     marginBottom: 115,
     [theme.breakpoints.down('sm')]: {
       fontSize: 22,
-      marginTop: 80,
+      marginTop: 52,
       marginBottom: 40,
     },
   },
@@ -65,18 +65,30 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
     fontSize: 28,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 18,
+      margin: '0 16px',
+    },
   },
   centerLine: {
     flex: 1,
     margin: '0 35px',
     height: 1,
     borderBottom: `1px dashed #e3e3e3`,
+    [theme.breakpoints.down('sm')]: {
+      margin: '0 16px',
+    },
   },
   rightTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
     fontSize: 28,
     color: '#2B51DA',
+    [theme.breakpoints.down('sm')]: {
+      margin: '0 16px',
+      fontSize: 18,
+      color: '#FFFFFF',
+    },
   },
   beginnerRow: {
     position: 'relative',
@@ -89,6 +101,9 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     color: '#FFFFFF',
     marginBottom: 8,
     lineHeight: '24px',
+    [theme.breakpoints.down('sm')]: {
+      margin: '0 16px',
+    },
   },
   beginnerTitleIcon: {
     width: 12,
@@ -102,11 +117,15 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     marginBottom: 8,
     opacity: 0.8,
     lineHeight: '24px',
+    [theme.breakpoints.down('sm')]: {
+      margin: '0 16px',
+    },
   },
   beginnerRightImg: {
     height: 613,
     [theme.breakpoints.down('sm')]: {
-      height: 300
+      height: 300,
+      margin: '0 0 0 16px',
     },
   },
 }));
