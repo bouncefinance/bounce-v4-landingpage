@@ -11,6 +11,8 @@ import { Box,  } from '@material-ui/core';
 import AuctionBlock from 'src/components/home/AuctionBlock'
 import DesignedForEveryone from 'src/components/home/DesignedForEveryone'
 import IndustrySolutions from 'src/components/home/IndustrySolutions'
+import TypesOfAction from 'src/components/home/TypesOfAction'
+
 export type IHomeProps = {};
 
 const Home: React.FC<IHomeProps> = ({}) => {
@@ -37,6 +39,7 @@ const Home: React.FC<IHomeProps> = ({}) => {
   return (
     <div>
       <TopBlock />
+      <TypesOfAction />
       <AuctionBlock />
       <DesignedForEveryone />
       <IndustrySolutions />
