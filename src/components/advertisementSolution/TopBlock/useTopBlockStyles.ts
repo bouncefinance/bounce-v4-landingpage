@@ -106,4 +106,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
   beginnerRightImg: {
     height: 613,
   },
+  contentBox: {
+    display: 'flex',
+    [theme.breakpoints.down('sm')]: {
+      flexDirection: 'column',
+    },
+  },
 }));

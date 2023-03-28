@@ -46,22 +46,27 @@ export const TopBlock = () => {
           on-chain auction and different modes of ads, we make the advertising
           process more efficient, transparent and fun!
         </WithAnimation>
-        <WithAnimation className={classes.btnBox}>
-          <ComBtn
-            style={{
-              marginRight: 16,
-              padding: isMd ? '0 44px' : '0 70px',
-            }}
-            text={'Start Now'}
-          ></ComBtn>
-          <ComBtn
-            notHightLight={true}
-            text={'Contact Us'}
-            style={{
-              padding: isMd ? '0 44px' : '0 70px',
-            }}
-          ></ComBtn>
-        </WithAnimation>
+        <Box className={classes.contentBox}>
+          <WithAnimation className={classes.btnBox}>
+            <ComBtn
+              style={{
+                marginRight: 16,
+                padding: '0 44px',
+                // padding: isMd ? '0 44px' : '0 70px',
+              }}
+              text={'Start Now'}
+            ></ComBtn>
+            <ComBtn
+              notHightLight={true}
+              text={'Contact Us'}
+              style={{
+                // padding: isMd ? '0 44px' : '0 70px',
+                padding: '0 44px',
+              }}
+            ></ComBtn>
+          </WithAnimation>
+          <img src={'images/advertisementSolution/head-img.png'} alt={''} />
+        </Box>
       </Container>
     </div>
   );
