@@ -30,39 +30,120 @@ export const Header = () => {
     isExternal?: boolean;
     href?: Url;
   }
+  // mobile dialog menu link list
   const links: ILinksItemProps[] = useMemo(
     () => [
       {
-        label: t('header.investment'),
+        label: 'Auction Homepage',
         isExternal: false,
-        href: '/investment',
+        href: '/tokenAndnftAuction',
+        isDisabled: false,
+        extraIcon: '',
+        className: '',
       },
       {
-        label: t('header.jobs-employers'),
+        label: 'Token&NFT auction',
         isExternal: false,
-        href: '/jobs/talents',
+        href: '/tokenAndnftAuction',
+        isDisabled: false,
+        extraIcon: (
+          <img
+            src="/images/footer/live.png"
+            width={16}
+            style={{ marginRight: 4 }}
+          />
+        ),
+        className: '',
       },
       {
-        label: t('header.jobs-talents'),
+        label: 'Real World Asset Auction',
         isExternal: false,
-        href: '/jobs/employers',
+        href: '/realWorldCollectAuction',
+        isDisabled: false,
+        extraIcon: (
+          <img
+            src="/images/footer/live.png"
+            width={16}
+            style={{ marginRight: 4 }}
+          />
+        ),
+        className: '',
       },
       {
-        label: t('header.company'),
-        list: [],
+        label: 'Advertisement Auction',
         isExternal: false,
-        href: '/company',
+        href: '/adsAuction',
+        isDisabled: false,
+        extraIcon: (
+          <img
+            src="/images/footer/live.png"
+            width={16}
+            style={{ marginRight: 4 }}
+          />
+        ),
+        className: '',
       },
       {
-        label: t('header.tools-token'),
+        label: 'SDKs&Plug-ins',
         isExternal: false,
-        href: '/tools/token',
+        href: '/sdkAndPlugins',
+        isDisabled: false,
+        extraIcon: (
+          <img
+            src="/images/footer/live.png"
+            width={16}
+            style={{ marginRight: 4 }}
+          />
+        ),
+        className: '',
       },
       {
-        label: t('header.tools-labs'),
+        label: 'Advertisement',
         isExternal: false,
-        href: '/tools/labs',
+        href: '/advertisementSolution',
+        isDisabled: false,
+        extraIcon: '',
+        className: '',
       },
+      {
+        label: 'AI+Auction ',
+        isExternal: false,
+        href: '/aiAuctionSolution',
+        isDisabled: false,
+        extraIcon: '',
+        className: '',
+      },
+      //   {
+      //     label: t('header.investment'),
+      //     isExternal: false,
+      //     href: '/investment',
+      //   },
+      //   {
+      //     label: t('header.jobs-employers'),
+      //     isExternal: false,
+      //     href: '/jobs/talents',
+      //   },
+      //   {
+      //     label: t('header.jobs-talents'),
+      //     isExternal: false,
+      //     href: '/jobs/employers',
+      //   },
+      //   {
+      //     label: t('header.company'),
+      //     list: [],
+      //     isExternal: false,
+      //     href: '/company',
+      //   },
+      //   {
+      //     label: t('header.tools-token'),
+      //     isExternal: false,
+      //     href: '/tools/token',
+      //   },
+      //   {
+      //     label: t('header.tools-labs'),
+      //     isExternal: false,
+      //     href: '/tools/labs',
+      //   },
     ],
     [],
   );

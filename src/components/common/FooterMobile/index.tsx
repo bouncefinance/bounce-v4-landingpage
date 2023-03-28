@@ -226,84 +226,18 @@ const FooterMobile: React.FC<FooterProps> = ({
   const companyLinks = useMemo(
     () => [
       {
-        label:  t('header.company'),
+        label: 'Advertisement',
         isExternal: false,
-        href: '/company',
+        href: '/advertisementSolution',
         isDisabled: false,
         extraIcon: '',
         className: '',
       },
       {
-        label: t('header.jobs-employers'),
+        label: 'AI+Auction ',
         isExternal: false,
-        href: '/jobs/talents',
+        href: '/aiAuctionSolution',
         isDisabled: false,
-        extraIcon: '',
-        className: '',
-      },
-      {
-        label: t('header.jobs-talents'),
-        isExternal: false,
-        href: '/jobs/employers',
-        isDisabled: false,
-        extraIcon: '',
-        className: '',
-      },
-      {
-        label: t('footer.links.company-list.find-investors'),
-        isExternal: true,
-        href: 'https://app.bounce.finance/company/institutionInvestors',
-        isDisabled: false,
-        extraIcon: (
-          <img
-            src="/images/footer/live.png"
-            width={16}
-            style={{ marginRight: 4 }}
-          />
-        ),
-        className: '',
-      },
-      {
-        label: t('footer.links.company-list.browse-startup-idea'),
-        isExternal: true,
-        href: 'https://app.bounce.finance/company/startupIdeas',
-        isDisabled: false,
-        extraIcon: (
-          <img
-            src="/images/footer/live.png"
-            width={16}
-            style={{ marginRight: 4 }}
-          />
-        ),
-        className: '',
-      },
-      {
-        label: t('footer.links.investment-list.share-startup-idea'),
-        isExternal: true,
-        href: 'https://app.bounce.finance/idea/create',
-        isDisabled: false,
-        extraIcon: (
-          <img
-            src="/images/footer/live.png"
-            width={16}
-            style={{ marginRight: 4 }}
-          />
-        ),
-        className: '',
-      },
-      {
-        label: t('footer.links.investment-list.web3-id-verified'),
-        isExternal: false,
-        href: '/',
-        isDisabled: true,
-        extraIcon: '',
-        className: '',
-      },
-      {
-        label: t('footer.links.investment-list.team-management'),
-        isExternal: false,
-        href: '/',
-        isDisabled: true,
         extraIcon: '',
         className: '',
       },
@@ -314,17 +248,17 @@ const FooterMobile: React.FC<FooterProps> = ({
   const InvestmentLinks = useMemo(
     () => [
       {
-        label: t('footer.links.auction-homepage'),
+        label: 'Auction Homepage',
         isExternal: false,
-        href: '/investment',
+        href: '/tokenAndnftAuction',
         isDisabled: false,
         extraIcon: '',
         className: '',
       },
       {
-        label: t('footer.links.investment-list.browse-market'),
-        isExternal: true,
-        href: 'https://app.bounce.finance/market',
+        label: 'Token&NFT auction',
+        isExternal: false,
+        href: '/tokenAndnftAuction',
         isDisabled: false,
         extraIcon: (
           <img
@@ -336,9 +270,9 @@ const FooterMobile: React.FC<FooterProps> = ({
         className: '',
       },
       {
-        label: t('footer.links.investment-list.browse-company'),
-        isExternal: true,
-        href: 'https://app.bounce.finance/company',
+        label: 'Real World Asset Auction',
+        isExternal: false,
+        href: '/realWorldCollectAuction',
         isDisabled: false,
         extraIcon: (
           <img
@@ -350,9 +284,9 @@ const FooterMobile: React.FC<FooterProps> = ({
         className: '',
       },
       {
-        label: t('footer.links.investment-list.auction-pool'),
-        isExternal: true,
-        href: 'https://app.bounce.finance/market/pools',
+        label: 'Advertisement Auction',
+        isExternal: false,
+        href: '/adsAuction',
         isDisabled: false,
         extraIcon: (
           <img
@@ -364,40 +298,33 @@ const FooterMobile: React.FC<FooterProps> = ({
         className: '',
       },
       {
-        label: t('footer.links.investment-list.nft-launchpad'),
+        label: 'SDKs&Plug-ins',
         isExternal: false,
-        href: '',
-        isDisabled: true,
-        extraIcon: '',
-        className: classes.bottomLink,
+        href: '/sdkAndPlugins',
+        isDisabled: false,
+        extraIcon: (
+          <img
+            src="/images/footer/live.png"
+            width={16}
+            style={{ marginRight: 4 }}
+          />
+        ),
+        className: '',
       },
-      {
-        label: t('footer.links.investment-list.mergers-acquisitions'),
-        isExternal: false,
-        href: '',
-        isDisabled: true,
-        extraIcon: '',
-        className: classes.bottomLink,
-      },
-      // {
-      //   label: t('footer.links.investment-list.defi-market'),
-      //   isExternal: false,
-      //   href: '',
-      //   isDisabled: false,
-      //   extraIcon: (
-      //     <img
-      //       src="/images/footer/live.png"
-      //       width={16}
-      //       style={{ marginRight: 4 }}
-      //     />
-      //   ),
-      //   className: '',
-      // },
     ],
     [],
   );
+
   const toolsLinks = useMemo(
     () => [
+      {
+        label: 'Support Center',
+        isExternal: false,
+        href: '/FAQ',
+        isDisabled: false,
+        extraIcon: '',
+        className: '',
+      },
       {
         label: t('header.tools-token'),
         isExternal: false,
@@ -407,45 +334,61 @@ const FooterMobile: React.FC<FooterProps> = ({
         className: '',
       },
       {
-        label: t('footer.links.labs-list.bounce-v1'),
-        isExternal: true,
-        href: 'https://v1.app.bounce.finance/',
+        label: 'Community',
+        isExternal: false,
+        href: '/joinCommunity',
         isDisabled: false,
         extraIcon: '',
         className: '',
       },
+      //   {
+      //     label: t('footer.links.labs-list.bounce-v1'),
+      //     isExternal: true,
+      //     href: 'https://v1.app.bounce.finance/',
+      //     isDisabled: false,
+      //     extraIcon: '',
+      //     className: '',
+      //   },
+      //   {
+      //     label: t('footer.links.labs-list.bounce-v2'),
+      //     isExternal: true,
+      //     href: 'https://v2.app.bounce.finance/',
+      //     isDisabled: false,
+      //     extraIcon: '',
+      //     className: '',
+      //   },
+      //   {
+      //     label: t('footer.links.labs-list.fangible'),
+      //     isExternal: true,
+      //     href: 'https://fangible.com/',
+      //     isDisabled: false,
+      //     extraIcon: '',
+      //     className: '',
+      //   },
+      //   {
+      //     label: t('footer.links.labs-list.metalent'),
+      //     isExternal: true,
+      //     href: 'https://metalents.com/',
+      //     isDisabled: false,
+      //     extraIcon: '',
+      //     className: '',
+      //   },
       {
-        label: t('footer.links.labs-list.bounce-v2'),
+        label: 'Contact Sales',
         isExternal: true,
-        href: 'https://v2.app.bounce.finance/',
+        href: 'https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/edit',
         isDisabled: false,
         extraIcon: '',
         className: '',
       },
-      {
-        label: t('footer.links.labs-list.fangible'),
-        isExternal: true,
-        href: 'https://fangible.com/',
-        isDisabled: false,
-        extraIcon: '',
-        className: '',
-      },
-      {
-        label: t('footer.links.labs-list.metalent'),
-        isExternal: true,
-        href: 'https://metalents.com/',
-        isDisabled: false,
-        extraIcon: '',
-        className: '',
-      },
-      {
-        label: t('footer.links.labs-list.bounce-metaverse'),
-        isExternal: true,
-        href: 'https://metaverse.bounce.finance/',
-        isDisabled: false,
-        extraIcon: '',
-        className: '',
-      },
+      //   {
+      //     label: t('footer.links.labs-list.bounce-metaverse'),
+      //     isExternal: true,
+      //     href: 'https://metaverse.bounce.finance/',
+      //     isDisabled: false,
+      //     extraIcon: '',
+      //     className: '',
+      //   },
     ],
     [],
   );
@@ -474,7 +417,7 @@ const FooterMobile: React.FC<FooterProps> = ({
             addClassInView={classes.inViewStyle}
           >
             <FooterLinks
-              title={t('header.investment')}
+              title={'Products'}
               links={InvestmentLinks}
               colorTheme={colorTheme}
               defaultOpen={true}
@@ -486,7 +429,7 @@ const FooterMobile: React.FC<FooterProps> = ({
             addClassInView={classes.inViewStyle}
           >
             <FooterLinks
-              title={t('footer.links.service')}
+              title={'Solutions'}
               links={companyLinks}
               colorTheme={colorTheme}
             />
@@ -497,7 +440,7 @@ const FooterMobile: React.FC<FooterProps> = ({
             addClassInView={classes.inViewStyle}
           >
             <FooterLinks
-              title={t('header.ecosystem')}
+              title={'Resources'}
               links={toolsLinks}
               colorTheme={colorTheme}
             />
