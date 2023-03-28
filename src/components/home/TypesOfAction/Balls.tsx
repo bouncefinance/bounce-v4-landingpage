@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Box } from '@material-ui/core';
 import { useCallback, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
@@ -19,23 +20,23 @@ export default function Balls() {
       MOUSE_SIZE = 50,
       SPEED = 1;
 
-    var canvas,
-      ctx,
+    var canvas: HTMLElement | null,
+      ctx: { clearRect: (arg0: number, arg1: number, arg2: any, arg3: any) => void; fillStyle: string; strokeStyle: string; beginPath: () => void; arc: (arg0: number, arg1: number, arg2: number, arg3: number, arg4: number) => void; fill: () => void; stroke: () => void; },
       TWO_PI = Math.PI * 2,
-      balls = [],
+      balls: any[] = [],
       mouse = { down: false, x: 0, y: 0 };
 
-    window.requestAnimFrame =
+    window.requestAnimationFrame =
       window.requestAnimationFrame ||
-      window.webkitRequestAnimationFrame ||
+      window.requestAnimationFrame ||
       window.mozRequestAnimationFrame ||
       window.oRequestAnimationFrame ||
-      window.msRequestAnimationFrame ||
+      window.requestAnimationFrame ||
       function (callback) {
         window.setTimeout(callback, 1000 / 60);
       };
 
-    var Ball = function (x, y, radius, index) {
+    var Ball = function (this: any, x: any, y: any, radius: number, index: any) {
       this.x = x;
       this.y = y;
 
@@ -49,7 +50,7 @@ export default function Balls() {
       this.index = index;
     };
 
-    Ball.prototype.apply_force = function (delta) {
+    Ball.prototype.apply_force = function (delta: number) {
       delta *= delta;
 
       this.fy += GRAVITY;
@@ -71,7 +72,7 @@ export default function Balls() {
       this.y = ny;
     };
 
-    Ball.prototype.draw = function (ctx) {
+    Ball.prototype.draw = function (ctx: { beginPath: () => void; arc: (arg0: any, arg1: any, arg2: any, arg3: number, arg4: number) => void; save: () => void; translate: (arg0: number, arg1: number) => void; scale: (arg0: number, arg1: number) => void; drawImage: (arg0: HTMLImageElement, arg1: number, arg2: number) => void; restore: () => void; }) {
       var img = new Image();
       img.src = `./balls/${this.index + 1}.png`; // Replace with the path to your image
 
@@ -90,7 +91,7 @@ export default function Balls() {
 
     //---------------------------------------
 
-    var resolve_collisions = function (ip) {
+    var resolve_collisions = function (ip: number | undefined) {
       var i = balls.length;
 
       while (i--) {
@@ -232,12 +233,12 @@ export default function Balls() {
         ctx.stroke();
       }
 
-      requestAnimFrame(update);
+      requestAnimationFrame(update);
 
       //console.log(new Date().getTime() - time);
     };
 
-    var add_ball = function (x, y, r, index) {
+    var add_ball = function (x: number | undefined, y: number | undefined, r: number | undefined, index: number) {
       var x = x || Math.random() * (canvas.width - 60) + 30,
         y = y || Math.random() * (canvas.height - 60) + 30,
         r = r || 10 + Math.random() * 20,
