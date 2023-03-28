@@ -24,6 +24,9 @@ export const useChooseModesForAdsStyles = makeStyles<Theme>(theme => ({
     padding: '102px 0 0',
     maxWidth: '1080px !important',
     margin: '0 auto',
+    [theme.breakpoints.down('sm')]: {
+      padding: '80px 0 0',
+    },
   },
   industryTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -32,6 +35,11 @@ export const useChooseModesForAdsStyles = makeStyles<Theme>(theme => ({
     color: '#171717',
     textAlign: 'center',
     marginBottom: '64px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 32,
+      textAlign: 'center',
+      lineHeight: '41.6px'
+    },
   },
   industryItem: {
     position: 'relative',
@@ -44,6 +52,10 @@ export const useChooseModesForAdsStyles = makeStyles<Theme>(theme => ({
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     cursor: 'pointer',
+    [theme.breakpoints.down('sm')]: {
+      height: 'auto',
+      margin: '0 16px'
+    },
   },
   industryItem2: {
     background: '#F5F6F8'
@@ -62,6 +74,9 @@ export const useChooseModesForAdsStyles = makeStyles<Theme>(theme => ({
     fontSize: 24,
     color: '#2B51DA',
     marginBottom: 16,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 17,
+    },
   },
   industryItemContent: {
     fontFamily: `'Inter'`,
@@ -69,5 +84,9 @@ export const useChooseModesForAdsStyles = makeStyles<Theme>(theme => ({
     fontSize: 16,
     color: '#171717',
     marginBottom: 16,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 14,
+      marginBottom: 48,
+    },
   },
 }));

@@ -1,13 +1,15 @@
 import React from 'react';
-import { useChooseModesForAdsStyles } from './useChooseModesForAdsStyles';
-import { Container, Typography, Box, Grid } from '@material-ui/core';
-import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
-import { WithAnimation } from 'src/modules/WithAnimation';
+import {useChooseModesForAdsStyles} from './useChooseModesForAdsStyles';
+import {Container, Typography, Box, Grid} from '@material-ui/core';
+import {WithScrollFreezing} from 'src/modules/WithScrollFreezing';
+import {WithAnimation} from 'src/modules/WithAnimation';
 import Footer from 'src/components/common/Footer';
 import classNames from 'classnames';
+import {useIsMDDown} from "../../../modules/theme";
 
 const ChooseModesForAds: React.FC = () => {
   const classes = useChooseModesForAdsStyles();
+  const isMd = useIsMDDown();
   const industryList = [
     {
       title: 'Exclusive Ads',
@@ -30,9 +32,9 @@ const ChooseModesForAds: React.FC = () => {
               Ads
             </Typography>
           </WithAnimation>
-          <Grid container spacing={2}>
+          <Grid container spacing={2} style={{marginBottom: isMd ? 80 : 0}}>
             {industryList.map((item, index) => (
-              <Grid item xs={6} style={{ marginBottom: 120 }}>
+              <Grid item md={6} sm={12} style={{marginBottom: isMd ? 0 : 120}}>
                 <Box
                   className={classNames(
                     classes.industryItem,

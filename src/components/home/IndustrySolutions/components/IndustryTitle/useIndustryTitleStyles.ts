@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core';
+import {makeStyles} from '@material-ui/core';
 
 export const useIndustryTitleStyles = makeStyles(theme => ({
   auctionTitleblock: {
@@ -15,11 +15,17 @@ export const useIndustryTitleStyles = makeStyles(theme => ({
     height: '171px',
     opacity: 1,
     transform: 'translate3D(0, 0, 0)',
+    [theme.breakpoints.down('sm')]: {
+      height: 'auto',
+    },
   },
   content: {
     position: 'relative',
     width: '100%',
     height: '171px',
+    [theme.breakpoints.down('sm')]: {
+      height: 'auto',
+    },
   },
   slideContent: {
     position: 'relative',
@@ -28,6 +34,9 @@ export const useIndustryTitleStyles = makeStyles(theme => ({
     flexFlow: 'row nowrap',
     alignItems: 'center',
     transform: 'translate3D(0, 0, 0)',
+    [theme.breakpoints.down('sm')]: {
+      height: 'auto',
+    },
   },
   slideTitle: {
     display: 'inline-block',
@@ -38,10 +47,17 @@ export const useIndustryTitleStyles = makeStyles(theme => ({
     lineHeight: '76px',
     whiteSpace: 'nowrap',
     color: '#171717',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '22px',
+    },
   },
   titleIcon: {
     margin: '0 35px',
     color: '#171717',
+    [theme.breakpoints.down('sm')]: {
+      width: '35px',
+      height: '35px'
+    },
   },
   '@keyframes toLeft': {
     from: {

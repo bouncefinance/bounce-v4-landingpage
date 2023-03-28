@@ -31,6 +31,9 @@ export const useEndToEndStyles = makeStyles<Theme>(theme => ({
     display: 'flex',
     flexFlow: 'column nowrap',
     margin: '0 auto',
+    [theme.breakpoints.down('sm')]: {
+      paddingTop: 20,
+    },
   },
   leftTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -39,6 +42,10 @@ export const useEndToEndStyles = makeStyles<Theme>(theme => ({
     color: '#fff',
     textAlign: 'left',
     marginBottom: 40,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 32,
+      textAlign: 'center',
+    },
   },
   leftDesc: {
     fontFamily: `'Inter'`,
@@ -47,8 +54,14 @@ export const useEndToEndStyles = makeStyles<Theme>(theme => ({
     color: 'rgba(255, 255, 255, 0.8)',
     textAlign: 'left',
     marginBottom: 40,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 14,
+    },
   },
   rightImg: {
     height: 445,
+    [theme.breakpoints.down('sm')]: {
+      height: 256,
+    },
   },
 }));

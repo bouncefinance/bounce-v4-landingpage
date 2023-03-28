@@ -43,6 +43,12 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
     marginBottom: 71,
     paddingLeft: 80,
     color: '#fff',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 22,
+      paddingLeft: 0,
+      marginBottom: 40,
+      textAlign: 'center',
+    },
   },
   description: {
     marginBottom: 20,
@@ -92,5 +98,10 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
     width: 220,
     height: 86,
     margin: '0 10px',
+  },
+  rowImgSm: {
+    width: '50%',
+    padding: theme.spacing(1),
+    height: 'auto',
   },
 }));

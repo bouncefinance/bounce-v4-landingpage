@@ -7,6 +7,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     margin: 0,
     minHeight: '90vh',
     paddingBottom: 120,
+    [theme.breakpoints.down('sm')]: {
+      paddingBottom: 10,
+    },
     display: 'flex',
     overflow: 'hidden',
     position: 'relative',
@@ -23,11 +26,17 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     flexWrap: 'nowrap',
     justifyContent: 'center',
     background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / 100% auto`,
+    [theme.breakpoints.down('sm')]: {
+      paddingTop: 150,
+    },
   },
   title1: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
     fontSize: 28,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 18,
+    },
     color: '#2B51DA',
     textAlign: 'center',
     marginBottom: 16,
@@ -37,6 +46,11 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
     fontSize: 58,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 32,
+      lineHeight: '41.6px',
+      marginBottom: 0,
+    },
     lineHeight: '75px',
     color: '#171717',
     textAlign: 'center',
@@ -48,6 +62,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     fontWeight: 400,
     fontSize: 20,
     lineHeight: '32px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 15,
+      lineHeight: '22.5px',
+    },
     color: '#171717',
     textAlign: 'center',
     maxWidth: 970,
@@ -57,6 +75,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
   btnBox: {
     display: 'flex',
     justifyContent: 'center',
+    [theme.breakpoints.down('sm')]: {
+      marginBottom: 148,
+    },
     marginBottom: 183,
     zIndex: 1,
   },
@@ -66,11 +87,19 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     left: '50%',
     width: '250px',
     transform: 'translate3D(-550px, -50%, 0)',
+    [theme.breakpoints.down('sm')]: {
+      width: '120px',
+      left: 0,
+      transform: 'translate3D(0, -50%, 0)',
+    },
     transition: 'all 0.6s',
     transitionDelay: '0.3s',
   },
   p2Show: {
     transform: 'translate3D(-500px, 0, 0)',
+    [theme.breakpoints.down('sm')]: {
+      transform: 'translate3D(0, 0, 0)',
+    },
   },
   p3: {
     position: 'absolute',
@@ -78,6 +107,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     left: 0,
     width: '250px',
     transform: 'translate3D(-50%, 20%, 0)',
+    [theme.breakpoints.down('sm')]: {
+      width: '120px',
+      transform: 'translate3D(-50%, 20%, 0)',
+    },
     transition: 'all 0.6s',
     transitionDelay: '0.5s',
   },
@@ -90,11 +123,18 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     left: '50%',
     width: '120px',
     transform: 'translate3D(550px, -70px, 0)',
+    [theme.breakpoints.down('sm')]: {
+      width: '100px',
+      transform: 'translate3D(50%, 0, 0)',
+    },
     transition: 'all 0.6s',
     transitionDelay: '0.4s',
   },
   p4Show: {
     transform: 'translate3D(450px, 0, 0)',
+    [theme.breakpoints.down('sm')]: {
+      transform: 'translate3D(172px, 0, 0)',
+    },
   },
   p5: {
     position: 'absolute',
@@ -102,6 +142,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     right: 0,
     width: '260px',
     transform: 'translate3D(50%, 50px, 0)',
+    [theme.breakpoints.down('sm')]: {
+      width: '120px',
+      transform: 'translate3D(50%, 50px, 0)',
+    },
     transition: 'all 0.6s',
     transitionDelay: '0.7s',
   },
@@ -118,12 +162,19 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     background: '#F5F6F8',
     borderRadius: 24,
     padding: '40px 112px',
+    [theme.breakpoints.down('sm')]: {
+      padding: '40px 20px',
+    },
   },
   infoTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
     fontSize: 28,
     color: '#2B51DA',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 18,
+      ineHeight: '27px',
+    },
     marginBottom: 24,
     textAlign: 'center',
     ineHeight: '39px',
@@ -132,6 +183,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     fontFamily: `'Inter'`,
     fontWeight: 400,
     fontSize: 16,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 14,
+      ineHeight: '21px',
+    },
     color: '#171717',
     lineHeight: '24px',
     marginBottom: 24,

@@ -65,7 +65,7 @@ const KeyFeatures: React.FC = () => {
 
           <Grid container spacing={2}>
             {industryList.map((item, index) => (
-              <Grid item xs={4}>
+              <Grid item md={4} sm={12}>
                 <Box
                   className={classNames(
                     classes.industryItem,

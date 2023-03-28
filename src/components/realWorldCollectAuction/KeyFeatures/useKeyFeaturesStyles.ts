@@ -24,6 +24,9 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     padding: '120px 0 150px',
     maxWidth: '1080px !important',
     margin: '0 auto',
+    [theme.breakpoints.down('sm')]: {
+      padding: '80px 0 150px',
+    },
   },
   industryTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -32,6 +35,10 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     color: '#fff',
     textAlign: 'center',
     marginBottom: '40px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 22,
+      margin: '0 24px 40px'
+    },
   },
   industryItem: {
     position: 'relative',
@@ -44,6 +51,11 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     cursor: 'pointer',
+    [theme.breakpoints.down('sm')]: {
+      margin: '0 16px',
+      height: 'auto',
+      padding: '32px 20px 40px'
+    },
   },
   industryItem2: {
     background: '#F5F6F8'
@@ -62,6 +74,9 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     fontSize: 24,
     color: '#2B51DA',
     marginBottom: 16,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 17,
+    },
   },
   industryItemContent: {
     fontFamily: `'Inter'`,
@@ -69,5 +84,8 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     fontSize: 16,
     color: '#171717',
     marginBottom: 16,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 14,
+    },
   },
 }));

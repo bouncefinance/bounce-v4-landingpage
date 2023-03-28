@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core';
+import {makeStyles} from '@material-ui/core';
 
 export const useAuctionTitleStyles = makeStyles(theme => ({
   auctionTitleblock: {
@@ -14,11 +14,18 @@ export const useAuctionTitleStyles = makeStyles(theme => ({
     height: '198px',
     opacity: 1,
     transform: 'translate3D(0, 0, 0)',
+    [theme.breakpoints.down('sm')]: {
+      height: 'auto',
+      padding: '16px 0'
+    },
   },
   content: {
     position: 'relative',
     width: '100%',
     height: '198px',
+    [theme.breakpoints.down('sm')]: {
+      height: 'auto'
+    },
   },
   slideContent: {
     position: 'relative',
@@ -27,6 +34,9 @@ export const useAuctionTitleStyles = makeStyles(theme => ({
     flexFlow: 'row nowrap',
     alignItems: 'center',
     transform: 'translate3D(0, 0, 0)',
+    [theme.breakpoints.down('sm')]: {
+      height: '55px',
+    },
   },
   slideTitle: {
     display: 'inline-block',
@@ -36,6 +46,9 @@ export const useAuctionTitleStyles = makeStyles(theme => ({
     height: '76px',
     lineHeight: '76px',
     whiteSpace: 'nowrap',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '22px',
+    },
   },
   sectionName: {
     position: 'absolute',
@@ -49,6 +62,9 @@ export const useAuctionTitleStyles = makeStyles(theme => ({
     alignItems: 'center',
     background: '#232323',
     borderRadius: '28px 28px 0 0',
+    [theme.breakpoints.down('sm')]: {
+      display: 'none'
+    },
   },
   sectionBtn: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -63,6 +79,10 @@ export const useAuctionTitleStyles = makeStyles(theme => ({
   },
   titleIcon: {
     margin: '0 35px',
+    [theme.breakpoints.down('sm')]: {
+      width: '35px',
+      height: '35px'
+    },
   },
   '@keyframes toLeft': {
     from: {
@@ -70,6 +90,11 @@ export const useAuctionTitleStyles = makeStyles(theme => ({
     },
     to: {
       left: 'calc(-4998px + 489px)',
+    },
+    [theme.breakpoints.down('sm')]: {
+      to: {
+        left: 'calc(-4998px + 10px)',
+      },
     },
   },
   iconsBox: {

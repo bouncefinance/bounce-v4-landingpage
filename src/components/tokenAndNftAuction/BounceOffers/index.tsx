@@ -41,7 +41,7 @@ export const BounceOffers = () => {
           <WithAnimation>
             <Grid container spacing={2}>
               {offerList.map((item, index) => (
-                <Grid item xs={4} key={index}>
+                <Grid item md={4} sm={12} key={index}>
                   <Box className={classes.item}>
                     <Typography className={classes.itemTitle}>
                       {item.title}

@@ -23,6 +23,9 @@ export const useTackiesTheIssuesStyles = makeStyles<Theme>(theme => ({
     padding: '120px 0 150px',
     maxWidth: '1080px !important',
     margin: '0 auto',
+    [theme.breakpoints.down('sm')]: {
+      padding: '80px 0 150px',
+    },
   },
   industryTitle: {
     width: '518px',
@@ -32,6 +35,11 @@ export const useTackiesTheIssuesStyles = makeStyles<Theme>(theme => ({
     color: '#fff',
     textAlign: 'center',
     margin: '0 auto 40px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 22,
+      margin: '0 16px 40px',
+      width: 'auto',
+    },
   },
   industryItem: {
     position: 'relative',
@@ -44,6 +52,9 @@ export const useTackiesTheIssuesStyles = makeStyles<Theme>(theme => ({
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     cursor: 'pointer',
+    [theme.breakpoints.down('sm')]: {
+      width: '306px',
+    },
   },
   industryItem2: {
     background: '#F5F6F8',
@@ -55,7 +66,6 @@ export const useTackiesTheIssuesStyles = makeStyles<Theme>(theme => ({
     width: 64,
     height: 64,
     marginBottom: 14,
-
   },
   industryItemTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -69,5 +79,16 @@ export const useTackiesTheIssuesStyles = makeStyles<Theme>(theme => ({
     fontWeight: 400,
     fontSize: 14,
     color: '#171717',
+  },
+  mobileScroll: {
+    display: 'flex',
+    overflowX: 'auto',
+    width: '100%',
+    padding: '0 16px',
+  },
+  mobileScrollItem: {
+    display: 'inline-block',
+    width: '90%',
+    margin: '0 4px',
   },
 }));

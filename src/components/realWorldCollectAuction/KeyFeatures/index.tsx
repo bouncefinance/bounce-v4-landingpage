@@ -40,7 +40,7 @@ const KeyFeature: React.FC = () => {
           </WithAnimation>
           <Grid container spacing={2}>
             {industryList.map((item, index) => (
-              <Grid item xs={6}>
+              <Grid item md={6} sm={12}>
                 <Box
                   className={classNames(
                     classes.industryItem,

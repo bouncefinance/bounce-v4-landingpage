@@ -24,6 +24,9 @@ export const useProblemsWithTraditionalStyles = makeStyles<Theme>(theme => ({
     padding: '120px 0 150px',
     maxWidth: '1080px !important',
     margin: '0 auto',
+    [theme.breakpoints.down('sm')]: {
+      padding: '80px 0 150px',
+    },
   },
   shoe: {
     position: 'absolute',
@@ -52,6 +55,11 @@ export const useProblemsWithTraditionalStyles = makeStyles<Theme>(theme => ({
     color: '#171717',
     textAlign: 'center',
     margin: '0 auto 40px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 22,
+      margin: '0 16px 40px',
+      width: 'auto'
+    },
   },
   industryItem: {
     position: 'relative',
@@ -64,6 +72,9 @@ export const useProblemsWithTraditionalStyles = makeStyles<Theme>(theme => ({
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     cursor: 'pointer',
+    [theme.breakpoints.down('sm')]: {
+      margin: '0 16px'
+    },
   },
   industryItem2: {
     background: '#F5F6F8',
@@ -82,11 +93,17 @@ export const useProblemsWithTraditionalStyles = makeStyles<Theme>(theme => ({
     fontSize: 18,
     color: '#171717',
     marginBottom: 14,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 16,
+    },
   },
   industryItemContent: {
     fontFamily: `'Inter'`,
     fontWeight: 400,
     fontSize: 14,
     color: '#171717',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 12,
+    },
   },
 }));

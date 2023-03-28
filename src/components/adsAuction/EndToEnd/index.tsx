@@ -13,7 +13,8 @@ export const EndToEnd = () => {
           <Grid container spacing={0}>
             <Grid
               item
-              xs={6}
+              md={6}
+              sm={12}
             >
               <WithAnimation>
                 <Typography className={classes.leftTitle}>

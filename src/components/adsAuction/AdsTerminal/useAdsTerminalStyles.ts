@@ -31,6 +31,9 @@ export const useAdsTerminalStyles = makeStyles<Theme>(theme => ({
     display: 'flex',
     flexFlow: 'column nowrap',
     margin: '0 auto',
+    [theme.breakpoints.down('sm')]: {
+      paddingTop: 20,
+    },
   },
   logo: {
     display: 'block',

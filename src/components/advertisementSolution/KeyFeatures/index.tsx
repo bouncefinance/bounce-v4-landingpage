@@ -4,9 +4,11 @@ import { Container, Typography, Box, Grid } from '@material-ui/core';
 import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import classNames from 'classnames';
+import { useIsMDDown } from '../../../modules/theme';
 
 const KeyFeature: React.FC = () => {
   const classes = useKeyFeaturesStyles();
+  const isMd = useIsMDDown();
   const industryList = [
     {
       title: 'Exclusive Ads',
@@ -29,7 +31,7 @@ const KeyFeature: React.FC = () => {
             </Typography>
           </WithAnimation>
           <Grid container spacing={2}>
-            <Grid item xs={6}>
+            <Grid item md={6} sm={12}>
               <Box className={classNames(classes.industryItem)}>
                 <WithAnimation>
                   <Typography className={classes.industryItemTitle}>
@@ -52,7 +54,8 @@ const KeyFeature: React.FC = () => {
             </Grid>
             <Grid
               item
-              xs={6}
+              md={6}
+              sm={12}
               style={{
                 marginBottom: 80,
               }}
@@ -69,7 +72,7 @@ const KeyFeature: React.FC = () => {
                   </Typography>
                 </WithAnimation>
                 <WithAnimation>
-                  <Typography className={classes.industryItemContent}>
+                  <Typography className={classes.industryItemContent2}>
                     Bid for an ad placement and join forces with other
                     businesses. Create a larger advertising footprint and reach
                     a wider audience.
@@ -83,7 +86,11 @@ const KeyFeature: React.FC = () => {
               </Box>
             </Grid>
           </Grid>
-          <img className={classNames(classes.fullImg)} src="/images/advertisementSolution/p1.png" alt="" />
+          <img
+            className={classNames(classes.fullImg)}
+            src="/images/advertisementSolution/p1.png"
+            alt=""
+          />
         </Container>
       </div>
     </WithScrollFreezing>

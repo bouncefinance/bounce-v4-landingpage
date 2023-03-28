@@ -1,9 +1,12 @@
 import React from 'react';
-import { useTopBlockStyles } from './useTopBlockStyles';
-import { Container, Typography, Box, Grid } from '@material-ui/core';
-import { WithAnimation } from 'src/modules/WithAnimation';
+import {useTopBlockStyles} from './useTopBlockStyles';
+import {Container, Typography, Box, Grid} from '@material-ui/core';
+import {WithAnimation} from 'src/modules/WithAnimation';
 import ComBtn from 'src/components/common/ComBtn';
+import {useIsMDDown} from "../../../modules/theme";
+
 export const TopBlock = () => {
+  const isMd = useIsMDDown();
   const classes = useTopBlockStyles();
   const beginners = [
     {
@@ -19,6 +22,41 @@ export const TopBlock = () => {
       desc: 'Launch auctions and submit bids through only one click',
     },
   ];
+  const title = <WithAnimation>
+    <Typography className={classes.leftTitle}>
+      Transform Your Advertising Strategy With Bounce's Full Suite of
+      Innovative Solutions.
+    </Typography>
+  </WithAnimation>
+
+  function desc() {
+    return beginners.map(item => {
+      return (
+        <WithAnimation>
+          <Box className={classes.beginnerRow}>
+            <Typography className={classes.beginnerTitle}>
+              <img
+                className={classes.beginnerTitleIcon}
+                src="/images/home/auction/left-icon.svg"
+              />
+              {item.title}
+            </Typography>
+            <Typography className={classes.beginnerDesc}>
+              {item.desc}
+            </Typography>
+          </Box>
+        </WithAnimation>
+      );
+    })
+  }
+
+  const img = <WithAnimation>
+    <img
+      className={classes.beginnerRightImg}
+      src="/images/adsAuction/bg.png"
+    />
+  </WithAnimation>
+
   return (
     <div className={classes.pageRoot}>
       <Container maxWidth={false} className={classes.pageContainer}>
@@ -60,48 +98,26 @@ export const TopBlock = () => {
         <WithAnimation className={classes.btnBox}>
           <ComBtn text={'Start Now'}></ComBtn>
         </WithAnimation>
-        <Grid container spacing={0}>
-          <Grid
-            item
-            xs={6}
-            style={{
-              paddingTop: 109,
-            }}
-          >
-            <WithAnimation>
-              <Typography className={classes.leftTitle}>
-                Transform Your Advertising Strategy With Bounce's Full Suite of
-                Innovative Solutions.
-              </Typography>
-            </WithAnimation>
-            {beginners.map(item => {
-              return (
-                <WithAnimation>
-                  <Box className={classes.beginnerRow}>
-                    <Typography className={classes.beginnerTitle}>
-                      <img
-                        className={classes.beginnerTitleIcon}
-                        src="/images/home/auction/left-icon.svg"
-                      />
-                      {item.title}
-                    </Typography>
-                    <Typography className={classes.beginnerDesc}>
-                      {item.desc}
-                    </Typography>
-                  </Box>
-                </WithAnimation>
-              );
-            })}
-          </Grid>
-          <Grid item xs={6}>
-            <WithAnimation>
-              <img
-                className={classes.beginnerRightImg}
-                src="/images/adsAuction/bg.png"
-              />
-            </WithAnimation>
-          </Grid>
-        </Grid>
+        {!isMd && <Grid container spacing={0}>
+            <Grid
+                item
+                xs={6}
+                style={{
+                  paddingTop: 109,
+                }}
+            >
+              {title}
+              {desc()}
+            </Grid>
+            <Grid item xs={6}>
+              {img}
+            </Grid>
+        </Grid>}
+        {isMd && <Box>
+          {img}
+          {title}
+          {desc()}
+        </Box>}
       </Container>
     </div>
   );

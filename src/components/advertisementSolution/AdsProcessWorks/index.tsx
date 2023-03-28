@@ -4,8 +4,10 @@ import { Container, Typography, Box, Grid } from '@material-ui/core';
 import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import classNames from 'classnames';
+import { useIsMDDown } from '../../../modules/theme';
 
 const AdsProcessWorks: React.FC = () => {
+  const isMDDown = useIsMDDown();
   const classes = useAdsProcessWorksStyles();
   return (
     <WithScrollFreezing>
@@ -16,8 +18,15 @@ const AdsProcessWorks: React.FC = () => {
               How Our Ads Auction Process Works
             </Typography>
           </WithAnimation>
-          <Grid container spacing={2}>
-            <Grid item xs={6}>
+          <Grid container spacing={isMDDown ? 0 : 2}>
+            <Grid
+              item
+              md={6}
+              sm={12}
+              style={{
+                marginBottom: isMDDown ? '16px' : 0,
+              }}
+            >
               <WithAnimation>
                 <img
                   className={classes.contentImg}
@@ -28,7 +37,8 @@ const AdsProcessWorks: React.FC = () => {
             </Grid>
             <Grid
               item
-              xs={6}
+              md={6}
+              sm={12}
               style={{
                 marginBottom: 80,
               }}

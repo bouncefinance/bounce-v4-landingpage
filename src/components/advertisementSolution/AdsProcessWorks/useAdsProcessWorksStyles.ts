@@ -24,6 +24,9 @@ export const useAdsProcessWorksStyles = makeStyles<Theme>(theme => ({
     padding: '120px 0 0',
     maxWidth: '1080px !important',
     margin: '0 auto',
+    [theme.breakpoints.down('sm')]: {
+      padding: '80px 0 0',
+    },
   },
   industryTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -32,9 +35,16 @@ export const useAdsProcessWorksStyles = makeStyles<Theme>(theme => ({
     color: '#fff',
     textAlign: 'center',
     marginBottom: '80px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 22,
+      margin: '0 24px 40px',
+    },
   },
   contentImg: {
     display: 'block',
     width: '100%',
+    [theme.breakpoints.down('sm')]: {
+      padding: '0 16px',
+    },
   },
 }));

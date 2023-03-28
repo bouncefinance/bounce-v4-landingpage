@@ -30,6 +30,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     textAlign: 'left',
     marginBottom: 16,
     zIndex: 1,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 18,
+      textAlign: 'center',
+    },
   },
   title2: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -40,6 +44,11 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     textAlign: 'left',
     marginBottom: 16,
     zIndex: 1,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 32,
+      lineHeight: '41.6px',
+      textAlign: 'center',
+    },
   },
   text: {
     fontFamily: `'Inter'`,
@@ -51,12 +60,18 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     maxWidth: 970,
     margin: '40px 0 32px',
     zIndex: 1,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 15,
+    },
   },
   btnBox: {
     display: 'flex',
     justifyContent: 'flex-start',
     marginBottom: 183,
     zIndex: 1,
+    [theme.breakpoints.down('sm')]: {
+      justifyContent: 'center',
+    },
   },
   rightImgBox: {
     position: 'relative',

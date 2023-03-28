@@ -64,6 +64,11 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       // textIndent: '-70px',
       // paddingLeft: theme.spacing(8.75),
     },
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 32,
+      lineHeight: '41.6px',
+      marginTop: 110,
+    },
   },
   text: {
     lineHeight: '32px',
@@ -75,12 +80,20 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     [theme.breakpoints.up('md')]: {
       maxWidth: 671,
     },
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 15,
+      marginBottom: 48,
+    },
   },
   btnWrap: {
     display: 'flex',
     flexDirection: 'column',
     [theme.breakpoints.up('md')]: {
       flexDirection: 'row'
+    },
+    [theme.breakpoints.down('sm')]: {
+      flexDirection: 'row',
+      gap: 12
     },
   },
   demoBtn: {
@@ -90,6 +103,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     background: '#2B51DA',
     borderRadius: '30px',
     fontSize: '16px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '14px',
+    },
     color: '#fff',
     '& .MuiButton-label': {
       padding: theme.spacing(0, 4),
@@ -102,7 +118,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     },
     [theme.breakpoints.up('md')]: {
       marginRight: theme.spacing(2),
-    }
+    },
   },
   docsBtn: {
     height: 60,
@@ -118,6 +134,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     '&:hover': {
       background: '#2B51DA',
       color: '#fff',
-    }
+    },
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '14px',
+    },
   }
 }));

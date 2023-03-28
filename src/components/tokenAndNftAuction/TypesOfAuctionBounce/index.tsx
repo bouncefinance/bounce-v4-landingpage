@@ -62,7 +62,7 @@ export const TypesOfAuctionBounce = () => {
           <WithAnimation>
             <Grid container spacing={2}>
               {offerList.map((item, index) => (
-                <Grid item xs={6} key={index}>
+                <Grid item md={6} sm={12} key={index}>
                   <Box className={classes.item}>
                     <Box className={classes.itemLeft}>
                       <img className={classes.itemImg} src={item.img} alt="" />

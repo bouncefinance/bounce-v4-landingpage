@@ -1,6 +1,5 @@
-import { makeStyles, Theme } from '@material-ui/core';
-import { PARALLAX_MARGIN } from 'src/modules/theme/const';
-import { PALETTE } from 'src/modules/theme/mainTheme';
+import {makeStyles, Theme} from '@material-ui/core';
+import {PALETTE} from 'src/modules/theme/mainTheme';
 
 export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
   root: {
@@ -37,6 +36,11 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     fontSize: 58,
     textAlign: 'center',
     marginBottom: 115,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 22,
+      marginTop: 80,
+      marginBottom: 40,
+    },
   },
   content: {
     position: 'relative',
@@ -52,6 +56,10 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     display: 'flex',
     flexFlow: 'row nowrap',
     alignItems: 'center',
+    [theme.breakpoints.down('sm')]: {
+      position: 'static',
+      width: 'auto',
+    },
   },
   leftTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -97,5 +105,8 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
   },
   beginnerRightImg: {
     height: 613,
+    [theme.breakpoints.down('sm')]: {
+      height: 300
+    },
   },
 }));

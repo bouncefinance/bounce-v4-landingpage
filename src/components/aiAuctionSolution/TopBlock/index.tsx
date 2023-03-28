@@ -4,6 +4,8 @@ import { Container, Typography, Box, Grid } from '@material-ui/core';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import ComBtn from 'src/components/common/ComBtn';
 import classNames from 'classnames';
+import Footer from 'src/components/common/Footer';
+import { BounceMetaverse } from 'src/components/labs/BounceMetaverse';
 
 export const TopBlock = () => {
   const classes = useTopBlockStyles();
@@ -76,6 +78,8 @@ export const TopBlock = () => {
           </Grid>
         </Grid>
       </Container>
+      <BounceMetaverse onlyAnimation1={true} />
+      <Footer colorTheme={'dark'} noBg={false}></Footer>
     </div>
   );
 };

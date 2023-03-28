@@ -57,6 +57,10 @@ export const useAuctionPoolSlideStyles = makeStyles(theme => ({
     overflow: 'hidden',
     textOverflow: 'ellipsis',
     whiteSpace: 'nowrap',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '16px',
+      lineHeight: '22.4px',
+    },
   },
   desc: {
     fontFamily: `'Inter'`,
@@ -68,11 +72,24 @@ export const useAuctionPoolSlideStyles = makeStyles(theme => ({
     whiteSpace: 'nowrap',
     fontWeight: 500,
     fontSize: '16px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '14px',
+      lineHeight: '21px',
+      width: '255px',
+      textOverflow: 'unset',
+      overflowWrap: 'normal',
+      whiteSpace: 'normal',
+      height: 'auto',
+    },
   },
   icon: {
     width: 32,
     height: 32,
     marginLeft: 28,
+    [theme.breakpoints.down('sm')]: {
+      width: 20,
+      height: 20,
+    },
   },
   '@keyframes toLeft': {
     from: {

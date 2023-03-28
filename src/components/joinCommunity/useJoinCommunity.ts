@@ -1,14 +1,12 @@
 import { makeStyles, Theme } from '@material-ui/core';
-import { FONTS } from 'src/modules/theme/mainTheme';
 
-export const useTopBlockStyles = makeStyles<Theme>(theme => ({
+export const useJoinCommunity = makeStyles<Theme>(theme => ({
   pageRoot: {
     width: '100% !important',
+    height: '100%',
     margin: 0,
-    minHeight: '90vh',
-    paddingBottom: 120,
     display: 'flex',
-    overflow: 'hidden',
+    flexDirection: 'column',
     position: 'relative',
     background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / 100% auto`,
     [theme.breakpoints.down('sm')]: {
@@ -30,18 +28,6 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       paddingTop: 150,
     },
   },
-  title1: {
-    fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
-    fontWeight: 500,
-    fontSize: 28,
-    color: '#2B51DA',
-    textAlign: 'center',
-    marginBottom: 16,
-    zIndex: 1,
-    [theme.breakpoints.down('sm')]: {
-      fontSize: 18,
-    },
-  },
   title2: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
@@ -57,71 +43,46 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       marginBottom: 0,
     },
   },
+  grid: {
+    marginTop: 120,
+    height: '100%',
+    [theme.breakpoints.down('sm')]: {
+      marginTop: 56,
+    },
+  },
   text: {
     fontFamily: `'Inter'`,
     fontWeight: 400,
-    fontSize: 20,
-    lineHeight: '32px',
-    color: '#171717',
-    textAlign: 'center',
-    maxWidth: 970,
-    margin: '40px auto 32px',
-    zIndex: 1,
-    [theme.breakpoints.down('sm')]: {
-      fontSize: 15,
-    },
-  },
-  btnBox: {
-    display: 'flex',
-    justifyContent: 'center',
-    marginBottom: 183,
-    zIndex: 1,
-    [theme.breakpoints.down('sm')]: {
-      marginBottom: 83,
-    },
-  },
-  leftTitle: {
-    fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
-    fontWeight: 500,
-    fontSize: 28,
-    marginBottom: 48,
-    [theme.breakpoints.down('sm')]: {
-      fontSize: 18,
-      marginTop: '41px',
-    },
-  },
-  beginnerRow: {
-    position: 'relative',
-    marginBottom: '30px',
-  },
-  beginnerTitle: {
-    fontFamily: `'Inter'`,
-    fontWeight: 500,
     fontSize: 16,
-    color: '#171717',
-    marginBottom: 8,
     lineHeight: '24px',
-  },
-  beginnerTitleIcon: {
-    width: 12,
-    height: 12,
-    marginRight: 12,
-  },
-  beginnerDesc: {
-    fontFamily: `'Inter'`,
-    fontSize: 16,
-    color: '#171717',
-    marginBottom: 8,
-    opacity: 0.8,
-    lineHeight: '24px',
+    color: '#232323',
+    zIndex: 1,
     [theme.breakpoints.down('sm')]: {
       fontSize: 14,
     },
   },
-  beginnerRightImg: {
-    height: 613,
+  itemBox: {
+    display: 'flex',
+    padding: theme.spacing(2),
+    zIndex: 1,
     [theme.breakpoints.down('sm')]: {
-      height: 300,
+      padding: theme.spacing(1),
     },
+  },
+  socialName: {
+    fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
+    fontWeight: 500,
+    fontSize: 16,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 14,
+    },
+  },
+  textColumn: {
+    marginLeft: '18px',
+    gap: '4px',
+  },
+  icon: {
+    width: 48,
+    height: 48,
   },
 }));

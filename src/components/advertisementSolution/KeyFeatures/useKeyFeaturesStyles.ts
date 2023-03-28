@@ -24,6 +24,9 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     padding: '120px 0 0',
     maxWidth: '1080px !important',
     margin: '0 auto',
+    [theme.breakpoints.down('sm')]: {
+      padding: '80px 0 0',
+    },
   },
   industryTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -32,6 +35,10 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     color: '#fff',
     textAlign: 'center',
     marginBottom: '80px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 22,
+      margin: '0 24px 40px',
+    },
   },
   icon: {
     width: 12,
@@ -49,6 +56,9 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     cursor: 'pointer',
+    [theme.breakpoints.down('sm')]: {
+      margin: '0 16px',
+    },
   },
   industryItem2: {
     position: 'relative',
@@ -61,6 +71,9 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     alignItems: 'flex-start',
     cursor: 'pointer',
     background: '#F5F6F8',
+    [theme.breakpoints.down('sm')]: {
+      margin: '0 16px',
+    },
   },
   industryBg: {
     background: `url('/images/home/industry-solutions/bg.png') no-repeat center center / cover`,
@@ -82,17 +95,25 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     fontFamily: `'Inter'`,
     fontWeight: 400,
     fontSize: 16,
+    color: '#FFFFFFCC',
+    marginBottom: 16,
+    zIndex: 2,
+  },
+  industryItemContent2: {
+    fontFamily: `'Inter'`,
+    fontWeight: 400,
+    fontSize: 16,
     color: '#171717',
     marginBottom: 16,
     zIndex: 2,
   },
   rightBg: {
-    position:'absolute',
+    position: 'absolute',
     right: '0',
     top: 0,
   },
   fullImg: {
     display: 'block',
-    width: '100%'
-  }
+    width: '100%',
+  },
 }));

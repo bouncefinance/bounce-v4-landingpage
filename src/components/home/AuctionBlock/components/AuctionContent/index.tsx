@@ -1,10 +1,13 @@
 import React from 'react';
-import { WithAnimation } from 'src/modules/WithAnimation';
-import { Box, Typography, Grid } from '@material-ui/core';
-import { useAuctionContentStyles } from './useAuctionContentStyles';
+import {WithAnimation} from 'src/modules/WithAnimation';
+import {Box, Typography, Grid} from '@material-ui/core';
+import {useAuctionContentStyles} from './useAuctionContentStyles';
 import classNames from 'classnames';
+import {useIsMDDown} from "../../../../../modules/theme";
+
 const AutionTitle: React.FC = () => {
   const classes = useAuctionContentStyles();
+  const isMDDown = useIsMDDown();
   const imgList = [
     {
       url: '/images/home/auction/slide-right-animation/p5.png',
@@ -105,8 +108,8 @@ const AutionTitle: React.FC = () => {
           Integrate Bounce's Auction Technology With Any Website
         </Box>
         <Grid container spacing={0}>
-          <Grid item xs={6}>
-            <Typography className={classes.desc}>
+          <Grid item md={6} sm={12}>
+            <Typography className={classes.desc} style={{paddingTop: '16px'}}>
               <img
                 className={classes.leftTopArrow}
                 src="/images/home/auction/left-top-arrow.svg"
@@ -118,7 +121,7 @@ const AutionTitle: React.FC = () => {
               and profitability.
             </Typography>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item md={6} sm={12}>
             <Typography className={classes.desc}>
               The types of auction that Bounce provides include fixed-price
               auction, English auction, Dutch auction, sealed-bid auction,

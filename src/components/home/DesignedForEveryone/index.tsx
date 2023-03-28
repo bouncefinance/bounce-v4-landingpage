@@ -1,9 +1,13 @@
 import React from 'react';
-import { useDesignedForEveryoneStyle } from './useDesignedForEveryoneStyle';
-import { Container, Box, Typography, Grid } from '@material-ui/core';
-import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
+import {useDesignedForEveryoneStyle} from './useDesignedForEveryoneStyle';
+import {Container, Box, Typography, Grid} from '@material-ui/core';
+import {WithScrollFreezing} from 'src/modules/WithScrollFreezing';
+import {useIsMDDown} from "../../../modules/theme";
+
 const AuctionBlock: React.FC = () => {
   const classes = useDesignedForEveryoneStyle();
+  const isMd = useIsMDDown();
+
   const beginners = [
     {
       title: 'No-code option',
@@ -18,6 +22,37 @@ const AuctionBlock: React.FC = () => {
       desc: 'Launch auctions and submit bids through only one click',
     },
   ];
+  const BeginTitle = <Typography className={classes.leftTitle}>
+    For Beginners
+  </Typography>
+  const DevTitle = <Typography className={classes.rightTitle}>
+    For Developers
+  </Typography>
+
+  function BeginDesc() {
+    return beginners.map(item => {
+      return (
+        <Box className={classes.beginnerRow}>
+          <Typography className={classes.beginnerTitle}>
+            <img
+              className={classes.beginnerTitleIcon}
+              src="/images/home/auction/left-icon.svg"
+            />
+            {item.title}
+          </Typography>
+          <Typography className={classes.beginnerDesc}>
+            {item.desc}
+          </Typography>
+        </Box>
+      );
+    })
+  }
+
+  const DevDesc = <img
+    className={classes.beginnerRightImg}
+    src="/images/home/auction/right-img.png"
+  />
+
   return (
     <WithScrollFreezing>
       <div className={classes.root} id="auction-block">
@@ -25,49 +60,45 @@ const AuctionBlock: React.FC = () => {
           <Typography className={classes.title}>
             Designed for Everyone
           </Typography>
-          <Box className={classes.content}>
-            <Box className={classes.bothTitle}>
-              <Typography className={classes.leftTitle}>
-                For Beginners
-              </Typography>
-              <Box className={classes.centerLine}></Box>
-              <Typography className={classes.rightTitle}>
-                For Developers
-              </Typography>
+          {isMd && <Box className={classes.centerLine}></Box>}
+          {!isMd && (
+            <Box className={classes.content}>
+              <Box className={classes.bothTitle}>
+                {BeginTitle}
+                {!isMd && <Box className={classes.centerLine}></Box>}
+                {DevTitle}
+              </Box>
+              <Grid container spacing={0}>
+                <Grid
+                  item
+                  md={6}
+                  style={{
+                    paddingTop: 109,
+                  }}
+                >
+                  {BeginDesc()}
+                </Grid>
+                <Grid item md={6}>
+                  {DevDesc}
+                </Grid>
+              </Grid>
             </Box>
-            <Grid container spacing={0}>
-              <Grid
-                item
-                xs={6}
-                style={{
-                  paddingTop: 109,
-                }}
-              >
-                {beginners.map(item => {
-                  return (
-                    <Box className={classes.beginnerRow}>
-                      <Typography className={classes.beginnerTitle}>
-                        <img
-                          className={classes.beginnerTitleIcon}
-                          src="/images/home/auction/left-icon.svg"
-                        />
-                        {item.title}
-                      </Typography>
-                      <Typography className={classes.beginnerDesc}>
-                        {item.desc}
-                      </Typography>
-                    </Box>
-                  );
-                })}
-              </Grid>
-              <Grid item xs={6}>
-                <img
-                  className={classes.beginnerRightImg}
-                  src="/images/home/auction/right-img.png"
-                />
-              </Grid>
-            </Grid>
-          </Box>
+          )}
+          {isMd && (
+            <Box className={classes.content}>
+              <Box>
+                <Box className={classes.bothTitle}>
+                  {BeginTitle}
+                </Box>
+                {BeginDesc()}
+                <Box className={classes.centerLine}></Box>
+                <Box className={classes.bothTitle}>
+                  {DevTitle}
+                </Box>
+                {DevDesc}
+              </Box>
+            </Box>
+          )}
         </Container>
       </div>
     </WithScrollFreezing>

@@ -38,6 +38,9 @@ export const useAuctionContentStyles = makeStyles(theme => ({
     zIndex: 1,
     padding: '120px 0 0',
     overflowX: 'visible',
+    [theme.breakpoints.down('sm')]: {
+      padding: '80px 0 0',
+    },
   },
   auctionContentShow: {
     position: 'relative',
@@ -69,6 +72,11 @@ export const useAuctionContentStyles = makeStyles(theme => ({
     fontWeight: 500,
     fontSize: '44px',
     marginBottom: '48px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '22px',
+      lineHeight: '28.6px',
+      margin: '0 16px 40px 16px'
+    },
   },
   desc: {
     position: 'relative',
@@ -78,6 +86,10 @@ export const useAuctionContentStyles = makeStyles(theme => ({
     fontSize: '20px',
     marginBottom: '40px',
     lineHeight: '30px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '15px',
+      paddingLeft: '16px',
+    },
   },
   leftTopArrow: {
     position: 'absolute',
@@ -85,6 +97,9 @@ export const useAuctionContentStyles = makeStyles(theme => ({
     left: 0,
     width: '10px',
     height: '10px',
+    [theme.breakpoints.down('sm')]: {
+      left: '16px',
+    },
   },
   animationBlock: {
     position: 'relative',

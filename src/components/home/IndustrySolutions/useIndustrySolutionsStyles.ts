@@ -38,6 +38,9 @@ export const useIndustrySolutionsStyles = makeStyles<Theme>(theme => ({
     margin: '0 auto',
     padding: '100px 0',
     opacity: 0,
+    [theme.breakpoints.down('sm')]: {
+      padding: '80px 0',
+    },
   },
   industryCententShow: {
     width: '100%',
@@ -52,6 +55,10 @@ export const useIndustrySolutionsStyles = makeStyles<Theme>(theme => ({
     color: '#171717',
     textAlign: 'center',
     marginBottom: '64px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 22,
+      marginBottom: '40px',
+    },
   },
   industryItem: {
     position: 'relative',
@@ -64,6 +71,11 @@ export const useIndustrySolutionsStyles = makeStyles<Theme>(theme => ({
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
     cursor: 'pointer',
+    [theme.breakpoints.down('sm')]: {
+      marginLeft: '16px',
+      marginRight: '16px',
+      height: 'auto',
+    },
   },
   industryBg: {
     background: `url('/images/home/industry-solutions/bg.png') no-repeat center center / cover`,
@@ -72,6 +84,10 @@ export const useIndustrySolutionsStyles = makeStyles<Theme>(theme => ({
     width: 48,
     height: 48,
     marginBottom: 24,
+    [theme.breakpoints.down('sm')]: {
+      width: 35,
+      height: 35,
+    },
   },
   industryItemTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -79,6 +95,9 @@ export const useIndustrySolutionsStyles = makeStyles<Theme>(theme => ({
     fontSize: 24,
     color: '#2B51DA',
     marginBottom: 16,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 17,
+    },
   },
   industryItemContent: {
     fontFamily: `'Inter'`,
@@ -86,5 +105,8 @@ export const useIndustrySolutionsStyles = makeStyles<Theme>(theme => ({
     fontSize: 16,
     color: '#171717',
     marginBottom: 16,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 14,
+    },
   },
 }));

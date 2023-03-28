@@ -31,6 +31,9 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     display: 'flex',
     flexFlow: 'column nowrap',
     margin: '0 auto',
+    [theme.breakpoints.down('sm')]: {
+      paddingTop: 20,
+    },
   },
   title: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -39,6 +42,10 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     color: '#fff',
     textAlign: 'center',
     marginBottom: 80,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 22,
+      marginBottom: 40,
+    },
   },
   item: {
     width: '100%',
@@ -48,6 +55,12 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     padding: '28px 0 28px 0',
     display: 'flex',
     flexFlow: 'row nowrap',
+    [theme.breakpoints.down('sm')]: {
+      flexFlow: 'column',
+      alignItems: 'center',
+      height: 'auto',
+      padding: '24px 0px 40px',
+    },
     cursor: 'pointer',
   },
   itemLeft: {
@@ -60,6 +73,9 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
   itemImg: {
     width: 40,
     height: 40,
+    [theme.breakpoints.down('sm')]: {
+      marginBottom: '21px',
+    },
   },
   itemRight: {
     flex: 1,
@@ -69,6 +85,11 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     padding: '0 33px',
     height: 175,
     borderLeft: '1px solid rgba(255, 255, 255, 0.2)',
+    [theme.breakpoints.down('sm')]: {
+      borderLeft: '0px',
+      borderTop: '1px solid rgba(255, 255, 255, 0.2)',
+      paddingTop: '24px',
+    },
   },
   itemTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -77,6 +98,9 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     color: '#fff',
     marginBottom: 6,
     textAlign: 'left',
+    [theme.breakpoints.down('sm')]: {
+      textAlign: 'center',
+    },
     lineHeight: '20px',
   },
   itemDesc: {
@@ -86,6 +110,9 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     color: '#fff',
     lineHeight: '21px',
     textAlign: 'left',
+    [theme.breakpoints.down('sm')]: {
+      textAlign: 'center',
+    },
     opacity: 0.8,
   },
 }));
