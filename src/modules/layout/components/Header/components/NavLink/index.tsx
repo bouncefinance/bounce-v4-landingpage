@@ -57,7 +57,7 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
           {
             label: 'Advertisement Auction',
             isExternal: false,
-            href: '/advertisementSolution',
+            href: '/adsAuction',
           },
           {
             label: 'SDKs & Plug-ins',
