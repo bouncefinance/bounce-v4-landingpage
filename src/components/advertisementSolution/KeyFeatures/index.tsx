@@ -57,7 +57,7 @@ const KeyFeature: React.FC = () => {
               md={6}
               sm={12}
               style={{
-                marginBottom: 80,
+                marginBottom: isMd ? 40 : 80,
               }}
             >
               <Box className={classNames(classes.industryItem2)}>
@@ -88,7 +88,11 @@ const KeyFeature: React.FC = () => {
           </Grid>
           <img
             className={classNames(classes.fullImg)}
-            src="/images/advertisementSolution/p1.png"
+            src={
+              isMd
+                ? '/images/advertisementSolution/auction-key-features.png'
+                : '/images/advertisementSolution/p1.png'
+            }
             alt=""
           />
         </Container>

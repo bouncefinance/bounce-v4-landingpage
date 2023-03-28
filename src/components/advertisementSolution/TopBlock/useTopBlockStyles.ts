@@ -32,7 +32,6 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     zIndex: 1,
     [theme.breakpoints.down('sm')]: {
       fontSize: 18,
-      textAlign: 'center',
     },
   },
   title2: {

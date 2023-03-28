@@ -115,5 +115,8 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
   fullImg: {
     display: 'block',
     width: '100%',
+    [theme.breakpoints.down('sm')]: {
+      padding: '0 16px',
+    },
   },
 }));
