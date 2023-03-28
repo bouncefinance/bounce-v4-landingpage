@@ -6,13 +6,12 @@ import { Typography, Box } from '@material-ui/core';
 
 import { useTypesOfActionStyles } from './useTypesOfActionStyles';
 
-export type IBuildWithBounceProps = {};
 interface BtnProps {
   img: string;
   text: string;
   style?: React.CSSProperties;
 }
-const BtnItem = (props: BtnProps) => {
+export const BtnItem = (props: BtnProps) => {
   const classes = useTypesOfActionStyles();
 
   const { img, text, style } = props;
@@ -23,6 +22,8 @@ const BtnItem = (props: BtnProps) => {
     </Box>
   );
 };
+export type IBuildWithBounceProps = {};
+
 const TypesOfAction: React.FC<IBuildWithBounceProps> = ({}) => {
   const classes = useTypesOfActionStyles();
   const isMDUp = useIsMDUp();
@@ -88,8 +89,8 @@ const TypesOfAction: React.FC<IBuildWithBounceProps> = ({}) => {
                 img={'/images/home/typesOfAuction/7.svg'}
                 text={'Real-world Collectibles'}
                 style={{
-                    width: 200,
-                  }}
+                  width: 200,
+                }}
               />
             </Box>
           </Box>
