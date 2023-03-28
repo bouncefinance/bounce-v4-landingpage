@@ -39,29 +39,37 @@ export const TopBlock = () => {
         >
           Technology
         </WithAnimation>
-        <WithAnimation className={classes.text} Component={Typography}>
-          By moving traditional real goods auctions onto the blockchain, Bounce
-          offers a more secure and transparent environment for buyers and
-          sellers to participate in. The decentralized nature of the blockchain
-          eliminates the risk of fraud or manipulation, ensuring that the
-          auction results are fair.
-        </WithAnimation>
-        <WithAnimation className={classes.btnBox}>
-          <ComBtn
-            style={{
-              marginRight: 16,
-              padding: isMd ? '0 44px' : '0 70px',
-            }}
-            text={'Start Now'}
-          ></ComBtn>
-          <ComBtn
-            notHightLight={true}
-            text={'Contact Us'}
-            style={{
-              padding: isMd ? '0 44px' : '0 70px',
-            }}
-          ></ComBtn>
-        </WithAnimation>
+        <Box className={classes.descContent}>
+          <Box className={classes.descText}>
+            <WithAnimation className={classes.text} Component={Typography}>
+              By moving traditional real goods auctions onto the blockchain,
+              Bounce offers a more secure and transparent environment for buyers
+              and sellers to participate in. The decentralized nature of the
+              blockchain eliminates the risk of fraud or manipulation, ensuring
+              that the auction results are fair.
+            </WithAnimation>
+            <WithAnimation className={classes.btnBox}>
+              <ComBtn
+                style={{
+                  marginRight: 16,
+                  padding: isMd ? '0 44px' : '0 70px',
+                }}
+                text={'Start Now'}
+              ></ComBtn>
+              <ComBtn
+                notHightLight={true}
+                text={'Contact Us'}
+                style={{
+                  padding: isMd ? '0 44px' : '0 70px',
+                }}
+              ></ComBtn>
+            </WithAnimation>
+          </Box>
+          <img
+            src={'/images/realWorldAuction/head-img.png'}
+            className={classes.descImg}
+          />
+        </Box>
       </Container>
     </div>
   );

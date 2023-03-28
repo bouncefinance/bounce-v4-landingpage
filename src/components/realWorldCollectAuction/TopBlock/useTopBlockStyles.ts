@@ -47,7 +47,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       fontSize: 32,
       lineHeight: '41.6px',
       marginBottom: 0,
-    }
+    },
   },
   text: {
     fontFamily: `'Inter'`,
@@ -61,7 +61,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     zIndex: 1,
     [theme.breakpoints.down('sm')]: {
       fontSize: 15,
-    }
+    },
   },
   btnBox: {
     display: 'flex',
@@ -106,4 +106,17 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
   beginnerRightImg: {
     height: 613,
   },
+  descContent: {
+    display: 'flex',
+    [theme.breakpoints.down('sm')]: {
+      flexDirection: 'column',
+    },
+  },
+  descText: {
+    width: '70%',
+    [theme.breakpoints.down('sm')]: {
+      width: '100%',
+    },
+  },
+  descImg: {},
 }));
