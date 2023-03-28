@@ -35,39 +35,79 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
 
   const links: ILinksItemProps[] = useMemo(
     () => [
+    //   {
+    //     label: t('header.investment'),
+    //     list: [],
+    //     isExternal: false,
+    //     href: '/investment',
+    //   },
       {
-        label: t('header.investment'),
-        list: [],
-        isExternal: false,
-        href: '/investment',
-      },
-      {
-        label: t('header.service'),
+        label: 'Acution Products',
         list: [
           {
-            label: t('header.company'),
+            label: 'Token & NFT Auction',
             isExternal: false,
-            href: '/company',
+            href: '/tokenAndnftAuction',
           },
           {
-            label: t('header.jobs'),
-            list: [
-              {
-                label: t('header.jobs-employers'),
-                isExternal: false,
-                href: '/jobs/talents',
-              },
-              {
-                label: t('header.jobs-talents'),
-                isExternal: false,
-                href: '/jobs/employers',
-              },
-            ],
+            label: 'Real-world Collectibles Auction',
+            isExternal: false,
+            href: '/realWorldCollectAuction',
+          },
+          {
+            label: 'Advertisement Auction',
+            isExternal: false,
+            href: '/advertisementSolution',
+          },
+          {
+            label: 'SDKs & Plug-ins',
+            isExternal: false,
+            href: '/sdkAndPlugins',
           },
         ],
       },
       {
-        label: t('header.ecosystem'),
+        label: 'Solutions',
+        list: [
+          {
+            label: 'Advertisement',
+            isExternal: false,
+            href: '/advertisementSolution',
+          },
+          {
+            label: 'AI+Auction ',
+            isExternal: false,
+            href: '/aiAuctionSolution',
+          },
+        ],
+      },
+    //   {
+    //     label: t('header.service'),
+    //     list: [
+    //       {
+    //         label: t('header.company'),
+    //         isExternal: false,
+    //         href: '/company',
+    //       },
+    //       {
+    //         label: t('header.jobs'),
+    //         list: [
+    //           {
+    //             label: t('header.jobs-employers'),
+    //             isExternal: false,
+    //             href: '/jobs/talents',
+    //           },
+    //           {
+    //             label: t('header.jobs-talents'),
+    //             isExternal: false,
+    //             href: '/jobs/employers',
+    //           },
+    //         ],
+    //       },
+    //     ],
+    //   },
+      {
+        label: 'Resources',
         list: [
           {
             label: t('header.tools-token'),
