@@ -89,11 +89,11 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     display: 'flex',
     flexDirection: 'column',
     [theme.breakpoints.up('md')]: {
-      flexDirection: 'row'
+      flexDirection: 'row',
     },
     [theme.breakpoints.down('sm')]: {
       flexDirection: 'row',
-      gap: 12
+      gap: 12,
     },
   },
   demoBtn: {
@@ -103,9 +103,6 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     background: '#2B51DA',
     borderRadius: '30px',
     fontSize: '16px',
-    [theme.breakpoints.down('sm')]: {
-      fontSize: '14px',
-    },
     color: '#fff',
     '& .MuiButton-label': {
       padding: theme.spacing(0, 4),
@@ -114,10 +111,19 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       background: '#2B51DA',
     },
     '&:hover': {
-      background: 'linear-gradient(90deg, rgba(255, 255, 255, 0) 40.91%, rgba(255, 255, 255, 0.24) 76.36%, rgba(255, 255, 255, 0.12) 100%), #2B51DA',
+      background:
+        'linear-gradient(90deg, rgba(255, 255, 255, 0) 40.91%, rgba(255, 255, 255, 0.24) 76.36%, rgba(255, 255, 255, 0.12) 100%), #2B51DA',
     },
     [theme.breakpoints.up('md')]: {
       marginRight: theme.spacing(2),
+    },
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '14px',
+      padding: 0,
+      width: '50%',
+      '& .MuiButton-label': {
+        padding: 0,
+      },
     },
   },
   docsBtn: {
@@ -137,6 +143,11 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     },
     [theme.breakpoints.down('sm')]: {
       fontSize: '14px',
+      width: '50%',
+      padding: 0,
+      '& .MuiButton-label': {
+        padding: theme.spacing(0, 2),
+      },
     },
-  }
+  },
 }));
