@@ -120,6 +120,11 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
             href: '/tools/labs',
           },
           {
+            label: 'Community',
+            isExternal: false,
+            href: '/joinCommunity',
+          },
+          {
             label: t('header.ecosystem'),
             list: [
               {
