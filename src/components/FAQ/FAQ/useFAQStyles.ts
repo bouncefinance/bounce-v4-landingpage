@@ -36,12 +36,14 @@ export const useFAQStyles = makeStyles<Theme>(theme => ({
     },
   },
   title: {
+    width: '100%',
+    maxWidth: 900,
+    margin: '0 auto 80px',
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
     fontSize: 44,
     color: '#fff',
     textAlign: 'left',
-    marginBottom: 80,
     [theme.breakpoints.down('sm')]: {
       fontSize: 22,
       marginBottom: 40,
