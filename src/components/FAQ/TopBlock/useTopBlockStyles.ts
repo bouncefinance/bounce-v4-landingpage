@@ -1,0 +1,73 @@
+import { makeStyles, Theme } from '@material-ui/core';
+import { FONTS } from 'src/modules/theme/mainTheme';
+
+export const useTopBlockStyles = makeStyles<Theme>(theme => ({
+  pageRoot: {
+    width: '100% !important',
+    margin: 0,
+    minHeight: '90vh',
+    paddingBottom: 120,
+    [theme.breakpoints.down('sm')]: {
+      paddingBottom: 10,
+    },
+    display: 'flex',
+    overflow: 'hidden',
+    position: 'relative',
+  },
+  pageContainer: {
+    position: 'relative',
+    paddingTop: 190,
+    width: '100vw !important',
+    maxWidth: '100% !important',
+    paddingBottom: 100,
+    display: 'flex',
+    margin: 0,
+    flexDirection: 'column',
+    flexWrap: 'nowrap',
+    justifyContent: 'center',
+    background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / 100% auto`,
+    [theme.breakpoints.down('sm')]: {
+      paddingTop: 150,
+    },
+  },
+  title: {
+    fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
+    fontWeight: 500,
+    fontSize: 58,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 32,
+      lineHeight: '41.6px',
+      marginBottom: 0,
+    },
+    lineHeight: '75px',
+    color: '#171717',
+    textAlign: 'center',
+    marginBottom: 48,
+    zIndex: 1,
+  },
+  searchBox: {
+    width: 700,
+    height: 76,
+    margin: '0 auto',
+    display: 'flex',
+    flexFlow: 'row nowrap',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: '0 8px 0 27px',
+    background: '#FFFFFF',
+    border: '1px solid #878A8E',
+    borderRadius: '40px',
+  },
+  searchInput: {
+    display: 'inline-block',
+    flex: 1,
+    height: '70px',
+    lineHeight: 70,
+    background: 'none',
+    outline: 'none',
+    border: 'none',
+    fontFamily: `'Inter'`,
+    fontWeight: 400,
+    fontSize: 16,
+  },
+}));

@@ -109,6 +109,11 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
       {
         label: 'Resources',
         list: [
+            {
+                label: 'Support Center',
+                isExternal: false,
+                href: '/FAQ',
+              },
           {
             label: t('header.tools-token'),
             isExternal: false,
@@ -125,35 +130,40 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
             href: '/joinCommunity',
           },
           {
-            label: t('header.ecosystem'),
-            list: [
-              {
-                label: t('footer.links.labs-list.bounce-metaverse'),
-                isExternal: true,
-                href: 'https://metaverse.bounce.finance/',
-              },
-              {
-                label: t('footer.links.labs-list.bounce-v1'),
-                isExternal: true,
-                href: 'https://v1.app.bounce.finance/',
-              },
-              {
-                label: t('footer.links.labs-list.bounce-v2'),
-                isExternal: true,
-                href: 'https://v2.app.bounce.finance/',
-              },
-              {
-                label: t('footer.links.labs-list.fangible'),
-                isExternal: true,
-                href: 'https://fangible.com/',
-              },
-              {
-                label: t('footer.links.labs-list.metalent'),
-                isExternal: true,
-                href: 'https://metalents.com/',
-              },
-            ],
+            label: 'Contact Sales',
+            isExternal: true,
+            href: `https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/edit`,
           },
+        //   {
+        //     label: t('header.ecosystem'),
+        //     list: [
+        //       {
+        //         label: t('footer.links.labs-list.bounce-metaverse'),
+        //         isExternal: true,
+        //         href: 'https://metaverse.bounce.finance/',
+        //       },
+        //       {
+        //         label: t('footer.links.labs-list.bounce-v1'),
+        //         isExternal: true,
+        //         href: 'https://v1.app.bounce.finance/',
+        //       },
+        //       {
+        //         label: t('footer.links.labs-list.bounce-v2'),
+        //         isExternal: true,
+        //         href: 'https://v2.app.bounce.finance/',
+        //       },
+        //       {
+        //         label: t('footer.links.labs-list.fangible'),
+        //         isExternal: true,
+        //         href: 'https://fangible.com/',
+        //       },
+        //       {
+        //         label: t('footer.links.labs-list.metalent'),
+        //         isExternal: true,
+        //         href: 'https://metalents.com/',
+        //       },
+        //     ],
+        //   },
         ],
       },
     ],
