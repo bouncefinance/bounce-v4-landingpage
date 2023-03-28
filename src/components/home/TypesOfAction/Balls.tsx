@@ -20,8 +20,22 @@ export default function Balls() {
       MOUSE_SIZE = 50,
       SPEED = 1;
 
-    var canvas: HTMLElement | null,
-      ctx: { clearRect: (arg0: number, arg1: number, arg2: any, arg3: any) => void; fillStyle: string; strokeStyle: string; beginPath: () => void; arc: (arg0: number, arg1: number, arg2: number, arg3: number, arg4: number) => void; fill: () => void; stroke: () => void; },
+    var canvas: any,
+      ctx: {
+        clearRect: (arg0: number, arg1: number, arg2: any, arg3: any) => void;
+        fillStyle: string;
+        strokeStyle: string;
+        beginPath: () => void;
+        arc: (
+          arg0: number,
+          arg1: number,
+          arg2: number,
+          arg3: number,
+          arg4: number,
+        ) => void;
+        fill: () => void;
+        stroke: () => void;
+      },
       TWO_PI = Math.PI * 2,
       balls: any[] = [],
       mouse = { down: false, x: 0, y: 0 };
@@ -36,7 +50,13 @@ export default function Balls() {
         window.setTimeout(callback, 1000 / 60);
       };
 
-    var Ball = function (this: any, x: any, y: any, radius: number, index: any) {
+    var Ball = function (
+      this: any,
+      x: any,
+      y: any,
+      radius: number,
+      index: any,
+    ) {
       this.x = x;
       this.y = y;
 
@@ -72,7 +92,21 @@ export default function Balls() {
       this.y = ny;
     };
 
-    Ball.prototype.draw = function (ctx: { beginPath: () => void; arc: (arg0: any, arg1: any, arg2: any, arg3: number, arg4: number) => void; save: () => void; translate: (arg0: number, arg1: number) => void; scale: (arg0: number, arg1: number) => void; drawImage: (arg0: HTMLImageElement, arg1: number, arg2: number) => void; restore: () => void; }) {
+    Ball.prototype.draw = function (ctx: {
+      beginPath: () => void;
+      arc: (
+        arg0: any,
+        arg1: any,
+        arg2: any,
+        arg3: number,
+        arg4: number,
+      ) => void;
+      save: () => void;
+      translate: (arg0: number, arg1: number) => void;
+      scale: (arg0: number, arg1: number) => void;
+      drawImage: (arg0: HTMLImageElement, arg1: number, arg2: number) => void;
+      restore: () => void;
+    }) {
       var img = new Image();
       img.src = `./balls/${this.index + 1}.png`; // Replace with the path to your image
 
@@ -91,7 +125,7 @@ export default function Balls() {
 
     //---------------------------------------
 
-    var resolve_collisions = function (ip: number | undefined) {
+    var resolve_collisions = function (ip?: number | undefined) {
       var i = balls.length;
 
       while (i--) {
@@ -173,9 +207,13 @@ export default function Balls() {
           var vel_x = ball.px - ball.x;
           ball.x = ball.radius;
           ball.px = ball.x - vel_x * DAMPING;
-        } else if (ball.x + ball.radius > canvas.width) {
+        } else if (
+          canvas &&
+          canvas?.width &&
+          ball.x + ball.radius > canvas.width
+        ) {
           var vel_x = ball.px - ball.x;
-          ball.x = canvas.width - ball.radius;
+          ball.x = canvas?.width - ball.radius;
           ball.px = ball.x - vel_x * DAMPING;
         }
 
@@ -238,7 +276,7 @@ export default function Balls() {
       //console.log(new Date().getTime() - time);
     };
 
-    var add_ball = function (x: number | undefined, y: number | undefined, r: number | undefined, index: number) {
+    var add_ball = function (x: number, y: number, r: number, index: number) {
       var x = x || Math.random() * (canvas.width - 60) + 30,
         y = y || Math.random() * (canvas.height - 60) + 30,
         r = r || 10 + Math.random() * 20,
@@ -258,7 +296,7 @@ export default function Balls() {
       }
 
       // if (s)
-      balls.push(new Ball(x, y, 42, index));
+      balls.push(new (Ball as any)(x, y, 42, index));
     };
 
     return function () {
@@ -268,9 +306,12 @@ export default function Balls() {
       canvas.width = 400;
       canvas.height = 400;
 
-      while (NUM_BALLS--) add_ball(undefined, undefined, undefined, NUM_BALLS);
+      while (NUM_BALLS--) add_ball(0, 0, 0, NUM_BALLS);
 
-      canvas.onmousedown = function (e) {
+      canvas.onmousedown = function (e: {
+        which: number;
+        preventDefault: () => void;
+      }) {
         if (e.which == 1) {
           mouse.down = true;
           document.body.style.cursor = 'none';
@@ -282,7 +323,7 @@ export default function Balls() {
         e.preventDefault();
       };
 
-      canvas.onmouseup = function (e) {
+      canvas.onmouseup = function (e: { which: number; preventDefault: () => void; }) {
         if (e.which == 3) {
           mouse.down = false;
           document.body.style.cursor = 'default';
@@ -291,18 +332,18 @@ export default function Balls() {
         e.preventDefault();
       };
 
-      canvas.onmousemove = function (e) {
+      canvas.onmousemove = function (e: { clientX: number; clientY: number }) {
         var rect = this.getBoundingClientRect();
         mouse.x = e.clientX - rect.left;
         mouse.y = e.clientY - rect.top;
       };
 
-      canvas.onmouseout = function (e) {
+      canvas.onmouseout = function () {
         mouse.down = false;
         document.body.style.cursor = 'default';
       };
 
-      canvas.oncontextmenu = function (e) {
+      canvas.oncontextmenu = function (e: { preventDefault: () => void }) {
         e.preventDefault();
         return false;
       };
