@@ -134,4 +134,8 @@ export const useAdsTerminalStyles = makeStyles<Theme>(theme => ({
   p9: {
     width: '100%',
   },
+  mobileImg: {
+    height: 372,
+    width: 'auto',
+  },
 }));
