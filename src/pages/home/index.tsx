@@ -39,8 +39,8 @@ const Home: React.FC<IHomeProps> = ({}) => {
   return (
     <div>
       <TopBlock />
-      <TypesOfAction />
       <AuctionBlock />
+      <TypesOfAction />
       <DesignedForEveryone />
       <IndustrySolutions />
       {/* <ChainsBlock /> */}
