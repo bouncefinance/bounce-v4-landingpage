@@ -5,6 +5,7 @@ import {
   Container,
   Drawer,
   Link,
+  Theme,
 } from '@material-ui/core';
 import { Toggle } from '../Toggle';
 import { useHeaderStyles } from './useHeaderStyles';
@@ -150,6 +151,11 @@ export const Header = () => {
   const renderedDesktop = (
     <div className={classes.renderDesktop}>
       <NavLink />
+      <LocaleSwitcher
+        style={{
+          marginLeft: '30px',
+        }}
+      />
       <Link
         role="link"
         rel="noopener noreferrer"
@@ -157,10 +163,9 @@ export const Header = () => {
         href={'https://app.bounce.finance/'}
       >
         <Button variant="outlined" className={classes.loginBtn}>
-          {t('header.launch-app')}
+          Launch App
         </Button>
       </Link>
-      <LocaleSwitcher />
     </div>
   );
   const renderedMobile = (

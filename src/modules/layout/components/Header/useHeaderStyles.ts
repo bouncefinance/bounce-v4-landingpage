@@ -55,14 +55,20 @@ export const useHeaderStyles = makeStyles<Theme>(theme => ({
     height: 40,
     lineHeight: '20px',
     marginLeft: theme.spacing(3.75),
-    marginRight: theme.spacing(3.75),
+    // marginRight: theme.spacing(3.75),
     boxSizing: 'border-box',
     border: '1px solid #2B51DA',
     borderRadius: '22px',
     padding: '0 13px',
-    color: '#2B51DA',
+    color: '#fff',
+    background: '#2B51DA',
     fontSize: '16px',
     textDecoration: 'none',
+    '&:hover': {
+      border: '1px solid #2B51DA',
+      color: '#fff',
+      background: '#2B51DA',
+    },
   },
 
   buttons: {

@@ -26,8 +26,10 @@ export const useLinkMenuStyles = makeStyles<Theme>(theme => ({
     lineHeight: '20px',
     padding: 0,
     '&:hover': {
-      background: '#f6f6f6 !important'
-    }
+      background: '#f6f6f6 !important',
+      color: '#2663FF',
+      fontFamily: 'Inter',
+    },
   },
   rightMenu: {
     background: '#fafafa',

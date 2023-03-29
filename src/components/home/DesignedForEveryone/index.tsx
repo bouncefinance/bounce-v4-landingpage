@@ -56,7 +56,7 @@ const AuctionBlock: React.FC = () => {
   const DevDesc = (
     <img
       className={classes.beginnerRightImg}
-      src="/images/home/auction/right-img.png"
+      src="/images/home/designed-for-everyone/p1.png"
     />
   );
 

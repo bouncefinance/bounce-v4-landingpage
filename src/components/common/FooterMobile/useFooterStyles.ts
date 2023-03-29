@@ -33,7 +33,7 @@ export const useFooterStyles = makeStyles(theme => ({
   col: {
     display: 'flex',
     justifyContent: 'flex-start',
-    color: '#ADADAD',
+    color: '#fff',
     opacity: 1,
     transform: 'translate3D(0, 0, 0)',
     transition: 'transform 0.6s, left 1s 0.4s, opacity 0.3s 0.4s',
@@ -209,13 +209,13 @@ export const useFooterStyles = makeStyles(theme => ({
     // },
   },
   darkLink: {
-    color: '#ADADAD' + '!important',
+    color: '#fff' + '!important',
   },
   description: {
     marginTop: '20px',
     marginLeft: '-8px',
     opacity: 1,
-    color: '#ADADAD',
+    color: '#fff',
     paddingBottom: '24px',
     transform: 'translate3D(0, 0, 0)',
     transformOrigin: '100% 0',
