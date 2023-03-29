@@ -48,6 +48,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       fontSize: 32,
       lineHeight: '41.6px',
       textAlign: 'center',
+      marginBottom: 0,
     },
   },
   text: {
@@ -71,12 +72,16 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     zIndex: 1,
     [theme.breakpoints.down('sm')]: {
       justifyContent: 'center',
+      marginBottom: 80,
     },
   },
   rightImgBox: {
     position: 'relative',
     width: '100%',
     paddingTop: '80px',
+    [theme.breakpoints.down('sm')]: {
+      justifyContent: 'center',
+    },
   },
   p1: {
     width: '100%',
@@ -135,6 +140,11 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     textAlign: 'left',
     zIndex: 1,
     marginBottom: 40,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 24,
+      lineHeight: '31.2px',
+      marginBottom: 24,
+    },
   },
   text3: {
     fontFamily: `'Inter'`,
@@ -158,6 +168,11 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     color: '#171717',
     letterSpacing: 0,
     marginBottom: '40px',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 24,
+      lineHeight: '31.2px',
+      marginBottom: '24px',
+    },
   },
   rightDesc: {
     fontFamily: `'Inter'`,
@@ -166,6 +181,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     lineHeight: '24px',
     color: '#171717',
     marginBottom: 66,
+    [theme.breakpoints.down('sm')]: {
+      marginBottom: 40,
+    },
   },
   p6: {
     width: '100%',
@@ -232,13 +250,13 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
   },
   '@keyframes startAnimation': {
     '0%': {
-        transform: 'scale(0.88)',
+      transform: 'scale(0.88)',
     },
     '50%': {
-        transform: 'scale(1)',
+      transform: 'scale(1)',
     },
     '100%': {
-        transform: 'scale(0.88)',
+      transform: 'scale(0.88)',
     },
   },
   starAction: {

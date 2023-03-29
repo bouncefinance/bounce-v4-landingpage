@@ -5,9 +5,11 @@ import { WithAnimation } from 'src/modules/WithAnimation';
 import ComBtn from 'src/components/common/ComBtn';
 import classNames from 'classnames';
 import Footer from 'src/components/common/Footer';
+import { useIsMDDown } from '../../../modules/theme';
 
 export const TopBlock = () => {
   const classes = useTopBlockStyles();
+  const isMd = useIsMDDown();
   return (
     <div className={classes.pageRoot}>
       <Container maxWidth={false} className={classes.pageContainer}>
@@ -33,7 +35,7 @@ export const TopBlock = () => {
           Bring Auction Everywhere
         </WithAnimation>
         <Grid container spacing={2}>
-          <Grid item xs={7}>
+          <Grid item md={7} sm={12}>
             <WithAnimation className={classes.text} Component={Typography}>
               Build, configure, and launch your own auction in just a few
               minutes. experience the convenience and flexibility of customizing
@@ -49,7 +51,7 @@ export const TopBlock = () => {
               ></ComBtn>
             </WithAnimation>
           </Grid>
-          <Grid item xs={5}>
+          <Grid item md={5} sm={12}>
             <Box className={classes.rightImgBox}>
               <WithAnimation className={classes.p1} rootMargin={'50%'}>
                 <img
@@ -97,8 +99,8 @@ export const TopBlock = () => {
             </Box>
           </Grid>
         </Grid>
-        <Grid container spacing={2} style={{ marginBottom: 160 }}>
-          <Grid item xs={7} style={{ paddingTop: 80 }}>
+        <Grid container spacing={2} style={{ marginBottom: isMd ? 56 : 160 }}>
+          <Grid item md={7} sm={12} style={{ paddingTop: 80 }}>
             <WithAnimation className={classes.text2} Component={Typography}>
               Enhance Your Auction Experience with Bounce's Innovative SDKs and
               Plugins
@@ -112,7 +114,7 @@ export const TopBlock = () => {
               auctions wherever and however you like.
             </WithAnimation>
           </Grid>
-          <Grid item xs={5}>
+          <Grid item md={5} sm={12}>
             <WithAnimation>
               <img
                 className={classes.p5}
@@ -123,58 +125,61 @@ export const TopBlock = () => {
           </Grid>
         </Grid>
         <Grid container spacing={4}>
-          <Grid item xs={6}>
-            <Box className={classes.leftImgAnimation}>
-              <WithAnimation>
-                <Box className={classes.beginnerRightImgbg}></Box>
-              </WithAnimation>
-              <WithAnimation className={classes.p7}>
-                <img
-                  className={classes.animationImg}
-                  src="/images/sdkAndPlugins/p7.png"
-                />
-              </WithAnimation>
-              <WithAnimation
-                className={classNames(classes.smallStart, classes.starAction)}
-                rootMargin={'50%'}
-              >
-                <img
-                  className={classes.animationImg}
-                  src="/images/sdkAndPlugins/star-icon-small.png"
-                />
-              </WithAnimation>
-              <WithAnimation
-                className={classNames(classes.bigStart, classes.starAction)}
-                rootMargin={'50%'}
-              >
-                <img
-                  className={classes.animationImg}
-                  src="/images/sdkAndPlugins/star-icon-big.png"
-                />
-              </WithAnimation>
-              <WithAnimation className={classes.icon1}>
-                <img
-                  className={classes.animationImg}
-                  src="/images/sdkAndPlugins/icon1.png"
-                />
-              </WithAnimation>
-              <WithAnimation className={classes.icon2}>
-                <img
-                  className={classes.animationImg}
-                  src="/images/sdkAndPlugins/icon2.png"
-                />
-              </WithAnimation>
-              <WithAnimation className={classes.icon3}>
-                <img
-                  className={classes.animationImg}
-                  src="/images/sdkAndPlugins/icon3.png"
-                />
-              </WithAnimation>
-            </Box>
-          </Grid>
+          {!isMd && (
+            <Grid item xs={6}>
+              <Box className={classes.leftImgAnimation}>
+                <WithAnimation>
+                  <Box className={classes.beginnerRightImgbg}></Box>
+                </WithAnimation>
+                <WithAnimation className={classes.p7}>
+                  <img
+                    className={classes.animationImg}
+                    src="/images/sdkAndPlugins/p7.png"
+                  />
+                </WithAnimation>
+                <WithAnimation
+                  className={classNames(classes.smallStart, classes.starAction)}
+                  rootMargin={'50%'}
+                >
+                  <img
+                    className={classes.animationImg}
+                    src="/images/sdkAndPlugins/star-icon-small.png"
+                  />
+                </WithAnimation>
+                <WithAnimation
+                  className={classNames(classes.bigStart, classes.starAction)}
+                  rootMargin={'50%'}
+                >
+                  <img
+                    className={classes.animationImg}
+                    src="/images/sdkAndPlugins/star-icon-big.png"
+                  />
+                </WithAnimation>
+                <WithAnimation className={classes.icon1}>
+                  <img
+                    className={classes.animationImg}
+                    src="/images/sdkAndPlugins/icon1.png"
+                  />
+                </WithAnimation>
+                <WithAnimation className={classes.icon2}>
+                  <img
+                    className={classes.animationImg}
+                    src="/images/sdkAndPlugins/icon2.png"
+                  />
+                </WithAnimation>
+                <WithAnimation className={classes.icon3}>
+                  <img
+                    className={classes.animationImg}
+                    src="/images/sdkAndPlugins/icon3.png"
+                  />
+                </WithAnimation>
+              </Box>
+            </Grid>
+          )}
           <Grid
             item
-            xs={6}
+            md={6}
+            sm={12}
             style={{
               paddingTop: 19,
             }}
@@ -198,6 +203,14 @@ export const TopBlock = () => {
                 className={classes.p6}
                 src="/images/sdkAndPlugins/p6.png"
                 alt=""
+              />
+            </WithAnimation>
+            <WithAnimation style={{ marginLeft: '-16px' }}>
+              <img
+                className={classes.p6}
+                src="/images/sdkAndPlugins/star-mobile.svg"
+                alt=""
+                style={{ marginTop: 80 }}
               />
             </WithAnimation>
           </Grid>
