@@ -3,8 +3,10 @@ import { useTopBlockStyles } from './useTopBlockStyles';
 import { Container, Typography, Box } from '@material-ui/core';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import ComBtn from 'src/components/common/ComBtn';
+import { useIsMDDown } from '../../../modules/theme';
 export const TopBlock = () => {
   const classes = useTopBlockStyles();
+  const isMd = useIsMDDown();
 
   return (
     <div className={classes.pageRoot}>
@@ -69,14 +71,22 @@ export const TopBlock = () => {
             alt=""
           />
         </WithAnimation>
-        <WithAnimation defaultAnimation={false} className={classes.p4} addClassInView={classes.p4Show}>
+        <WithAnimation
+          defaultAnimation={false}
+          className={classes.p4}
+          addClassInView={classes.p4Show}
+        >
           <img
             className={classes.animationImg}
             src={'/images/tokenAndNftAuction/p4.png'}
             alt=""
           />
         </WithAnimation>
-        <WithAnimation defaultAnimation={false} className={classes.p5} addClassInView={classes.p5Show}>
+        <WithAnimation
+          defaultAnimation={false}
+          className={classes.p5}
+          addClassInView={classes.p5Show}
+        >
           <img
             className={classes.animationImg}
             src={'/images/tokenAndNftAuction/p5.png'}
@@ -101,7 +111,11 @@ export const TopBlock = () => {
             </Typography>
             <img
               className={classes.infoImg}
-              src="/images/tokenAndNftAuction/p1.svg"
+              src={
+                isMd
+                  ? '/images/tokenAndNftAuction/on-chain-sm.png'
+                  : '/images/tokenAndNftAuction/p1.svg'
+              }
               alt=""
             />
           </Box>

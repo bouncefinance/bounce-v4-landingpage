@@ -68,7 +68,7 @@ export const TopBlock = () => {
           <img
             src={
               isMd
-                ? 'images/advertisementSolution/head-img-sm.png'
+                ? 'images/advertisementSolution/head-img-sm.svg'
                 : 'images/advertisementSolution/head-img.png'
             }
             alt={''}
