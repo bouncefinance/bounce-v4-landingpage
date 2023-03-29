@@ -22,7 +22,7 @@ export const useProblemsWithTraditionalStyles = makeStyles<Theme>(theme => ({
   },
   container: {
     padding: '120px 0 150px',
-    maxWidth: '1080px !important',
+    maxWidth: '1340px !important',
     margin: '0 auto',
     [theme.breakpoints.down('sm')]: {
       padding: '80px 0 150px',

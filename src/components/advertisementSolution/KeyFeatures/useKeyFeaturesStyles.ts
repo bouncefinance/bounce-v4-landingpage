@@ -22,7 +22,7 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
   },
   container: {
     padding: '120px 0 0',
-    maxWidth: '1080px !important',
+    maxWidth: '1340px !important',
     margin: '0 auto',
     [theme.breakpoints.down('sm')]: {
       padding: '80px 0 0',
@@ -90,6 +90,9 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     color: '#2B51DA',
     marginBottom: 16,
     lineHeight: '34px',
+  },
+  industryItemLeftTitle: {
+    color: '#fff',
   },
   industryItemContent: {
     fontFamily: `'Inter'`,

@@ -25,7 +25,7 @@ export const useAdsTerminalStyles = makeStyles<Theme>(theme => ({
   container: {
     position: 'relative',
     width: '100% !important',
-    maxWidth: '1080px !important',
+    maxWidth: '1340px !important',
     paddingTop: 93,
     paddingBottom: 120,
     display: 'flex',
@@ -58,7 +58,7 @@ export const useAdsTerminalStyles = makeStyles<Theme>(theme => ({
   },
   animationBox: {
     width: '100%',
-    maxWidth: '1080px',
+    maxWidth: '1340px',
     minHeight: 416,
     martin: '0 auto',
     display: 'flex',

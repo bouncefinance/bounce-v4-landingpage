@@ -41,6 +41,23 @@ export const useTackiesTheIssuesStyles = makeStyles<Theme>(theme => ({
       width: 'auto',
     },
   },
+  paginationBox: {
+    width: '100%',
+    display: 'flex',
+    flexFlow: 'row nowrap',
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+    marginBottom: 32,
+  },
+  paginationBtn: {
+    cursor: 'pointer',
+    width: 48,
+    height: 48,
+    margin: '0 12px',
+  },
+  paginationDisabled: {
+    cursor: 'not-allowed',
+  },
   industryItem: {
     position: 'relative',
     background: '#E6E8F1',

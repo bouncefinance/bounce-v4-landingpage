@@ -92,7 +92,7 @@ const KeyFeatures: React.FC = () => {
                 }}
               >
                 Problems
-              </span>
+              </span>{' '}
               with Traditional Real Goods Auction
             </Typography>
           </WithAnimation>

@@ -15,7 +15,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     position: 'relative',
     paddingTop: 190,
     width: '100vw !important',
-    maxWidth: '1080px !important',
+    maxWidth: '1340px !important',
     display: 'flex',
     margin: '0 auto 0',
     flexDirection: 'column',

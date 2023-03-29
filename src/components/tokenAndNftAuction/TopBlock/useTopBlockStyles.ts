@@ -157,7 +157,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
   },
   infoBox: {
     width: '100%',
-    maxWidth: 1080,
+    maxWidth: 1340,
     margin: '0 auto',
     background: '#F5F6F8',
     borderRadius: 24,
