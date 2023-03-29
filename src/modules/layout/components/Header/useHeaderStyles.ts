@@ -32,6 +32,9 @@ export const useHeaderStyles = makeStyles<Theme>(theme => ({
       justifyContent: 'initial',
       padding: '32px 24px 24px',
     },
+    [theme.breakpoints.down('sm')]: {
+      borderBottom: '0px',
+    },
   },
 
   renderMobile: {
