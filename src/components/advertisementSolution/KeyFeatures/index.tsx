@@ -34,7 +34,7 @@ const KeyFeature: React.FC = () => {
             <Grid item md={6} sm={12}>
               <Box className={classNames(classes.industryItem)}>
                 <WithAnimation>
-                  <Typography className={classes.industryItemTitle}>
+                  <Typography className={classNames(classes.industryItemTitle, classes.industryItemLeftTitle)}>
                     <img
                       className={classes.icon}
                       src="/images/advertisementSolution/icon1.png"

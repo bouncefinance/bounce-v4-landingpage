@@ -205,14 +205,16 @@ export const TopBlock = () => {
                 alt=""
               />
             </WithAnimation>
-            <WithAnimation style={{ marginLeft: '-16px' }}>
-              <img
-                className={classes.p6}
-                src="/images/sdkAndPlugins/star-mobile.svg"
-                alt=""
-                style={{ marginTop: 80 }}
-              />
-            </WithAnimation>
+            {isMd && (
+              <WithAnimation style={{ marginLeft: '-16px' }}>
+                <img
+                  className={classes.p6}
+                  src="/images/sdkAndPlugins/star-mobile.svg"
+                  alt=""
+                  style={{ marginTop: 80 }}
+                />
+              </WithAnimation>
+            )}
           </Grid>
         </Grid>
       </Container>

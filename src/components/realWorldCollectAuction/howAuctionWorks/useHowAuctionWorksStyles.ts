@@ -21,7 +21,7 @@ export const useHowAuctionWorksStyles = makeStyles<Theme>(theme => ({
   },
   container: {
     padding: '120px 0 150px',
-    maxWidth: '1080px !important',
+    maxWidth: '1340px !important',
     margin: '0 auto',
     [theme.breakpoints.down('sm')]: {
       padding: '80px 0 150px',
@@ -40,9 +40,10 @@ export const useHowAuctionWorksStyles = makeStyles<Theme>(theme => ({
     },
   },
   img: {
-    marginTop: 80,
+    display:'block',
+    margin: '80px auto 0',
     [theme.breakpoints.down('sm')]: {
-      marginTop: 0,
+      margin: '0 auto 0',
       padding: '0 32px 40px',
       width: '100%',
     },

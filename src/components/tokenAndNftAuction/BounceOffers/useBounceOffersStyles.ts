@@ -25,7 +25,7 @@ export const useBounceOffersStyles = makeStyles<Theme>(theme => ({
   container: {
     position: 'relative',
     width: '100% !important',
-    maxWidth: '1080px !important',
+    maxWidth: '1340px !important',
     paddingTop: 93,
     [theme.breakpoints.down('md')]: {
       paddingTop: 20,

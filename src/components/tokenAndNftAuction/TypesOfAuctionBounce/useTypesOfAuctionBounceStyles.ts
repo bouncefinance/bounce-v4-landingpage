@@ -25,7 +25,7 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
   container: {
     position: 'relative',
     width: '100% !important',
-    maxWidth: '1080px !important',
+    maxWidth: '1340px !important',
     paddingTop: 93,
     paddingBottom: 120,
     display: 'flex',
@@ -117,7 +117,7 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
   },
   animationBlock: {
     width: '100%',
-    maxWidth: '1080px',
+    maxWidth: '1340px',
     margin: '0 auto',
     display: 'flex',
     flexFlow: 'row nowrap',

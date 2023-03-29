@@ -16,7 +16,7 @@ const BounceLabs: React.FC<IBounceLabsProps> = ({}) => {
   const infoList = [
     {
       img: '/images/aiAuctionSolution/logo1.svg',
-      title: `The Integration of Bounce's`,
+      title: `Accuracy`,
       content: `AI algorithms can be used to assess the value of goods and determine the fair market price, providing a more accurate valuation of assets compared to traditional methods.`,
     },
     {
