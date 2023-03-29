@@ -6,11 +6,13 @@ import { WithAnimation } from 'src/modules/WithAnimation';
 import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
 import { useBounceLabsStyles } from './useBounceLabsStyles';
 import Footer from 'src/components/common/Footer';
+import { useIsMDDown } from '../../../modules/theme';
 
 export type IBounceLabsProps = {};
 
 const BounceLabs: React.FC<IBounceLabsProps> = ({}) => {
   const classes = useBounceLabsStyles();
+  const isMd = useIsMDDown();
   const infoList = [
     {
       img: '/images/aiAuctionSolution/logo1.svg',
@@ -48,20 +50,20 @@ const BounceLabs: React.FC<IBounceLabsProps> = ({}) => {
           </WithAnimation>
           <Box
             style={{
-              height: 127,
+              height: isMd ? 40 : 127,
             }}
           ></Box>
           <Grid
             container
             spacing={2}
             style={{
-              marginBottom: 159,
+              marginBottom: isMd ? 80 : 159,
             }}
           >
             {infoList.map(item => (
-              <Grid item xs={4}>
+              <Grid item md={4} sm={12}>
                 <Box className={classes.item}>
-                  <WithAnimation>
+                  <WithAnimation className={classes.item}>
                     <img className={classes.itemLogo} src={item.img} alt="" />
                     <Typography className={classes.itemTitle}>
                       {item.title}

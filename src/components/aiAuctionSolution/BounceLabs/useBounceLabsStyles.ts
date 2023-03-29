@@ -31,6 +31,9 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
   },
   container: {
     paddingTop: 120,
+    [theme.breakpoints.down('sm')]: {
+      paddingTop: 52,
+    },
   },
   title: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -38,6 +41,10 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
     fontSize: 58,
     lineHeight: '75px',
     color: '#fff',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 32,
+      lineHeight: '41.6px',
+    },
   },
   item: {
     width: '100%',
@@ -45,6 +52,10 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
     flexFlow: 'column nowrap',
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
+    [theme.breakpoints.down('sm')]: {
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
   },
   itemLogo: {
     display: 'block',
@@ -59,6 +70,10 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
     lineHeight: '34px',
     color: '#FFFBFB',
     marginBottom: 16,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 17,
+      lineHeight: '23.8px',
+    },
   },
   itemContent: {
     fontFamily: `'Inter'`,
@@ -66,5 +81,9 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
     fontSize: 16,
     lineHeight: '34px',
     color: '#fff',
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 14,
+      lineHeight: '21px',
+    },
   },
 }));

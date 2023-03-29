@@ -26,15 +26,25 @@ export const useSideContentStyles = makeStyles<Theme>(theme => ({
     [theme.breakpoints.up('lg')]: {
       marginBottom: theme.spacing(7.5),
     },
+    [theme.breakpoints.down('sm')]: {
+      justifyContent: 'center',
+    },
   },
   brandLogo: {
     fontSize: 37,
     marginRight: theme.spacing(4),
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 24,
+      marginRight: 17,
+    },
   },
   brandName: {
     fontSize: 18,
     [theme.breakpoints.up('lg')]: {
       fontSize: 24,
+    },
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 16,
     },
   },
 
@@ -50,6 +60,11 @@ export const useSideContentStyles = makeStyles<Theme>(theme => ({
       marginBottom: theme.spacing(4),
       maxWidth: 540,
     },
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 32,
+      lineHeight: '41.6px',
+      textAlign: 'center',
+    },
   },
   titleSm: {
     fontSize: 30,
@@ -61,6 +76,9 @@ export const useSideContentStyles = makeStyles<Theme>(theme => ({
   text: {
     transitionDelay: '0.4s',
     marginBottom: theme.spacing(4),
+    [theme.breakpoints.down('sm')]: {
+      textAlign: 'center',
+    },
   },
 
   btnWrap: {
@@ -103,6 +121,9 @@ export const useSideContentStyles = makeStyles<Theme>(theme => ({
       justifyContent: 'space-between',
       alignContent: 'center',
       alignItems: 'center',
+    },
+    [theme.breakpoints.down('sm')]: {
+      width: 'auto',
     },
   },
   tileComingSoon: {

@@ -4,8 +4,10 @@ import { Container, Typography, Box, Grid } from '@material-ui/core';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import ComBtn from 'src/components/common/ComBtn';
 import classNames from 'classnames';
+import { useIsMDDown } from '../../../modules/theme';
 
 export const TopBlock = () => {
+  const isMd = useIsMDDown();
   const classes = useTopBlockStyles();
   return (
     <div className={classes.pageRoot}>
@@ -39,7 +41,7 @@ export const TopBlock = () => {
           On-Chain Auction
         </WithAnimation>
         <Grid container spacing={2}>
-          <Grid item xs={7}>
+          <Grid item md={7} sm={12}>
             <WithAnimation className={classes.text} Component={Typography}>
               Bounce is dedicated to unlocking the full potential of AI
               technology through seamless integration with on-chain auctions.
@@ -51,6 +53,7 @@ export const TopBlock = () => {
               <ComBtn
                 style={{
                   marginRight: 16,
+                  padding: isMd ? '0 40px' : '0 70px',
                 }}
                 text={'Start Now'}
               ></ComBtn>
@@ -58,12 +61,13 @@ export const TopBlock = () => {
                 notHightLight={true}
                 style={{
                   marginRight: 16,
+                  padding: isMd ? '0 40px' : '0 70px',
                 }}
                 text={'Contact Us'}
               ></ComBtn>
             </WithAnimation>
           </Grid>
-          <Grid item xs={5}>
+          <Grid item md={5} sm={12}>
             <Box className={classes.rightImgBox}>
               <WithAnimation className={classes.p1} rootMargin={'50%'}>
                 <img

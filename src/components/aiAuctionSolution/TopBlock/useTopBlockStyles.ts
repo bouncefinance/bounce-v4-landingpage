@@ -30,6 +30,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     textAlign: 'left',
     marginBottom: 16,
     zIndex: 1,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 18,
+      textAlign: 'center',
+    },
   },
   title2: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -40,6 +44,12 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     textAlign: 'left',
     marginBottom: 16,
     zIndex: 1,
+    [theme.breakpoints.down('sm')]: {
+      fontSize: 32,
+      lineHeight: '41.6px',
+      marginBottom: 0,
+      textAlign: 'center',
+    },
   },
   text: {
     fontFamily: `'Inter'`,
@@ -51,12 +61,23 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     maxWidth: 970,
     margin: '40px 0 32px',
     zIndex: 1,
+    [theme.breakpoints.down('sm')]: {
+      margin: '24px 0 48px',
+      lineHeight: '22.5px',
+      fontSize: 15,
+      width: '90%',
+      textAlign: 'center',
+    },
   },
   btnBox: {
     display: 'flex',
     justifyContent: 'flex-start',
     marginBottom: 183,
     zIndex: 1,
+    [theme.breakpoints.down('sm')]: {
+      justifyContent: 'center',
+      marginBottom: 0,
+    },
   },
   rightImgBox: {
     position: 'relative',
@@ -217,13 +238,13 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
   },
   '@keyframes startAnimation': {
     '0%': {
-        transform: 'scale(0.88)',
+      transform: 'scale(0.88)',
     },
     '50%': {
-        transform: 'scale(1)',
+      transform: 'scale(1)',
     },
     '100%': {
-        transform: 'scale(0.88)',
+      transform: 'scale(0.88)',
     },
   },
   starAction: {

@@ -1,7 +1,7 @@
 import { makeStyles, Theme } from '@material-ui/core';
 // import { PARALLAX_MARGIN } from '../theme/const';
 
-export const useWithScrollFreezingStyles = makeStyles<Theme>(() => ({
+export const useWithScrollFreezingStyles = makeStyles<Theme>(theme => ({
   root: {
     maxWidth: '100%',
     boxSizing: 'border-box',
@@ -12,6 +12,9 @@ export const useWithScrollFreezingStyles = makeStyles<Theme>(() => ({
     paddingTop: 134,
     transition: 'transform 0.5s, filter 0.5s',
     willChange: 'transform, filter',
+    [theme.breakpoints.down('sm')]: {
+      paddingTop: 0,
+    },
   },
   notFixed: {
     position: 'relative',
