@@ -23,7 +23,7 @@ const HowAuctionWorks: React.FC = () => {
               className={classes.img}
               src={
                 isMd
-                  ? '/images/realWorldAuction/how-auction-works-sm.png'
+                  ? '/images/realWorldAuction/how-auction-works-sm.svg'
                   : '/images/realWorldAuction/how-auction-works.png'
               }
               alt={''}
