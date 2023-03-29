@@ -1,6 +1,6 @@
-import { makeStyles } from '@material-ui/core';
+import { makeStyles, Theme } from '@material-ui/core';
 
-export const useComBtnStyles = makeStyles(() => ({
+export const useComBtnStyles = makeStyles<Theme>(theme => ({
   btn: {
     display: 'inline-block',
     height: 60,
@@ -17,6 +17,10 @@ export const useComBtnStyles = makeStyles(() => ({
       background: '#fff',
       color: '#2B51DA',
       border: '1px solid #2B51DA',
+    },
+    [theme.breakpoints.down('sm')]: {
+      width: '158px',
+      padding: '0 40px',
     },
   },
   notHightLight: {

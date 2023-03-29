@@ -46,6 +46,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     [theme.breakpoints.down('sm')]: {
       fontSize: 32,
       lineHeight: '41.6px',
+      marginBottom: 0,
     },
   },
   text: {

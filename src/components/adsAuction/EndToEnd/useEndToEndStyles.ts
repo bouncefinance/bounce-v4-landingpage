@@ -61,7 +61,8 @@ export const useEndToEndStyles = makeStyles<Theme>(theme => ({
   rightImg: {
     height: 445,
     [theme.breakpoints.down('sm')]: {
-      height: 256,
+      height: 'auto',
+      width: '100%',
     },
   },
 }));

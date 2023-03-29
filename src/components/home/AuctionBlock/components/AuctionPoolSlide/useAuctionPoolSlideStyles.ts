@@ -14,11 +14,17 @@ export const useAuctionPoolSlideStyles = makeStyles(theme => ({
     height: '154px',
     opacity: 1,
     transform: 'translate3D(0, 0, 0)',
+    [theme.breakpoints.down('sm')]: {
+      height: 'auto',
+    },
   },
   content: {
     position: 'relative',
     width: '100%',
     height: '154px',
+    [theme.breakpoints.down('sm')]: {
+      height: 'auto',
+    },
   },
   slideContent: {
     position: 'relative',
@@ -27,6 +33,10 @@ export const useAuctionPoolSlideStyles = makeStyles(theme => ({
     flexFlow: 'row nowrap',
     alignItems: 'center',
     transform: 'translate3D(0, 0, 0)',
+    [theme.breakpoints.down('sm')]: {
+      height: 'auto',
+      padding: '16px 0',
+    },
   },
   auctionItem: {
     maxWidth: 598,
@@ -60,6 +70,7 @@ export const useAuctionPoolSlideStyles = makeStyles(theme => ({
     [theme.breakpoints.down('sm')]: {
       fontSize: '16px',
       lineHeight: '22.4px',
+      marginBottom: 8,
     },
   },
   desc: {

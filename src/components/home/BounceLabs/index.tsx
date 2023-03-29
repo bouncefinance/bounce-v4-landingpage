@@ -99,14 +99,12 @@ const BounceLabs: React.FC<IBounceLabsProps> = ({}) => {
             </Box>
           )}
           {isMDDown && (
-            <Grid container spacing={2}>
-              <Grid item sm={6}>
-                <WithAnimation>
-                  {mbImgRow.map(v => (
-                    <img className={classes.rowImgSm} src={v.img} alt="" />
-                  ))}
-                </WithAnimation>
-              </Grid>
+            <Grid container spacing={1}>
+              {mbImgRow.map(v => (
+                <Grid item xs={6}>
+                  <img className={classes.rowImgSm} src={v.img} alt="" />
+                </Grid>
+              ))}
             </Grid>
           )}
 

@@ -13,6 +13,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       boxSizing: 'content-box',
       alignItems: 'center',
     },
+    [theme.breakpoints.down('sm')]: {
+      minHeight: '30vh',
+    },
   },
   video: {
     position: 'absolute',
@@ -47,6 +50,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     justifyContent: 'center',
     [theme.breakpoints.up('md')]: {
       paddingBottom: 200,
+    },
+    [theme.breakpoints.down('sm')]: {
+      paddingBottom: 0,
     },
   },
   title: {

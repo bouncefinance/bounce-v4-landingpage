@@ -11,11 +11,7 @@ export const EndToEnd = () => {
       <div className={classes.root} id="bounce-offers-block">
         <Container maxWidth={false} className={classes.container}>
           <Grid container spacing={0}>
-            <Grid
-              item
-              md={6}
-              sm={12}
-            >
+            <Grid item md={6} sm={12}>
               <WithAnimation>
                 <Typography className={classes.leftTitle}>
                   An End-to-End Solution for Ads Auction
@@ -32,7 +28,7 @@ export const EndToEnd = () => {
                 </Typography>
               </WithAnimation>
             </Grid>
-            <Grid item xs={6}>
+            <Grid item md={6} xs={12}>
               <WithAnimation>
                 <img
                   className={classes.rightImg}

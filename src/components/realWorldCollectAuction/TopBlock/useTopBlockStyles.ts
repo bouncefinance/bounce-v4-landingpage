@@ -118,5 +118,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       width: '100%',
     },
   },
-  descImg: {},
+  descImg: {
+    [theme.breakpoints.down('sm')]: {
+      marginTop: 56,
+      marginBottom: 80,
+    },
+  },
 }));

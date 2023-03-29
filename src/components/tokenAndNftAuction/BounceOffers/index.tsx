@@ -9,7 +9,7 @@ export const BounceOffers = () => {
   const offerList = [
     {
       title: 'Permissionless and No-code Auction Creation',
-      desc: 'Create auctions anytime, in just a few simple steps, with our easy-to-use form.',
+      desc: 'With the most extensive infrastructure, we lead the way in hosting a diverse array of auctions on multiple blockchains for unparalleled accessibility and versatility.',
     },
     {
       title: 'Customizable Settings',

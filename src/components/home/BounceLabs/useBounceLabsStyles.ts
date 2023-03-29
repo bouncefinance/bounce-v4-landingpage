@@ -104,10 +104,10 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
     objectFit: 'contain',
   },
   rowImgSm: {
-    width: '50%',
     padding: theme.spacing(1),
     background: '#fff',
     borderRadius: '20px',
-    height: 'auto',
+    height: '58px',
+    width: '100%',
   },
 }));
