@@ -19,7 +19,6 @@ export const useComBtnStyles = makeStyles<Theme>(theme => ({
       border: '1px solid #2B51DA',
     },
     [theme.breakpoints.down('sm')]: {
-      width: '158px',
       padding: '0 40px',
     },
   },

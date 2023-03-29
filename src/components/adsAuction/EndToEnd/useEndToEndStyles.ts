@@ -62,7 +62,8 @@ export const useEndToEndStyles = makeStyles<Theme>(theme => ({
     height: 445,
     [theme.breakpoints.down('sm')]: {
       height: 'auto',
-      width: '100%',
+      width: '110%',
+      marginLeft: '-16px',
     },
   },
 }));

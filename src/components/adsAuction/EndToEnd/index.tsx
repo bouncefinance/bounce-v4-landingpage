@@ -3,9 +3,11 @@ import { useEndToEndStyles } from './useEndToEndStyles';
 import { Container, Typography, Box, Grid } from '@material-ui/core';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
+import { useIsMDDown } from '../../../modules/theme';
 
 export const EndToEnd = () => {
   const classes = useEndToEndStyles();
+  const isMd = useIsMDDown();
   return (
     <WithScrollFreezing>
       <div className={classes.root} id="bounce-offers-block">
@@ -32,7 +34,11 @@ export const EndToEnd = () => {
               <WithAnimation>
                 <img
                   className={classes.rightImg}
-                  src="/images/adsAuction/p10.png"
+                  src={
+                    isMd
+                      ? '/images/adsAuction/p10-sm.png'
+                      : '/images/adsAuction/p10.png'
+                  }
                 />
               </WithAnimation>
             </Grid>
