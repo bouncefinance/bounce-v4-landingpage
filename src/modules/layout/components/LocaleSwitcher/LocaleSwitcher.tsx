@@ -10,11 +10,14 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { t } from 'src/i18n/intl';
 
-interface ILocalSwitcherProps {}
+interface ILocalSwitcherProps {
+  style?: React.CSSProperties;
+}
 
-export const LocaleSwitcher = ({}) => {
+export const LocaleSwitcher = (LocaleSwitcher: ILocalSwitcherProps) => {
+  const { style } = LocaleSwitcher;
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
-  const router = useRouter()
+  const router = useRouter();
 
   const classes = useLocalSwitcherStyles();
 
@@ -87,6 +90,9 @@ export const LocaleSwitcher = ({}) => {
         aria-haspopup="true"
         onClick={handleClick}
         className={classes.btn}
+        style={{
+          ...style,
+        }}
       >
         <GlobeIcon className={classes.icon} />
         {renderCurrentLocale()}
@@ -116,11 +122,7 @@ export const LocaleSwitcher = ({}) => {
               className={classes.menuItem}
               key={uid(item)}
             >
-              <Link
-                href={{ pathname, query }}
-                as={asPath}
-                locale={item.value}
-              >
+              <Link href={{ pathname, query }} as={asPath} locale={item.value}>
                 <a className={classes.menuItemLink}>{item.label}</a>
               </Link>
             </MenuItem>

@@ -28,10 +28,10 @@ const BounceLabs: React.FC<IBounceLabsProps> = ({}) => {
       img: '/images/home/partners/logo2.png',
     },
     {
-      img: '/images/home/partners/logo5.png',
+      img: '/images/home/partners/logo3.png',
     },
     {
-      img: '/images/home/partners/logo5.png',
+      img: '/images/home/partners/logo4.png',
     },
     {
       img: '/images/home/partners/logo5.png',
@@ -39,10 +39,10 @@ const BounceLabs: React.FC<IBounceLabsProps> = ({}) => {
   ];
   const imgRow2 = [
     {
-      img: '/images/home/partners/logo8.png',
+      img: '/images/home/partners/logo6.png',
     },
     {
-      img: '/images/home/partners/logo8.png',
+      img: '/images/home/partners/logo7.png',
     },
     {
       img: '/images/home/partners/logo8.png',

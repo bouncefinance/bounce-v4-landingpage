@@ -95,13 +95,19 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
     marginBottom: 31,
   },
   rowImg: {
+    dispaly: 'block',
     width: 220,
     height: 86,
     margin: '0 10px',
+    background: '#fff',
+    borderRadius: '20px',
+    objectFit: 'contain',
   },
   rowImgSm: {
     width: '50%',
     padding: theme.spacing(1),
+    background: '#fff',
+    borderRadius: '20px',
     height: 'auto',
   },
 }));

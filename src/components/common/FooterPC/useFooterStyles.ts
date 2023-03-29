@@ -26,7 +26,7 @@ export const useFooterStyles = makeStyles(theme => ({
   col: {
     display: 'flex',
     justifyContent: 'center',
-    color: '#ADADAD',
+    color: '#fff',
 
     [theme.breakpoints.up('lg')]: {
       justifyContent: 'flex-start',
@@ -44,7 +44,7 @@ export const useFooterStyles = makeStyles(theme => ({
   },
 
   link: {
-    color: '#ADADAD',
+    color: '#fff',
     transition: 'color 0.2s',
     padding: theme.spacing(1),
     minWidth: 0,
@@ -54,7 +54,7 @@ export const useFooterStyles = makeStyles(theme => ({
 
     '&:hover': {
       background: 'none',
-      color: '#ADADAD',
+      color: '#fff',
       border: 'none',
     },
   },
@@ -166,6 +166,6 @@ export const useFooterStyles = makeStyles(theme => ({
     // },
   },
   darkLink: {
-    color: '#ADADAD' + '!important',
+    color: '#fff' + '!important',
   },
 }));

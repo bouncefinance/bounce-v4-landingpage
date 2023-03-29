@@ -21,7 +21,7 @@ export const useTackiesTheIssuesStyles = makeStyles<Theme>(theme => ({
   },
   container: {
     padding: '120px 0 150px',
-    maxWidth: '1080px !important',
+    maxWidth: '1340px !important',
     margin: '0 auto',
     [theme.breakpoints.down('sm')]: {
       padding: '80px 0 150px',
@@ -70,6 +70,7 @@ export const useTackiesTheIssuesStyles = makeStyles<Theme>(theme => ({
   industryItemTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
+    lineHeight: '25px',
     fontSize: 18,
     color: '#171717',
     marginBottom: 14,

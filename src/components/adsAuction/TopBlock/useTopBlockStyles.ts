@@ -95,7 +95,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     marginBottom: '30px',
   },
   beginnerTitle: {
-    fontFamily: `'Inter'`,
+    fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
     fontSize: 16,
     color: '#171717',

@@ -4,8 +4,7 @@ import { Container, Typography, Box, Grid } from '@material-ui/core';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
 import Footer from 'src/components/common/Footer';
-import { BtnItem } from 'src/components/home/TypesOfAction';
-import Balls from 'src/components/home/TypesOfAction/Balls';
+import CanvasGamePc from 'src/components/home/TypesOfAction/CanvasGamePc';
 export const TypesOfAuctionBounce = () => {
   const classes = useTypesOfAuctionBounceStyles();
   const offerList = [
@@ -88,94 +87,7 @@ export const TypesOfAuctionBounce = () => {
               ))}
             </Grid>
           </WithAnimation>
-          <Box className={classes.animationBlock}>
-            <Box className={classes.animationBlockLeft}>
-              <BtnItem
-                img={'/images/home/typesOfAuction/1.svg'}
-                text={'Fixed-priced Auction'}
-                style={{
-                  marginBottom: '32px',
-                }}
-              />{' '}
-              <BtnItem
-                img={'/images/home/typesOfAuction/2.svg'}
-                text={'English Auction'}
-                style={{
-                  marginBottom: '32px',
-                }}
-              />{' '}
-              <BtnItem
-                img={'/images/home/typesOfAuction/3.svg'}
-                text={'Dutch Auction'}
-                style={{
-                  marginBottom: '32px',
-                }}
-              />{' '}
-              <BtnItem
-                img={'/images/home/typesOfAuction/4.svg'}
-                text={'Sealed-Bid Auction'}
-              />{' '}
-            </Box>
-            <Box className={classes.animationBlockCenter}>
-              <Box className={classes.centerTop}>
-                <img src="/images/home/typesOfAuction/left-arrow.svg" alt="" />
-                <Balls />
-                <img src="/images/home/typesOfAuction/right-arrow.svg" alt="" />
-              </Box>
-              <Box className={classes.centerBottom}>
-                <BtnItem
-                  img={'/images/home/typesOfAuction/5.svg'}
-                  text={'Token & NFT'}
-                  style={{
-                    marginRight: 12,
-                    width: 150,
-                  }}
-                />{' '}
-                <BtnItem
-                  img={'/images/home/typesOfAuction/6.svg'}
-                  text={'NFTs'}
-                  style={{
-                    marginRight: 12,
-                    width: 90,
-                  }}
-                />{' '}
-                <BtnItem
-                  img={'/images/home/typesOfAuction/7.svg'}
-                  text={'Real-world Collectibles'}
-                  style={{
-                    width: 200,
-                  }}
-                />
-              </Box>
-            </Box>
-            <Box className={classes.animationBlockLeft}>
-              <BtnItem
-                img={'/images/home/typesOfAuction/1.svg'}
-                text={'Fixed-priced Auction'}
-                style={{
-                  marginBottom: '32px',
-                }}
-              />{' '}
-              <BtnItem
-                img={'/images/home/typesOfAuction/1.svg'}
-                text={'Fixed-priced Auction'}
-                style={{
-                  marginBottom: '32px',
-                }}
-              />{' '}
-              <BtnItem
-                img={'/images/home/typesOfAuction/1.svg'}
-                text={'Fixed-priced Auction'}
-                style={{
-                  marginBottom: '32px',
-                }}
-              />{' '}
-              <BtnItem
-                img={'/images/home/typesOfAuction/1.svg'}
-                text={'Fixed-priced Auction'}
-              />{' '}
-            </Box>
-          </Box>
+          <CanvasGamePc />
         </Container>
         <Footer colorTheme={'dark'} noBg={true}></Footer>
       </div>
