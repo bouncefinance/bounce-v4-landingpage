@@ -121,7 +121,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
   beginnerRightImg: {
     height: 613,
     [theme.breakpoints.down('sm')]: {
-      height: 300,
+      height: 'auto',
+      width: '100%',
+      marginRight: -16,
     },
   },
 }));

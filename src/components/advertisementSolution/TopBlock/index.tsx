@@ -65,7 +65,17 @@ export const TopBlock = () => {
               }}
             ></ComBtn>
           </WithAnimation>
-          <img src={'images/advertisementSolution/head-img.png'} alt={''} />
+          <img
+            src={
+              isMd
+                ? 'images/advertisementSolution/head-img-sm.png'
+                : 'images/advertisementSolution/head-img.png'
+            }
+            alt={''}
+            style={{
+              marginTop: isMd ? 40 : 0,
+            }}
+          />
         </Box>
       </Container>
     </div>

@@ -1,9 +1,9 @@
 import React from 'react';
-import {useTopBlockStyles} from './useTopBlockStyles';
-import {Container, Typography, Box, Grid} from '@material-ui/core';
-import {WithAnimation} from 'src/modules/WithAnimation';
+import { useTopBlockStyles } from './useTopBlockStyles';
+import { Container, Typography, Box, Grid } from '@material-ui/core';
+import { WithAnimation } from 'src/modules/WithAnimation';
 import ComBtn from 'src/components/common/ComBtn';
-import {useIsMDDown} from "../../../modules/theme";
+import { useIsMDDown } from '../../../modules/theme';
 
 export const TopBlock = () => {
   const isMd = useIsMDDown();
@@ -22,12 +22,14 @@ export const TopBlock = () => {
       desc: 'Launch auctions and submit bids through only one click',
     },
   ];
-  const title = <WithAnimation>
-    <Typography className={classes.leftTitle}>
-      Transform Your Advertising Strategy With Bounce's Full Suite of
-      Innovative Solutions.
-    </Typography>
-  </WithAnimation>
+  const title = (
+    <WithAnimation>
+      <Typography className={classes.leftTitle}>
+        Transform Your Advertising Strategy With Bounce's Full Suite of
+        Innovative Solutions.
+      </Typography>
+    </WithAnimation>
+  );
 
   function desc() {
     return beginners.map(item => {
@@ -47,15 +49,17 @@ export const TopBlock = () => {
           </Box>
         </WithAnimation>
       );
-    })
+    });
   }
 
-  const img = <WithAnimation>
-    <img
-      className={classes.beginnerRightImg}
-      src="/images/adsAuction/bg.png"
-    />
-  </WithAnimation>
+  const img = (
+    <WithAnimation style={{ marginRight: '-16px' }}>
+      <img
+        className={classes.beginnerRightImg}
+        src="/images/adsAuction/bg.png"
+      />
+    </WithAnimation>
+  );
 
   return (
     <div className={classes.pageRoot}>
@@ -98,13 +102,14 @@ export const TopBlock = () => {
         <WithAnimation className={classes.btnBox}>
           <ComBtn text={'Start Now'}></ComBtn>
         </WithAnimation>
-        {!isMd && <Grid container spacing={0}>
+        {!isMd && (
+          <Grid container spacing={0}>
             <Grid
-                item
-                xs={6}
-                style={{
-                  paddingTop: 109,
-                }}
+              item
+              xs={6}
+              style={{
+                paddingTop: 109,
+              }}
             >
               {title}
               {desc()}
@@ -112,12 +117,15 @@ export const TopBlock = () => {
             <Grid item xs={6}>
               {img}
             </Grid>
-        </Grid>}
-        {isMd && <Box>
-          {img}
-          {title}
-          {desc()}
-        </Box>}
+          </Grid>
+        )}
+        {isMd && (
+          <Box>
+            {img}
+            {title}
+            {desc()}
+          </Box>
+        )}
       </Container>
     </div>
   );
