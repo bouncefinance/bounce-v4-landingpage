@@ -15,10 +15,10 @@ export default function Balls() {
 
   const setup = useCallback(() => {
     var NUM_BALLS = 11,
-      DAMPING = 0.7,
-      GRAVITY = 0.6,
-      MOUSE_SIZE = 50,
-      SPEED = 1;
+      DAMPING = 0.1,
+      GRAVITY = 0.3,
+      MOUSE_SIZE = 20,
+      SPEED = 0.3;
 
     var canvas: any,
       ctx: {
@@ -262,13 +262,12 @@ export default function Balls() {
       while (i--) balls[i].draw(ctx);
 
       if (mouse.down) {
-        ctx.fillStyle = 'rgba(0,0,0,0.1)';
-        ctx.strokeStyle = 'rgba(0,0,0,0.2)';
-
-        ctx.beginPath();
-        ctx.arc(mouse.x, mouse.y, MOUSE_SIZE, 0, TWO_PI);
-        ctx.fill();
-        ctx.stroke();
+        // ctx.fillStyle = 'rgba(0,0,0,0.1)';
+        // ctx.strokeStyle = 'rgba(0,0,0,0.2)';
+        // ctx.beginPath();
+        // ctx.arc(mouse.x, mouse.y, MOUSE_SIZE, 0, TWO_PI);
+        // ctx.fill();
+        // ctx.stroke();
       }
 
       requestAnimationFrame(update);
@@ -323,7 +322,10 @@ export default function Balls() {
         e.preventDefault();
       };
 
-      canvas.onmouseup = function (e: { which: number; preventDefault: () => void; }) {
+      canvas.onmouseup = function (e: {
+        which: number;
+        preventDefault: () => void;
+      }) {
         if (e.which == 3) {
           mouse.down = false;
           document.body.style.cursor = 'default';
