@@ -36,10 +36,10 @@ export const useTypesOfActionStyles = makeStyles<Theme>(theme => ({
   },
   canvas: {
     background: 'transparent',
-    width: '400px',
-    height: '400px',
+    width: '375px',
+    height: '375px',
     display: 'block',
-    borderRadius: '40px',
+    borderRadius: '43px',
     border: '1px solid #ffffff',
   },
   btnItem: {
