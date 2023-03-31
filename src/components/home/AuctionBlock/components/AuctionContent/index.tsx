@@ -97,6 +97,7 @@ const AutionTitle: React.FC = () => {
   ];
   const isMd = useIsMDDown();
   useEffect(() => {
+    if (isMd) return
     // size 2075 * 748 when screen is 1400
     function getElementTop(el: any): number {
       if (el.offsetParent) {
@@ -171,7 +172,7 @@ const AutionTitle: React.FC = () => {
           } else if (Math.abs(clientTop) >= 4000 - elHeight) {
             document
               .getElementById('layout')
-              ?.setAttribute('style', 'overflow:visible');
+              ?.setAttribute('style', 'overflow:hidden');
             endLeft = elWidth - 550;
             setContentStyle({
               top: 0,
