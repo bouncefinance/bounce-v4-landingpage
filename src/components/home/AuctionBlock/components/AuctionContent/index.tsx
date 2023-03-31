@@ -122,20 +122,17 @@ const AutionTitle: React.FC = () => {
         const slideContent = document.getElementById('animation-content');
         if (slideBox) {
           // size 2075 * 748 when screen is 1467
-          const winH = window.innerHeight; // 视窗高度
-          const winW = window.innerWidth; // 视窗高度
-          const pageScrollTop = document.body.scrollTop; // 页面当前滚动，距离页面顶部的距离
-          const clientTop = slideBox?.getBoundingClientRect()?.top || 0; // 距离视窗顶部的距离
+          const winH = window.innerHeight;
+          const winW = window.innerWidth;
+          const pageScrollTop = document.body.scrollTop;
+          const clientTop = slideBox?.getBoundingClientRect()?.top || 0;
           const elOffsetTop = getElementTop(slideBox);
-          // 根据当前浏览器宽度，重置动画组件的大小
           const scale =  winW / 1467;
-          console.log('isMd<>>>>', !!isMd)
           setContentStyle({
             zoom: isMd ? 'unset' :scale,
           });
-          const elHeight = slideContent?.offsetHeight || 0; // 元素高度
-          const elWidth = slideContent?.offsetWidth || 0; // 元素宽度
-          // 动画应该固定在顶部的距离
+          const elHeight = slideContent?.offsetHeight || 0; 
+          const elWidth = slideContent?.offsetWidth || 0; 
           let startTop = 0;
           if (elHeight < winH) {
             startTop = (winH - elHeight) / 2;
