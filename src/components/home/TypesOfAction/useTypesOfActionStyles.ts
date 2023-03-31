@@ -133,7 +133,6 @@ export const useTypesOfActionStyles = makeStyles<Theme>(theme => ({
     display: 'flex',
     flexFlow: 'row wrap',
     justifyContent: 'space-between',
-    width: 'calc(100% - 40px)',
     margin: '0 auto',
     border: `2px solid rgba(255, 255, 255, 0.5)`,
     borderRadius: 20,
