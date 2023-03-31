@@ -42,7 +42,7 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
     //     href: '/investment',
     //   },
       {
-        label: 'Acution Products',
+        label: 'Auction Products',
         list: [
           {
             label: 'Token & NFT Auction',

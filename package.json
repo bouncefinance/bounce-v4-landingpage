@@ -12,6 +12,7 @@
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@svgr/webpack": "^6.5.1",
+    "ahooks": "^3.7.6",
     "babylonjs": "^5.22.1",
     "babylonjs-loaders": "^5.22.1",
     "classnames": "^2.3.1",
@@ -20,6 +21,7 @@
     "react-dom": "17.0.1",
     "react-intersection-observer": "^8.32.0",
     "react-intl-universal": "^2.6.11",
+    "react-sticky": "^6.0.3",
     "react-uid": "^2.3.1",
     "styled-jsx": "^3.4.4",
     "swiper": "6.8.1"

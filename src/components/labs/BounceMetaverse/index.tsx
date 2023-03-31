@@ -9,6 +9,8 @@ import { LogoIcon } from 'src/modules/common/components/Icons/LogoIcon';
 import { t, tHTML } from 'src/i18n/intl';
 import Footer from 'src/components/common/Footer';
 import { WithAnimation } from 'src/modules/WithAnimation';
+import { useIsMDDown } from '../../../modules/theme';
+
 interface BounceMetaParam {
   onlyAnimation1?: boolean;
 }
@@ -20,10 +22,17 @@ export const BounceMetaverse = (props: BounceMetaParam) => {
     const engine = createEngine();
     !onlyAnimation1 && createScene(engine, canvasRef.current);
   }, []);
+  const isMd = useIsMDDown();
   return (
     <div>
       {onlyAnimation1 && (
-        <div className={classes.metaverseWrap} id="bounce-metaverse">
+        <div
+          className={classes.metaverseWrap}
+          style={{
+            marginTop: isMd ? '0' : '-134px',
+          }}
+          id="bounce-metaverse"
+        >
           <div className={classes.wrap}>
             <Container maxWidth={false} className={classes.container}>
               <Grid container>

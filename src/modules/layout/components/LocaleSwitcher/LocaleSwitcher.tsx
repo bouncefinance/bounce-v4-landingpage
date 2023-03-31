@@ -40,34 +40,34 @@ export const LocaleSwitcher = (LocaleSwitcher: ILocalSwitcherProps) => {
         value: Locale['zh-CN'],
         label: t('language.zh-CN'),
       },
-      {
-        value: Locale['tr-TR'],
-        label: t('language.tr-TR'),
-      },
-      {
-        value: Locale['ja-JP'],
-        label: t('language.ja-JP'),
-      },
-      {
-        value: Locale['ru-RU'],
-        label: t('language.ru-RU'),
-      },
-      {
-        value: Locale['fr-FR'],
-        label: t('language.fr-FR'),
-      },
-      {
-        value: Locale['de-DE'],
-        label: t('language.de-DE'),
-      },
-      {
-        value: Locale['id-ID'],
-        label: t('language.id-ID'),
-      },
-      {
-        value: Locale['ko-KR'],
-        label: t('language.ko-KR'),
-      },
+    //   {
+    //     value: Locale['tr-TR'],
+    //     label: t('language.tr-TR'),
+    //   },
+    //   {
+    //     value: Locale['ja-JP'],
+    //     label: t('language.ja-JP'),
+    //   },
+    //   {
+    //     value: Locale['ru-RU'],
+    //     label: t('language.ru-RU'),
+    //   },
+    //   {
+    //     value: Locale['fr-FR'],
+    //     label: t('language.fr-FR'),
+    //   },
+    //   {
+    //     value: Locale['de-DE'],
+    //     label: t('language.de-DE'),
+    //   },
+    //   {
+    //     value: Locale['id-ID'],
+    //     label: t('language.id-ID'),
+    //   },
+    //   {
+    //     value: Locale['ko-KR'],
+    //     label: t('language.ko-KR'),
+    //   },
     ],
     [],
   );

@@ -1,54 +1,53 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import { Box, Typography, Grid } from '@material-ui/core';
 import { useAuctionContentStyles } from './useAuctionContentStyles';
-import classNames from 'classnames';
-import { useIsMDDown } from '../../../../../modules/theme';
+import { useIsMDDown } from 'src/modules/theme';
 
 const AutionTitle: React.FC = () => {
   const classes = useAuctionContentStyles();
-  const isMDDown = useIsMDDown();
+  const [contentStyle, setContentStyle] = useState({});
   const imgList = [
     {
       url: '/images/home/auction/slide-right-animation/p5.png',
       style: {
-        top: isMDDown ? 160 : 327,
-        left: isMDDown ? 177 : 259,
-        width: isMDDown ? 708 : 1180,
-        height: isMDDown ? 169 : 282,
+        top: 327,
+        left: 259,
+        width: 1180,
+        height: 282,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/p1.png',
       style: {
-        top: isMDDown ? 70 : 144,
+        top: 144,
         left: 0,
-        width: isMDDown ? 183 : 284,
+        width: 284,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/icon1.png',
       style: {
-        top: isMDDown ? 220 : 370,
-        left: isMDDown ? 60 : 80,
-        width: isMDDown ? 140 : 240,
+        top: 370,
+        left: 80,
+        width: 240,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/icon3.png',
       style: {
         top: 0,
-        left: isMDDown ? 180 : 267,
-        width: isMDDown ? 34 : 58,
-        height: isMDDown ? 34 : 58,
+        left: 267,
+        width: 58,
+        height: 58,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/p2.png',
       style: {
-        top: isMDDown ? 34 : 102,
-        left: isMDDown ? 217 : 326,
-        width: isMDDown ? 416 : 686,
+        top: 102,
+        left: 326,
+        width: 686,
       },
     },
     {
@@ -96,6 +95,108 @@ const AutionTitle: React.FC = () => {
       },
     },
   ];
+  const isMd = useIsMDDown();
+  useEffect(() => {
+    // size 2075 * 748 when screen is 1400
+    function getElementTop(el: any): number {
+      if (el.offsetParent) {
+        return getElementTop(el.offsetParent) + el.offsetTop;
+      }
+      return el.offsetTop || 0;
+    }
+    function debounce(fn: () => void, ms: number) {
+      let timer: NodeJS.Timeout | null;
+      return function () {
+        if (timer) {
+          clearTimeout(timer);
+        }
+        timer = setTimeout(() => {
+          fn();
+          timer = null;
+        }, ms);
+      };
+    }
+    const handleScrollTop = () => {
+      debounce(() => {
+        const slideBox = document.getElementById('animation-box');
+        const slideContent = document.getElementById('animation-content');
+        if (slideBox) {
+          // size 2075 * 748 when screen is 1467
+          const winH = window.innerHeight; // 视窗高度
+          const winW = window.innerWidth; // 视窗高度
+          const pageScrollTop = document.body.scrollTop; // 页面当前滚动，距离页面顶部的距离
+          const clientTop = slideBox?.getBoundingClientRect()?.top || 0; // 距离视窗顶部的距离
+          const elOffsetTop = getElementTop(slideBox);
+          // 根据当前浏览器宽度，重置动画组件的大小
+          const scale =  winW / 1467;
+          console.log('isMd<>>>>', !!isMd)
+          setContentStyle({
+            zoom: isMd ? 'unset' :scale,
+          });
+          const elHeight = slideContent?.offsetHeight || 0; // 元素高度
+          const elWidth = slideContent?.offsetWidth || 0; // 元素宽度
+          // 动画应该固定在顶部的距离
+          let startTop = 0;
+          if (elHeight < winH) {
+            startTop = (winH - elHeight) / 2;
+          }
+          console.log(
+            'pageScrollTop, winH, elHeight, clientTop,startTop, elOffsetTop',
+            pageScrollTop,
+            winH,
+            elHeight,
+            clientTop,
+            startTop,
+            elOffsetTop,
+          );
+          if (elOffsetTop === elHeight) {
+            return;
+          }
+          let endLeft = 0;
+          if (clientTop <= startTop && Math.abs(clientTop) < 4000 - elHeight) {
+            document
+              .getElementById('layout')
+              ?.setAttribute('style', 'overflow:visible');
+            endLeft =
+              (elWidth - 550) * (Math.abs(clientTop) / (4000 - elHeight));
+            if (clientTop >= 0) {
+              setContentStyle({
+                zoom: isMd ? 'unset' :scale,
+                top: `${startTop - clientTop}px`,
+              });
+            } else {
+              setContentStyle({
+                top: `${startTop}px`,
+                zoom: isMd ? 'unset' :scale,
+                transform: `translateX(-${endLeft}px)`,
+              });
+            }
+          } else if (Math.abs(clientTop) >= 4000 - elHeight) {
+            document
+              .getElementById('layout')
+              ?.setAttribute('style', 'overflow:visible');
+            endLeft = elWidth - 550;
+            setContentStyle({
+              top: 0,
+              zoom: isMd ? 'unset' :scale,
+              transform: `translatex(-${endLeft}px)`,
+            });
+          } else {
+            document
+              .getElementById('layout')
+              ?.setAttribute('style', 'overflow:hidden');
+          }
+        }
+      }, 50)();
+    };
+    window.addEventListener('scroll', handleScrollTop);
+    window.addEventListener('resize', handleScrollTop);
+    return () => {
+      window.removeEventListener('scroll', handleScrollTop);
+      window.removeEventListener('resize', handleScrollTop);
+      document.getElementById('layout')?.removeAttribute('style');
+    };
+  }, [isMd]);
   return (
     <Box className={classes.auctionContentSection}>
       <WithAnimation
@@ -131,13 +232,12 @@ const AutionTitle: React.FC = () => {
           </Grid>
         </Grid>
       </WithAnimation>
-      <WithAnimation
-        className={classes.auctionAnimationContent}
-        rootMargin="-50%"
-        defaultAnimation={false}
-        addClassInView={classes.auctionAnimationContentShow}
-      >
-        <Box className={classes.animationBlock}>
+      <Box className={classes.auctionAnimationContent} id="animation-box">
+        <Box
+          className={classes.animationBlock}
+          style={contentStyle}
+          id="animation-content"
+        >
           {imgList.map(item => {
             return (
               <img
@@ -151,7 +251,7 @@ const AutionTitle: React.FC = () => {
             );
           })}
         </Box>
-      </WithAnimation>
+      </Box>
     </Box>
   );
 };

@@ -3,7 +3,7 @@ import { useDesignedForEveryoneStyle } from './useDesignedForEveryoneStyle';
 import { Container, Box, Typography, Grid } from '@material-ui/core';
 import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
 import { useIsMDDown } from '../../../modules/theme';
-import {WithAnimation} from 'src/modules/WithAnimation';
+import { WithAnimation } from 'src/modules/WithAnimation';
 
 const AuctionBlock: React.FC = () => {
   const classes = useDesignedForEveryoneStyle();
@@ -54,10 +54,14 @@ const AuctionBlock: React.FC = () => {
   }
 
   const DevDesc = (
-    <img
-      className={classes.beginnerRightImg}
-      src="/images/home/designed-for-everyone/p1.png"
-    />
+    <Box className={classes.rightDesc}>
+      <Box className={classes.rightBg}>
+        <img
+          className={classes.beginnerRightImg}
+          src="/images/home/designed-for-everyone/p1.png"
+        />
+      </Box>
+    </Box>
   );
 
   return (

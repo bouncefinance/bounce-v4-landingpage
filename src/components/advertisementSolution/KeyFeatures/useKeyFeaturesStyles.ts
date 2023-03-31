@@ -15,6 +15,7 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
       color: PALETTE.text.reverse,
     },
     [theme.breakpoints.up('md')]: {
+      marginTop: '-134px',
       '&::before': {
         borderRadius: '60px 60px 0 0',
       },

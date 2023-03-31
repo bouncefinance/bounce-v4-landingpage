@@ -4,6 +4,7 @@ import { Container, Typography, Box, Grid } from '@material-ui/core';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import ComBtn from 'src/components/common/ComBtn';
 import { useIsMDDown } from '../../../modules/theme';
+import classNames from 'classnames';
 
 export const TopBlock = () => {
   const classes = useTopBlockStyles();
@@ -65,10 +66,69 @@ export const TopBlock = () => {
               ></ComBtn>
             </WithAnimation>
           </Box>
-          <img
+          <Box className={classes.descAnimationImgBox}>
+            <WithAnimation
+              defaultAnimation={false}
+              className={classes.banner1}
+              addClassInView={classes.bannerShow}
+            >
+              <img
+                src={'/images/realWorldAuction/banner1.png'}
+                className={classes.bannerImg}
+              />
+            </WithAnimation>
+            <WithAnimation
+              defaultAnimation={false}
+              className={classes.banner2}
+              rootMargin={'50%'}
+              addClassInView={classes.bannerShow}
+            >
+              <img
+                src={'/images/realWorldAuction/banner2.png'}
+                className={classes.bannerImg}
+              />
+            </WithAnimation>
+            <WithAnimation
+              defaultAnimation={false}
+              className={classes.bannerIcon1}
+              rootMargin={'50%'}
+              addClassInView={classes.bannerShow}
+            >
+              <img
+                src={'/images/realWorldAuction/add-icon.png'}
+                className={classes.bannerImg}
+              />
+            </WithAnimation>
+            <WithAnimation
+              defaultAnimation={false}
+              className={classes.bannerIcon2}
+              rootMargin={'50%'}
+              addClassInView={classes.bannerShow}
+            >
+              <img
+                src={'/images/realWorldAuction/des-icon.png'}
+                className={classes.bannerImg}
+              />
+            </WithAnimation>
+            <WithAnimation
+              defaultAnimation={false}
+              className={classes.timeCount1}
+              addClassInView={classes.timeCount1show}
+            >
+              00 : 38 : 99
+            </WithAnimation>
+            <WithAnimation
+              defaultAnimation={false}
+              className={classes.timeCount2}
+              addClassInView={classes.timeCount2show}
+            >
+              00 : 59 : 99
+            </WithAnimation>
+          </Box>
+          {/* <img
             src={'/images/realWorldAuction/head-img.png'}
             className={classes.descImg}
-          />
+          /> */}
         </Box>
       </Container>
     </div>

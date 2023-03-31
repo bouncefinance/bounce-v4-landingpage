@@ -75,6 +75,7 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     margin: '0 35px',
     height: 1,
     borderBottom: `1px dashed #e3e3e3`,
+    zIndex: 1,
     [theme.breakpoints.down('sm')]: {
       margin: '0 16px',
     },
@@ -84,6 +85,7 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     fontWeight: 500,
     fontSize: 28,
     color: '#2B51DA',
+    zIndex: 1,
     [theme.breakpoints.down('sm')]: {
       margin: '0 16px',
       fontSize: 18,
@@ -122,10 +124,26 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     },
   },
   beginnerRightImg: {
-    height: 613,
+    width: 650,
     [theme.breakpoints.down('sm')]: {
       height: 300,
       margin: '0 0 0 16px',
     },
+  },
+  rightDesc: {
+    position: 'relative',
+    width: '1053px',
+    height: 613,
+    display: 'flex',
+    flexFlow: 'row nowrap',
+    justifyContent: 'flex-start',
+  },
+  rightBg: {
+    width: '1053px',
+    height: 613,
+    background: '#fff',
+    borderRadius: '280px 0px 0px 280px',
+    overflow: 'hidden',
+    padding: '109px 0 0 30px',
   },
 }));

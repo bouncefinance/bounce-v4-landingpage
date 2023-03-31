@@ -52,17 +52,16 @@ export const useAuctionContentStyles = makeStyles(theme => ({
   auctionAnimationContent: {
     position: 'relative',
     width: '100%',
-    // height:'4000px',
+    height:'4000px',
     maxWidth: '1100px',
     margin: '0 auto',
-    opacity: 0,
+    opacity: 1,
     zIndex: 1,
-    overflow: 'visible',
   },
   auctionAnimationContentShow: {
     position: 'relative',
     width: '100%',
-    // height:'4000px',
+    height:'4000px',
     maxWidth: '1100px',
     margin: '0 auto',
     opacity: 1,
@@ -102,9 +101,8 @@ export const useAuctionContentStyles = makeStyles(theme => ({
     },
   },
   animationBlock: {
-    position: 'relative',
-    left: '-0%',
-    top: '0',
+    position: 'sticky',
+    top: 0,
     width: '2075px',
     height: '748px',
     [theme.breakpoints.down('sm')]: {
