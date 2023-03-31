@@ -37,7 +37,7 @@ const Home: React.FC<IHomeProps> = ({}) => {
     return () => {};
   }, []);
   return (
-    <div>
+    <div dateset-a={'123'}>
       <TopBlock />
       <AuctionBlock />
       <TypesOfAction />

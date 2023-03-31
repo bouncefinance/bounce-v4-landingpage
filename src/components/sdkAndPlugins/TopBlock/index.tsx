@@ -99,7 +99,11 @@ export const TopBlock = () => {
             </Box>
           </Grid>
         </Grid>
-        <Grid container spacing={2} style={{ marginBottom: isMd ? 56 : 160 }}>
+        <Grid
+          container
+          spacing={isMd ? 0 : 2}
+          style={{ marginBottom: isMd ? 56 : 160 }}
+        >
           <Grid item md={7} sm={12} style={{ paddingTop: 80 }}>
             <WithAnimation className={classes.text2} Component={Typography}>
               Enhance Your Auction Experience with Bounce's Innovative SDKs and
@@ -116,12 +120,40 @@ export const TopBlock = () => {
           </Grid>
           <Grid item md={5} sm={12}>
             <WithAnimation>
+              <Box className={classes.sdkAniBlock}>
+                <Box className={classes.sdkAniBlockCenter}>
+                  <Typography className={classes.sdkTitle}>
+                    SDKs and Plug-ins
+                  </Typography>
+                  <Box className={classes.sdkBtnBox}>
+                    <img
+                      className={classes.icon5}
+                      src="/images/sdkAndPlugins/icon5.png"
+                      alt=""
+                    />
+                    <img
+                      className={classes.icon4}
+                      src="/images/sdkAndPlugins/icon4.png"
+                      alt=""
+                    />
+                  </Box>
+                  <img
+                    className={classes.sdkImg}
+                    src="/images/sdkAndPlugins/p8.png"
+                    alt=""
+                  />
+                </Box>
+                <Box className={classes.sdkBlueBtn}>Auction Now</Box>
+              </Box>
+            </WithAnimation>
+
+            {/* <WithAnimation>
               <img
                 className={classes.p5}
                 src="/images/sdkAndPlugins/p5.png"
                 alt=""
               />
-            </WithAnimation>
+            </WithAnimation> */}
           </Grid>
         </Grid>
         <Grid container spacing={4}>

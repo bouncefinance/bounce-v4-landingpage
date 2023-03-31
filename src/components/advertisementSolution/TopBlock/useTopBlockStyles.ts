@@ -112,4 +112,59 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       flexDirection: 'column',
     },
   },
+  animationBox: {
+    position: 'relative',
+    width: '100%',
+    maxWidth: 700,
+    margin: '0 auto',
+    paddingTop: 30,
+    [theme.breakpoints.down('sm')]: {
+      maxWidth: '100%',
+      paddingBottom: 80,
+      paddingTop: 90,
+    },
+  },
+  banner: {
+    display: 'block',
+    width: 462,
+    margin: '0 auto -10px',
+    [theme.breakpoints.down('sm')]: {
+      maxWidth: 277,
+    },
+  },
+  smallStar: {
+    position: 'absolute',
+    width: 52,
+    bottom: 126,
+    left: 0,
+    animation: `$startAnimation 2s linear infinite`,
+    [theme.breakpoints.down('sm')]: {
+      width: 24,
+      bottom: 135,
+      left: 34,
+    },
+  },
+  bigStar: {
+    position: 'absolute',
+    width: 52,
+    top: 0,
+    right: 50,
+    animation: `$startAnimation 2s linear infinite`,
+    [theme.breakpoints.down('sm')]: {
+      maxWidth: 31,
+      top: 35,
+      right: 34,
+    },
+  },
+  '@keyframes startAnimation': {
+    '0%': {
+      transform: 'rotateX(-20deg) rotateY(-27deg) rotateZ(-2deg) scale(0.88)',
+    },
+    '50%': {
+      transform: 'rotateX(-20deg) rotateY(-27deg) rotateZ(-2deg) scale(1)',
+    },
+    '100%': {
+      transform: 'rotateX(-20deg) rotateY(-27deg) rotateZ(-2deg) scale(0.88)',
+    },
+  },
 }));

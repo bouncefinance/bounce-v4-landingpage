@@ -65,17 +65,23 @@ export const TopBlock = () => {
               }}
             ></ComBtn>
           </WithAnimation>
-          <img
-            src={
-              isMd
-                ? 'images/advertisementSolution/head-img-sm.svg'
-                : 'images/advertisementSolution/head-img.png'
-            }
-            alt={''}
-            style={{
-              marginTop: isMd ? 40 : 0,
-            }}
-          />
+          <WithAnimation className={classes.animationBox}>
+            <img
+              className={classes.banner}
+              src={'images/advertisementSolution/banner.png'}
+              alt={''}
+            />
+            <img
+              className={classes.smallStar}
+              src={'images/advertisementSolution/small-star.png'}
+              alt={''}
+            />
+            <img
+              className={classes.bigStar}
+              src={'images/advertisementSolution/big-star.png'}
+              alt={''}
+            />
+          </WithAnimation>
         </Box>
       </Container>
     </div>

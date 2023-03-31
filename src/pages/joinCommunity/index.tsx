@@ -36,8 +36,8 @@ const JoinCommunity: React.FC<IHomeProps> = ({}) => {
     },
     {
       icon: '/images/joinCommunity/youtube.svg',
-      name: 'Governance',
-      desc: 'Join our governance to get newest information',
+      name: 'Youtube',
+      desc: 'Join our youtube to get newest information',
     },
   ];
   return (

@@ -72,7 +72,21 @@ export const TopBlock = () => {
               <WithAnimation className={classes.p1} rootMargin={'50%'}>
                 <img
                   className={classes.bannerImg}
-                  src="/images/aiAuctionSolution/p1.png"
+                  src="/images/aiAuctionSolution/banner.png"
+                  alt=""
+                />
+              </WithAnimation>
+              <WithAnimation className={classes.bigStart} rootMargin={'50%'}>
+                <img
+                  className={classes.bannerImg}
+                  src="/images/aiAuctionSolution/star.png"
+                  alt=""
+                />
+              </WithAnimation>
+              <WithAnimation className={classes.smallStart} rootMargin={'50%'}>
+                <img
+                  className={classes.bannerImg}
+                  src="/images/aiAuctionSolution/gray-star.png"
                   alt=""
                 />
               </WithAnimation>
