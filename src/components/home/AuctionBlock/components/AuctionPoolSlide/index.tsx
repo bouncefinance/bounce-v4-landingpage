@@ -31,6 +31,7 @@ const AuctionPoolSlide: React.FC = () => {
     <WithAnimation
       className={classes.auctionPoolblock}
       defaultAnimation={false}
+      rootMargin={'50%'}
       addClassInView={classes.auctionPoolShowblock}
     >
       <Box className={classes.content}>

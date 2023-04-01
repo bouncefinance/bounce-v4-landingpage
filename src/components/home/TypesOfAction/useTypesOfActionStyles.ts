@@ -40,8 +40,8 @@ export const useTypesOfActionStyles = makeStyles<Theme>(theme => ({
   },
   canvas: {
     background: 'transparent',
-    width: '375px',
-    height: '375px',
+    width: '355px',
+    height: '355px',
     display: 'block',
     borderRadius: '43px',
     border: '1px solid #ffffff',
@@ -88,6 +88,7 @@ export const useTypesOfActionStyles = makeStyles<Theme>(theme => ({
     flexFlow: 'row nowrap',
     justifyContent: 'space-between',
     alignItems: 'center',
+    marginBottom: '45px',
   },
   animationBlockLeft: {
     width: 270,
@@ -128,6 +129,7 @@ export const useTypesOfActionStyles = makeStyles<Theme>(theme => ({
     flexFlow: 'column nowrap',
     justifyContent: 'center',
     alignItems: 'center',
+    padding: '0 16px',
   },
   animationBlockTopMobile: {
     display: 'flex',
@@ -167,7 +169,7 @@ export const useTypesOfActionStyles = makeStyles<Theme>(theme => ({
     color: '#171717',
   },
   animationBlockBottomMobile: {
-    width: 'calc(100% - 40px)',
+    width: '100%',
     display: 'flex',
     flexFlow: 'column nowrap',
     gap: '20px',

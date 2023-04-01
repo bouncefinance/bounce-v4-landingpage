@@ -83,13 +83,9 @@ const TackiesTheIssues: React.FC = () => {
           <WithAnimation>
             <Typography className={classes.industryTitle}>
               How Bounce's On-Chain Auction Solution{' '}
-              <span
-                style={{
-                  borderBottom: '2px solid #2B51DA',
-                }}
-              >
-                Tackles the Issues
-              </span>
+              <span className={classes.bottomLine}>Tackles</span>{' '}
+              <span className={classes.bottomLine}>the</span>{' '}
+              <span className={classes.bottomLine}>Issues</span>
             </Typography>
           </WithAnimation>
           <Box className={classes.paginationBox}>

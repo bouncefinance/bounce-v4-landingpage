@@ -91,10 +91,11 @@ export const useFAQStyles = makeStyles<Theme>(theme => ({
     fontWeight: 400,
     fontSize: 20,
     color: 'rgba(255, 255, 255, 0.8)',
-    paddingBottom: '32px',
+    maxHeight: 0,
+    overflow: 'hidden',
+    transition: 'all 0.6s',
     [theme.breakpoints.down('sm')]: {
       fontSize: 15,
-      paddingBottom: '24px',
     },
   },
   btn: {
@@ -119,5 +120,12 @@ export const useFAQStyles = makeStyles<Theme>(theme => ({
     background: '#fff',
     color: '#171717',
     border: '1px solid #fff',
+  },
+  current: {
+    maxHeight: 999,
+    paddingBottom: '32px',
+    [theme.breakpoints.down('sm')]: {
+      paddingBottom: '24px',
+    },
   },
 }));

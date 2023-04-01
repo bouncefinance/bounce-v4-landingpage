@@ -118,9 +118,9 @@ export const TopBlock = () => {
               auctions wherever and however you like.
             </WithAnimation>
           </Grid>
-          <Grid item md={5} sm={12}>
-            <WithAnimation>
-              <Box className={classes.sdkAniBlock}>
+          <Grid item md={5} sm={12} xs={12}>
+            <Box className={classes.sdkAniBlock}>
+              <WithAnimation>
                 <Box className={classes.sdkAniBlockCenter}>
                   <Typography className={classes.sdkTitle}>
                     SDKs and Plug-ins
@@ -144,9 +144,8 @@ export const TopBlock = () => {
                   />
                 </Box>
                 <Box className={classes.sdkBlueBtn}>Auction Now</Box>
-              </Box>
-            </WithAnimation>
-
+              </WithAnimation>
+            </Box>
             {/* <WithAnimation>
               <img
                 className={classes.p5}

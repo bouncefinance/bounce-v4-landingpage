@@ -41,6 +41,8 @@ export const useHowAuctionWorksStyles = makeStyles<Theme>(theme => ({
   },
   img: {
     display:'block',
+    width: '100%',
+    maxWidth: '1021px',
     margin: '80px auto 0',
     [theme.breakpoints.down('sm')]: {
       margin: '0 auto 0',

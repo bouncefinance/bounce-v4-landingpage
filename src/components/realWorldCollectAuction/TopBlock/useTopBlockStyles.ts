@@ -130,6 +130,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     maxWidth: 300,
     height: 375,
     margin: '0 auto',
+    [theme.breakpoints.down('md')]: {
+      marginTop: 56,
+      marginBottom: 80,
+    },
   },
   bannerImg: {
     width: '100%',
@@ -203,7 +207,8 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     fontWeight: 500,
     transition: '2s',
     animationDelay: '2s',
-    transform: 'rotateX(-20deg) rotateY(-27deg) rotateZ(-2deg) scale(0.5) translate3D(0, 50%, 0)',
+    transform:
+      'rotateX(-20deg) rotateY(-27deg) rotateZ(-2deg) scale(0.5) translate3D(0, 50%, 0)',
     transformOrigin: 'center left',
     opacity: 0,
   },
@@ -224,7 +229,8 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     fontWeight: 500,
     transition: '2s',
     animationDelay: '2s',
-    transform: 'rotateX(-20deg) rotateY(-27deg) rotateZ(-2deg) scale(0.5) translate3D(0, 50%, 0)',
+    transform:
+      'rotateX(-20deg) rotateY(-27deg) rotateZ(-2deg) scale(0.5) translate3D(0, 50%, 0)',
     transformOrigin: 'center left',
     opacity: 0,
   },
@@ -232,13 +238,15 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     left: 100,
     top: 329,
     zIndex: 1,
-    transform: 'rotateX(-20deg) rotateY(-27deg) rotateZ(-2deg) scale(0.5)  translate3D(0, 0, 0)',
+    transform:
+      'rotateX(-20deg) rotateY(-27deg) rotateZ(-2deg) scale(0.5)  translate3D(0, 0, 0)',
     opacity: 1,
   },
   timeCount2show: {
     left: 208,
     top: 236,
-    transform: 'rotateX(-20deg) rotateY(-27deg) rotateZ(-2deg) scale(0.5) translate3D(0, 0, 0)',
+    transform:
+      'rotateX(-20deg) rotateY(-27deg) rotateZ(-2deg) scale(0.5) translate3D(0, 0, 0)',
     opacity: 1,
   },
   '@keyframes startAnimation': {

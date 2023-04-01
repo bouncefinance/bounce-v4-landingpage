@@ -1,4 +1,4 @@
-import {makeStyles} from '@material-ui/core';
+import { makeStyles } from '@material-ui/core';
 
 export const useAuctionTitleStyles = makeStyles(theme => ({
   auctionTitleblock: {
@@ -7,6 +7,9 @@ export const useAuctionTitleStyles = makeStyles(theme => ({
     height: '198px',
     opacity: 0,
     transform: 'translate3D(0, 50%, 0)',
+    [theme.breakpoints.down('md')]: {
+      height: '104px',
+    },
   },
   auctionTitleShowblock: {
     position: 'relative',
@@ -16,7 +19,7 @@ export const useAuctionTitleStyles = makeStyles(theme => ({
     transform: 'translate3D(0, 0, 0)',
     [theme.breakpoints.down('sm')]: {
       height: 'auto',
-      padding: '16px 0'
+      padding: '16px 0',
     },
   },
   content: {
@@ -24,7 +27,7 @@ export const useAuctionTitleStyles = makeStyles(theme => ({
     width: '100%',
     height: '198px',
     [theme.breakpoints.down('sm')]: {
-      height: 'auto'
+      height: 'auto',
     },
   },
   slideContent: {
@@ -63,7 +66,7 @@ export const useAuctionTitleStyles = makeStyles(theme => ({
     background: '#232323',
     borderRadius: '28px 28px 0 0',
     [theme.breakpoints.down('sm')]: {
-      display: 'none'
+      display: 'none',
     },
   },
   sectionBtn: {
@@ -81,7 +84,7 @@ export const useAuctionTitleStyles = makeStyles(theme => ({
     margin: '0 35px',
     [theme.breakpoints.down('sm')]: {
       width: '35px',
-      height: '35px'
+      height: '35px',
     },
   },
   '@keyframes toLeft': {

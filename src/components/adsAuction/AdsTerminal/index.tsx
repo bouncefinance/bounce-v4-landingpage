@@ -20,13 +20,22 @@ export const AdsTerminal = () => {
             Bounce Ads Terminal
           </WithAnimation>
           {isMd ? (
-            <WithAnimation style={{ overflowX: 'auto', margin: '0 -16px' }}>
-              <img
-                src={'/images/adsAuction/bounce-ads-terminal.png'}
-                alt=""
-                className={classes.mobileImg}
-              />
-            </WithAnimation>
+            <>
+              <WithAnimation>
+                <img
+                  className={classes.iconBlowTitle}
+                  src="/images/adsAuction/p1.svg"
+                  alt=""
+                />
+              </WithAnimation>
+              <WithAnimation style={{ overflowX: 'auto', margin: '0 -16px' }}>
+                <img
+                  src={'/images/adsAuction/bounce-ads-terminal.png'}
+                  alt=""
+                  className={classes.mobileImg}
+                />
+              </WithAnimation>
+            </>
           ) : (
             <>
               <WithAnimation>

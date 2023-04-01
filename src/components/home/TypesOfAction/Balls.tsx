@@ -302,8 +302,8 @@ export default function Balls() {
       canvas = document.getElementById('c');
       ctx = canvas.getContext('2d');
 
-      canvas.width = 375;
-      canvas.height = 375;
+      canvas.width = 355;
+      canvas.height = 355;
 
       while (NUM_BALLS--) add_ball(0, 0, 0, NUM_BALLS);
 

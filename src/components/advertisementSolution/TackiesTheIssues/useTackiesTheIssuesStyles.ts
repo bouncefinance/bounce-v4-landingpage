@@ -109,4 +109,18 @@ export const useTackiesTheIssuesStyles = makeStyles<Theme>(theme => ({
     width: '90%',
     margin: '0 4px',
   },
+  bottomLine: {
+    position: 'relative',
+    '&:after': {
+      content: `''`,
+      display: 'block',
+      position: 'absolute',
+      bottom: 0,
+      left: 0,
+      right: 0,
+      height: 3,
+      background: '#2B51DA',
+      borderRadius: '3px',
+    },
+  },
 }));

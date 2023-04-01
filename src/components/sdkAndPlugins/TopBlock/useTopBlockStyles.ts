@@ -278,7 +278,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     position: 'relative',
     width: '100%',
     maxWidth: 402,
-    margin:'0 auto',
+    margin: '0 auto',
     cursor: `url('/images/home/typesOfAuction/cursor.png'),auto`,
     '&:hover  $sdkBlueBtn': {
       transform: 'scale(1) translateX(-50%)',
@@ -291,6 +291,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       transform: 'translateX(80%)',
       transition: 'all 0.6s',
     },
+    [theme.breakpoints.down('md')]: {
+      maxWidth: '100%',
+    },
   },
   sdkAniBlockCenter: {
     width: 308,
@@ -300,6 +303,11 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     boxShadow: `0px 0px 20px 1px rgba(0, 0, 0, 0.15)`,
     borderRadius: 32,
     margin: '0 auto',
+    [theme.breakpoints.down('md')]: {
+      width: 215,
+      height: 267,
+      padding: '22px 0 22px',
+    },
   },
   sdkTitle: {
     fontFamily: `'Inter'`,
@@ -308,6 +316,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     textAlign: 'center',
     lineHeight: '24px',
     marginBottom: 30,
+    [theme.breakpoints.down('md')]: {
+      fontSize: 11,
+      marginBottom: 20,
+    },
   },
   sdkBtnBox: {
     position: 'relative',
@@ -332,6 +344,24 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       height: 2,
       background: '#000',
     },
+    [theme.breakpoints.down('md')]: {
+      height: 43,
+      padding: '0 14px',
+      '&::before': {
+        content: `''`,
+        display: 'block',
+        width: 44,
+        height: 2,
+        background: '#000',
+      },
+      '&::after': {
+        content: `''`,
+        display: 'block',
+        width: 44,
+        height: 2,
+        background: '#000',
+      },
+    },
   },
   icon4: {
     position: 'absolute',
@@ -340,6 +370,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     width: 64,
     zIndex: 2,
     transition: 'all 0.6s',
+    [theme.breakpoints.down('md')]: {
+      width: 43,
+      height: 43,
+    },
   },
   icon5: {
     position: 'absolute',
@@ -348,11 +382,19 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     width: 64,
     zIndex: 1,
     transition: 'all 0.6s',
+    [theme.breakpoints.down('md')]: {
+      width: 43,
+      height: 43,
+    },
   },
   sdkImg: {
     display: 'block',
     width: 226,
     margin: '0 auto',
+    [theme.breakpoints.down('md')]: {
+      width: 158,
+      height: 114,
+    },
   },
   sdkBlueBtn: {
     position: 'absolute',
@@ -374,6 +416,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     [theme.breakpoints.down('md')]: {
       bottom: 44,
       maxWidth: 281,
+      height: 48,
+      lineHeight: '48px',
+      fontSize: 12,
     },
   },
 }));

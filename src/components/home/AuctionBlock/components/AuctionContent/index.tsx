@@ -6,48 +6,49 @@ import { useIsMDDown } from 'src/modules/theme';
 
 const AutionTitle: React.FC = () => {
   const classes = useAuctionContentStyles();
+  const isMd = useIsMDDown();
   const [contentStyle, setContentStyle] = useState({});
   const imgList = [
     {
       url: '/images/home/auction/slide-right-animation/p5.png',
       style: {
-        top: 327,
-        left: 259,
-        width: 1180,
-        height: 282,
+        top: isMd ? 170 : 327,
+        left: isMd ? 178 : 259,
+        width: isMd ? 708 : 1180,
+        height: isMd ? 169 : 282,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/p1.png',
       style: {
-        top: 144,
-        left: 0,
-        width: 284,
+        top: isMd ? 61 : 144,
+        left: isMd ? 16 : 0,
+        width: isMd ? 170 :284,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/icon1.png',
       style: {
-        top: 370,
-        left: 80,
-        width: 240,
+        top: isMd ? 234 : 370,
+        left:  isMd ? 97 :80,
+        width:  isMd ? 70 :240,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/icon3.png',
       style: {
         top: 0,
-        left: 267,
-        width: 58,
-        height: 58,
+        left: isMd ? 180 :267,
+        width: isMd ? 34 :58,
+        height: isMd ? 34 :58,
       },
     },
     {
       url: '/images/home/auction/slide-right-animation/p2.png',
       style: {
-        top: 102,
-        left: 326,
-        width: 686,
+        top: isMd ? 35 :102,
+        left: isMd ? 217 :326,
+        width:isMd ? 411 : 686,
       },
     },
     {
@@ -95,9 +96,8 @@ const AutionTitle: React.FC = () => {
       },
     },
   ];
-  const isMd = useIsMDDown();
   useEffect(() => {
-    if (isMd) return
+    if (isMd) return;
     // size 2075 * 748 when screen is 1400
     function getElementTop(el: any): number {
       if (el.offsetParent) {
@@ -128,12 +128,12 @@ const AutionTitle: React.FC = () => {
           const pageScrollTop = document.body.scrollTop;
           const clientTop = slideBox?.getBoundingClientRect()?.top || 0;
           const elOffsetTop = getElementTop(slideBox);
-          const scale =  winW / 1467;
+          const scale = winW / 1467;
           setContentStyle({
-            zoom: isMd ? 'unset' :scale,
+            zoom: scale,
           });
-          const elHeight = slideContent?.offsetHeight || 0; 
-          const elWidth = slideContent?.offsetWidth || 0; 
+          const elHeight = slideContent?.offsetHeight || 0;
+          const elWidth = slideContent?.offsetWidth || 0;
           let startTop = 0;
           if (elHeight < winH) {
             startTop = (winH - elHeight) / 2;
@@ -147,7 +147,7 @@ const AutionTitle: React.FC = () => {
             startTop,
             elOffsetTop,
           );
-          if (elOffsetTop === elHeight) {
+          if (elOffsetTop === elHeight || isMd) {
             return;
           }
           let endLeft = 0;
@@ -156,16 +156,17 @@ const AutionTitle: React.FC = () => {
               .getElementById('layout')
               ?.setAttribute('style', 'overflow:visible');
             endLeft =
-              (elWidth - winW - 200) * (Math.abs(clientTop) / (4000 - elHeight));
+              (elWidth - winW - 200) *
+              (Math.abs(clientTop) / (4000 - elHeight));
             if (clientTop >= 0) {
               setContentStyle({
-                zoom: isMd ? 'unset' :scale,
+                zoom: isMd ? 'unset' : scale,
                 top: `${startTop - clientTop}px`,
               });
             } else {
               setContentStyle({
                 top: `${startTop}px`,
-                zoom: isMd ? 'unset' :scale,
+                zoom: isMd ? 'unset' : scale,
                 transform: `translateX(-${endLeft}px)`,
               });
             }
@@ -176,7 +177,7 @@ const AutionTitle: React.FC = () => {
             endLeft = elWidth - winW - 200;
             setContentStyle({
               top: 0,
-              zoom: isMd ? 'unset' :scale,
+              zoom: isMd ? 'unset' : scale,
               transform: `translatex(-${endLeft}px)`,
             });
           } else {

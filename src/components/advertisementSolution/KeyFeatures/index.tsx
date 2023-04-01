@@ -27,14 +27,19 @@ const KeyFeature: React.FC = () => {
         <Container maxWidth="xl" className={classes.container}>
           <WithAnimation>
             <Typography className={classes.industryTitle}>
-              Key Features of Our Advertisement Auction
+              Key Features of Our <br /> Advertisement Auction
             </Typography>
           </WithAnimation>
           <Grid container spacing={2}>
             <Grid item md={6} sm={12}>
               <Box className={classNames(classes.industryItem)}>
                 <WithAnimation>
-                  <Typography className={classNames(classes.industryItemTitle, classes.industryItemLeftTitle)}>
+                  <Typography
+                    className={classNames(
+                      classes.industryItemTitle,
+                      classes.industryItemLeftTitle,
+                    )}
+                  >
                     <img
                       className={classes.icon}
                       src="/images/advertisementSolution/icon1.png"
@@ -80,7 +85,7 @@ const KeyFeature: React.FC = () => {
                 </WithAnimation>
                 <img
                   className={classes.rightBg}
-                  src="/images/advertisementSolution/bg.png"
+                  src="/images/advertisementSolution/bg.svg"
                   alt=""
                 />
               </Box>

@@ -86,14 +86,8 @@ const KeyFeatures: React.FC = () => {
         <Container maxWidth="xl" className={classes.container}>
           <WithAnimation>
             <Typography className={classes.industryTitle}>
-              <span
-                style={{
-                  borderBottom: '2px solid #2B51DA',
-                }}
-              >
-                Problems
-              </span>{' '}
-              with Traditional Real Goods Auction
+              <span className={classes.bottomLine}>Problems</span> with
+              Traditional Real Goods Auction
             </Typography>
           </WithAnimation>
 

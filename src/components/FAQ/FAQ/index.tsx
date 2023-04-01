@@ -80,7 +80,11 @@ export const FAQ = () => {
                     className={classes.question}
                     onClick={() => {
                       if (isMd) {
-                        setCurrentIndex(index);
+                        if (currentIndex !== index) {
+                          setCurrentIndex(index);
+                        } else {
+                          setCurrentIndex(99);
+                        }
                       }
                     }}
                   >
@@ -90,17 +94,24 @@ export const FAQ = () => {
                     <ComBtn
                       isCurrent={index === currentIndex}
                       handleClick={() => {
-                        setCurrentIndex(index);
+                        if (currentIndex !== index) {
+                          setCurrentIndex(index);
+                        } else {
+                          setCurrentIndex(99);
+                        }
                       }}
                       text={'View more'}
                     ></ComBtn>
                   )}
                 </Box>
-                {currentIndex === index && (
-                  <Typography className={classes.answer}>
-                    {item.answer}
-                  </Typography>
-                )}
+                <Typography
+                  className={classNames(
+                    classes.answer,
+                    currentIndex === index ? classes.current : '',
+                  )}
+                >
+                  {item.answer}
+                </Typography>
               </Box>
             </WithAnimation>
           ))}

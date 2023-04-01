@@ -80,7 +80,7 @@ export const useAdsTerminalStyles = makeStyles<Theme>(theme => ({
   },
   animate2: {
     width: 142,
-    height: '350px',
+    height: '450px',
     display: 'flex',
     flexFlow: 'column nowrap',
     justifyContent: 'space-between',
@@ -113,7 +113,7 @@ export const useAdsTerminalStyles = makeStyles<Theme>(theme => ({
     height: 450,
     display: 'flex',
     flexFlow: 'column nowrap',
-    padding: '84px 0 84px 21px',
+    padding: '68px 0 68px 21px',
     justifyContent: 'space-between',
     alignItems: 'center',
     transitionDelay: '1s',
@@ -130,6 +130,7 @@ export const useAdsTerminalStyles = makeStyles<Theme>(theme => ({
   },
   p8: {
     width: '100%',
+    transform: 'scale(1.5)'
   },
   p9: {
     width: '100%',

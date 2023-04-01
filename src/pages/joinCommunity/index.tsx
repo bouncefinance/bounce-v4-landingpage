@@ -39,6 +39,12 @@ const JoinCommunity: React.FC<IHomeProps> = ({}) => {
       name: 'Youtube',
       desc: 'Join our youtube to get newest information',
     },
+    {
+      icon: '/images/joinCommunity/discord.svg',
+      name: 'Discord',
+      desc: 'Join our discord to get newest information',
+      link: 'https://discord.gg/EFQC6jYd8e',
+    },
   ];
   return (
     <div className={classes.pageRoot}>
@@ -54,7 +60,9 @@ const JoinCommunity: React.FC<IHomeProps> = ({}) => {
           {socialList.map((item, idx) => {
             return (
               <Grid item md={4} key={idx}>
-                <Box className={classes.itemBox}>
+                <Box className={classes.itemBox} onClick={() => {
+                    item.link && window.open(item.link, '_blank') 
+                }}>
                   <img src={item.icon} className={classes.icon} />
                   <Box className={classes.textColumn}>
                     <Typography className={classes.socialName}>
