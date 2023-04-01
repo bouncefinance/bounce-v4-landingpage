@@ -4,8 +4,10 @@ import {
   ClickAwayListener,
   Container,
   Drawer,
+  Typography,
   Link,
 } from '@material-ui/core';
+import { SocialLinks } from 'src/modules/layout/components/SocialLinks';
 import { Toggle } from '../Toggle';
 import { useHeaderStyles } from './useHeaderStyles';
 import { LocaleSwitcher } from '../LocaleSwitcher';
@@ -17,6 +19,9 @@ import { useRouter } from 'next/router';
 import { UrlObject } from 'url';
 import { ILinksItemProps } from './components/NavLink';
 import ComBtn from 'src/components/common/ComBtn';
+import { MediumIcon } from 'src/modules/common/components/Icons/MediumIcon';
+import { TelegramIcon } from 'src/modules/common/components/Icons/TelegramIcon';
+import { TwitterIcon } from 'src/modules/common/components/Icons/TwitterIcon';
 export const Header = () => {
   // mobile menu logi 0: close 1: open menu  2:open second menu (show back)
   const [mobileNavShowed, setMobileNavShowed] = useState<number>(0);
@@ -251,6 +256,23 @@ export const Header = () => {
     ],
     [],
   );
+  const socialLinks = [
+    {
+      title: 'Medium',
+      icon: MediumIcon,
+      href: 'https://medium.com/@bouncefinance',
+    },
+    {
+      title: 'Twitter',
+      icon: TwitterIcon,
+      href: 'https://twitter.com/bounce_finance?s=21',
+    },
+    {
+      title: 'Telegram',
+      icon: TelegramIcon,
+      href: 'https://t.me/bounce_finance',
+    },
+  ];
   const [secondlinks, setSecondlinks] = useState<Array<ILinksItemProps>>([]);
   const [secondLabel, setSecondLabel] = useState<string>('');
   const renderedMobile = (
@@ -294,7 +316,12 @@ export const Header = () => {
                 </Box>
                 <Box mb={1} className={classes.mobileMenuLinks}>
                   {mobileNavShowed === 1 && (
-                    <Box className={classes.mobileMenuLinkBox}>
+                    <Box
+                      style={{
+                        marginTop: 60,
+                      }}
+                      className={classes.mobileMenuLinkBox}
+                    >
                       {links.map((item, index) => (
                         <Box
                           key={index}
@@ -332,17 +359,41 @@ export const Header = () => {
                       ))}
                     </Box>
                   )}
-                  <ComBtn
+                  <Box
                     style={{
                       display: 'block',
                       fontSize: 16,
                       width: 'calc(100% - 32px)',
                     }}
-                    handleClick={() => {
-                      window.open('https://app.bounce.finance/', '_blank');
-                    }}
-                    text={'Launch App'}
-                  ></ComBtn>
+                  >
+                    {mobileNavShowed === 1 && (
+                      <div className={classes.iconBox}>
+                        <Typography variant="body2">
+                          {t('footer.social')}&nbsp;&nbsp;
+                        </Typography>
+                        <SocialLinks links={socialLinks} />
+                      </div>
+                    )}
+                    <Box
+                      style={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        width: '100%',
+                      }}
+                    >
+                      <ComBtn
+                        style={{
+                          display: 'block',
+                          fontSize: 16,
+                          width: '100%',
+                        }}
+                        handleClick={() => {
+                          window.open('https://app.bounce.finance/', '_blank');
+                        }}
+                        text={'Launch App'}
+                      ></ComBtn>
+                    </Box>
+                  </Box>
                 </Box>
                 <Box className={classes.drawerBottom}>
                   <LocaleSwitcher />

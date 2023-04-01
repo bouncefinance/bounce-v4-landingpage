@@ -163,7 +163,6 @@ export const useHeaderStyles = makeStyles<Theme>(theme => ({
     flexFlow: 'column nowrap',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingTop: 60,
     '& > *': {
       [theme.breakpoints.down('lg')]: {
         animationName: '$mobileMenuLinks',
@@ -277,5 +276,12 @@ export const useHeaderStyles = makeStyles<Theme>(theme => ({
       background: '#2B51DA',
       color: '#fff',
     },
+  },
+  iconBox: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    marginBottom: '24px',
+    gap: 15
   },
 }));
