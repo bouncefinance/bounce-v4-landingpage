@@ -27,7 +27,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     flexWrap: 'nowrap',
     justifyContent: 'center',
     background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / 100% auto`,
-    [theme.breakpoints.down('sm')]: {},
+    [theme.breakpoints.down('md')]: {
+      background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / auto 100%`,
+    },
   },
   title: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,

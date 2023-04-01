@@ -14,6 +14,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     [theme.breakpoints.down('sm')]: {
       paddingBottom: 0,
     },
+    [theme.breakpoints.down('md')]: {
+        background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / auto 100%`,
+    },
   },
   pageContainer: {
     position: 'relative',

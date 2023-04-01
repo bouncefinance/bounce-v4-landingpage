@@ -10,6 +10,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     overflow: 'hidden',
     position: 'relative',
     background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / 100% auto`,
+    [theme.breakpoints.down('md')]: {
+        background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / auto 100%`,
+    },
   },
   pageContainer: {
     position: 'relative',

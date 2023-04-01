@@ -29,6 +29,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     [theme.breakpoints.down('sm')]: {
       paddingTop: 150,
     },
+    [theme.breakpoints.down('md')]: {
+      background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / auto 100%`,
+    },
   },
   title1: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -87,6 +90,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     left: '50%',
     width: '250px',
     transform: 'translate3D(-550px, -50%, 0)',
+    opacity: 0,
     [theme.breakpoints.down('sm')]: {
       width: '120px',
       left: 0,
@@ -96,6 +100,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     transitionDelay: '0.3s',
   },
   p2Show: {
+    opacity: 1,
     transform: 'translate3D(-500px, 0, 0)',
     [theme.breakpoints.down('sm')]: {
       transform: 'translate3D(0, 0, 0)',
@@ -106,8 +111,11 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     top: 458,
     left: 0,
     width: '250px',
+    opacity: 0,
     transform: 'translate3D(-50%, 20%, 0)',
     [theme.breakpoints.down('sm')]: {
+      top: 600,
+      left: -20,
       width: '120px',
       transform: 'translate3D(-50%, 20%, 0)',
     },
@@ -115,25 +123,30 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     transitionDelay: '0.5s',
   },
   p3Show: {
+    opacity: 1,
     transform: 'translate3D(0, 0, 0)',
   },
   p4: {
     position: 'absolute',
     top: 172,
-    left: '50%',
+    right: 0,
     width: '120px',
-    transform: 'translate3D(550px, -70px, 0)',
+    opacity: 0,
+    transform: 'translate3D(0, -70px, 0)',
     [theme.breakpoints.down('sm')]: {
+      top: 102,
+      right: '-50px',
       width: '100px',
-      transform: 'translate3D(50%, 0, 0)',
+      transform: 'translate3D(50px, -70px, 0)',
     },
     transition: 'all 0.6s',
     transitionDelay: '0.4s',
   },
   p4Show: {
-    transform: 'translate3D(450px, 0, 0)',
+    opacity: 1,
+    transform: 'translate3D(0, 0, 0)',
     [theme.breakpoints.down('sm')]: {
-      transform: 'translate3D(172px, 0, 0)',
+      transform: 'translate3D(0, 0, 0)',
     },
   },
   p5: {
@@ -141,8 +154,11 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     top: 511,
     right: 0,
     width: '260px',
+    opacity: 0,
     transform: 'translate3D(50%, 50px, 0)',
     [theme.breakpoints.down('sm')]: {
+      top: 651,
+      right: 0,
       width: '120px',
       transform: 'translate3D(50%, 50px, 0)',
     },
@@ -150,6 +166,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     transitionDelay: '0.7s',
   },
   p5Show: {
+    opacity: 1,
     transform: 'translate3D(0, 0, 0)',
   },
   animationImg: {
