@@ -42,4 +42,19 @@ export const useToggleStyles = makeStyles<Theme>(() => ({
   lineBottom: {
     width: 17,
   },
+  backIcon: {
+    position: 'relative',
+    width: 59,
+    height: 23,
+    lineHeight: '23px',
+    display: 'flex',
+    flexFlow: 'row nowrap',
+    justifyContent: 'space-between',
+    alignItem: 'center',
+    fontSamily: `'Inter'`,
+    fontWeight: 400,
+    fontSize: 15,
+    textAlign: 'center',
+    color: '#2B51DA',
+  },
 }));

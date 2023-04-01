@@ -21,7 +21,7 @@ export const useTackiesTheIssuesStyles = makeStyles<Theme>(theme => ({
   },
   container: {
     padding: '120px 0 150px',
-    maxWidth: '1340px !important',
+    maxWidth: '1110px !important',
     margin: '0 auto',
     [theme.breakpoints.down('sm')]: {
       padding: '80px 0 150px',

@@ -5,7 +5,6 @@ import {
   Container,
   Drawer,
   Link,
-  Theme,
 } from '@material-ui/core';
 import { Toggle } from '../Toggle';
 import { useHeaderStyles } from './useHeaderStyles';
@@ -16,138 +15,131 @@ import { t } from 'src/i18n/intl';
 import { Logo } from './components/Logo';
 import { useRouter } from 'next/router';
 import { UrlObject } from 'url';
-
+import { ILinksItemProps } from './components/NavLink';
+import ComBtn from 'src/components/common/ComBtn';
 export const Header = () => {
-  const [mobileNavShowed, setMobileNavShowed] = useState(false);
+  // mobile menu logi 0: close 1: open menu  2:open second menu (show back)
+  const [mobileNavShowed, setMobileNavShowed] = useState<number>(0);
   const router = useRouter();
   const classes = useHeaderStyles();
-
-  const handleLogin = useCallback(() => {
-    router.push('/');
-  }, []);
   type Url = string | UrlObject;
-  interface ILinksItemProps {
-    label: string;
-    isExternal?: boolean;
-    href?: Url;
-  }
   // mobile dialog menu link list
-  const links: ILinksItemProps[] = useMemo(
-    () => [
-      {
-        label: 'Auction Homepage',
-        isExternal: false,
-        href: '/tokenAndnftAuction',
-        isDisabled: false,
-        extraIcon: '',
-        className: '',
-      },
-      {
-        label: 'Token&NFT auction',
-        isExternal: false,
-        href: '/tokenAndnftAuction',
-        isDisabled: false,
-        extraIcon: (
-          <img
-            src="/images/footer/live.png"
-            width={16}
-            style={{ marginRight: 4 }}
-          />
-        ),
-        className: '',
-      },
-      {
-        label: 'Real World Asset Auction',
-        isExternal: false,
-        href: '/realWorldCollectAuction',
-        isDisabled: false,
-        extraIcon: (
-          <img
-            src="/images/footer/live.png"
-            width={16}
-            style={{ marginRight: 4 }}
-          />
-        ),
-        className: '',
-      },
-      {
-        label: 'Advertisement Auction',
-        isExternal: false,
-        href: '/adsAuction',
-        isDisabled: false,
-        extraIcon: (
-          <img
-            src="/images/footer/live.png"
-            width={16}
-            style={{ marginRight: 4 }}
-          />
-        ),
-        className: '',
-      },
-      {
-        label: 'SDKs&Plug-ins',
-        isExternal: false,
-        href: '/sdkAndPlugins',
-        isDisabled: false,
-        extraIcon: (
-          <img
-            src="/images/footer/live.png"
-            width={16}
-            style={{ marginRight: 4 }}
-          />
-        ),
-        className: '',
-      },
-      {
-        label: 'Advertisement',
-        isExternal: false,
-        href: '/advertisementSolution',
-        isDisabled: false,
-        extraIcon: '',
-        className: '',
-      },
-      {
-        label: 'AI+Auction ',
-        isExternal: false,
-        href: '/aiAuctionSolution',
-        isDisabled: false,
-        extraIcon: '',
-        className: '',
-      },
-      //   {
-      //     label: t('header.investment'),
-      //     isExternal: false,
-      //     href: '/investment',
-      //   },
-      //   {
-      //     label: t('header.jobs-employers'),
-      //     isExternal: false,
-      //     href: '/jobs/talents',
-      //   },
-      //   {
-      //     label: t('header.jobs-talents'),
-      //     isExternal: false,
-      //     href: '/jobs/employers',
-      //   },
-      //   {
-      //     label: t('header.company'),
-      //     list: [],
-      //     isExternal: false,
-      //     href: '/company',
-      //   },
-      //   {
-      //     label: t('header.tools-token'),
-      //     isExternal: false,
-      //     href: '/tools/token',
-      //   },
-      //   {
-      //     label: t('header.tools-labs'),
-      //     isExternal: false,
-      //     href: '/tools/labs',
-      //   },
-    ],
-    [],
-  );
+  //   const links: ILinksItemProps[] = useMemo(
+  //     () => [
+  //       {
+  //         label: 'Auction Homepage',
+  //         isExternal: false,
+  //         href: '/tokenAndnftAuction',
+  //         isDisabled: false,
+  //         extraIcon: '',
+  //         className: '',
+  //       },
+  //       {
+  //         label: 'Token&NFT auction',
+  //         isExternal: false,
+  //         href: '/tokenAndnftAuction',
+  //         isDisabled: false,
+  //         extraIcon: (
+  //           <img
+  //             src="/images/footer/live.png"
+  //             width={16}
+  //             style={{ marginRight: 4 }}
+  //           />
+  //         ),
+  //         className: '',
+  //       },
+  //       {
+  //         label: 'Real World Asset Auction',
+  //         isExternal: false,
+  //         href: '/realWorldCollectAuction',
+  //         isDisabled: false,
+  //         extraIcon: (
+  //           <img
+  //             src="/images/footer/live.png"
+  //             width={16}
+  //             style={{ marginRight: 4 }}
+  //           />
+  //         ),
+  //         className: '',
+  //       },
+  //       {
+  //         label: 'Advertisement Auction',
+  //         isExternal: false,
+  //         href: '/adsAuction',
+  //         isDisabled: false,
+  //         extraIcon: (
+  //           <img
+  //             src="/images/footer/live.png"
+  //             width={16}
+  //             style={{ marginRight: 4 }}
+  //           />
+  //         ),
+  //         className: '',
+  //       },
+  //       {
+  //         label: 'SDKs&Plug-ins',
+  //         isExternal: false,
+  //         href: '/sdkAndPlugins',
+  //         isDisabled: false,
+  //         extraIcon: (
+  //           <img
+  //             src="/images/footer/live.png"
+  //             width={16}
+  //             style={{ marginRight: 4 }}
+  //           />
+  //         ),
+  //         className: '',
+  //       },
+  //       {
+  //         label: 'Advertisement',
+  //         isExternal: false,
+  //         href: '/advertisementSolution',
+  //         isDisabled: false,
+  //         extraIcon: '',
+  //         className: '',
+  //       },
+  //       {
+  //         label: 'AI+Auction ',
+  //         isExternal: false,
+  //         href: '/aiAuctionSolution',
+  //         isDisabled: false,
+  //         extraIcon: '',
+  //         className: '',
+  //       },
+  //       //   {
+  //       //     label: t('header.investment'),
+  //       //     isExternal: false,
+  //       //     href: '/investment',
+  //       //   },
+  //       //   {
+  //       //     label: t('header.jobs-employers'),
+  //       //     isExternal: false,
+  //       //     href: '/jobs/talents',
+  //       //   },
+  //       //   {
+  //       //     label: t('header.jobs-talents'),
+  //       //     isExternal: false,
+  //       //     href: '/jobs/employers',
+  //       //   },
+  //       //   {
+  //       //     label: t('header.company'),
+  //       //     list: [],
+  //       //     isExternal: false,
+  //       //     href: '/company',
+  //       //   },
+  //       //   {
+  //       //     label: t('header.tools-token'),
+  //       //     isExternal: false,
+  //       //     href: '/tools/token',
+  //       //   },
+  //       //   {
+  //       //     label: t('header.tools-labs'),
+  //       //     isExternal: false,
+  //       //     href: '/tools/labs',
+  //       //   },
+  //     ],
+  //     [],
+  //   );
   const renderedDesktop = (
     <div className={classes.renderDesktop}>
       <NavLink />
@@ -168,17 +160,108 @@ export const Header = () => {
       </Link>
     </div>
   );
+  // handle menu toggle
+  const handleMenuTogge = () => {
+    if (mobileNavShowed === 0) {
+      setMobileNavShowed(1);
+    } else if (mobileNavShowed === 1) {
+      setMobileNavShowed(0);
+    } else if (mobileNavShowed === 2) {
+      setMobileNavShowed(1);
+    }
+  };
+  const links: ILinksItemProps[] = useMemo(
+    () => [
+      //   {
+      //     label: t('header.investment'),
+      //     list: [],
+      //     isExternal: false,
+      //     href: '/investment',
+      //   },
+      {
+        label: 'Auction Products',
+        list: [
+          {
+            label: 'Token & NFT Auction',
+            isExternal: false,
+            href: '/tokenAndnftAuction',
+          },
+          {
+            label: 'Real-world Collectibles Auction',
+            isExternal: false,
+            href: '/realWorldCollectAuction',
+          },
+          {
+            label: 'Advertisement Auction',
+            isExternal: false,
+            href: '/adsAuction',
+          },
+          {
+            label: 'SDKs & Plug-ins',
+            isExternal: false,
+            href: '/sdkAndPlugins',
+          },
+        ],
+      },
+      {
+        label: 'Solutions',
+        list: [
+          {
+            label: 'Advertisement',
+            isExternal: false,
+            href: '/advertisementSolution',
+          },
+          {
+            label: 'AI+Auction ',
+            isExternal: false,
+            href: '/aiAuctionSolution',
+          },
+        ],
+      },
+      {
+        label: 'Resources',
+        list: [
+          {
+            label: 'Support Center',
+            isExternal: false,
+            href: '/FAQ',
+          },
+          {
+            label: t('header.tools-token'),
+            isExternal: false,
+            href: '/tools/token',
+          },
+          {
+            label: t('header.tools-labs'),
+            isExternal: false,
+            href: '/tools/labs',
+          },
+          {
+            label: 'Community',
+            isExternal: false,
+            href: '/joinCommunity',
+          },
+          {
+            label: 'Contact Sales',
+            isExternal: true,
+            href: `https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/edit`,
+          },
+        ],
+      },
+    ],
+    [],
+  );
+  const [secondlinks, setSecondlinks] = useState<Array<ILinksItemProps>>([]);
+  const [secondLabel, setSecondLabel] = useState<string>('');
   const renderedMobile = (
     <div className={classes.renderMobile}>
       <nav className={classes.links} />
       <div className={classes.buttons}>
-        <ClickAwayListener onClickAway={() => setMobileNavShowed(false)}>
+        <ClickAwayListener onClickAway={() => setMobileNavShowed(0)}>
           <div>
             <Toggle
               onClick={() => {
-                mobileNavShowed
-                  ? setMobileNavShowed(false)
-                  : setMobileNavShowed(true);
+                mobileNavShowed ? setMobileNavShowed(0) : setMobileNavShowed(1);
               }}
               isActive={mobileNavShowed}
             />
@@ -189,56 +272,77 @@ export const Header = () => {
               }}
               elevation={0}
               anchor="right"
-              open={mobileNavShowed}
-              onClose={() => setMobileNavShowed(false)}
+              open={mobileNavShowed > 0}
+              onClose={() => setMobileNavShowed(0)}
             >
               <Container className={classes.navInner}>
                 <Box className={classes.drawerTop}>
                   <Box
                     onClick={() => {
                       router.push('/');
-                      mobileNavShowed
-                        ? setMobileNavShowed(false)
-                        : setMobileNavShowed(true);
+                      mobileNavShowed > 0
+                        ? setMobileNavShowed(0)
+                        : setMobileNavShowed(1);
                     }}
                   >
                     <Logo />
                   </Box>
                   <Toggle
-                    onClick={() => {
-                      mobileNavShowed
-                        ? setMobileNavShowed(false)
-                        : setMobileNavShowed(true);
-                    }}
+                    onClick={() => handleMenuTogge()}
                     isActive={mobileNavShowed}
                   />
                 </Box>
                 <Box mb={1} className={classes.mobileMenuLinks}>
-                  {links.map((item, index) => (
-                    <Box
-                      key={index}
-                      className={classes.mobileMenuLinkItem}
-                      onClick={() => {
-                        router.push(item.href || '/');
-                        mobileNavShowed
-                          ? setMobileNavShowed(false)
-                          : setMobileNavShowed(true);
-                      }}
-                    >
-                      {' '}
-                      {item.label}
+                  {mobileNavShowed === 1 && (
+                    <Box className={classes.mobileMenuLinkBox}>
+                      {links.map((item, index) => (
+                        <Box
+                          key={index}
+                          className={classes.mobileMenuLinkItem}
+                          onClick={() => {
+                            router.push(item.href || '/');
+                            setMobileNavShowed(2);
+                            setSecondlinks(item?.list || []);
+                            setSecondLabel(item?.label || '');
+                          }}
+                        >
+                          {' '}
+                          {item.label}
+                        </Box>
+                      ))}
                     </Box>
-                  ))}
-                  <Link
-                    role="link"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                    href={'https://app.bounce.finance/'}
-                  >
-                    <Button variant="outlined" className={classes.loginBtn}>
-                      {t('header.launch-app')}
-                    </Button>
-                  </Link>
+                  )}
+                  {mobileNavShowed === 2 && (
+                    <Box className={classes.mobileMenuLinkBox}>
+                      <Box className={classes.mobileMenuLinkItemTitle}>
+                        {secondLabel}
+                      </Box>
+                      {secondlinks.map((item, index) => (
+                        <Box
+                          key={index}
+                          className={classes.mobilesecondMenuLinkItem}
+                          onClick={() => {
+                            router.push(item.href || '/');
+                            setMobileNavShowed(0);
+                          }}
+                        >
+                          {' '}
+                          {item.label}
+                        </Box>
+                      ))}
+                    </Box>
+                  )}
+                  <ComBtn
+                    style={{
+                      display: 'block',
+                      fontSize: 16,
+                      width: 'calc(100% - 32px)',
+                    }}
+                    handleClick={() => {
+                      window.open('https://app.bounce.finance/', '_blank');
+                    }}
+                    text={'Launch App'}
+                  ></ComBtn>
                 </Box>
                 <Box className={classes.drawerBottom}>
                   <LocaleSwitcher />

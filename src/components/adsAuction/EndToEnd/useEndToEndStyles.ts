@@ -25,7 +25,7 @@ export const useEndToEndStyles = makeStyles<Theme>(theme => ({
   container: {
     position: 'relative',
     width: '100% !important',
-    maxWidth: '1340px !important',
+    maxWidth: '1110px !important',
     paddingTop: 93,
     paddingBottom: 120,
     display: 'flex',

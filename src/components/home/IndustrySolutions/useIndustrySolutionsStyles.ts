@@ -33,7 +33,7 @@ export const useIndustrySolutionsStyles = makeStyles<Theme>(theme => ({
   },
   industryCentent: {
     width: '100%',
-    maxWidth: '1340px',
+    maxWidth: '1110px',
     margin: '0 auto',
     padding: '100px 0',
     opacity: 0,
@@ -43,7 +43,7 @@ export const useIndustrySolutionsStyles = makeStyles<Theme>(theme => ({
   },
   industryCententShow: {
     width: '100%',
-    maxWidth: '1340px',
+    maxWidth: '1110px',
     margin: '0 auto',
     opacity: 1,
   },

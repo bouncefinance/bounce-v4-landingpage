@@ -156,7 +156,7 @@ const AutionTitle: React.FC = () => {
               .getElementById('layout')
               ?.setAttribute('style', 'overflow:visible');
             endLeft =
-              (elWidth - 550) * (Math.abs(clientTop) / (4000 - elHeight));
+              (elWidth - winW - 200) * (Math.abs(clientTop) / (4000 - elHeight));
             if (clientTop >= 0) {
               setContentStyle({
                 zoom: isMd ? 'unset' :scale,
@@ -173,7 +173,7 @@ const AutionTitle: React.FC = () => {
             document
               .getElementById('layout')
               ?.setAttribute('style', 'overflow:hidden');
-            endLeft = elWidth - 550;
+            endLeft = elWidth - winW - 200;
             setContentStyle({
               top: 0,
               zoom: isMd ? 'unset' :scale,

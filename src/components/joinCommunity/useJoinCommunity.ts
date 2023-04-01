@@ -65,6 +65,10 @@ export const useJoinCommunity = makeStyles<Theme>(theme => ({
     display: 'flex',
     padding: theme.spacing(2),
     zIndex: 1,
+    cursor: 'pointer',
+    '&:hover $icon': {
+      boxShadow: '0px 0px 20px 1px rgba(0, 0, 0, 0.15)',
+    },
     [theme.breakpoints.down('sm')]: {
       padding: theme.spacing(1),
     },
@@ -84,5 +88,6 @@ export const useJoinCommunity = makeStyles<Theme>(theme => ({
   icon: {
     width: 48,
     height: 48,
+    borderRadius: 8,
   },
 }));
