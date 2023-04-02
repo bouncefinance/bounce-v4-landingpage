@@ -1,6 +1,6 @@
 {
   "name": "bounce-landing",
-  "version": "0.2.19",
+  "version": "0.2.20",
   "private": true,
   "scripts": {
     "start:dev": "next dev",
