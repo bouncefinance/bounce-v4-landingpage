@@ -36,6 +36,7 @@ export const BounceMetaverse = () => {
       >
         <source src="/video/lab-pc-bg.mov" type="video/mp4" />
       </video>
+      <Box className={classes.shadow}></Box>
       <Container maxWidth={false} className={classes.container}>
         <div className={classes.sideInfo}>
           <WithAnimation className={classes.brand}>

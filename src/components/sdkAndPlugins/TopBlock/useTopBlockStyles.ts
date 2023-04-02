@@ -271,6 +271,41 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       transform: 'translateY(-5%)',
     },
   },
+  '@keyframes scaleAnimation': {
+    '25%': {
+      transform: 'translateX(-50%) scale(0.9)',
+    },
+    '50%, 100%': {
+      transform: 'translateX(-50%) scale(1)',
+    },
+    '75%': {
+      transform: 'translateX(-50%) scale(0.9)',
+    },
+  },
+  '@keyframes iconToRight': {
+    '25%': {
+      transform: 'translateX(0)',
+    },
+    '50%, 100%': {
+      transform: 'translateX(80%)',
+      zIndex: 2,
+    },
+    '75%': {
+      transform: 'translateX(0)',
+    },
+  },
+  '@keyframes iconToLeft': {
+    '25%': {
+      transform: 'translateX(0)',
+    },
+    '50%, 100%': {
+      transform: 'translateX(-80%)',
+      zIndex: 2,
+    },
+    '75%': {
+      transform: 'translateX(0)',
+    },
+  },
   starAction: {
     animation: `$startAnimation 2s linear infinite`,
     [theme.breakpoints.down('md')]: {
@@ -283,17 +318,6 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     maxWidth: 402,
     margin: '0 auto',
     cursor: `url('/images/home/typesOfAuction/cursor.png'),auto`,
-    '&:hover  $sdkBlueBtn': {
-      transform: 'scale(1) translateX(-50%)',
-    },
-    '&:hover  $icon4': {
-      transform: 'translateX(-80%)',
-      transition: 'all 0.6s',
-    },
-    '&:hover  $icon5': {
-      transform: 'translateX(80%)',
-      transition: 'all 0.6s',
-    },
     [theme.breakpoints.down('md')]: {
       maxWidth: '100%',
     },
@@ -371,8 +395,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     top: 0,
     left: '47%',
     width: 64,
-    zIndex: 2,
-    transition: 'all 0.6s',
+    transform: 'translateX(-80%)',
+    zIndex: 1,
+    animation: '$iconToLeft 4s linear infinite',
     [theme.breakpoints.down('md')]: {
       width: 43,
       height: 43,
@@ -383,8 +408,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     top: 0,
     right: '47%',
     width: 64,
-    zIndex: 1,
-    transition: 'all 0.6s',
+    transform: 'translateX(80%)',
+    zIndex: 2,
+    animation: '$iconToRight 4s linear infinite',
     [theme.breakpoints.down('md')]: {
       width: 43,
       height: 43,
@@ -413,9 +439,10 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     fontWeight: 500,
     fontSize: '18px',
     color: '#fff',
-    transform: 'translateX(-50%) scale(0.9)',
+    transform: 'translateX(-50%) scale(1)',
     transition: 'all 0.6s',
     textAlign: 'center',
+    animation: `$scaleAnimation 4s linear infinite`,
     [theme.breakpoints.down('md')]: {
       bottom: 44,
       maxWidth: 281,

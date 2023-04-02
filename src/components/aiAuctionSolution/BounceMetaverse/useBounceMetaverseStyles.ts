@@ -11,8 +11,7 @@ export const useBounceMetaverseStyles = makeStyles<Theme>(theme => ({
     background: `linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(ff30001-0110.png)`,
 
     // borderRadius: '60px 60px 0 0',
-    [theme.breakpoints.down('md')]: {
-    },
+    [theme.breakpoints.down('md')]: {},
     [theme.breakpoints.down('sm')]: {
       paddingBottom: 0,
     },
@@ -32,6 +31,7 @@ export const useBounceMetaverseStyles = makeStyles<Theme>(theme => ({
     height: '100%',
     minHeight: 700,
     objectFit: 'cover',
+    zIndex: 0,
   },
   videoSm: {
     display: 'block',
@@ -45,7 +45,17 @@ export const useBounceMetaverseStyles = makeStyles<Theme>(theme => ({
       display: 'block',
     },
   },
+  shadow: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    background: 'rgba(0, 0, 0, 0.3)',
+    zIndex: 1,
+  },
   container: {
+    zIndex: 2,
     position: 'absolute',
     top: 0,
     left: '50%',
