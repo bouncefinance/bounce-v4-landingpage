@@ -20,7 +20,7 @@ export const TopBlock = () => {
      {
       className: 'demoBtn',
       variant: 'contained',
-      href: 'https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/edit',
+      href: 'https://app.bounce.finance/market',
       text: t('home-page.banner.demo')
      },
      {
