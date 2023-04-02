@@ -43,6 +43,8 @@ function App({ Component, pageProps }: IAppProps) {
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-W23MQH5JZ9"
         ></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"></link>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"></link>
       </Head>
 
       <MuiThemeProvider theme={mainTheme}>
