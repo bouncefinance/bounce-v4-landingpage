@@ -143,7 +143,7 @@ export const useTypesOfActionStyles = makeStyles<Theme>(theme => ({
     gap: '12px 10px',
   },
   btnItemMobile: {
-    width: 'calc(50% - 24px)',
+    width: 'calc(50% - 10px)',
     display: 'flex',
     flexFlow: 'column nowrap',
     justifyContent: 'center',
