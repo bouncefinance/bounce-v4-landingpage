@@ -12,9 +12,6 @@ export const BounceMetaverse = () => {
   return (
     <div
       className={classes.metaverseWrap}
-      style={{
-        marginTop: isMd ? '0' : '-134px',
-      }}
       id="bounce-metaverse"
     >
       <video

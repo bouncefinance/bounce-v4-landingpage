@@ -12,21 +12,17 @@ export const useBounceMetaverseStyles = makeStyles<Theme>(theme => ({
 
     // borderRadius: '60px 60px 0 0',
     [theme.breakpoints.down('md')]: {
-      marginTop: 737,
     },
     [theme.breakpoints.down('sm')]: {
-      minHeight: 737,
       paddingBottom: 0,
     },
     [theme.breakpoints.up('md')]: {
-      minHeight: 737,
       paddingBottom: 0,
     },
     [theme.breakpoints.up('lg')]: {
       minHeight: 800,
     },
     [theme.breakpoints.up('xl')]: {
-      marginTop: 96,
       minHeight: 800,
     },
   },
