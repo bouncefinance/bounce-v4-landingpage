@@ -135,6 +135,9 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     display: 'flex',
     flexFlow: 'row nowrap',
     justifyContent: 'flex-start',
+    [theme.breakpoints.down('sm')]: {
+      zoom: 0.5,
+    },
   },
   rightBg: {
     position: 'relative',
