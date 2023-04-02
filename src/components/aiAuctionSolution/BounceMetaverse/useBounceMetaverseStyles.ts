@@ -35,7 +35,7 @@ export const useBounceMetaverseStyles = makeStyles<Theme>(theme => ({
     width: '100vw',
     height: '100%',
     minHeight: 700,
-    objectFit: 'fill',
+    objectFit: 'cover',
   },
   videoSm: {
     display: 'block',

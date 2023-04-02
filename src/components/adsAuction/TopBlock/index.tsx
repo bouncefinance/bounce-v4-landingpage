@@ -60,7 +60,15 @@ export const TopBlock = () => {
       />
     </WithAnimation>
   );
-
+  const DevDesc = (
+    <Box className={classes.rightDesc}>
+      <Box className={classes.rightBg}></Box>
+      <img
+        className={classes.beginnerRightImg}
+        src="/images/adsAuction/p11.png"
+      />
+    </Box>
+  );
   return (
     <div className={classes.pageRoot}>
       <Container maxWidth={false} className={classes.pageContainer}>
@@ -103,7 +111,7 @@ export const TopBlock = () => {
           <ComBtn text={'Start Now'}></ComBtn>
         </WithAnimation>
         {!isMd && (
-          <Grid container spacing={0}>
+          <Grid container spacing={3}>
             <Grid
               item
               xs={6}
@@ -115,13 +123,13 @@ export const TopBlock = () => {
               {desc()}
             </Grid>
             <Grid item xs={6}>
-              {img}
+              {DevDesc}
             </Grid>
           </Grid>
         )}
         {isMd && (
           <Box>
-            {img}
+            {DevDesc}
             {title}
             {desc()}
           </Box>

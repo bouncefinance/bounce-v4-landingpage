@@ -55,12 +55,11 @@ const AuctionBlock: React.FC = () => {
 
   const DevDesc = (
     <Box className={classes.rightDesc}>
-      <Box className={classes.rightBg}>
-        <img
-          className={classes.beginnerRightImg}
-          src="/images/home/designed-for-everyone/p1.png"
-        />
-      </Box>
+      <Box className={classes.rightBg}></Box>
+      <img
+        className={classes.beginnerRightImg}
+        src="/images/home/designed-for-everyone/p2.png"
+      />
     </Box>
   );
 
@@ -90,7 +89,7 @@ const AuctionBlock: React.FC = () => {
                   {BeginDesc()}
                 </Grid>
                 <Grid item md={6}>
-                  {DevDesc}
+                  <WithAnimation>{DevDesc}</WithAnimation>
                 </Grid>
               </Grid>
             </Box>

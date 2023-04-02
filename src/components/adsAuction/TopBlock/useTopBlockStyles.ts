@@ -15,7 +15,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
       paddingBottom: 0,
     },
     [theme.breakpoints.down('md')]: {
-        background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / auto 100%`,
+      background: `url('/images/tokenAndNftAuction/bg.svg') no-repeat top center / auto 100%`,
     },
   },
   pageContainer: {
@@ -122,11 +122,27 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     },
   },
   beginnerRightImg: {
+    position: 'absolute',
+    display: 'block',
+    left: 57,
+    width: 694,
+    bottom: -2,
+  },
+  rightDesc: {
+    position: 'relative',
+    width: '1053px',
     height: 613,
-    [theme.breakpoints.down('sm')]: {
-      height: 'auto',
-      width: '100%',
-      marginRight: -16,
-    },
+    display: 'flex',
+    flexFlow: 'row nowrap',
+    justifyContent: 'flex-start',
+  },
+  rightBg: {
+    position: 'relative',
+    width: 1053,
+    height: 613,
+    background: '#2B51DA',
+    borderRadius: '280px 0px 0px 280px',
+    overflow: 'hidden',
+    padding: '109px 0 0 30px',
   },
 }));

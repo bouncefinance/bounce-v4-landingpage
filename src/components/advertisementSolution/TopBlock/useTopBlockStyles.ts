@@ -1,5 +1,4 @@
 import { makeStyles, Theme } from '@material-ui/core';
-import { FONTS } from 'src/modules/theme/mainTheme';
 
 export const useTopBlockStyles = makeStyles<Theme>(theme => ({
   pageRoot: {

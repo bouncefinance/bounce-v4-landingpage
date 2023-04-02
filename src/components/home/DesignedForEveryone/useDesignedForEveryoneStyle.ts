@@ -112,23 +112,12 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     height: 12,
     marginRight: 12,
   },
-  beginnerDesc: {
-    fontFamily: `'Inter'`,
-    fontSize: 16,
-    color: '#FFFFFF',
-    marginBottom: 8,
-    opacity: 0.8,
-    lineHeight: '24px',
-    [theme.breakpoints.down('sm')]: {
-      margin: '0 16px',
-    },
-  },
   beginnerRightImg: {
-    width: 650,
-    [theme.breakpoints.down('sm')]: {
-      height: 300,
-      margin: '0 0 0 16px',
-    },
+    position: 'absolute',
+    display: 'block',
+    left: -2,
+    width: 784,
+    bottom: -2,
   },
   rightDesc: {
     position: 'relative',
@@ -139,7 +128,8 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     justifyContent: 'flex-start',
   },
   rightBg: {
-    width: '1053px',
+    position: 'relative',
+    width: 1053,
     height: 613,
     background: '#fff',
     borderRadius: '280px 0px 0px 280px',
