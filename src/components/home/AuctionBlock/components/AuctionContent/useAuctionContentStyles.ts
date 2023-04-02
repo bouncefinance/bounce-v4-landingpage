@@ -52,22 +52,22 @@ export const useAuctionContentStyles = makeStyles(theme => ({
   auctionAnimationContent: {
     position: 'relative',
     width: '100%',
-    height: '4000px',
     maxWidth: '1100px',
     margin: '0 auto',
-    opacity: 1,
+    opacity: 0,
     zIndex: 1,
+    transition: 'transform 7s, opacity 0.6s',
+    transform: 'translateX(40%)',
     [theme.breakpoints.down('md')]: {
       height: 'unset',
     },
   },
   auctionAnimationContentShow: {
-    position: 'relative',
-    width: '100%',
-    height: '4000px',
-    maxWidth: '1100px',
-    margin: '0 auto',
     opacity: 1,
+    transform: 'translateX(-80%)',
+    [theme.breakpoints.down('md')]: {
+      transform: 'translateX(-213%)',
+    },
   },
   title: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
@@ -104,13 +104,12 @@ export const useAuctionContentStyles = makeStyles(theme => ({
     },
   },
   animationBlock: {
-    position: 'sticky',
-    top: 0,
+    position: 'relative',
     width: '2075px',
     height: '748px',
-    [theme.breakpoints.down('md')]: {
+    [theme.breakpoints.down('sm')]: {
       left: '16px',
-      height: '400px',
+      zoom: 0.6,
     },
   },
 }));
