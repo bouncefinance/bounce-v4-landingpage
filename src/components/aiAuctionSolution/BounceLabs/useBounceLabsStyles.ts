@@ -20,6 +20,7 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
       borderRadius: '28px 28px 0 0',
     },
     [theme.breakpoints.up('md')]: {
+      marginTop: '-134px',
       '&::before': {
         borderRadius: '60px 60px 0 0',
       },
