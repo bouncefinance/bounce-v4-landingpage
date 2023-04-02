@@ -7,11 +7,11 @@ import { TopBlock } from 'src/components/home/TopBlock';
 // import ChainsBlock from '../../components/home/ChainsBlock';
 import { useIsMDDown } from 'src/modules/theme';
 // import BinanceExchange from 'src/components/home/BinanceExchange';
-import { Box,  } from '@material-ui/core';
-import AuctionBlock from 'src/components/home/AuctionBlock'
-import DesignedForEveryone from 'src/components/home/DesignedForEveryone'
-import IndustrySolutions from 'src/components/home/IndustrySolutions'
-import TypesOfAction from 'src/components/home/TypesOfAction'
+import { Box } from '@material-ui/core';
+import AuctionBlock from 'src/components/home/AuctionBlock';
+import DesignedForEveryone from 'src/components/home/DesignedForEveryone';
+import IndustrySolutions from 'src/components/home/IndustrySolutions';
+import TypesOfAction from 'src/components/home/TypesOfAction';
 
 export type IHomeProps = {};
 
@@ -81,6 +81,11 @@ const Home: React.FC<IHomeProps> = ({}) => {
             ref={videoEl}
             onEnded={() => {
               setShowVideo(false);
+              const homeBannerVideo: HTMLVideoElement | null =
+                  isMd ? document.getElementById('videoMd') as HTMLVideoElement :  document.getElementById('videoPc') as HTMLVideoElement
+                homeBannerVideo &&
+                  homeBannerVideo?.play &&
+                  homeBannerVideo?.play();
             }}
           ></video>
         </Box>

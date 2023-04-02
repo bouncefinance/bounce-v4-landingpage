@@ -37,6 +37,7 @@ export const TopBlock = () => {
         muted
         autoPlay
         playsInline
+        id="videoMd"
         className={classNames(classes.video, classes.videoSm)}
       >
         <source src="/video/top-block-bg-sm.mp4" type="video/mp4" />
@@ -45,6 +46,7 @@ export const TopBlock = () => {
         muted
         autoPlay
         playsInline
+        id="videoPc"
         className={classNames(classes.video, classes.videoLg)}
       >
         <source src="/video/top-block-bg.mp4" type="video/mp4" />

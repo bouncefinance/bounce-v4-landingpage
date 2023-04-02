@@ -13,31 +13,37 @@ const JoinCommunity: React.FC<IHomeProps> = ({}) => {
       icon: '/images/joinCommunity/twitter.svg',
       name: 'Twitter',
       desc: 'Join our twitter community to get newest information',
+      link: 'https://twitter.com/bounce_finance',
     },
     {
       icon: '/images/joinCommunity/telegram.svg',
       name: 'Telegram',
       desc: 'Join our telegram community to get newest information',
+      link: 'https://t.me/bouncefinance',
     },
     {
       icon: '/images/joinCommunity/medium.svg',
       name: 'Medium',
       desc: 'Join our medium to get newest information',
+      link: 'https://bouncefinance.medium.com/',
     },
     {
       icon: '/images/joinCommunity/forum.svg',
       name: 'Forum',
       desc: 'Join our forum to get newest information',
+      link: 'https://community.bounce.finance/',
     },
     {
       icon: '/images/joinCommunity/governance.svg',
       name: 'Governance',
       desc: 'Join our governance to get newest information',
+      link: '',
     },
     {
       icon: '/images/joinCommunity/youtube.svg',
       name: 'Youtube',
       desc: 'Join our youtube to get newest information',
+      link: 'https://youtube.com/channel/UCXP8b1rwRcoG3nBRIJbHCRA',
     },
     {
       icon: '/images/joinCommunity/discord.svg',
@@ -60,9 +66,12 @@ const JoinCommunity: React.FC<IHomeProps> = ({}) => {
           {socialList.map((item, idx) => {
             return (
               <Grid item md={4} key={idx}>
-                <Box className={classes.itemBox} onClick={() => {
-                    item.link && window.open(item.link, '_blank') 
-                }}>
+                <Box
+                  className={classes.itemBox}
+                  onClick={() => {
+                    item.link && window.open(item.link, '_blank');
+                  }}
+                >
                   <img src={item.icon} className={classes.icon} />
                   <Box className={classes.textColumn}>
                     <Typography className={classes.socialName}>
