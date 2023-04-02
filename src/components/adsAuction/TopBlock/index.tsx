@@ -10,22 +10,22 @@ export const TopBlock = () => {
   const classes = useTopBlockStyles();
   const beginners = [
     {
-      title: 'No-code option',
-      desc: 'Build, customize and deploy auction interfaces directly from the Bounce Dashboard',
+      title: 'Ads Auction marketplace',
+      desc: 'The One-Stop Marketplace for All Your Advertising Needs',
     },
     {
-      title: 'Easy to access ',
-      desc: 'Permissionless environment for auction participation and creation',
+      title: 'Ads Management Terminal',
+      desc: 'The entire auction process is being recorded and managed on-chain',
     },
     {
-      title: 'One click execution',
-      desc: 'Launch auctions and submit bids through only one click',
+      title: 'Ads Plug-in',
+      desc: 'Seamless integration with your website to let you choose your ideal ads placement',
     },
   ];
   const title = (
     <WithAnimation>
       <Typography className={classes.leftTitle}>
-        Transform Your Advertising Strategy With Bounce's Full Suite of
+        Transform Your Advertising Strategy With Bounce Finance's Full Suite of
         Innovative Solutions.
       </Typography>
     </WithAnimation>
@@ -69,7 +69,7 @@ export const TopBlock = () => {
           Component={Typography}
           variant="h2"
         >
-          Ads Auction
+          Ad Space
         </WithAnimation>
         <WithAnimation
           className={classes.title2}
@@ -94,10 +94,10 @@ export const TopBlock = () => {
         </WithAnimation>
         <WithAnimation className={classes.text} Component={Typography}>
           The automated and precise bidding solution for advertising success.
-          With Bounce, your advertising budget is optimized to reach your target
-          audience, minimize costs, and maximize ROI. Say goodbye to manual
-          bidding and hello to a smarter, more efficient way to auction your
-          ads.
+          With Bounce Finance, your advertising budget is optimized to reach
+          your target audience, minimize costs, and maximize ROI. Say goodbye to
+          manual bidding and hello to a smarter, more efficient way to auction
+          your ads.
         </WithAnimation>
         <WithAnimation className={classes.btnBox}>
           <ComBtn text={'Start Now'}></ComBtn>

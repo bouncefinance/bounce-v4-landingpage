@@ -35,7 +35,7 @@
   "home-page": {
     "banner": {
       "title": "Auction as a Service",
-      "text": "From customized auction pools to seamless on-chain settlements, Bounce provides the tools you need to unleash the full potential of decentralized auctions.",
+      "text": "From customized auction pools to seamless on-chain settlements, Bounce Finance provides the tools you need to unleash the full potential of decentralized auctions. ",
       "demo": "Request a Demo",
       "docs": "Learn more"
     },
@@ -319,8 +319,8 @@
     "id-ID": "Indonesia"
   },
   "bounce-metaverse": {
-    "brand": "Bounce Labs",
-    "title": "Bounce Metaverse",
+    "brand": "Bounce AI",
+    "title": "Bounce Finance & Cybever",
     "text": "In an effort to onboard more users into the Bounce ecosystem, we have worked to develop Bounce’s “Metaverse City”. In our eyes, Bounce’s Metaverse will be the centerpiece of our future, a virtual homebase that will bridge each of our products together for a seamless, immersive experience.",
     "btnText": "Explore",
     "metaverse-city": "Metaverse City",

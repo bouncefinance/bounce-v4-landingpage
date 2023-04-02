@@ -17,7 +17,7 @@ export const TopBlock = () => {
           Component={Typography}
           variant="h2"
         >
-          Real World Collectibles Auction
+          Real-World Collectibles Auctions
         </WithAnimation>
         <WithAnimation
           className={classes.title2}
@@ -44,10 +44,10 @@ export const TopBlock = () => {
           <Box className={classes.descText}>
             <WithAnimation className={classes.text} Component={Typography}>
               By moving traditional real goods auctions onto the blockchain,
-              Bounce offers a more secure and transparent environment for buyers
-              and sellers to participate in. The decentralized nature of the
-              blockchain eliminates the risk of fraud or manipulation, ensuring
-              that the auction results are fair.
+              Bounce Finance offers a more secure and transparent environment
+              for buyers and sellers to participate in. The decentralized nature
+              of the blockchain eliminates the risk of fraud or manipulation,
+              ensuring that the auction results are fair.
             </WithAnimation>
             <WithAnimation className={classes.btnBox}>
               <ComBtn

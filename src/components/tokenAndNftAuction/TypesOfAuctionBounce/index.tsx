@@ -58,7 +58,7 @@ export const TypesOfAuctionBounce = () => {
             Component={Typography}
             variant="h2"
           >
-            Types of Auctions On Bounce
+            Types of Auction On Bounce Finance
           </WithAnimation>
           <WithAnimation>
             <Grid

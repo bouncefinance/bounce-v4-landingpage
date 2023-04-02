@@ -36,7 +36,7 @@ export const BounceOffers = () => {
             Component={Typography}
             variant="h2"
           >
-            What Bounce Offers
+            What Bounce Finance Offers
           </WithAnimation>
           <WithAnimation>
             <Grid container spacing={2}>

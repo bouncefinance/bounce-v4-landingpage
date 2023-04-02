@@ -53,7 +53,7 @@ const KeyFeatures: React.FC = () => {
           <WithAnimation>
             <Typography className={classes.industryTitle}>
               <span className={classes.bottomLine}>Problems</span> with
-              Traditional Advertising1
+              Traditional Advertising
             </Typography>
           </WithAnimation>
 

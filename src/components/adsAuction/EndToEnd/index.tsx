@@ -16,16 +16,16 @@ export const EndToEnd = () => {
             <Grid item md={6} sm={12}>
               <WithAnimation>
                 <Typography className={classes.leftTitle}>
-                  An End-to-End Solution for Ads Auction
+                  An End-to-End Solution for Ad Space Auction
                 </Typography>
               </WithAnimation>
               <WithAnimation>
                 <Typography className={classes.leftDesc}>
-                  Revolutionize the process of bidding for ads with our
+                  Revolutionize the process of bidding for ad spaces with our
                   comprehensive platform, providing the tools and resources you
                   need for a successful advertising campaign. Experience ease
                   and efficiency through our secure, transparent, and simple
-                  on-chain auction process. With Bounce, achieving your
+                  on-chain auction process. With Bounce Finance, achieving your
                   advertising goals has never been easier.
                 </Typography>
               </WithAnimation>

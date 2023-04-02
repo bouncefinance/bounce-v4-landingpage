@@ -2,11 +2,9 @@ import React from 'react';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import { Box, Typography, Grid } from '@material-ui/core';
 import { useAuctionContentStyles } from './useAuctionContentStyles';
-import { useIsSMDown } from 'src/modules/theme';
 
 const AutionTitle: React.FC = () => {
   const classes = useAuctionContentStyles();
-  const isSm = useIsSMDown();
   const imgList = [
     {
       url: '/images/home/auction/slide-right-animation/p5.png',
@@ -104,7 +102,7 @@ const AutionTitle: React.FC = () => {
         addClassInView={classes.auctionContentShow}
       >
         <Box className={classes.title}>
-          Integrate Bounce's Auction Technology With Any Website
+          Integrate Bounce's Finance's Auction Technology With Any Website
         </Box>
         <Grid container spacing={0}>
           <Grid item md={6} sm={12}>
@@ -113,19 +111,19 @@ const AutionTitle: React.FC = () => {
                 className={classes.leftTopArrow}
                 src="/images/home/auction/left-top-arrow.svg"
               />
-              Empowering Auctions with Innovation: Bounce offers complete
-              solutions for launching and conducting various types of auction
-              with seamless on-chain settlements. Transforming traditional
-              industries through cutting-edge technology for improved efficiency
-              and profitability.
+              Empowering Auctions with Innovation: Bounce Finance's offers
+              complete solutions for launching and conducting various types of
+              auction with seamless on-chain settlements. We strive to transform
+              traditional industries through cutting-edge technology for
+              improved efficiency and profitability.
             </Typography>
           </Grid>
           <Grid item md={6} sm={12}>
             <Typography className={classes.desc} style={{ paddingTop: '16px' }}>
-              The types of auction that Bounce provides include fixed-price
-              auction, English auction, Dutch auction, sealed-bid auction,
-              random selection auction, playable auction, order book auction,
-              hold-to-compete auction.
+              The types of auction that Bounce Finance provides include
+              fixed-price auction, English auction, Dutch auction, sealed-bid
+              auction, random selection auction, playable auction, order book
+              auction, hold-to-compete auction.
             </Typography>
           </Grid>
         </Grid>

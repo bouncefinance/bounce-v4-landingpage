@@ -15,7 +15,7 @@ const HowAuctionWorks: React.FC = () => {
         <Container maxWidth="xl" className={classes.container}>
           <WithAnimation>
             <Typography className={classes.industryTitle}>
-              How Our On-Chain Real Goods collectibles Auction Process Works
+              How Our On-Chain Real-World Collectible Auction Process Works
             </Typography>
           </WithAnimation>
           <WithAnimation>

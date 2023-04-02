@@ -78,8 +78,8 @@ const TackiesTheIssues: React.FC = () => {
         <Container maxWidth="xl" className={classes.container}>
           <WithAnimation>
             <Typography className={classes.industryTitle}>
-              Bounce's Ad Auction Provides A{' '}
-              <span className={classes.bottomLine}>Solution</span>
+              Bounce Finance's Ad Space Auction{' '}
+              <span className={classes.bottomLine}>Provides A Solution</span>
             </Typography>
           </WithAnimation>
           <Box className={classes.paginationBox}>

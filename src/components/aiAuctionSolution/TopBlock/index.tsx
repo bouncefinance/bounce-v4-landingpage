@@ -43,7 +43,7 @@ export const TopBlock = () => {
         <Grid container spacing={2}>
           <Grid item md={7} sm={12}>
             <WithAnimation className={classes.text} Component={Typography}>
-              Bounce is dedicated to unlocking the full potential of AI
+              Bounce Finance is dedicated to unlocking the full potential of AI
               technology through seamless integration with on-chain auctions.
               Our platform leverages the advantages of AI to enhance the user
               experience and provide a more efficient and transparent auction

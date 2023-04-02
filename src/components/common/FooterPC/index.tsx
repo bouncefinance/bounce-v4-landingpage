@@ -172,7 +172,7 @@ const FooterPc: React.FC<FooterProps> = ({
   const companyLinks = useMemo(
     () => [
       {
-        label: 'Advertisement',
+        label: 'Advertising',
         isExternal: false,
         href: '/advertisementSolution',
         isDisabled: false,
@@ -180,7 +180,7 @@ const FooterPc: React.FC<FooterProps> = ({
         className: '',
       },
       {
-        label: 'AI+Auction ',
+        label: 'AI+Auction',
         isExternal: false,
         href: '/aiAuctionSolution',
         isDisabled: false,
@@ -216,7 +216,7 @@ const FooterPc: React.FC<FooterProps> = ({
         className: '',
       },
       {
-        label: 'Real World Asset Auction',
+        label: 'Real-World Collectible Auction',
         isExternal: false,
         href: '/realWorldCollectAuction',
         isDisabled: false,
@@ -230,7 +230,7 @@ const FooterPc: React.FC<FooterProps> = ({
         className: '',
       },
       {
-        label: 'Advertisement Auction',
+        label: 'Ad Space Auction',
         isExternal: false,
         href: '/adsAuction',
         isDisabled: false,

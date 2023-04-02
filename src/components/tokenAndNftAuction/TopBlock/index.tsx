@@ -99,15 +99,11 @@ export const TopBlock = () => {
               What is an on-chain auction?
             </Typography>
             <Typography className={classes.infoDesc}>
-              On-chain auctions take place entirely on the blockchain network.
-              It involves the use of smart contracts, which are self-executing
-              contracts with the terms of the agreement between buyers and
-              sellers being directly written into lines of code, allowing buyers
-              and sellers to trade assets in a decentralized, transparent and
-              secure way. Unlike traditional auctions that rely on
-              intermediaries and central authorities, on-chain auctions record
-              bids, bid history, and auction outcomes directly on the
-              blockchain.
+              Bounce Finance offers 10 types of on-chain auctions on 40
+              blockchains, with flexibility and accessibility. Create your
+              customized auction pool and tailor it to your specific needs, or
+              join existing pools to increase competition and maximize your
+              chances of success.
             </Typography>
             <img
               className={classes.infoImg}

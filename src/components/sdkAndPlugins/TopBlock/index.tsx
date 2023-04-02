@@ -106,14 +106,14 @@ export const TopBlock = () => {
         >
           <Grid item md={7} sm={12} style={{ paddingTop: 80 }}>
             <WithAnimation className={classes.text2} Component={Typography}>
-              Enhance Your Auction Experience with Bounce's Innovative SDKs and
-              Plugins
+              Enhance Your Auction Experience with Bounce Finance's Innovative
+              SDKs and Plugins
             </WithAnimation>
             <WithAnimation className={classes.text3} Component={Typography}>
               Customization is at the forefront of our offerings, with the
               ability to tailor the auction experience to meet the unique needs
-              of each user. The seamless integration of Bounce's SDKs and
-              plug-ins into your websites eliminates the need for you to
+              of each user. The seamless integration of Bounce Finance's SDKs
+              and plug-ins into your websites eliminates the need for you to
               navigate to a separate platform, empowering you to run your own
               auctions wherever and however you like.
             </WithAnimation>

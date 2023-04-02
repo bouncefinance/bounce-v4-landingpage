@@ -35,7 +35,7 @@ const KeyFeature: React.FC = () => {
         <Container maxWidth="xl" className={classes.container}>
           <WithAnimation>
             <Typography className={classes.industryTitle}>
-              Key Features of Our On-Chain Real World collectibles Auction
+              Key Features of Our On-Chain Real-World Collectible Auction
             </Typography>
           </WithAnimation>
           <Grid container spacing={2}>

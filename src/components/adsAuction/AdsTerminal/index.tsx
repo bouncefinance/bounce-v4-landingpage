@@ -17,7 +17,7 @@ export const AdsTerminal = () => {
             Component={Typography}
             variant="h2"
           >
-            Bounce Ads Terminal
+            Bounce Ad Space Terminal
           </WithAnimation>
           {isMd ? (
             <>

@@ -3,7 +3,6 @@ import { useAdsProcessWorksStyles } from './useAdsProcessWorksStyles';
 import { Container, Typography, Box, Grid } from '@material-ui/core';
 import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
 import { WithAnimation } from 'src/modules/WithAnimation';
-import classNames from 'classnames';
 import { useIsMDDown } from '../../../modules/theme';
 
 const AdsProcessWorks: React.FC = () => {
@@ -15,7 +14,7 @@ const AdsProcessWorks: React.FC = () => {
         <Container maxWidth="xl" className={classes.container}>
           <WithAnimation>
             <Typography className={classes.industryTitle}>
-              How Our Ads Auction Process Works
+              How Our Ad Space Auction Process Works
             </Typography>
           </WithAnimation>
           <Grid container spacing={isMDDown ? 0 : 2}>

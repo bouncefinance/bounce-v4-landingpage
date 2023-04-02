@@ -16,7 +16,7 @@ export const TopBlock = () => {
           Component={Typography}
           variant="h2"
         >
-          Advertisement Solution
+          Advertising Solution
         </WithAnimation>
         <WithAnimation
           className={classes.title2}
@@ -40,11 +40,11 @@ export const TopBlock = () => {
           Technology
         </WithAnimation>
         <WithAnimation className={classes.text} Component={Typography}>
-          Bounce applies the on-chain auction technology to advertising with the
-          objective of helping businesses maximize their reach to target
-          audience while minimize their cost. By offering various types of
-          on-chain auction and different modes of ads, we make the advertising
-          process more efficient, transparent and fun!
+          Bounce Finance applies the on-chain auction technology to advertising
+          with the objective of helping businesses maximize their reach to
+          target audience while minimize their cost. By offering various types
+          of on-chain auction and different modes of ads, we make the
+          advertising process more efficient, transparent and fun!
         </WithAnimation>
         <Box className={classes.contentBox}>
           <WithAnimation className={classes.btnBox}>

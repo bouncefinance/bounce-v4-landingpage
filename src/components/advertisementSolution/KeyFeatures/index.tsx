@@ -27,7 +27,7 @@ const KeyFeature: React.FC = () => {
         <Container maxWidth="xl" className={classes.container}>
           <WithAnimation>
             <Typography className={classes.industryTitle}>
-              Key Features of Our <br /> Advertisement Auction
+              Key Features of Our Ad Space <br /> Auction
             </Typography>
           </WithAnimation>
           <Grid container spacing={2}>
@@ -45,7 +45,7 @@ const KeyFeature: React.FC = () => {
                       src="/images/advertisementSolution/icon1.png"
                       alt=""
                     />
-                    Exclusive Ads
+                    Exclusive Ad Space
                   </Typography>
                 </WithAnimation>
                 <WithAnimation>
@@ -73,7 +73,7 @@ const KeyFeature: React.FC = () => {
                       src="/images/advertisementSolution/icon2.png"
                       alt=""
                     />
-                    Joint Ads
+                    Joint Ad Space
                   </Typography>
                 </WithAnimation>
                 <WithAnimation>

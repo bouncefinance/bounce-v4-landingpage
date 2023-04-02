@@ -50,12 +50,12 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
             href: '/tokenAndnftAuction',
           },
           {
-            label: 'Real-world Collectibles Auction',
+            label: 'Real-World Collectible Auction',
             isExternal: false,
             href: '/realWorldCollectAuction',
           },
           {
-            label: 'Advertisement Auction',
+            label: 'Ad Space Auction',
             isExternal: false,
             href: '/adsAuction',
           },
@@ -70,7 +70,7 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
         label: 'Solutions',
         list: [
           {
-            label: 'Advertisement',
+            label: 'Advertising',
             isExternal: false,
             href: '/advertisementSolution',
           },

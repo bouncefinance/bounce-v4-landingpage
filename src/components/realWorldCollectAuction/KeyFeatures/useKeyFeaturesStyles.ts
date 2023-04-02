@@ -74,6 +74,8 @@ export const useKeyFeaturesStyles = makeStyles<Theme>(theme => ({
     fontSize: 24,
     color: '#2B51DA',
     marginBottom: 16,
+    lineHeight: '34px',
+    minHeight: '68px',
     [theme.breakpoints.down('sm')]: {
       fontSize: 17,
     },

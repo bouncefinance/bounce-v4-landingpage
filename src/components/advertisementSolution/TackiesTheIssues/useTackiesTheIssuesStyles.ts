@@ -28,7 +28,7 @@ export const useTackiesTheIssuesStyles = makeStyles<Theme>(theme => ({
     },
   },
   industryTitle: {
-    width: '518px',
+    width: '100%',
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
     fontSize: 44,
