@@ -132,6 +132,7 @@ export const useTypesOfActionStyles = makeStyles<Theme>(theme => ({
     padding: '0 16px',
   },
   animationBlockTopMobile: {
+    width: '100%',
     display: 'flex',
     flexFlow: 'row wrap',
     justifyContent: 'space-between',
@@ -139,17 +140,17 @@ export const useTypesOfActionStyles = makeStyles<Theme>(theme => ({
     border: `2px solid rgba(255, 255, 255, 0.5)`,
     borderRadius: 20,
     padding: '16px 12px',
-    gap: '16px 20px',
+    gap: '12px 10px',
   },
   btnItemMobile: {
+    width: 'calc(50% - 24px)',
     display: 'flex',
     flexFlow: 'column nowrap',
     justifyContent: 'center',
     alignItems: 'center',
     background: '#FFFFFF',
-    borderRadius: 24,
+    borderRadius: 16,
     cursor: `url('/images/home/typesOfAuction/cursor.png'),auto`,
-    width: '100%',
     height: 60,
     '&:active': {
       background: '#C5F5FF',

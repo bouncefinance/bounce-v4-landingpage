@@ -20,15 +20,15 @@ export const BtnItem = (props: BtnProps) => {
   );
 };
 export const BtnItemMobile = (props: BtnProps) => {
-    const classes = useTypesOfActionStyles();
-    const { img, text, style } = props;
-    return (
-      <Box className={classes.btnItemMobile} style={{ ...style }}>
-        <img className={classes.btnImgMobile} src={img} alt="" />
-        <Typography className={classes.btnTextMobile}>{text}</Typography>
-      </Box>
-    );
-  };
+  const classes = useTypesOfActionStyles();
+  const { img, text, style } = props;
+  return (
+    <Box className={classes.btnItemMobile} style={{ ...style }}>
+      <img className={classes.btnImgMobile} src={img} alt="" />
+      <Typography className={classes.btnTextMobile}>{text}</Typography>
+    </Box>
+  );
+};
 export type IBuildWithBounceProps = {};
 
 const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
@@ -129,59 +129,34 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
         <BtnItemMobile
           img={'/images/home/typesOfAuction/1.svg'}
           text={'Fixed-priced Auction'}
-          style={{
-            width: '140px',
-            fontSize: '10px',
-          }}
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/8.svg'}
-          text={'Fixed-priced Auction'}
-          style={{
-            width: '140px',
-          }}
+          text={'Random Selection Auction'}
         />{' '}
         <BtnItemMobile
-          style={{
-            width: '140px',
-          }}
           img={'/images/home/typesOfAuction/2.svg'}
           text={'English Auction'}
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/9.svg'}
-          text={'Fixed-priced Auction'}
-          style={{
-            width: '140px',
-          }}
+          text={'Playable Auction'}
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/3.svg'}
           text={'Dutch Auction'}
-          style={{
-            width: '140px',
-          }}
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/10.svg'}
-          text={'Fixed-priced Auction'}
-          style={{
-            width: '140px',
-          }}
+          text={'Order Book Auction'}
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/4.svg'}
           text={'Sealed-Bid Auction'}
-          style={{
-            width: '140px',
-          }}
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/11.svg'}
-          text={'Fixed-priced Auction'}
-          style={{
-            width: '140px',
-          }}
+          text={'Hold-to-compete Auction'}
         />{' '}
       </Box>
       <img src="/images/home/typesOfAuction/top-arrow.svg" alt="" />
