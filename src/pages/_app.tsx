@@ -45,6 +45,7 @@ function App({ Component, pageProps }: IAppProps) {
         ></script>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"></link>
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"></link>
+        <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=f0707b31-0c92-4230-8947-b71f925d0f23"> </script>
       </Head>
 
       <MuiThemeProvider theme={mainTheme}>
