@@ -77,7 +77,7 @@ export const TopBlock = () => {
           Component={Typography}
           variant="h2"
         >
-          Ad Space
+          Ad Space Auction
         </WithAnimation>
         <WithAnimation
           className={classes.title2}

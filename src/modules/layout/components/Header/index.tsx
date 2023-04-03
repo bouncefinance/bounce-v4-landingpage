@@ -192,12 +192,12 @@ export const Header = () => {
             href: '/tokenAndnftAuction',
           },
           {
-            label: 'Real-world Collectibles Auction',
+            label: 'Real-World Collectible Auction',
             isExternal: false,
             href: '/realWorldCollectAuction',
           },
           {
-            label: 'Advertisement Auction',
+            label: 'Ad Space Auction',
             isExternal: false,
             href: '/adsAuction',
           },
