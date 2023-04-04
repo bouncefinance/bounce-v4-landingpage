@@ -44,6 +44,9 @@ export const TopBlock = () => {
             </WithAnimation>
             <WithAnimation className={classes.btnBox}>
               <ComBtn
+              handleClick={() => {
+                window.open('https://www.npmjs.com/package/bounce-sdk-beta', '_blank')
+              }}
                 style={{
                   marginRight: 16,
                 }}
