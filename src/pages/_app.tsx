@@ -37,6 +37,7 @@ function App({ Component, pageProps }: IAppProps) {
         <meta property="og:image" content="/images/social-share.jpg" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="apple-touch-icon" href="/images/logo.png" />
+        <meta name="google-site-verification" content="B5lx8TxvQcU-puuVS2dQoES9kmvDgkf-OVMy7KxTGLI" />
         <title>{'Bounce'}</title>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <script
