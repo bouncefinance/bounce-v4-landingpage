@@ -270,7 +270,7 @@ const FooterMobile: React.FC<FooterProps> = ({
         className: '',
       },
       {
-        label: 'Real World Asset Auction',
+        label: 'Real-World Collectible Auction',
         isExternal: false,
         href: '/realWorldCollectAuction',
         isDisabled: false,
@@ -284,7 +284,7 @@ const FooterMobile: React.FC<FooterProps> = ({
         className: '',
       },
       {
-        label: 'Advertisement Auction',
+        label: 'Ad Space Auction',
         isExternal: false,
         href: '/adsAuction',
         isDisabled: false,

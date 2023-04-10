@@ -111,7 +111,7 @@ const AutionTitle: React.FC = () => {
                 className={classes.leftTopArrow}
                 src="/images/home/auction/left-top-arrow.svg"
               />
-              Empowering Auctions with Innovation: Bounce Finance's offers
+              Empowering Auctions with Innovation: Bounce Finance offers
               complete solutions for launching and conducting various types of
               auction with seamless on-chain settlements. We strive to transform
               traditional industries through cutting-edge technology for
