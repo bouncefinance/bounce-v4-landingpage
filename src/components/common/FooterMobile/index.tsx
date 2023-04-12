@@ -473,7 +473,7 @@ const FooterMobile: React.FC<FooterProps> = ({
           </Typography>
           <Box className={classes.description}>
             <ExternalLink
-              href={'https://app.bounce.finance/TermsOfService.html'}
+              href={'/termsOfService'}
               role="link"
               rel="noopener noreferrer"
               target="_blank"
@@ -482,10 +482,9 @@ const FooterMobile: React.FC<FooterProps> = ({
               {t('footer.terms-of-service')}
             </ExternalLink>
             <ExternalLink
-              href={'https://app.bounce.finance/PrivacyPolicy.html'}
+              href={'/privacyPolicy'}
               role="link"
               rel="noopener noreferrer"
-              target="_blank"
               className={classNames(classes.link, classes.darkLink)}
             >
               {t('footer.privacy-policy')}
