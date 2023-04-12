@@ -58,12 +58,12 @@ export const FooterSocialLink: React.FC<{
       {
         title: 'Github',
         icon: colorTheme === 'dark' ? GithubWhiteIcon : GithubIcon,
-        href: '',
+        href: 'https://github.com/bouncefinance',
       },
       {
         title: 'API',
         icon: colorTheme === 'dark' ? APIWhiteIcon : APIIcon,
-        href: '',
+        href: 'https://docs.bounce.finance/',
       },
     ],
     [colorTheme],
