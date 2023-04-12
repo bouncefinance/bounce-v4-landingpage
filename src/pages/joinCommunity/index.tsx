@@ -37,7 +37,7 @@ const JoinCommunity: React.FC<IHomeProps> = ({}) => {
       icon: '/images/joinCommunity/governance.svg',
       name: 'Governance',
       desc: 'Join our governance to get newest information',
-      link: '',
+      link: 'https://snapshot.org/#/bouncedao.eth',
     },
     {
       icon: '/images/joinCommunity/youtube.svg',
