@@ -8,7 +8,7 @@ export const useTextContentStyles = makeStyles<Theme>(theme => ({
     margin: '0 auto',
     minHeight: '90vh',
     top: 100,
-    paddingBottom: theme.spacing(15),
+    paddingBottom: 400,
     paddingTop: theme.spacing(15),
   },
   title: {

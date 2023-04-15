@@ -67,4 +67,25 @@ export const useTextContentStyles = makeStyles<Theme>(theme => ({
   blod: {
     fontWeight: 'bold',
   },
+  li: {
+    ontFamily: 'Sharp Grotesk DB Cyr Book 20',
+    fontWeight: 400,
+    fontSize: '16px',
+    textAlign: 'left',
+    color: '#171717',
+    opacity: 0.8,
+    lineHeight: '26px',
+    paddingLeft: '20px',
+    '&:before': {
+      content: `''`,
+      display: 'block',
+      width: '4px',
+      height: '4px',
+      boderRadius: '50%',
+      background: '#171717',
+      position: 'absolute',
+      left: '8px',
+      top: '10px',
+    },
+  },
 }));
