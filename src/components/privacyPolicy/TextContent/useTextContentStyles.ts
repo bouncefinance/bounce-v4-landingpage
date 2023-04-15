@@ -93,7 +93,17 @@ export const useTextContentStyles = makeStyles<Theme>(theme => ({
       background: '#171717',
       position: 'absolute',
       left: '8px',
-      top: '10px'
-    }
-  }
+      top: '10px',
+    },
+  },
+  openLink: {
+    cursor: 'pointer',
+    fontFamily: 'Sharp Grotesk DB Cyr Book 20',
+    fontWeight: 400,
+    fontSize: '16px',
+    textAlign: 'left',
+    color: '#171717',
+    opacity: 0.8,
+    textDecoration: 'underline',
+  },
 }));

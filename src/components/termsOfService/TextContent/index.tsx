@@ -18,8 +18,22 @@ const TextContent: React.FC = () => {
       type: classes.normal,
     },
     {
-      text: `When you access or use the Website and/or the Platform (as defined below) (including by creating of an account with us), you (“Customer”/“You”/“Your”) agree to follow and be bound by the following terms, which include our Privacy Policy (available here). Bounce may revise and update these Terms of Use from time to time in its sole discretion. All changes are effective immediately when posted to the Website and apply to all access to and use of the Website thereafter. You should review these Terms periodically for updates.`,
-      type: classes.normal,
+      type: 'mixText',
+      content: [
+        {
+          text: `When you access or use the Website and/or the Platform (as defined below) (including by creating of an account with us), you (“Customer”/“You”/“Your”) agree to follow and be bound by the following terms, which include our Privacy Policy (`,
+          type: classes.normal,
+        },
+        {
+          text: `available here`,
+          type: classes.openLink,
+          link: '/privacyPolicy'
+        },
+        {
+          text: `). Bounce may revise and update these Terms of Use from time to time in its sole discretion. All changes are effective immediately when posted to the Website and apply to all access to and use of the Website thereafter. You should review these Terms periodically for updates.`,
+          type: classes.normal,
+        },
+      ],
     },
     {
       text: `Please read the following Agreement carefully, as it affects your legal rights and obligations and includes binding dispute resolution, class waiver, and governing law provisions.  If you do not agree with any of the terms below, please do not use the Website.`,
@@ -388,7 +402,13 @@ const TextContent: React.FC = () => {
                 {Array.isArray(v.content) &&
                   v.content.length &&
                   v.content.map(item => {
-                    return <span className={item.type}>{item.text}</span>;
+                    if (item.type === classes.openLink) {
+                      return <span className={item.type} onClick={() => {
+                        item?.link && window.open(item?.link, '_blank')
+                      }}>{item.text}</span>;
+                    } else {
+                      return <span className={item.type}>{item.text}</span>;
+                    }
                   })}
               </Box>
             </WithAnimation>

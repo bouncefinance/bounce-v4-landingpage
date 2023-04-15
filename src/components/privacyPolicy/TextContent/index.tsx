@@ -21,12 +21,13 @@ const TextContent: React.FC = () => {
       type: 'mixText',
       content: [
         {
-          text: `This Bounce Privacy Policy (the “Privacy Policy”) describes how we collect, use, disclose, and seek to protect your Personal Information when you use the website https://www.Bounce.finance/ and the platform and services available therein (our "Website"). In this Privacy Policy, we refer to Bounce DAO Ltd. and its parent companies, subsidiaries and affiliated entities Bounce, collectively as “Bounce” or "Company" or "We" or “Us”. This Privacy Policy forms part of our Terms of Use (available`,
+          text: `This Bounce Privacy Policy (the “Privacy Policy”) describes how we collect, use, disclose, and seek to protect your Personal Information when you use the website https://www.Bounce.finance/ and the platform and services available therein (our "Website"). In this Privacy Policy, we refer to Bounce DAO Ltd. and its parent companies, subsidiaries and affiliated entities Bounce, collectively as “Bounce” or "Company" or "We" or “Us”. This Privacy Policy forms part of our Terms of Use (`,
           type: classes.normal,
         },
         {
-          text: ` here [insert link]`,
-          type: classes.blod,
+          text: `available here`,
+          type: classes.openLink,
+          link: '/termsOfService'
         },
         {
           text: `) and together with the Terms of Use governs your use of our Website.  `,
@@ -345,7 +346,20 @@ const TextContent: React.FC = () => {
                 {Array.isArray(v.content) &&
                   v.content.length &&
                   v.content.map(item => {
-                    return <span className={item.type}>{item.text}</span>;
+                    if (item.type === classes.openLink) {
+                      return (
+                        <span
+                          className={item.type}
+                          onClick={() => {
+                            item?.link && window.open(item?.link, '_blank');
+                          }}
+                        >
+                          {item.text}
+                        </span>
+                      );
+                    } else {
+                      return <span className={item.type}>{item.text}</span>;
+                    }
                   })}
               </Box>
             </WithAnimation>
