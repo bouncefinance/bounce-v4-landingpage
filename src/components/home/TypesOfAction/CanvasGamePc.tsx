@@ -88,9 +88,9 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           />{' '}
           <BtnItem
             img={'/images/home/typesOfAuction/7.svg'}
-            text={'Real-world Collectible'}
+            text={'Real-World Collectibles'}
             style={{
-              width: 190,
+              width: 195,
             }}
           />
         </Box>
@@ -181,7 +181,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/7.svg'}
-          text={'Real-world Collectibles'}
+          text={'Real-World Collectibles'}
           style={{
             width: '100%',
           }}
