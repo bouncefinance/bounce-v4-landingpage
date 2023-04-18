@@ -72,7 +72,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
         <Box className={classes.centerBottom}>
           <BtnItem
             img={'/images/home/typesOfAuction/5.svg'}
-            text={'Token & NFT'}
+            text={'Tokens & NFTs'}
             style={{
               marginRight: 12,
               width: 150,
@@ -80,17 +80,17 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           />{' '}
           <BtnItem
             img={'/images/home/typesOfAuction/6.svg'}
-            text={'NFTs'}
+            text={'Ad Spaces'}
             style={{
               marginRight: 12,
-              width: 90,
+              width: 120,
             }}
           />{' '}
           <BtnItem
             img={'/images/home/typesOfAuction/7.svg'}
             text={'Real-world Collectible'}
             style={{
-              width: 200,
+              width: 190,
             }}
           />
         </Box>
@@ -167,14 +167,14 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
       <Box className={classes.animationBlockBottomMobile}>
         <BtnItemMobile
           img={'/images/home/typesOfAuction/5.svg'}
-          text={'Token & NFT'}
+          text={'Tokens & NFTs'}
           style={{
             width: '100%',
           }}
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/6.svg'}
-          text={'NFTs'}
+          text={'Ad Spaces'}
           style={{
             width: '100%',
           }}

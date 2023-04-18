@@ -102,7 +102,7 @@ const AutionTitle: React.FC = () => {
         addClassInView={classes.auctionContentShow}
       >
         <Box className={classes.title}>
-          Integrate Bounce's Finance's Auction Technology With Any Website
+          Integrate Bounce Finance's Auction Technology With Any Website
         </Box>
         <Grid container spacing={0}>
           <Grid item md={6} sm={12}>
