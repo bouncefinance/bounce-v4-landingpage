@@ -25,17 +25,17 @@ const Home: React.FC<IHomeProps> = ({}) => {
       videoEl?.current?.play &&
       videoEl?.current?.play();
   };
-  useEffect(() => {
-    let hasViewVideo = localStorage.getItem('hasViewVideo');
-    if (!hasViewVideo && !isMd) {
-      localStorage.setItem('hasViewVideo', 'true');
-      setShowVideo(true);
-      setTimeout(() => {
-        attemptPlay();
-      });
-    }
-    return () => {};
-  }, []);
+//   useEffect(() => {
+//     let hasViewVideo = localStorage.getItem('hasViewVideo');
+//     if (!hasViewVideo && !isMd) {
+//       localStorage.setItem('hasViewVideo', 'true');
+//       setShowVideo(true);
+//       setTimeout(() => {
+//         attemptPlay();
+//       });
+//     }
+//     return () => {};
+//   }, []);
   return (
     <div dateset-a={'123'}>
       <TopBlock />
