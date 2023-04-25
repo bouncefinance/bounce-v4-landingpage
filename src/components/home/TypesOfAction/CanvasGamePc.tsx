@@ -8,12 +8,13 @@ interface BtnProps {
   img: string;
   text: string;
   style?: React.CSSProperties;
+  onClick?: () => void;
 }
 export const BtnItem = (props: BtnProps) => {
   const classes = useTypesOfActionStyles();
-  const { img, text, style } = props;
+  const { img, text, style, onClick } = props;
   return (
-    <Box className={classes.btnItem} style={{ ...style }}>
+    <Box className={classes.btnItem} style={{ ...style }} onClick={onClick}>
       <img className={classes.btnImg} src={img} alt="" />
       <Typography className={classes.btnText}>{text}</Typography>
     </Box>
@@ -21,9 +22,9 @@ export const BtnItem = (props: BtnProps) => {
 };
 export const BtnItemMobile = (props: BtnProps) => {
   const classes = useTypesOfActionStyles();
-  const { img, text, style } = props;
+  const { img, text, style, onClick } = props;
   return (
-    <Box className={classes.btnItemMobile} style={{ ...style }}>
+    <Box className={classes.btnItemMobile} style={{ ...style }} onClick={onClick}>
       <img className={classes.btnImgMobile} src={img} alt="" />
       <Typography className={classes.btnTextMobile}>{text}</Typography>
     </Box>
@@ -34,6 +35,9 @@ export type IBuildWithBounceProps = {};
 const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
   const classes = useTypesOfActionStyles();
   const isMd = useIsMDUp();
+  const linkToNewTab = (link: string) => {
+    window.open(link, '_blank');
+  };
   return isMd ? (
     <Box className={classes.animationBlock}>
       <Box className={classes.animationBlockLeft}>
@@ -43,6 +47,11 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           style={{
             marginBottom: '32px',
           }}
+          onClick={() =>
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/fixed-price-auction',
+            )
+          }
         />{' '}
         <BtnItem
           img={'/images/home/typesOfAuction/2.svg'}
@@ -50,6 +59,11 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           style={{
             marginBottom: '32px',
           }}
+          onClick={() =>
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/nft-english-auction',
+            )
+          }
         />{' '}
         <BtnItem
           img={'/images/home/typesOfAuction/3.svg'}
@@ -57,10 +71,20 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           style={{
             marginBottom: '32px',
           }}
+          onClick={() =>
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/dutch-auction',
+            )
+          }
         />{' '}
         <BtnItem
           img={'/images/home/typesOfAuction/4.svg'}
           text={'Sealed-Bid Auction'}
+          onClick={() =>
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/sealed-bid-auction',
+            )
+          }
         />{' '}
       </Box>
       <Box className={classes.animationBlockCenter}>
@@ -77,6 +101,11 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
               marginRight: 12,
               width: 150,
             }}
+            onClick={() =>
+              linkToNewTab(
+                'https://docs.bounce.finance/industry/token-and-nft-auctions',
+              )
+            }
           />{' '}
           <BtnItem
             img={'/images/home/typesOfAuction/6.svg'}
@@ -85,6 +114,11 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
               marginRight: 12,
               width: 120,
             }}
+            onClick={() =>
+              linkToNewTab(
+                'https://docs.bounce.finance/industry/ad-space-auctions',
+              )
+            }
           />{' '}
           <BtnItem
             img={'/images/home/typesOfAuction/7.svg'}
@@ -92,6 +126,11 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
             style={{
               width: 195,
             }}
+            onClick={() =>
+              linkToNewTab(
+                'https://docs.bounce.finance/industry/real-world-collectible-auctions',
+              )
+            }
           />
         </Box>
       </Box>
@@ -102,6 +141,11 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           style={{
             marginBottom: '32px',
           }}
+          onClick={() => {
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/nft-random-selection-auction',
+            );
+          }}
         />{' '}
         <BtnItem
           img={'/images/home/typesOfAuction/9.svg'}
@@ -109,12 +153,22 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           style={{
             marginBottom: '32px',
           }}
+          onClick={() => {
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/playable-auction',
+            );
+          }}
         />{' '}
         <BtnItem
           img={'/images/home/typesOfAuction/10.svg'}
           text={'Order Book Auction'}
           style={{
             marginBottom: '32px',
+          }}
+          onClick={() => {
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/orderbook-auction',
+            );
           }}
         />{' '}
         <BtnItem
@@ -129,30 +183,65 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
         <BtnItemMobile
           img={'/images/home/typesOfAuction/1.svg'}
           text={'Fixed-priced Auction'}
+          onClick={() =>
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/fixed-price-auction',
+            )
+          }
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/8.svg'}
           text={'Random Selection Auction'}
+          onClick={() => {
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/nft-random-selection-auction',
+            );
+          }}
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/2.svg'}
           text={'English Auction'}
+          onClick={() =>
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/nft-english-auction',
+            )
+          }
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/9.svg'}
           text={'Playable Auction'}
+          onClick={() => {
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/playable-auction',
+            );
+          }}
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/3.svg'}
           text={'Dutch Auction'}
+          onClick={() =>
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/dutch-auction',
+            )
+          }
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/10.svg'}
           text={'Order Book Auction'}
+          onClick={() => {
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/orderbook-auction',
+            );
+          }}
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/4.svg'}
           text={'Sealed-Bid Auction'}
+          onClick={() =>
+            linkToNewTab(
+              'https://docs.bounce.finance/auction-user-guide/sealed-bid-auction',
+            )
+          }
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/11.svg'}
@@ -171,6 +260,11 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           style={{
             width: '100%',
           }}
+          onClick={() =>
+            linkToNewTab(
+              'https://docs.bounce.finance/industry/token-and-nft-auctions',
+            )
+          }
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/6.svg'}
@@ -178,6 +272,11 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           style={{
             width: '100%',
           }}
+          onClick={() =>
+            linkToNewTab(
+              'https://docs.bounce.finance/industry/ad-space-auctions',
+            )
+          }
         />{' '}
         <BtnItemMobile
           img={'/images/home/typesOfAuction/7.svg'}
@@ -185,6 +284,11 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           style={{
             width: '100%',
           }}
+          onClick={() =>
+            linkToNewTab(
+              'https://docs.bounce.finance/industry/real-world-collectible-auctions',
+            )
+          }
         />
       </Box>
     </Box>
