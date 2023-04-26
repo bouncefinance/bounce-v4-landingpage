@@ -49,7 +49,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           }}
           onClick={() =>
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/fixed-price-auction',
+              'https://docs.bounce.finance/bounce-auctions/fixed-price-auction',
             )
           }
         />{' '}
@@ -61,7 +61,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           }}
           onClick={() =>
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/nft-english-auction',
+              'https://docs.bounce.finance/bounce-auctions/english-auction',
             )
           }
         />{' '}
@@ -73,7 +73,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           }}
           onClick={() =>
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/dutch-auction',
+              'https://docs.bounce.finance/bounce-auctions/dutch-auction',
             )
           }
         />{' '}
@@ -82,7 +82,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           text={'Sealed-Bid Auction'}
           onClick={() =>
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/sealed-bid-auction',
+              'https://docs.bounce.finance/bounce-auctions/sealed-bid-auction',
             )
           }
         />{' '}
@@ -143,7 +143,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           }}
           onClick={() => {
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/nft-random-selection-auction',
+              'https://docs.bounce.finance/bounce-auctions/random-selection-auction',
             );
           }}
         />{' '}
@@ -155,7 +155,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           }}
           onClick={() => {
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/playable-auction',
+              'https://docs.bounce.finance/bounce-auctions/playable-auction',
             );
           }}
         />{' '}
@@ -167,7 +167,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           }}
           onClick={() => {
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/orderbook-auction',
+              'https://docs.bounce.finance/bounce-auctions/orderbook-auction',
             );
           }}
         />{' '}
@@ -185,7 +185,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           text={'Fixed-priced Auction'}
           onClick={() =>
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/fixed-price-auction',
+              'https://docs.bounce.finance/bounce-auctions/fixed-price-auction',
             )
           }
         />{' '}
@@ -194,7 +194,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           text={'Random Selection Auction'}
           onClick={() => {
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/nft-random-selection-auction',
+              'https://docs.bounce.finance/bounce-auctions/random-selection-auction',
             );
           }}
         />{' '}
@@ -203,7 +203,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           text={'English Auction'}
           onClick={() =>
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/nft-english-auction',
+              'https://docs.bounce.finance/bounce-auctions/english-auction',
             )
           }
         />{' '}
@@ -212,7 +212,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           text={'Playable Auction'}
           onClick={() => {
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/playable-auction',
+              'https://docs.bounce.finance/bounce-auctions/playable-auction',
             );
           }}
         />{' '}
@@ -221,7 +221,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           text={'Dutch Auction'}
           onClick={() =>
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/dutch-auction',
+              'https://docs.bounce.finance/bounce-auctions/dutch-auction',
             )
           }
         />{' '}
@@ -230,7 +230,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           text={'Order Book Auction'}
           onClick={() => {
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/orderbook-auction',
+              'https://docs.bounce.finance/bounce-auctions/orderbook-auction',
             );
           }}
         />{' '}
@@ -239,7 +239,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           text={'Sealed-Bid Auction'}
           onClick={() =>
             linkToNewTab(
-              'https://docs.bounce.finance/auction-user-guide/sealed-bid-auction',
+              'https://docs.bounce.finance/bounce-auctions/random-selection-auction',
             )
           }
         />{' '}
