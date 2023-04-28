@@ -35,12 +35,12 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
 
   const links: ILinksItemProps[] = useMemo(
     () => [
-    //   {
-    //     label: t('header.investment'),
-    //     list: [],
-    //     isExternal: false,
-    //     href: '/investment',
-    //   },
+      //   {
+      //     label: t('header.investment'),
+      //     list: [],
+      //     isExternal: false,
+      //     href: '/investment',
+      //   },
       {
         label: 'Auction Products',
         list: [
@@ -81,39 +81,39 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
           },
         ],
       },
-    //   {
-    //     label: t('header.service'),
-    //     list: [
-    //       {
-    //         label: t('header.company'),
-    //         isExternal: false,
-    //         href: '/company',
-    //       },
-    //       {
-    //         label: t('header.jobs'),
-    //         list: [
-    //           {
-    //             label: t('header.jobs-employers'),
-    //             isExternal: false,
-    //             href: '/jobs/talents',
-    //           },
-    //           {
-    //             label: t('header.jobs-talents'),
-    //             isExternal: false,
-    //             href: '/jobs/employers',
-    //           },
-    //         ],
-    //       },
-    //     ],
-    //   },
+      //   {
+      //     label: t('header.service'),
+      //     list: [
+      //       {
+      //         label: t('header.company'),
+      //         isExternal: false,
+      //         href: '/company',
+      //       },
+      //       {
+      //         label: t('header.jobs'),
+      //         list: [
+      //           {
+      //             label: t('header.jobs-employers'),
+      //             isExternal: false,
+      //             href: '/jobs/talents',
+      //           },
+      //           {
+      //             label: t('header.jobs-talents'),
+      //             isExternal: false,
+      //             href: '/jobs/employers',
+      //           },
+      //         ],
+      //       },
+      //     ],
+      //   },
       {
         label: 'Resources',
         list: [
-            {
-                label: 'Support Center',
-                isExternal: false,
-                href: '/FAQ',
-              },
+          {
+            label: 'Support Center',
+            isExternal: false,
+            href: '/FAQ',
+          },
           {
             label: t('header.tools-token'),
             isExternal: false,
@@ -134,36 +134,41 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
             isExternal: true,
             href: `https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/edit`,
           },
-        //   {
-        //     label: t('header.ecosystem'),
-        //     list: [
-        //       {
-        //         label: t('footer.links.labs-list.bounce-metaverse'),
-        //         isExternal: true,
-        //         href: 'https://metaverse.bounce.finance/',
-        //       },
-        //       {
-        //         label: t('footer.links.labs-list.bounce-v1'),
-        //         isExternal: true,
-        //         href: 'https://v1.app.bounce.finance/',
-        //       },
-        //       {
-        //         label: t('footer.links.labs-list.bounce-v2'),
-        //         isExternal: true,
-        //         href: 'https://v2.app.bounce.finance/',
-        //       },
-        //       {
-        //         label: t('footer.links.labs-list.fangible'),
-        //         isExternal: true,
-        //         href: 'https://fangible.com/',
-        //       },
-        //       {
-        //         label: t('footer.links.labs-list.metalent'),
-        //         isExternal: true,
-        //         href: 'https://metalents.com/',
-        //       },
-        //     ],
-        //   },
+          {
+            label: 'Contact Marketing',
+            isExternal: true,
+            href: 'https://docs.google.com/forms/d/e/1FAIpQLSeDS5XUSVtlBfWHM_kVAMRDnqi6y2ecwY5nS_Xbis7t_VFxsw/viewform',
+          },
+          //   {
+          //     label: t('header.ecosystem'),
+          //     list: [
+          //       {
+          //         label: t('footer.links.labs-list.bounce-metaverse'),
+          //         isExternal: true,
+          //         href: 'https://metaverse.bounce.finance/',
+          //       },
+          //       {
+          //         label: t('footer.links.labs-list.bounce-v1'),
+          //         isExternal: true,
+          //         href: 'https://v1.app.bounce.finance/',
+          //       },
+          //       {
+          //         label: t('footer.links.labs-list.bounce-v2'),
+          //         isExternal: true,
+          //         href: 'https://v2.app.bounce.finance/',
+          //       },
+          //       {
+          //         label: t('footer.links.labs-list.fangible'),
+          //         isExternal: true,
+          //         href: 'https://fangible.com/',
+          //       },
+          //       {
+          //         label: t('footer.links.labs-list.metalent'),
+          //         isExternal: true,
+          //         href: 'https://metalents.com/',
+          //       },
+          //     ],
+          //   },
         ],
       },
     ],
