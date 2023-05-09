@@ -103,7 +103,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
             }}
             onClick={() =>
               linkToNewTab(
-                'https://docs.bounce.finance/industry/token-and-nft-auctions',
+                'https://www.bounce.finance/tokenAndnftAuction',
               )
             }
           />{' '}
@@ -116,7 +116,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
             }}
             onClick={() =>
               linkToNewTab(
-                'https://docs.bounce.finance/industry/ad-space-auctions',
+                'https://www.bounce.finance/adsAuction',
               )
             }
           />{' '}
@@ -128,7 +128,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
             }}
             onClick={() =>
               linkToNewTab(
-                'https://docs.bounce.finance/industry/real-world-collectible-auctions',
+                'https://www.bounce.finance/realWorldCollectAuction',
               )
             }
           />
@@ -262,7 +262,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           }}
           onClick={() =>
             linkToNewTab(
-              'https://docs.bounce.finance/industry/token-and-nft-auctions',
+              'https://www.bounce.finance/tokenAndnftAuction',
             )
           }
         />{' '}
@@ -274,7 +274,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           }}
           onClick={() =>
             linkToNewTab(
-              'https://docs.bounce.finance/industry/ad-space-auctions',
+              'https://www.bounce.finance/adsAuction',
             )
           }
         />{' '}
@@ -286,7 +286,7 @@ const CanvasGamePc: React.FC<IBuildWithBounceProps> = ({}) => {
           }}
           onClick={() =>
             linkToNewTab(
-              'https://docs.bounce.finance/industry/real-world-collectible-auctions',
+              'https://www.bounce.finance/realWorldCollectAuction',
             )
           }
         />
