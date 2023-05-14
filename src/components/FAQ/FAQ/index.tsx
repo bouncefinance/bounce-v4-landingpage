@@ -42,22 +42,26 @@ export const FAQ = () => {
     {
       question: 'How to sign up for an account?',
       answer:
-        'For details, please see :  https://www.bounce.finance/tools/token',
+        'For details, please see : ',
+        link:'https://youtu.be/J55RQSk7QBI'
     },
     {
-      question: 'How to create a fixed-price auction?',
+      question: 'How to create a token auction pool?',
       answer:
-        'For details, please see :  https://www.bounce.finance/tools/token',
+        'For details, please see : ',
+        link:'https://youtu.be/yBLsSgu5hcQ'
     },
     {
-      question: 'How to sign up for an account?',
+      question: 'How to create a fixed-price auction pool?',
       answer:
-        'For details, please see :  https://www.bounce.finance/tools/token',
+        'For details, please see : ',
+        link:'https://youtu.be/XvhOMsrAVos'
     },
     {
-      question: 'How to sign up for an account?',
+      question: 'How to create a random selection auction pool?',
       answer:
-        'For details, please see :  https://www.bounce.finance/tools/token',
+        'For details, please see : ',
+        link:'https://youtu.be/mijzNmoBS5E'
     },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -104,14 +108,25 @@ export const FAQ = () => {
                     ></ComBtn>
                   )}
                 </Box>
-                <Typography
+                <Box
                   className={classNames(
                     classes.answer,
                     currentIndex === index ? classes.current : '',
                   )}
                 >
-                  {item.answer}
-                </Typography>
+                    {item.answer}
+                    <Typography
+                        component={'a'}
+                        style={{
+                            display:'inline-block',
+                            color:'#2B51DA'
+                        }}
+                        href={item.link}
+                        target={'_blank'}
+                    >
+                    {item.link}
+                    </Typography>
+                </Box>
               </Box>
             </WithAnimation>
           ))}
