@@ -71,7 +71,7 @@ const TokenBanner: React.FC<ITokenBannerProps> = ({}) => {
               <Button
                 className={classes['launch-btn']}
                 variant="contained"
-                href="https://app.bounce.finance"
+                href="https://token.bounce.finance/staking"
                 role="link"
                 rel="noopener noreferrer"
                 target="_blank"
