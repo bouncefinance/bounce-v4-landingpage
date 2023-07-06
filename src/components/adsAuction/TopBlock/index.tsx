@@ -108,7 +108,12 @@ export const TopBlock = () => {
           your ads.
         </WithAnimation>
         <WithAnimation className={classes.btnBox}>
-          <ComBtn text={'Start Now'}></ComBtn>
+          <ComBtn
+            text={'Start Now'}
+            handleClick={() => {
+              window.open('https://app.bounce.finance/ads-auction', '_blank');
+            }}
+          ></ComBtn>
         </WithAnimation>
         {!isMd && (
           <Grid container spacing={3}>

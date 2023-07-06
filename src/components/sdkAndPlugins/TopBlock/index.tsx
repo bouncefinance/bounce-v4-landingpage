@@ -44,9 +44,12 @@ export const TopBlock = () => {
             </WithAnimation>
             <WithAnimation className={classes.btnBox}>
               <ComBtn
-              handleClick={() => {
-                window.open('https://www.npmjs.com/package/bounce-sdk-beta', '_blank')
-              }}
+                handleClick={() => {
+                  window.open(
+                    'https://www.npmjs.com/package/bounce-sdk-beta',
+                    '_blank',
+                  );
+                }}
                 style={{
                   marginRight: 16,
                 }}
@@ -146,7 +149,14 @@ export const TopBlock = () => {
                     alt=""
                   />
                 </Box>
-                <Box className={classes.sdkBlueBtn}>Auction Now</Box>
+                <Box
+                  className={classes.sdkBlueBtn}
+                  onClick={() => {
+                    window.open('https://app.bounce.finance', '_blank');
+                  }}
+                >
+                  Auction Now
+                </Box>
               </WithAnimation>
             </Box>
             {/* <WithAnimation>

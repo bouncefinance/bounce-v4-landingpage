@@ -56,6 +56,9 @@ export const TopBlock = () => {
                   padding: isMd ? '0 40px' : '0 70px',
                 }}
                 text={'Start Now'}
+                handleClick={() => {
+                  window.open('https://app.bounce.finance/', '_blank');
+                }}
               ></ComBtn>
               <ComBtn
                 notHightLight={true}
@@ -64,6 +67,12 @@ export const TopBlock = () => {
                   padding: isMd ? '0 40px' : '0 70px',
                 }}
                 text={'Contact Us'}
+                handleClick={() => {
+                  window.open(
+                    'https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/viewform?edit_requested=true',
+                    '_blank',
+                  );
+                }}
               ></ComBtn>
             </WithAnimation>
           </Grid>

@@ -55,6 +55,12 @@ export const TopBlock = () => {
                   marginRight: 16,
                   padding: isMd ? '0 44px' : '0 70px',
                 }}
+                handleClick={() => {
+                  window.open(
+                    'https://app.bounce.finance/real-auction',
+                    '_blank',
+                  );
+                }}
                 text={'Start Now'}
               ></ComBtn>
               <ComBtn
@@ -62,6 +68,12 @@ export const TopBlock = () => {
                 text={'Contact Us'}
                 style={{
                   padding: isMd ? '0 44px' : '0 70px',
+                }}
+                handleClick={() => {
+                  window.open(
+                    'https://docs.google.com/forms/d/e/1FAIpQLSdW1PZ-PoL-eiTi7a1ZmWEA4XImdlh1TUlktwKuoM-AFsFsrw/viewform',
+                    '_blank',
+                  );
                 }}
               ></ComBtn>
             </WithAnimation>

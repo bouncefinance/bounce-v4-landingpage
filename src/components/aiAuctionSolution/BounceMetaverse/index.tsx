@@ -63,7 +63,7 @@ export const BounceMetaverse = () => {
             <Button
               className={classes['btn']}
               variant="contained"
-              href={'https://metaverse.bounce.finance/'}
+              href={'https://app.bounce.finance/'}
               role="link"
               rel="noopener noreferrer"
               target="_blank"

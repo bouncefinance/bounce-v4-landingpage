@@ -54,6 +54,9 @@ export const TopBlock = () => {
                 padding: '0 44px',
                 // padding: isMd ? '0 44px' : '0 70px',
               }}
+              handleClick={() => {
+                window.open('https://app.bounce.finance/ads-auction', '_blank');
+              }}
               text={'Start Now'}
             ></ComBtn>
             <ComBtn
@@ -62,6 +65,9 @@ export const TopBlock = () => {
               style={{
                 // padding: isMd ? '0 44px' : '0 70px',
                 padding: '0 44px',
+              }}
+              handleClick={() => {
+                window.open('https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/viewform?edit_requested=truehttps://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/viewform?edit_requested=true', '_blank');
               }}
             ></ComBtn>
           </WithAnimation>
