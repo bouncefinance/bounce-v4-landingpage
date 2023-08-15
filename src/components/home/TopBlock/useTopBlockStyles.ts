@@ -42,7 +42,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
   },
   container: {
     position: 'relative',
-    paddingTop: 100,
+    paddingTop: 150,
     paddingBottom: 100,
     display: 'flex',
     flexDirection: 'column',

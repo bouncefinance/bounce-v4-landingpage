@@ -18,8 +18,33 @@ export const useHeaderStyles = makeStyles<Theme>(theme => ({
       height: '85px',
     },
   },
-
+  AdFixContent: {
+    position:'absolute',
+    top:'100%',
+    left:'0',
+    width:'100%',
+    background: '#F9FCDE',
+    padding: '16px 24px 16px',
+    marginLeft: 'auto',
+    '@media(max-width:1296px)': {
+      marginBottom: 24,
+      '&>div': {
+        marginLeft: 16
+      }
+    },
+    adFixText1: {
+        color: '#908E96',
+        '&>span,&': {
+            fontFamily: 'Inter',
+            fontSize: '14px',
+            fontStyle: 'normal',
+            fontWeight: 400,
+            lineHeight: '150%'
+        }
+    }
+  },
   container: {
+    position:'relative',
     display: 'grid',
     alignItems: 'center',
     gridTemplateColumns: 'auto auto',

@@ -11,7 +11,7 @@ import { SocialLinks } from 'src/modules/layout/components/SocialLinks';
 import { Toggle } from '../Toggle';
 import { useHeaderStyles } from './useHeaderStyles';
 import { LocaleSwitcher } from '../LocaleSwitcher';
-import React, { useCallback, useMemo, useState } from 'react';
+import React, { useMemo, useState } from 'react';
 import NavLink from './components/NavLink';
 import { t } from 'src/i18n/intl';
 import { Logo } from './components/Logo';
@@ -22,129 +22,13 @@ import ComBtn from 'src/components/common/ComBtn';
 import { MediumIcon } from 'src/modules/common/components/Icons/MediumIcon';
 import { TelegramIcon } from 'src/modules/common/components/Icons/TelegramIcon';
 import { TwitterIcon } from 'src/modules/common/components/Icons/TwitterIcon';
+import AdFixContent from './components/AdFixContent/index'
 export const Header = () => {
   // mobile menu logi 0: close 1: open menu  2:open second menu (show back)
   const [mobileNavShowed, setMobileNavShowed] = useState<number>(0);
   const router = useRouter();
   const classes = useHeaderStyles();
   type Url = string | UrlObject;
-  // mobile dialog menu link list
-  //   const links: ILinksItemProps[] = useMemo(
-  //     () => [
-  //       {
-  //         label: 'Auction Homepage',
-  //         isExternal: false,
-  //         href: '/tokenAndnftAuction',
-  //         isDisabled: false,
-  //         extraIcon: '',
-  //         className: '',
-  //       },
-  //       {
-  //         label: 'Token&NFT auction',
-  //         isExternal: false,
-  //         href: '/tokenAndnftAuction',
-  //         isDisabled: false,
-  //         extraIcon: (
-  //           <img
-  //             src="/images/footer/live.png"
-  //             width={16}
-  //             style={{ marginRight: 4 }}
-  //           />
-  //         ),
-  //         className: '',
-  //       },
-  //       {
-  //         label: 'Real World Asset Auction',
-  //         isExternal: false,
-  //         href: '/realWorldCollectAuction',
-  //         isDisabled: false,
-  //         extraIcon: (
-  //           <img
-  //             src="/images/footer/live.png"
-  //             width={16}
-  //             style={{ marginRight: 4 }}
-  //           />
-  //         ),
-  //         className: '',
-  //       },
-  //       {
-  //         label: 'Advertisement Auction',
-  //         isExternal: false,
-  //         href: '/adsAuction',
-  //         isDisabled: false,
-  //         extraIcon: (
-  //           <img
-  //             src="/images/footer/live.png"
-  //             width={16}
-  //             style={{ marginRight: 4 }}
-  //           />
-  //         ),
-  //         className: '',
-  //       },
-  //       {
-  //         label: 'SDKs&Plug-ins',
-  //         isExternal: false,
-  //         href: '/sdkAndPlugins',
-  //         isDisabled: false,
-  //         extraIcon: (
-  //           <img
-  //             src="/images/footer/live.png"
-  //             width={16}
-  //             style={{ marginRight: 4 }}
-  //           />
-  //         ),
-  //         className: '',
-  //       },
-  //       {
-  //         label: 'Advertisement',
-  //         isExternal: false,
-  //         href: '/advertisementSolution',
-  //         isDisabled: false,
-  //         extraIcon: '',
-  //         className: '',
-  //       },
-  //       {
-  //         label: 'AI+Auction ',
-  //         isExternal: false,
-  //         href: '/aiAuctionSolution',
-  //         isDisabled: false,
-  //         extraIcon: '',
-  //         className: '',
-  //       },
-  //       //   {
-  //       //     label: t('header.investment'),
-  //       //     isExternal: false,
-  //       //     href: '/investment',
-  //       //   },
-  //       //   {
-  //       //     label: t('header.jobs-employers'),
-  //       //     isExternal: false,
-  //       //     href: '/jobs/talents',
-  //       //   },
-  //       //   {
-  //       //     label: t('header.jobs-talents'),
-  //       //     isExternal: false,
-  //       //     href: '/jobs/employers',
-  //       //   },
-  //       //   {
-  //       //     label: t('header.company'),
-  //       //     list: [],
-  //       //     isExternal: false,
-  //       //     href: '/company',
-  //       //   },
-  //       //   {
-  //       //     label: t('header.tools-token'),
-  //       //     isExternal: false,
-  //       //     href: '/tools/token',
-  //       //   },
-  //       //   {
-  //       //     label: t('header.tools-labs'),
-  //       //     isExternal: false,
-  //       //     href: '/tools/labs',
-  //       //   },
-  //     ],
-  //     [],
-  //   );
   const renderedDesktop = (
     <div className={classes.renderDesktop}>
       <NavLink />
@@ -177,12 +61,6 @@ export const Header = () => {
   };
   const links: ILinksItemProps[] = useMemo(
     () => [
-      //   {
-      //     label: t('header.investment'),
-      //     list: [],
-      //     isExternal: false,
-      //     href: '/investment',
-      //   },
       {
         label: 'Auction Products',
         list: [
@@ -410,7 +288,6 @@ export const Header = () => {
       </div>
     </div>
   );
-
   return (
     <header className={classes.root}>
       <Container className={classes.container} maxWidth={false}>
@@ -418,6 +295,7 @@ export const Header = () => {
         {renderedMobile}
         {renderedDesktop}
       </Container>
+      <AdFixContent />
     </header>
   );
 };
