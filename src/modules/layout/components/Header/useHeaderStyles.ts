@@ -26,6 +26,7 @@ export const useHeaderStyles = makeStyles<Theme>(theme => ({
     background: '#F9FCDE',
     padding: '16px 24px 16px',
     marginLeft: 'auto',
+    cursor:'pointer',
     '@media(max-width:1296px)': {
       marginBottom: 24,
       '&>div': {

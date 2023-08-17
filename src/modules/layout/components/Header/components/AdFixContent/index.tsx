@@ -20,6 +20,9 @@ const AdFixContent = () => {
     return <Box
         mb={isSm ? 8 : 0}
         className={classes.AdFixContent}
+        onClick={() => {
+            window.open('https://diamondhand.bounce.finance/', '_blank')
+        }}
     >
         <Box
         style={{
@@ -37,9 +40,6 @@ const AdFixContent = () => {
                 display:'flex',
                 flexFlow:'row nowrap',
                 alignItems:'center',
-            }}
-            onClick={() => {
-                window.open('https://diamondhand.bounce.finance/', '_blank')
             }}
         >
             <img style={{
@@ -77,7 +77,10 @@ const AdFixContent = () => {
             }
             </Box>
         </Box>
-        <MenuCloseIcon style={{ cursor: 'pointer' }} onClick={closeNotice} />
+        <MenuCloseIcon style={{ cursor: 'pointer' }} onClick={(e) => {
+            e.stopPropagation()
+            closeNotice()
+        }} />
         </Box>
     </Box>
   }
