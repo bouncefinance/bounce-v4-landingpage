@@ -46,7 +46,7 @@ const AdFixContent = () => {
             <Box
             className={classes.adFixText1}
             >
-            Our <a href={'https://twitter.com/bounce_finance'} style={{
+            Our <a target='_blank' href={'https://twitter.com/bounce_finance'} style={{
                 color:'blue'
             }}>@bounce_finance</a> Twitter has been hacked; please report any suspicious activity as we resolve this issue.
             
