@@ -22,7 +22,7 @@ import ComBtn from 'src/components/common/ComBtn';
 import { MediumIcon } from 'src/modules/common/components/Icons/MediumIcon';
 import { TelegramIcon } from 'src/modules/common/components/Icons/TelegramIcon';
 import { TwitterIcon } from 'src/modules/common/components/Icons/TwitterIcon';
-import AdFixContent from './components/AdFixContent/index'
+// import AdFixContent from './components/AdFixContent/index'
 export const Header = () => {
   // mobile menu logi 0: close 1: open menu  2:open second menu (show back)
   const [mobileNavShowed, setMobileNavShowed] = useState<number>(0);
@@ -295,7 +295,7 @@ export const Header = () => {
         {renderedMobile}
         {renderedDesktop}
       </Container>
-      <AdFixContent />
+      {/* <AdFixContent /> */}
     </header>
   );
 };
