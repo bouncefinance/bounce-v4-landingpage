@@ -318,7 +318,12 @@ const TextContent: React.FC = () => {
       type: classes.normal,
     },
     {
-      text: ``,
+      text: 'Bounce Dao Limited Address',
+      type: classes.underLine,
+    },
+    {
+      text: `Bounce Dao Limited registered under the laws of Virgin Islands (British) under registration number 2043324 at Corporate Services Centre, Wickhams Cay II, Road Town, Tortola, VG1110.
+      `,
       type: classes.normal,
     },
     {
@@ -329,6 +334,11 @@ const TextContent: React.FC = () => {
       text: ``,
       type: classes.normal,
     },
+    {
+      text: ``,
+      type: classes.normal,
+    },
+    
   ];
   return (
     <div className={classes.root}>
