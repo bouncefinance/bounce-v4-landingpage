@@ -179,34 +179,34 @@ export const useHomeDialogStyles = makeStyles((theme: Theme) => ({
       transform: 'translateY(62px)',
     },
     '20%': {
-      transform: 'translateY(0)',
+      transform: 'translateY(-20px)',
     },
     '30%': {
-      transform: 'translateY(0)',
+      transform: 'translateY(-20px)',
     },
     '40%': {
-      transform: 'translateY(6px)',
+      transform: 'translateY(-14px)',
     },
     '45%': {
-      transform: 'translateY(0)',
+      transform: 'translateY(-20px)',
     },
     '50%': {
-      transform: 'translateY(-6px)',
+      transform: 'translateY(-26px)',
     },
     '55%': {
-      transform: 'translateY(0)',
+      transform: 'translateY(-20px)',
     },
     '60%': {
-      transform: 'translateY(3px)',
+      transform: 'translateY(-23px)',
     },
     '70%': {
-      transform: 'translateY(0)',
+      transform: 'translateY(-20px)',
     },
     '80%': {
-      transform: 'translateY(-3px)',
+      transform: 'translateY(-23px)',
     },
     '90%': {
-      transform: 'translateY(0)',
+      transform: 'translateY(-20px)',
     },
     '100%': {
       transform: 'translateY(62px)',
