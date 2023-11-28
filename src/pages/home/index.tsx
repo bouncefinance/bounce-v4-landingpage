@@ -12,7 +12,7 @@ import AuctionBlock from 'src/components/home/AuctionBlock';
 import DesignedForEveryone from 'src/components/home/DesignedForEveryone';
 import IndustrySolutions from 'src/components/home/IndustrySolutions';
 import TypesOfAction from 'src/components/home/TypesOfAction';
-
+import HomeDialog from 'src/components/home/homeDialog';
 export type IHomeProps = {};
 
 const Home: React.FC<IHomeProps> = ({}) => {
@@ -25,17 +25,17 @@ const Home: React.FC<IHomeProps> = ({}) => {
       videoEl?.current?.play &&
       videoEl?.current?.play();
   };
-//   useEffect(() => {
-//     let hasViewVideo = localStorage.getItem('hasViewVideo');
-//     if (!hasViewVideo && !isMd) {
-//       localStorage.setItem('hasViewVideo', 'true');
-//       setShowVideo(true);
-//       setTimeout(() => {
-//         attemptPlay();
-//       });
-//     }
-//     return () => {};
-//   }, []);
+  //   useEffect(() => {
+  //     let hasViewVideo = localStorage.getItem('hasViewVideo');
+  //     if (!hasViewVideo && !isMd) {
+  //       localStorage.setItem('hasViewVideo', 'true');
+  //       setShowVideo(true);
+  //       setTimeout(() => {
+  //         attemptPlay();
+  //       });
+  //     }
+  //     return () => {};
+  //   }, []);
   return (
     <div dateset-a={'123'}>
       <TopBlock />
@@ -81,15 +81,17 @@ const Home: React.FC<IHomeProps> = ({}) => {
             ref={videoEl}
             onEnded={() => {
               setShowVideo(false);
-              const homeBannerVideo: HTMLVideoElement | null =
-                  isMd ? document.getElementById('videoMd') as HTMLVideoElement :  document.getElementById('videoPc') as HTMLVideoElement
-                homeBannerVideo &&
-                  homeBannerVideo?.play &&
-                  homeBannerVideo?.play();
+              const homeBannerVideo: HTMLVideoElement | null = isMd
+                ? (document.getElementById('videoMd') as HTMLVideoElement)
+                : (document.getElementById('videoPc') as HTMLVideoElement);
+              homeBannerVideo &&
+                homeBannerVideo?.play &&
+                homeBannerVideo?.play();
             }}
           ></video>
         </Box>
       )}
+      <HomeDialog />
     </div>
   );
 };

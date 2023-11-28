@@ -1,263 +1,84 @@
 {
-    "common": {
-      "site-title": "Bounce",
-      "meta": {
-        "keywords": "bounce, bounce 금융, 금융, DeFi, 봇",
-        "description": "바운스는 경매를 위한 상품 생태계를 강화합니다. 여러 블록체인에서 모든 종류의 자산, 토큰, 대체 불가능한 토큰을 구축, 설계, 연결, 수집, 거래할 수 있습니다."
-      },
-      "og": {
-        "title": "Bounce",
-        "description": "바운스는 경매용 상품 생태계를 지원합니다. 여러 블록체인에서 모든 종류의 자산, 토큰, 대체 불가능한 토큰을 구축, 설계, 연결, 수집, 거래할 수 있습니다."
-      },
-      "no-js": "JavaScript is required!",
-      "launch-app": "앱 실행",
-      "learn-more": "자세히 알아보기",
-      "coming-soon": "출시 예정",
-      "landing-page": "랜딩 페이지"
+  "common": {
+    "site-title": "Bounce",
+    "meta": {
+      "keywords": "bounce, bounce 금융, 금융, DeFi, 봇",
+      "description": "바운스는 경매를 위한 상품 생태계를 강화합니다. 여러 블록체인에서 모든 종류의 자산, 토큰, 대체 불가능한 토큰을 구축, 설계, 연결, 수집, 거래할 수 있습니다."
     },
-    "header": {
-      "investment": "경매",
-      "jobs": "채용 정보",
-      "jobs-employers": "채용 정보 찾기",
-      "jobs-talents": "인재 찾기 ",
-      "service": "서비스",
-      "ecosystem": "에코시스템",
-      "company": "회사",
-      "tools": "도구",
-      "tools-token": "바운스 토큰",
-      "tools-labs": "바운스 랩",
-      "labs": "Labs",
-      "labs-fangible": "Fangible",
-      "labs-metalents": "Metalents",
-      "login": "로그인",
-      "launch-app": "로그인"
+    "og": {
+      "title": "Bounce",
+      "description": "바운스는 경매용 상품 생태계를 지원합니다. 여러 블록체인에서 모든 종류의 자산, 토큰, 대체 불가능한 토큰을 구축, 설계, 연결, 수집, 거래할 수 있습니다."
     },
-    "home-page": {
-      "banner": {
-        "title": "서비스형 경매",
-        "text": "개인부터 기관까지 모든 Web3 및 DeFi를 위해 구축된 경매 인프라와 도구의 개방형 네트워크입니다.",
-        "demo": "데모 요청하기",
-        "docs": "문서"
-      },
-      "build-with-bounce": {
-        "title": "함께 구축 Bounce",
-        "finance-btn": "탈중앙화 경매",
-        "nfts-btn": "NFT (출시 예정)",
-        "managment-btn": "회사 관리",
-        "market-btn": "채용 시장",
-        "description": "옥션 파이낸스의 잠재력 활용하기",
-        "detail": "바운스는 탈중앙화 경매 도구의 전체 제품군을 제공합니다: 대표적인 탈중앙화 경매 플랫폼, 경매를 위한 SDK 인프라, NFT 경매를 제공합니다. 신뢰가 필요 없는 애플리케이션, 도구, 솔루션 인프라를 통해 탈중앙화 경매를 구축하고 참여하세요."
-      },
-      "companyList": {
-        "title": "Web3의 가장 혁신적인 기업 팔로우 및 투자하기",
-        "more": "더 많은 기업 보기"
-      },
-      "top-stack": {
-        "title": "기술 스택",
-        "list": {
-          "item1-title": "하이브리드 인프라 접근 방식",
-          "item1-text": "대중에게 서비스를 제공하기 위해 설계된 플랫폼을 구축할 때, 저희는 중앙 집중식 기술과 분산형 기술을 모두 활용하는 시스템을 설계했습니다. 이를 통해 사용자는 이메일 및 소셜 미디어와 같은 웹2.0 자격 증명을 통해 플랫폼에 액세스하고, 웹3.0 제품을 사용하는 동안에만 탈중앙화 및 분산 원장의 이점을 누릴 수 있습니다.",
-          "item2-title": "탈중앙화 애플리케이션 툴박스",
-          "item2-text": "바운스의 다양한 스마트 컨트랙트 솔루션을 활용하여 고유한 요구사항에 맞게 유연성과 상호운용성을 갖춘 탈중앙화 애플리케이션을 구축하세요. ",
-          "item3-title": "QR코드 및 디지털 카드",
-          "item3-text1": "각 Bounce 사용자는 고유한 QR 코드를 받게 되며, 이 코드는 Bounce의 프로필에 자동으로 할당됩니다.",
-          "item3-text2": "디지털 코드를 스캔하여 시작하고 Web3 친구 네트워크를 탐색하세요!"
-        }
-      },
-      "bounce-labs": {
-        "title": "Bounce Labs:",
-        "description": "탈중앙화 혁신의 미래 인큐베이팅",
-        "detail": "바운스 랩은 기존 바운스 애플리케이션 생태계를 뛰어넘는 개념과 아이디어 혁신을 목표로 다양한 웹3 네이티브 스타트업을 인큐베이팅합니다. 지금 바운스 랩의 이니셔티브를 확인하고 함께 구축해 보세요!",
-        "list": {
-          "bounce-v1": "Bounce V1",
-          "bounce-v2": "Bounce V2",
-          "fangible": "Fangible",
-          "metalents": "Metalents",
-          "m&a-defi": "M&A Defi",
-          "bounce-metaverse": "Bounce Metaverse",
-          "syndicate-defi": "신디케이트 Defi",
-          "bounce-v3": "Bounce V3"
-        },
-        "celebrities": {
-          "eimi-fukada": {
-            "name": "에이미 후카다",
-            "text": "후쿠다 에이미는 2017년부터 일본 성인 비디오 배우로 활동하고 있습니다. 2020년에는 매출 기준 AV 여배우 3위에 올랐습니다."
-          },
-          "kyle-kuzma": {
-            "name": "카일 쿠즈마",
-            "text": "카일 쿠즈마는 미국 프로농구 로스앤젤레스 레이커스의 선수입니다."
-          },
-          "nick-young": {
-            "name": "닉 영",
-            "text": "닉 스웨그 P 영은 캘리포니아 주 로스앤젤레스 출신의 전직 NBA 프로 농구 선수입니다."
-          },
-          "skyy-clark": {
-            "name": "스카이 클락",
-            "text": "스카이 클락은 캘리포니아주 로스앤젤레스 출신의 5성 고등학교 농구 선수입니다."
-          },
-          "asap-rocky": {
-            "name": "A$AP 록키",
-            "text": "A$AP Rocky는 뉴욕 출신의 래퍼, 가수, 작곡가, 배우입니다."
-          },
-          "deandre-hopkins": {
-            "name": "디안드레 홉킨스",
-            "text": "디안드레 \"누크\" 홉킨스는 NFL 애리조나 카디널스의 미식축구 와이드 리시버입니다."
-          },
-          "devon-dotson": {
-            "name": "데본 닷슨",
-            "text": "데본 닷슨은 NBA 시카고 불스 소속의 21세 프로 농구 선수입니다."
-          }
-        }
+    "no-js": "JavaScript is required!",
+    "launch-app": "앱 실행",
+    "learn-more": "자세히 알아보기",
+    "coming-soon": "출시 예정",
+    "landing-page": "랜딩 페이지"
+  },
+  "header": {
+    "investment": "경매",
+    "jobs": "채용 정보",
+    "jobs-employers": "채용 정보 찾기",
+    "jobs-talents": "인재 찾기 ",
+    "service": "서비스",
+    "ecosystem": "에코시스템",
+    "company": "회사",
+    "tools": "도구",
+    "tools-token": "바운스 토큰",
+    "tools-labs": "바운스 랩",
+    "labs": "Labs",
+    "labs-fangible": "Fangible",
+    "labs-metalents": "Metalents",
+    "login": "로그인",
+    "launch-app": "로그인"
+  },
+  "home-page": {
+    "banner": {
+      "title": "서비스형 경매",
+      "text": "개인부터 기관까지 모든 Web3 및 DeFi를 위해 구축된 경매 인프라와 도구의 개방형 네트워크입니다.",
+      "demo": "데모 요청하기",
+      "docs": "문서"
+    },
+    "build-with-bounce": {
+      "title": "함께 구축 Bounce",
+      "finance-btn": "탈중앙화 경매",
+      "nfts-btn": "NFT (출시 예정)",
+      "managment-btn": "회사 관리",
+      "market-btn": "채용 시장",
+      "description": "옥션 파이낸스의 잠재력 활용하기",
+      "detail": "바운스는 탈중앙화 경매 도구의 전체 제품군을 제공합니다: 대표적인 탈중앙화 경매 플랫폼, 경매를 위한 SDK 인프라, NFT 경매를 제공합니다. 신뢰가 필요 없는 애플리케이션, 도구, 솔루션 인프라를 통해 탈중앙화 경매를 구축하고 참여하세요."
+    },
+    "companyList": {
+      "title": "Web3의 가장 혁신적인 기업 팔로우 및 투자하기",
+      "more": "더 많은 기업 보기"
+    },
+    "top-stack": {
+      "title": "기술 스택",
+      "list": {
+        "item1-title": "하이브리드 인프라 접근 방식",
+        "item1-text": "대중에게 서비스를 제공하기 위해 설계된 플랫폼을 구축할 때, 저희는 중앙 집중식 기술과 분산형 기술을 모두 활용하는 시스템을 설계했습니다. 이를 통해 사용자는 이메일 및 소셜 미디어와 같은 웹2.0 자격 증명을 통해 플랫폼에 액세스하고, 웹3.0 제품을 사용하는 동안에만 탈중앙화 및 분산 원장의 이점을 누릴 수 있습니다.",
+        "item2-title": "탈중앙화 애플리케이션 툴박스",
+        "item2-text": "바운스의 다양한 스마트 컨트랙트 솔루션을 활용하여 고유한 요구사항에 맞게 유연성과 상호운용성을 갖춘 탈중앙화 애플리케이션을 구축하세요. ",
+        "item3-title": "QR코드 및 디지털 카드",
+        "item3-text1": "각 Bounce 사용자는 고유한 QR 코드를 받게 되며, 이 코드는 Bounce의 프로필에 자동으로 할당됩니다.",
+        "item3-text2": "디지털 코드를 스캔하여 시작하고 Web3 친구 네트워크를 탐색하세요!"
       }
     },
-    "investment-page": {
-      "banner": {
-        "title": "경매",
-        "text": "Bounce의 종합적인 경매 도구 세트로 Web3 투자를 시작하고 자금을 조달하세요.",
-        "sign-up-btn": "지금 가입하기",
-        "card1": {
-          "title": "투자자",
-          "paragraph1": "Bounce 경매를 통해 다음과 같은 다양한 경매 상품을 찾아보세요: 토큰 경매와 NFT 경매.",
-          "paragraph2": "저명한 웹3.0 기업 정보로 구성된 Bounce의 공개 디렉토리를 통해 최신 경매 정보와 기회를 놓치지 마세요."
-        },
-        "card2": {
-          "title": "창업자 및 기업",
-          "paragraph1": "고유한 경매 전략을 지원하는 플러그 앤 플레이 도구.",
-          "paragraph2": "회사의 개별 요구사항에 맞는 맞춤형 경매 애플리케이션."
-        },
-        "tips1": "* 바운스는 투자를 위한 도구만 제공하며, 어떤 당사자를 위한 투자 활동도 주최하지 않습니다.",
-        "tips2": "특정 국가에서는 특정 투자 활동이 제한됩니다."
-      }
-    },
-    "jobs-employers-page": {
-      "banner": {
-        "title": "고용주를 위한 인재",
-        "description": "비전을 실현할 인재를 고용하세요",
-        "detail": "전 세계 800만 명 이상의 의욕적인 '스타트업 준비' 구직자와 채용에 필요한 모든 도구와 세부 정보를 제공합니다.",
-        "sign-up-btn": "지금 가입하기",
-        "post-job-btn": "무료 채용 공고 올리기"
-      }
-    },
-    "jobs-talents-page": {
-      "banner": {
-        "title": "인재를 위한 채용 정보 ",
-        "description": "최고의 인재와 최고의 기업 매칭",
-        "description1": "최고의 인재와 최고의 기업",
-        "description2": "최고의 기업과 인재 매칭",
-        "detail": "전 세계 800만 명 이상의 동기부여된 '스타트업 준비' 구직자와 채용에 필요한 모든 도구 및 세부 정보를 제공합니다.",
-        "sign-up-btn": "지금 가입하기",
-        "post-job-btn": "무료 채용 공고 올리기"
-      }
-    },
-    "company-page": {
-      "banner": {
-        "title": "회사",
-        "description": "Web3 비전을 지원하는 인프라",
-        "description1": "지원 인프라",
-        "description2": "웹3.0 비전을 지원하는 인프라",
-        "detail": "우리의 임무는 펀드 또는 스타트업을 시작하고 확장하는 데 필요한 모든 것을 제공함으로써 새로운 세대의 투자자와 창업자에게 영감을 주는 것입니다.",
-        "join-btn": "지금 가입하기",
-        "card1": {
-          "title": "채용 시장",
-          "paragraph": "혁신에 대한 열정을 가진 사람이라면 누구나 세상을 바꾸는 스타트업에 투자할 수 있어야 한다고 믿습니다."
-        },
-        "card2": {
-          "title": "탈중앙화 앱 툴박스",
-          "paragraph": "바운스의 다양한 스마트 컨트랙트 솔루션을 활용하여 고유한 요구사항에 맞게 유연성과 상호운용성을 갖춘 탈중앙화 애플리케이션을 구축하세요."
-        },
-        "card3": {
-          "title": "QR코드 및 디지털 카드",
-          "paragraph": "각 Bounce 사용자는 고유한 QR 코드를 받게 되며, 이는 Bounce의 프로필에 자동으로 할당됩니다. 디지털 코드를 스캔하여 시작하고 Web3 친구 네트워크를 탐색하세요!"
-        },
-        "jobs-market": {
-          "title": "채용 시장",
-          "description": "Bounce의 도구는 신규 펀드를 설립하고 규모를 확장하거나 기존 매니저와 함께 투자하는 모든 엔젤과 VC의 투자 프로세스를 간소화합니다.",
-          "post-job-btn": "무료 채용 공고 게시"
-        }
+    "bounce-labs": {
+      "title": "Bounce Labs:",
+      "description": "탈중앙화 혁신의 미래 인큐베이팅",
+      "detail": "바운스 랩은 기존 바운스 애플리케이션 생태계를 뛰어넘는 개념과 아이디어 혁신을 목표로 다양한 웹3 네이티브 스타트업을 인큐베이팅합니다. 지금 바운스 랩의 이니셔티브를 확인하고 함께 구축해 보세요!",
+      "list": {
+        "bounce-v1": "Bounce V1",
+        "bounce-v2": "Bounce V2",
+        "fangible": "Fangible",
+        "metalents": "Metalents",
+        "m&a-defi": "M&A Defi",
+        "bounce-metaverse": "Bounce Metaverse",
+        "syndicate-defi": "신디케이트 Defi",
+        "bounce-v3": "Bounce V3"
       },
-      "innovative-company": {
-        "title1": "혁신적인 웹3.0 기업",
-        "title2": "스타트업 비즈니스 프로세스"
-      },
-      "digital-card": {
-        "title": "QR코드와 디지털 카드 공유",
-        "description": "QR 기반 명함을 사용하여 디지털 방식으로 네트워크를 구축하세요 - 커머스의 미래가 여기 있습니다!",
-        "item1": "QR 기반 명함을 사용하여 참여도를 높이고 잠재적 고용주/직원과 특별한 관계를 구축하세요 - 눈에 띄고 기억에 남을 수 있습니다!",
-        "item2": "명함을 위한 멋진 프로필 페이지를 생성하는 데 도움이 됩니다. 다른 사람들이 나를 팔로우하고 나를 더 잘 알 수 있도록 도와줍니다.",
-        "item3": "시간대 - 시간대별로 필터링하고 후보자가 몇 시간 앞서거나 뒤처져 있는지 정확히 확인할 수 있습니다.",
-        "item4": "나만의 완벽한 소셜 미디어 랜딩 페이지를 만들어 오프라인 방문자를 팬과 팔로워로 전환하세요.",
-        "get-card-btn": "디지털 명함 받기",
-        "people-promotion": "주목할 만한 투자자 및 기업가",
-        "toolbox": {
-          "title": "분산형 애플리케이션 툴박스",
-          "description": "플랫폼을 통해 경매, 장외거래, 인수합병 등 다양한 유형의 투자 오퍼를 찾아보세요.",
-          "create-btn": "활동 만들기"
-        }
-      }
-    },
-    "tools-token-page": {
-      "banner": {
-        "title": "$AUCTION",
-        "sub-title": "의 Bounce 토큰",
-        "description": "경매는 거버넌스, 스테이킹, 인앱 마켓플레이스/경매 통화, 보유자 보상 등 다양한 유틸리티를 통해 Bounce의 전체 탈중앙화 애플리케이션 생태계를 지원합니다.",
-        "launch-btn": "토큰 포털 출시",
-        "card1": {
-          "title": "거버넌스",
-          "paragraph": "완전히 탈중앙화되고 커뮤니티가 관리하는 프로토콜인 바운스는 경매 토큰 보유자들에 의해 독점적으로 관리됩니다."
-        },
-        "card2": {
-          "title": "동적 스테이킹",
-          "paragraph": "AUCTION을 스테이킹하여 바운스 제품 생태계에서 생성되는 보상과 수익률을 수동적으로 얻을 수 있습니다."
-        },
-        "card3": {
-          "title": "프리미엄 계정",
-          "paragraph": "바운스 토큰 보유자는 프리미엄 계정 권한으로 바운스 V3의 추가 혜택을 누릴 수 있습니다."
-        },
-        "card4": {
-          "title": "바운스 마켓플레이스",
-          "paragraph": "바운스 메타버스 내에서 재능을 고용하고 비용을 지불하고 게임 내 아이템을 구매하는 등 다양한 바운스 마켓플레이스에서 경매를 진행하세요!"
-        }
-      }
-    },
-    "chains-block": {
-      "tiles": {
-        "bounce-auction": "Bounce 금융",
-        "fangible": "Bounce Fangible",
-        "polka": "Bounce Metalents",
-        "toolbox": "Bounce 다오 툴킷바운스 메타버스",
-        "metaverse": "Bounce 메타버스"
-      },
-      "chains": {
-        "title": "여러 기기에서 재생<br />체인",
-        "text": "바운스 제품은 더 많은 플레이, 더 많은 가능성, 더 많은 잠재력을 위해 여러 블록체인에서 사용할 수 있습니다."
-      },
-      "participation": {
-        "title": {
-          "part-one": "전체 규모",
-          "part-two": "참여"
-        },
-        "text": "모든 종류의 사람들이 탈중앙화 경매에 참여할 수 있도록 진화하는 제품 생태계.",
-        "item1": "나만의 경매 플랫폼 구축",
-        "item2": "크라우드론을 통해 프로젝트를 운영하거나 희소성 있는 디지털 자산을 거래하세요.",
-        "item3": "크리에이터 경제에 참여하세요",
-        "hint": "모든 것이 가능합니다."
-      }
-    },
-    "bounce-auction": {
-      "brand": "Bounce 금융",
-      "title": "오픈 파이낸스의 잠재력 활용",
-      "text": "다재다능하고 탈중앙화된 신뢰가 필요 없는 경매 플랫폼에서 경쟁이 치열한 스왑 환경에서 희소성 있는 디지털 자산을 거래하세요.",
-      "item1": "다음과 같은 다양한 경매 유형 중에서 선택하세요: 고정 스왑, 밀봉 입찰, 네덜란드어 및 영어 경매.",
-      "item2": "공개 또는 비공개로 OTC를 거래하세요.",
-      "item3": "자동 체결, 우발적 체결, 무허가 거래의 이점을 누려보세요.",
-      "item4": "온체인 거버넌스로 운영하세요."
-    },
-    "fangible": {
-      "brand": "Fangible",
-      "title": "NFT 마켓플레이스. 최고의 스타들. 그들의 가장 희귀한 작품. 팬들이 직접 접근할 수 있습니다.",
-      "text": "새로운 종류의 팬 경험인 팬저블은 크리에이터 경제에 쉽게 참여하고 지분을 소유할 수 있게 해줍니다. 아티스트와 팬을 연결하고 누구나 NFT 대화에 참여할 수 있습니다.",
       "celebrities": {
-        "title": "바운스와 함께하는 셀러브리티:",
         "eimi-fukada": {
           "name": "에이미 후카다",
           "text": "후쿠다 에이미는 2017년부터 일본 성인 비디오 배우로 활동하고 있습니다. 2020년에는 매출 기준 AV 여배우 3위에 올랐습니다."
@@ -287,199 +108,383 @@
           "text": "데본 닷슨은 NBA 시카고 불스 소속의 21세 프로 농구 선수입니다."
         }
       }
-    },
-    "bounce-polkadot": {
-      "brand": "Metalents",
-      "title": "디지털 프리랜서 수요와 공급 매칭",
-      "text": "저희는 전통 회화나 전자 포스터와 같은 전통적인 형태의 NFT 연결 외에도 맞춤형, 비표준 배송, 전자적으로 전달되는 모든 작품이 NFT의 세계와 연결될 수 있다고 믿습니다. NFT를 배달 자격 증명과 블록체인 탈중앙화 네트워크의 불변 기록 기능을 사용하여 작가, 구매자, 거래 시간, 작품 URL을 영구적으로 추적하고 기록할 수 있습니다."
-    },
-    "bounce-toolbox": {
-      "brand": "Bounce DAO 툴박스",
-      "title": "나만의 탈중앙화 경매 플랫폼을 구축하는 데 필요한 모든 것을 제공합니다.",
-      "text": "탈중앙화 경매의 힘을 그 어느 때보다 쉽게 활용할 수 있는 광범위한 개발자 도구 세트입니다. UI 키트, 바운스 NFT에 대한 API 액세스, 오픈 소스 스마트 컨트랙트. 디파이를 대중에게 알리는 데 필요한 모든 것을 제공합니다."
-    },
-    "binance-exchange": {
-      "brand": "Bounce",
-      "title": "Bounce 래소",
-      "text": "바이낸스 생태계에 진입한 첫 번째 프로젝트 중 하나인 바운스는 바이낸스 체인의 가장 가치 있는 빌더 프로그램의 멘토로서 역할을 수행하는 등 바이낸스 생태계의 초석이 되었습니다.",
-      "btn-text": "바이낸스 거래 경매"
-    },
-    "backed-by": {
-      "title": "지원"
-    },
-    "language": {
-      "en-US": "English",
-      "zh-CN": "中文",
-      "tr-TR": "Türkçe",
-      "ja-JP": "日本語",
-      "ru-RU": "Русский",
-      "fr-FR": "Français",
-      "de-DE": "Deutsch",
-      "ko-KR": "한국어",
-      "id-ID": "Indonesia"
-    },
-    "bounce-metaverse": {
-      "brand": "Bounce 랩스",
-      "title": "Bounce 메타버스",
-      "text": "더 많은 사용자를 바운스 생태계에 온보딩하기 위해, 저희는 바운스의 메타버스 시티를 개발하기 위해 노력했습니다. 바운스의 메타버스는 각 제품을 하나로 연결하여 원활하고 몰입감 있는 경험을 제공하는 가상의 홈베이스이자 미래의 중심이 될 것입니다.",
-      "btnText": "살펴보기",
-      "metaverse-city": "메타버스 시티",
-      "metaverse-city-info": "전체 Bounce 에코시스템이 하나의 가상 세계에 통합되면 사용자는 최고의 사용자 경험으로 Bounce가 제공하는 모든 도구를 탐색할 수 있습니다. 이 병합이 완료되면, 저희는 암호화폐 공간의 모든 다양한 사용자에게 유틸리티를 제공하는 상호 연결된 웹3 프로젝트의 첫 번째 풀 스위트를 구축하게 될 것입니다. 메타버스 시티의 일부 기능은 다음과 같습니다: 워크샵, 놀이터, 갤러리, 게임과 몰."
-    },
-    "test": {
-      "label": "테스트 페이지",
-      "title": "테스트 페이지 제목",
-      "back": "홈 페이지로 돌아가기"
-    },
-    "auction-block": {
-      "title": "Bounce 경매",
-      "subtitle": "Bounce의 유명한 탈중앙화 경매 플랫폼으로 무허가 금융을 시작하고 참여하세요.",
-      "auction-type": {
-        "title": "바운스는 다음과 같은 인기 있는 경매 유형을 포괄적으로 제공합니다:",
-        "fixed-swap": "고정 스왑 경매",
-        "english-auction": "영어 경매",
-        "dutch-auction": "네덜란드 경매",
-        "sealed-bid-auction": "밀봉 및 입찰 경매",
-        "lottery-auction": "복권 경매"
-      },
-      "function": {
-        "title": "프리미엄 기능",
-        "whitelisting": "화이트리스트",
-        "schedule": "타임 스탬프 잠금 일정",
-        "dutch-auction": "네덜란드 경매 할당량 제어",
-        "nft-certificate": "NFT 인증서"
-      },
-      "tip": "* 지원 자산: ERC20, ERC721, ERC1155"
-    },
-    "bounce-otc": {
-      "title": "경매 SDK 및 플러그인",
-      "subtitle": "바운스는 온라인에서 경매를 생성하고 호스팅하는 데 필요한 모든 것을 한데 모은 SDK와 플러그인을 제공합니다. 웹사이트에서 직접 경매를 호스팅할 수 있습니다."
-    },
-    "bounce-M&A": {
-      "title": "Bounce 개발자",
-      "smallTitle": "",
-      "subtitle": "강력하고 사용하기 쉬운 API로 더 빠르게 배송하세요.",
-      "mergeProcess": "통합 프로세스",
-      "input": "입력",
-      "output": "출력",
-      "features": "특징",
-      "featureList": {
-        "title1": "토큰 구성",
-        "info1": "프로젝트 파티클은 ERC20부터 NFT까지 다양한 토큰을 지원합니다.",
-        "title2": "동적 구성",
-        "info2": "사용자 정의 가능한 파라미터와 다양한 입력 및 출력 옵션으로 필요에 맞게 케미스트리를 설계하세요.",
-        "title3": "코드 없이 자동 실행",
-        "info3": "새로운 토큰은 통합 프로세스에 따라 반사적으로 발행되므로 직접 새 토큰을 발행할 필요가 없습니다.",
-        "title4": "권한이 없는 환경",
-        "info4": "누구나 언제든지 케미스트리를 시작할 수 있습니다."
-      }
-    },
-    "bounce-NFT": {
-      "title": "Bounce NFT",
-      "smallTitle": "(런치패드 & 마켓플레이스)",
-      "subtitle": "바운스 NFT는 사용자가 마켓플레이스를 통해 NFT를 구매, 판매, 관리할 수 있을 뿐만 아니라 런치패드를 사용해 자신만의 NFT 프로젝트를 시작하고 생성할 수 있도록 지원합니다."
-    },
-    "job-tools": {
-      "title": "채용에 필요한 도구와 리소스가 한곳에 있습니다.",
-      "subtitle": "10분 안에 채용 시작하기",
-      "person-list": {
-        "title1": "채용 상태",
-        "info1": " - 후보자가 채용 제안을 받고 있거나 면접을 볼 준비가 되었는지 알려드립니다.",
-        "title2": "기술 및 경험",
-        "info2": " - 후보자가 자신의 가장 큰 업적 등을 자세히 설명하는 등 독특한 방식으로 이를 보여줄 수 있는 기능을 제공합니다!",
-        "title3": "시간대",
-        "info3": " - 시간대별로 필터링하여 후보자가 몇 시간 앞서거나 뒤처져 있는지 정확히 확인할 수 있습니다.",
-        "title4": "원격 환경 설정",
-        "info4": " - 원격 또는 대면 근무에 개방적인 후보자를 검색하고 선호하는 근무 환경 유형을 탐색합니다.",
-        "title5": "회사 세부 정보",
-        "info5": " - 관련 회사 프로필을 확인하여 후보자의 기술을 더 자세히 평가할 수 있습니다."
-      }
-    },
-    "freelance-market": {
-      "title": "프리랜서 시장"
-    },
-    "crypto-currencies": {
-      "title": "법정화폐로 암호화폐 구매",
-      "subtitle": "구매하고자 하는 암호화폐, 네트워크, 구매 금액을 선택하기만 하면 됩니다.",
-      "subtitle2": "바운스는 공급자를 비교하여 최적의 가격을 제시합니다.",
-      "poweredBy": "제공 주체:"
-    },
-    "chain-block": {
-      "title": "개인부터 기관까지 모든 Web3를 위해 구축된 경매 인프라 및 도구의 개방형 네트워크",
-      "circle": {
-        "label1": "기업 및 투자자",
-        "label2": "개인",
-        "label3": "경매 호스팅",
-        "label4": "NFT 출시",
-        "label5": "채용 공고 게시"
-      }
-    },
-    "partners": {
-      "title": "500개 이상의 기업, 파트너 및 투자자가 신뢰합니다."
-    },
-    "footer": {
-      "copyrights": "©{년} Bounce dao Ltd. 모든 권리 보유. ",
-      "terms-of-service": "서비스 약관",
-      "privacy-policy": "개인정보 보호정책",
-      "social": "소셜:",
-      "developer": "개발자:",
-      "links": {
-        "company": "회사",
-        "auction-homepage": "옥션 홈페이지",
-        "company-list": {
-          "create-profile": "프로필 만들기",
-          "find-investors": "투자자 찾기",
-          "team-management": "팀 관리",
-          "defi-tools": "디파이 도구",
-          "browse-startup-idea": "스타트업 아이디어 찾아보기"
-        },
-        "service": "서비스",
-        "investment": "투자",
-        "investment-list": {
-          "defi-market": "디파이 마켓",
-          "browse-company": "회사 찾아보기",
-          "browse-market": "마켓 찾아보기",
-          "browse-pool": "풀 찾아보기",
-          "auction-pool": "경매 풀",
-          "nft-launchpad": "NFT 런치패드",
-          "mergers-acquisitions": "인수합병",
-          "share-startup-idea": "스타트업 아이디어 공유",
-          "web3-id-verified": "Web3 ID 및 인증",
-          "team-management": "팀 관리"
-        },
-        "jobs": "채용 정보",
-        "jobs-list": {
-          "for-employers": "고용주를 위한 채용 정보",
-          "pos-job": "무료 채용 공고 올리기",
-          "browse-talent": "인재 검색",
-          "for-talents": "인재 채용 정보",
-          "browse-jobs": "채용 정보 검색",
-          "create-portfolio": "포트폴리오 만들기"
-        },
-        "tools": "도구",
-        "tools-list": {
-          "defi-tools": "디파이 도구",
-          "auctions": "경매",
-          "nft-launchpad": "NFT 런치패드",
-          "mergers-acquisitions": "합병 및 인수",
-          "startup-tools": "스타트업 도구",
-          "share-idea": "아이디어 공유",
-          "web3-verified": "Web3 ID 및 인증"
-        },
-        "labs": "랩스",
-        "labs-list": {
-          "bounce-labs": "바운스 랩",
-          "bounce-v1": "Bounce V1",
-          "bounce-v2": "Bounce V2",
-          "fangible": "Fangible",
-          "metalent": "Metalent",
-          "bounce-metaverse": "Bounce 메타버스"
-        }
-      }
-    },
-    "extra": {
-      "recently-posted-jobs": "최근 채용 공고",
-      "featured-jobs": "추천 채용 정보",
-      "best-talent": "귀사의 고유한 요구사항에 맞는 최고의 인재를 찾아보세요."
     }
+  },
+  "investment-page": {
+    "banner": {
+      "title": "경매",
+      "text": "Bounce의 종합적인 경매 도구 세트로 Web3 투자를 시작하고 자금을 조달하세요.",
+      "sign-up-btn": "지금 가입하기",
+      "card1": {
+        "title": "투자자",
+        "paragraph1": "Bounce 경매를 통해 다음과 같은 다양한 경매 상품을 찾아보세요: 토큰 경매와 NFT 경매.",
+        "paragraph2": "저명한 웹3.0 기업 정보로 구성된 Bounce의 공개 디렉토리를 통해 최신 경매 정보와 기회를 놓치지 마세요."
+      },
+      "card2": {
+        "title": "창업자 및 기업",
+        "paragraph1": "고유한 경매 전략을 지원하는 플러그 앤 플레이 도구.",
+        "paragraph2": "회사의 개별 요구사항에 맞는 맞춤형 경매 애플리케이션."
+      },
+      "tips1": "* 바운스는 투자를 위한 도구만 제공하며, 어떤 당사자를 위한 투자 활동도 주최하지 않습니다.",
+      "tips2": "특정 국가에서는 특정 투자 활동이 제한됩니다."
+    }
+  },
+  "jobs-employers-page": {
+    "banner": {
+      "title": "고용주를 위한 인재",
+      "description": "비전을 실현할 인재를 고용하세요",
+      "detail": "전 세계 800만 명 이상의 의욕적인 '스타트업 준비' 구직자와 채용에 필요한 모든 도구와 세부 정보를 제공합니다.",
+      "sign-up-btn": "지금 가입하기",
+      "post-job-btn": "무료 채용 공고 올리기"
+    }
+  },
+  "jobs-talents-page": {
+    "banner": {
+      "title": "인재를 위한 채용 정보 ",
+      "description": "최고의 인재와 최고의 기업 매칭",
+      "description1": "최고의 인재와 최고의 기업",
+      "description2": "최고의 기업과 인재 매칭",
+      "detail": "전 세계 800만 명 이상의 동기부여된 '스타트업 준비' 구직자와 채용에 필요한 모든 도구 및 세부 정보를 제공합니다.",
+      "sign-up-btn": "지금 가입하기",
+      "post-job-btn": "무료 채용 공고 올리기"
+    }
+  },
+  "company-page": {
+    "banner": {
+      "title": "회사",
+      "description": "Web3 비전을 지원하는 인프라",
+      "description1": "지원 인프라",
+      "description2": "웹3.0 비전을 지원하는 인프라",
+      "detail": "우리의 임무는 펀드 또는 스타트업을 시작하고 확장하는 데 필요한 모든 것을 제공함으로써 새로운 세대의 투자자와 창업자에게 영감을 주는 것입니다.",
+      "join-btn": "지금 가입하기",
+      "card1": {
+        "title": "채용 시장",
+        "paragraph": "혁신에 대한 열정을 가진 사람이라면 누구나 세상을 바꾸는 스타트업에 투자할 수 있어야 한다고 믿습니다."
+      },
+      "card2": {
+        "title": "탈중앙화 앱 툴박스",
+        "paragraph": "바운스의 다양한 스마트 컨트랙트 솔루션을 활용하여 고유한 요구사항에 맞게 유연성과 상호운용성을 갖춘 탈중앙화 애플리케이션을 구축하세요."
+      },
+      "card3": {
+        "title": "QR코드 및 디지털 카드",
+        "paragraph": "각 Bounce 사용자는 고유한 QR 코드를 받게 되며, 이는 Bounce의 프로필에 자동으로 할당됩니다. 디지털 코드를 스캔하여 시작하고 Web3 친구 네트워크를 탐색하세요!"
+      },
+      "jobs-market": {
+        "title": "채용 시장",
+        "description": "Bounce의 도구는 신규 펀드를 설립하고 규모를 확장하거나 기존 매니저와 함께 투자하는 모든 엔젤과 VC의 투자 프로세스를 간소화합니다.",
+        "post-job-btn": "무료 채용 공고 게시"
+      }
+    },
+    "innovative-company": {
+      "title1": "혁신적인 웹3.0 기업",
+      "title2": "스타트업 비즈니스 프로세스"
+    },
+    "digital-card": {
+      "title": "QR코드와 디지털 카드 공유",
+      "description": "QR 기반 명함을 사용하여 디지털 방식으로 네트워크를 구축하세요 - 커머스의 미래가 여기 있습니다!",
+      "item1": "QR 기반 명함을 사용하여 참여도를 높이고 잠재적 고용주/직원과 특별한 관계를 구축하세요 - 눈에 띄고 기억에 남을 수 있습니다!",
+      "item2": "명함을 위한 멋진 프로필 페이지를 생성하는 데 도움이 됩니다. 다른 사람들이 나를 팔로우하고 나를 더 잘 알 수 있도록 도와줍니다.",
+      "item3": "시간대 - 시간대별로 필터링하고 후보자가 몇 시간 앞서거나 뒤처져 있는지 정확히 확인할 수 있습니다.",
+      "item4": "나만의 완벽한 소셜 미디어 랜딩 페이지를 만들어 오프라인 방문자를 팬과 팔로워로 전환하세요.",
+      "get-card-btn": "디지털 명함 받기",
+      "people-promotion": "주목할 만한 투자자 및 기업가",
+      "toolbox": {
+        "title": "분산형 애플리케이션 툴박스",
+        "description": "플랫폼을 통해 경매, 장외거래, 인수합병 등 다양한 유형의 투자 오퍼를 찾아보세요.",
+        "create-btn": "활동 만들기"
+      }
+    }
+  },
+  "tools-token-page": {
+    "banner": {
+      "title": "$AUCTION",
+      "sub-title": "의 Bounce 토큰",
+      "description": "경매는 거버넌스, 스테이킹, 인앱 마켓플레이스/경매 통화, 보유자 보상 등 다양한 유틸리티를 통해 Bounce의 전체 탈중앙화 애플리케이션 생태계를 지원합니다.",
+      "launch-btn": "토큰 포털 출시",
+      "card1": {
+        "title": "거버넌스",
+        "paragraph": "완전히 탈중앙화되고 커뮤니티가 관리하는 프로토콜인 바운스는 경매 토큰 보유자들에 의해 독점적으로 관리됩니다."
+      },
+      "card2": {
+        "title": "동적 스테이킹",
+        "paragraph": "AUCTION을 스테이킹하여 바운스 제품 생태계에서 생성되는 보상과 수익률을 수동적으로 얻을 수 있습니다."
+      },
+      "card3": {
+        "title": "프리미엄 계정",
+        "paragraph": "바운스 토큰 보유자는 프리미엄 계정 권한으로 바운스 V3의 추가 혜택을 누릴 수 있습니다."
+      },
+      "card4": {
+        "title": "바운스 마켓플레이스",
+        "paragraph": "바운스 메타버스 내에서 재능을 고용하고 비용을 지불하고 게임 내 아이템을 구매하는 등 다양한 바운스 마켓플레이스에서 경매를 진행하세요!"
+      }
+    }
+  },
+  "chains-block": {
+    "tiles": {
+      "bounce-auction": "Bounce 금융",
+      "fangible": "Bounce Fangible",
+      "polka": "Bounce Metalents",
+      "toolbox": "Bounce 다오 툴킷바운스 메타버스",
+      "metaverse": "Bounce 메타버스"
+    },
+    "chains": {
+      "title": "여러 기기에서 재생<br />체인",
+      "text": "바운스 제품은 더 많은 플레이, 더 많은 가능성, 더 많은 잠재력을 위해 여러 블록체인에서 사용할 수 있습니다."
+    },
+    "participation": {
+      "title": {
+        "part-one": "전체 규모",
+        "part-two": "참여"
+      },
+      "text": "모든 종류의 사람들이 탈중앙화 경매에 참여할 수 있도록 진화하는 제품 생태계.",
+      "item1": "나만의 경매 플랫폼 구축",
+      "item2": "크라우드론을 통해 프로젝트를 운영하거나 희소성 있는 디지털 자산을 거래하세요.",
+      "item3": "크리에이터 경제에 참여하세요",
+      "hint": "모든 것이 가능합니다."
+    }
+  },
+  "bounce-auction": {
+    "brand": "Bounce 금융",
+    "title": "오픈 파이낸스의 잠재력 활용",
+    "text": "다재다능하고 탈중앙화된 신뢰가 필요 없는 경매 플랫폼에서 경쟁이 치열한 스왑 환경에서 희소성 있는 디지털 자산을 거래하세요.",
+    "item1": "다음과 같은 다양한 경매 유형 중에서 선택하세요: 고정 스왑, 밀봉 입찰, 네덜란드어 및 영어 경매.",
+    "item2": "공개 또는 비공개로 OTC를 거래하세요.",
+    "item3": "자동 체결, 우발적 체결, 무허가 거래의 이점을 누려보세요.",
+    "item4": "온체인 거버넌스로 운영하세요."
+  },
+  "fangible": {
+    "brand": "Fangible",
+    "title": "NFT 마켓플레이스. 최고의 스타들. 그들의 가장 희귀한 작품. 팬들이 직접 접근할 수 있습니다.",
+    "text": "새로운 종류의 팬 경험인 팬저블은 크리에이터 경제에 쉽게 참여하고 지분을 소유할 수 있게 해줍니다. 아티스트와 팬을 연결하고 누구나 NFT 대화에 참여할 수 있습니다.",
+    "celebrities": {
+      "title": "바운스와 함께하는 셀러브리티:",
+      "eimi-fukada": {
+        "name": "에이미 후카다",
+        "text": "후쿠다 에이미는 2017년부터 일본 성인 비디오 배우로 활동하고 있습니다. 2020년에는 매출 기준 AV 여배우 3위에 올랐습니다."
+      },
+      "kyle-kuzma": {
+        "name": "카일 쿠즈마",
+        "text": "카일 쿠즈마는 미국 프로농구 로스앤젤레스 레이커스의 선수입니다."
+      },
+      "nick-young": {
+        "name": "닉 영",
+        "text": "닉 스웨그 P 영은 캘리포니아 주 로스앤젤레스 출신의 전직 NBA 프로 농구 선수입니다."
+      },
+      "skyy-clark": {
+        "name": "스카이 클락",
+        "text": "스카이 클락은 캘리포니아주 로스앤젤레스 출신의 5성 고등학교 농구 선수입니다."
+      },
+      "asap-rocky": {
+        "name": "A$AP 록키",
+        "text": "A$AP Rocky는 뉴욕 출신의 래퍼, 가수, 작곡가, 배우입니다."
+      },
+      "deandre-hopkins": {
+        "name": "디안드레 홉킨스",
+        "text": "디안드레 \"누크\" 홉킨스는 NFL 애리조나 카디널스의 미식축구 와이드 리시버입니다."
+      },
+      "devon-dotson": {
+        "name": "데본 닷슨",
+        "text": "데본 닷슨은 NBA 시카고 불스 소속의 21세 프로 농구 선수입니다."
+      }
+    }
+  },
+  "bounce-polkadot": {
+    "brand": "Metalents",
+    "title": "디지털 프리랜서 수요와 공급 매칭",
+    "text": "저희는 전통 회화나 전자 포스터와 같은 전통적인 형태의 NFT 연결 외에도 맞춤형, 비표준 배송, 전자적으로 전달되는 모든 작품이 NFT의 세계와 연결될 수 있다고 믿습니다. NFT를 배달 자격 증명과 블록체인 탈중앙화 네트워크의 불변 기록 기능을 사용하여 작가, 구매자, 거래 시간, 작품 URL을 영구적으로 추적하고 기록할 수 있습니다."
+  },
+  "bounce-toolbox": {
+    "brand": "Bounce DAO 툴박스",
+    "title": "나만의 탈중앙화 경매 플랫폼을 구축하는 데 필요한 모든 것을 제공합니다.",
+    "text": "탈중앙화 경매의 힘을 그 어느 때보다 쉽게 활용할 수 있는 광범위한 개발자 도구 세트입니다. UI 키트, 바운스 NFT에 대한 API 액세스, 오픈 소스 스마트 컨트랙트. 디파이를 대중에게 알리는 데 필요한 모든 것을 제공합니다."
+  },
+  "binance-exchange": {
+    "brand": "Bounce",
+    "title": "Bounce 래소",
+    "text": "바이낸스 생태계에 진입한 첫 번째 프로젝트 중 하나인 바운스는 바이낸스 체인의 가장 가치 있는 빌더 프로그램의 멘토로서 역할을 수행하는 등 바이낸스 생태계의 초석이 되었습니다.",
+    "btn-text": "바이낸스 거래 경매"
+  },
+  "backed-by": {
+    "title": "지원"
+  },
+  "language": {
+    "en-US": "English",
+    "zh-CN": "中文",
+    "tr-TR": "Türkçe",
+    "ja-JP": "日本語",
+    "ru-RU": "Русский",
+    "fr-FR": "Français",
+    "de-DE": "Deutsch",
+    "ko-KR": "한국어",
+    "id-ID": "Indonesia"
+  },
+  "bounce-metaverse": {
+    "brand": "Bounce 랩스",
+    "title": "Bounce 메타버스",
+    "text": "더 많은 사용자를 바운스 생태계에 온보딩하기 위해, 저희는 바운스의 메타버스 시티를 개발하기 위해 노력했습니다. 바운스의 메타버스는 각 제품을 하나로 연결하여 원활하고 몰입감 있는 경험을 제공하는 가상의 홈베이스이자 미래의 중심이 될 것입니다.",
+    "btnText": "살펴보기",
+    "metaverse-city": "메타버스 시티",
+    "metaverse-city-info": "전체 Bounce 에코시스템이 하나의 가상 세계에 통합되면 사용자는 최고의 사용자 경험으로 Bounce가 제공하는 모든 도구를 탐색할 수 있습니다. 이 병합이 완료되면, 저희는 암호화폐 공간의 모든 다양한 사용자에게 유틸리티를 제공하는 상호 연결된 웹3 프로젝트의 첫 번째 풀 스위트를 구축하게 될 것입니다. 메타버스 시티의 일부 기능은 다음과 같습니다: 워크샵, 놀이터, 갤러리, 게임과 몰."
+  },
+  "test": {
+    "label": "테스트 페이지",
+    "title": "테스트 페이지 제목",
+    "back": "홈 페이지로 돌아가기"
+  },
+  "auction-block": {
+    "title": "Bounce 경매",
+    "subtitle": "Bounce의 유명한 탈중앙화 경매 플랫폼으로 무허가 금융을 시작하고 참여하세요.",
+    "auction-type": {
+      "title": "바운스는 다음과 같은 인기 있는 경매 유형을 포괄적으로 제공합니다:",
+      "fixed-swap": "고정 스왑 경매",
+      "english-auction": "영어 경매",
+      "dutch-auction": "네덜란드 경매",
+      "sealed-bid-auction": "밀봉 및 입찰 경매",
+      "lottery-auction": "복권 경매"
+    },
+    "function": {
+      "title": "프리미엄 기능",
+      "whitelisting": "화이트리스트",
+      "schedule": "타임 스탬프 잠금 일정",
+      "dutch-auction": "네덜란드 경매 할당량 제어",
+      "nft-certificate": "NFT 인증서"
+    },
+    "tip": "* 지원 자산: ERC20, ERC721, ERC1155"
+  },
+  "bounce-otc": {
+    "title": "경매 SDK 및 플러그인",
+    "subtitle": "바운스는 온라인에서 경매를 생성하고 호스팅하는 데 필요한 모든 것을 한데 모은 SDK와 플러그인을 제공합니다. 웹사이트에서 직접 경매를 호스팅할 수 있습니다."
+  },
+  "bounce-M&A": {
+    "title": "Bounce 개발자",
+    "smallTitle": "",
+    "subtitle": "강력하고 사용하기 쉬운 API로 더 빠르게 배송하세요.",
+    "mergeProcess": "통합 프로세스",
+    "input": "입력",
+    "output": "출력",
+    "features": "특징",
+    "featureList": {
+      "title1": "토큰 구성",
+      "info1": "프로젝트 파티클은 ERC20부터 NFT까지 다양한 토큰을 지원합니다.",
+      "title2": "동적 구성",
+      "info2": "사용자 정의 가능한 파라미터와 다양한 입력 및 출력 옵션으로 필요에 맞게 케미스트리를 설계하세요.",
+      "title3": "코드 없이 자동 실행",
+      "info3": "새로운 토큰은 통합 프로세스에 따라 반사적으로 발행되므로 직접 새 토큰을 발행할 필요가 없습니다.",
+      "title4": "권한이 없는 환경",
+      "info4": "누구나 언제든지 케미스트리를 시작할 수 있습니다."
+    }
+  },
+  "bounce-NFT": {
+    "title": "Bounce NFT",
+    "smallTitle": "(런치패드 & 마켓플레이스)",
+    "subtitle": "바운스 NFT는 사용자가 마켓플레이스를 통해 NFT를 구매, 판매, 관리할 수 있을 뿐만 아니라 런치패드를 사용해 자신만의 NFT 프로젝트를 시작하고 생성할 수 있도록 지원합니다."
+  },
+  "job-tools": {
+    "title": "채용에 필요한 도구와 리소스가 한곳에 있습니다.",
+    "subtitle": "10분 안에 채용 시작하기",
+    "person-list": {
+      "title1": "채용 상태",
+      "info1": " - 후보자가 채용 제안을 받고 있거나 면접을 볼 준비가 되었는지 알려드립니다.",
+      "title2": "기술 및 경험",
+      "info2": " - 후보자가 자신의 가장 큰 업적 등을 자세히 설명하는 등 독특한 방식으로 이를 보여줄 수 있는 기능을 제공합니다!",
+      "title3": "시간대",
+      "info3": " - 시간대별로 필터링하여 후보자가 몇 시간 앞서거나 뒤처져 있는지 정확히 확인할 수 있습니다.",
+      "title4": "원격 환경 설정",
+      "info4": " - 원격 또는 대면 근무에 개방적인 후보자를 검색하고 선호하는 근무 환경 유형을 탐색합니다.",
+      "title5": "회사 세부 정보",
+      "info5": " - 관련 회사 프로필을 확인하여 후보자의 기술을 더 자세히 평가할 수 있습니다."
+    }
+  },
+  "freelance-market": {
+    "title": "프리랜서 시장"
+  },
+  "crypto-currencies": {
+    "title": "법정화폐로 암호화폐 구매",
+    "subtitle": "구매하고자 하는 암호화폐, 네트워크, 구매 금액을 선택하기만 하면 됩니다.",
+    "subtitle2": "바운스는 공급자를 비교하여 최적의 가격을 제시합니다.",
+    "poweredBy": "제공 주체:"
+  },
+  "chain-block": {
+    "title": "개인부터 기관까지 모든 Web3를 위해 구축된 경매 인프라 및 도구의 개방형 네트워크",
+    "circle": {
+      "label1": "기업 및 투자자",
+      "label2": "개인",
+      "label3": "경매 호스팅",
+      "label4": "NFT 출시",
+      "label5": "채용 공고 게시"
+    }
+  },
+  "partners": {
+    "title": "500개 이상의 기업, 파트너 및 투자자가 신뢰합니다."
+  },
+  "footer": {
+    "copyrights": "©{년} Bounce dao Ltd. 모든 권리 보유. ",
+    "terms-of-service": "서비스 약관",
+    "privacy-policy": "개인정보 보호정책",
+    "social": "소셜:",
+    "developer": "개발자:",
+    "links": {
+      "company": "회사",
+      "auction-homepage": "옥션 홈페이지",
+      "company-list": {
+        "create-profile": "프로필 만들기",
+        "find-investors": "투자자 찾기",
+        "team-management": "팀 관리",
+        "defi-tools": "디파이 도구",
+        "browse-startup-idea": "스타트업 아이디어 찾아보기"
+      },
+      "service": "서비스",
+      "investment": "투자",
+      "investment-list": {
+        "defi-market": "디파이 마켓",
+        "browse-company": "회사 찾아보기",
+        "browse-market": "마켓 찾아보기",
+        "browse-pool": "풀 찾아보기",
+        "auction-pool": "경매 풀",
+        "nft-launchpad": "NFT 런치패드",
+        "mergers-acquisitions": "인수합병",
+        "share-startup-idea": "스타트업 아이디어 공유",
+        "web3-id-verified": "Web3 ID 및 인증",
+        "team-management": "팀 관리"
+      },
+      "jobs": "채용 정보",
+      "jobs-list": {
+        "for-employers": "고용주를 위한 채용 정보",
+        "pos-job": "무료 채용 공고 올리기",
+        "browse-talent": "인재 검색",
+        "for-talents": "인재 채용 정보",
+        "browse-jobs": "채용 정보 검색",
+        "create-portfolio": "포트폴리오 만들기"
+      },
+      "tools": "도구",
+      "tools-list": {
+        "defi-tools": "디파이 도구",
+        "auctions": "경매",
+        "nft-launchpad": "NFT 런치패드",
+        "mergers-acquisitions": "합병 및 인수",
+        "startup-tools": "스타트업 도구",
+        "share-idea": "아이디어 공유",
+        "web3-verified": "Web3 ID 및 인증"
+      },
+      "labs": "랩스",
+      "labs-list": {
+        "bounce-labs": "바운스 랩",
+        "bounce-v1": "Bounce V1",
+        "bounce-v2": "Bounce V2",
+        "fangible": "Fangible",
+        "metalent": "Metalent",
+        "bounce-metaverse": "Bounce 메타버스"
+      }
+    }
+  },
+  "extra": {
+    "recently-posted-jobs": "최근 채용 공고",
+    "featured-jobs": "추천 채용 정보",
+    "best-talent": "귀사의 고유한 요구사항에 맞는 최고의 인재를 찾아보세요."
+  },
+  "home-dialog": {
+    "title": "Let’s Bounce Bitcoin",
+    "content": "A Plug and Play Layer 2 for Bitcoin Powered by $BTC and $AUCTION",
+    "button": "Launch Bouncebit"
   }
+}

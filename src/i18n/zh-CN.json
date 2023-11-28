@@ -81,11 +81,11 @@
       "celebrities": {
         "eimi-fukada": {
           "name": "深田咏美",
-        "text": "深田咏美2017年进入日本成人视频行业，并在2020年位列女优收入排行榜第三名。"
+          "text": "深田咏美2017年进入日本成人视频行业，并在2020年位列女优收入排行榜第三名。"
         },
         "kyle-kuzma": {
           "name": "凯尔·库兹马",
-        "text": "凯尔·库兹马为美国职业篮球运动员，效力于NBA洛杉矶湖人队。"
+          "text": "凯尔·库兹马为美国职业篮球运动员，效力于NBA洛杉矶湖人队。"
         },
         "nick-young": {
           "name": "尼克·杨",
@@ -481,5 +481,10 @@
     "recently-posted-jobs": "最近发布的工作",
     "featured-jobs": "特色工作",
     "best-talent": "匹配最好的人才以满足你的独特需求"
+  },
+  "home-dialog": {
+    "title": "让我们反弹比特币",
+    "content": "由 $BTC 和 $AUCTION 提供支持的比特币即插即用第 2 层",
+    "button": "启动 Bouncebit"
   }
 }

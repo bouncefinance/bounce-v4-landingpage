@@ -481,5 +481,10 @@
     "recently-posted-jobs": "最近掲載された求人情報",
     "featured-jobs": "注目の求人情報",
     "best-talent": "お客様独自のニーズに合わせた最適な人材"
+  },
+  "home-dialog": {
+    "title": "ビットコインをバウンスしてみましょう",
+    "content": "$BTC と $AUCTION を活用したビットコインのプラグ アンド プレイ レイヤ 2",
+    "button": "バウンスビットを起動する"
   }
 }

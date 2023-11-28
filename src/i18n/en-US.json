@@ -477,9 +477,15 @@
       }
     }
   },
+
   "extra": {
     "recently-posted-jobs": "Recently posted jobs",
     "featured-jobs": "Featured Jobs",
     "best-talent": "The best talent matched to fit your unique needs"
+  },
+  "home-dialog": {
+    "title": "Let’s Bounce Bitcoin",
+    "content": "A Plug and Play Layer 2 for Bitcoin Powered by $BTC and $AUCTION",
+    "button": "Launch Bouncebit"
   }
 }

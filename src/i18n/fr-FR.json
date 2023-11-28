@@ -1,485 +1,490 @@
 {
-    "common": {
-      "site-title": "Bounce",
-      "meta": {
-        "keywords": "bounce, bounce finance, finance, DeFi, bot",
-        "description": "Bounce alimente un écosystème de produits pour les ventes aux enchères. Construisez, concevez, connectez, collectez et échangez toutes sortes d'actifs, de jetons et de NFT sur plusieurs blockchains."
-      },
-      "og": {
-        "title": "Bounce",
-        "description": "Bounce alimente un écosystème de produits pour les ventes aux enchères. Construisez, concevez, connectez, collectez et échangez toutes sortes d'actifs, de jetons et de NFT sur plusieurs blockchains."
-      },
-      "no-js": "JavaScript is required!",
-      "launch-app": "Lancer l'application",
-      "learn-more": "En savoir plus",
-      "coming-soon": "Bientôt disponible",
-      "landing-page": "Page d'atterrissage"
+  "common": {
+    "site-title": "Bounce",
+    "meta": {
+      "keywords": "bounce, bounce finance, finance, DeFi, bot",
+      "description": "Bounce alimente un écosystème de produits pour les ventes aux enchères. Construisez, concevez, connectez, collectez et échangez toutes sortes d'actifs, de jetons et de NFT sur plusieurs blockchains."
     },
-    "header": {
-      "investment": "Enchères",
-      "jobs": "Emplois",
-      "jobs-employers": "Trouver un emploi",
-      "jobs-talents": "Trouver un talent",
-      "service": "Service",
-      "ecosystem": "Ecosystème",
-      "company": "Entreprise",
-      "tools": "Outils",
-      "tools-token": "Jeton Bounce",
-      "tools-labs": "Bounce laboratoires",
-      "labs": "laboratoires",
-      "labs-fangible": "Fangible",
-      "labs-metalents": "Metalents",
-      "login": "Connexion",
-      "launch-app": "Se connecter"
+    "og": {
+      "title": "Bounce",
+      "description": "Bounce alimente un écosystème de produits pour les ventes aux enchères. Construisez, concevez, connectez, collectez et échangez toutes sortes d'actifs, de jetons et de NFT sur plusieurs blockchains."
     },
-    "home-page": {
-      "banner": {
-        "title": "Enchères en tant que service",
-        "text": "Un réseau ouvert d'infrastructures et d'outils d'enchères construit pour l'ensemble de Web3 et de DeFi : des particuliers aux institutions.",
-        "demo": "Demander une démo",
-        "docs": "Docs"
-      },
-      "build-with-bounce": {
-        "title": "Construire avec Bounce",
-        "finance-btn": "Enchères décentralisées",
-        "nfts-btn": "nfts (bientôt)",
-        "managment-btn": "gestion d'entreprise",
-        "market-btn": "marché de l'emploi",
-        "description": "Libérez le potentiel de la finance aux enchères",
-        "detail": "Bounce fournit une suite complète d'outils d'enchères décentralisées : Notre plateforme d'enchères décentralisées signature, l'infrastructure SDK pour les enchères, et nos enchères NFT. Construisez et participez à des enchères décentralisées avec notre infrastructure d'applications, d'outils et de solutions sans confiance."
-      },
-      "companyList": {
-        "title": "Suivez et investissez dans les entreprises les plus innovantes de Web3",
-        "more": "Afficher plus de sociétés"
-      },
-      "top-stack": {
-        "title": "Tech Stack",
-        "list": {
-          "item1-title": "Une approche d'infrastructure hybride",
-          "item1-text": "n construisant une plateforme conçue pour servir les masses, nous avons conçu un système qui utilise à la fois une technologie centralisée et décentralisée. Ainsi, les utilisateurs peuvent accéder à notre plateforme via des identifiants Web2, comme le courrier électronique et les médias sociaux, et profiter des avantages de la décentralisation et des registres distribués uniquement en utilisant nos produits Web3.",
-          "item2-title": "Boîte à outils pour les applications décentralisées",
-          "item2-text": "Utilisez la large gamme de solutions de contrats intelligents de Bounce pour répondre à vos besoins uniques ; construisez votre application décentralisée avec flexibilité et interopérabilité. ",
-          "item3-title": "QR code et carte numérique",
-          "item3-text1": "Chaque utilisateur de Bounce recevra un code QR unique qui sera automatiquement attribué à son profil sur Bounce.",
-          "item3-text2": "Scannez le code numérique pour commencer et explorer votre réseau d'amis Web3 !"
-        }
-      },
-      "bounce-labs": {
-        "title": "Bounce laboratoires :",
-        "description": "Incuber le futur de l'innovation décentralisée",
-        "detail": "Bounce laboratoires incube un large éventail de startups natives de Web3, chacune ayant pour objectif d'innover des concepts et des idées au-delà de l'écosystème existant des applications Bounce. Découvrez nos initiatives et construisez avec nous dès aujourd'hui !",
-        "list": {
-          "bounce-v1": "Bounce V1",
-          "bounce-v2": "Bounce V2",
-          "fangible": "Fangible",
-          "metalents": "Metalents",
-          "m&a-defi": "Défi M&A",
-          "bounce-metaverse": "Bounce Metaverse",
-          "syndicate-defi": "Syndicate Defi",
-          "bounce-v3": "Bounce V3"
-        },
-        "celebrities": {
-          "eimi-fukada": {
-            "name": "Eimi Fukada",
-            "text": "Eimi Fukada est une actrice japonaise de vidéos pour adultes depuis 2017. En 2020, elle était la troisième actrice AV classée par les ventes."
-          },
-          "kyle-kuzma": {
-            "name": "Kyle Kuzma",
-            "text": "Kyle Kuzma est un joueur de basket-ball professionnel américain qui joue pour les Los Angeles Lakers de la NBA."
-          },
-          "nick-young": {
-            "name": "Nick Young",
-            "text": "Nick \"Swaggy P\" Young est un ancien joueur de basket-ball professionnel de la NBA originaire de Los Angeles, en Californie."
-          },
-          "skyy-clark": {
-            "name": "Skyy Clark",
-            "text": "Skyy Clark est un joueur de basket-ball 5 étoiles de la High School de Los Angeles, CA."
-          },
-          "asap-rocky": {
-            "name": "A$AP Rocky",
-            "text": "A$AP Rocky est un rappeur, chanteur, auteur-compositeur et acteur de New York."
-          },
-          "deandre-hopkins": {
-            "name": "DeAndre Hopkins",
-            "text": "DeAndre \"Nuk\" Hopkins est un receveur large de l'équipe de football américain des Arizona Cardinals de la NFL."
-          },
-          "devon-dotson": {
-            "name": "Devon Dotson",
-            "text": "Devon Dotson est un joueur professionnel de basket-ball âgé de 21 ans évoluant au sein de l'équipe des Chicago Bulls de la NBA."
-          }
-        }
+    "no-js": "JavaScript is required!",
+    "launch-app": "Lancer l'application",
+    "learn-more": "En savoir plus",
+    "coming-soon": "Bientôt disponible",
+    "landing-page": "Page d'atterrissage"
+  },
+  "header": {
+    "investment": "Enchères",
+    "jobs": "Emplois",
+    "jobs-employers": "Trouver un emploi",
+    "jobs-talents": "Trouver un talent",
+    "service": "Service",
+    "ecosystem": "Ecosystème",
+    "company": "Entreprise",
+    "tools": "Outils",
+    "tools-token": "Jeton Bounce",
+    "tools-labs": "Bounce laboratoires",
+    "labs": "laboratoires",
+    "labs-fangible": "Fangible",
+    "labs-metalents": "Metalents",
+    "login": "Connexion",
+    "launch-app": "Se connecter"
+  },
+  "home-page": {
+    "banner": {
+      "title": "Enchères en tant que service",
+      "text": "Un réseau ouvert d'infrastructures et d'outils d'enchères construit pour l'ensemble de Web3 et de DeFi : des particuliers aux institutions.",
+      "demo": "Demander une démo",
+      "docs": "Docs"
+    },
+    "build-with-bounce": {
+      "title": "Construire avec Bounce",
+      "finance-btn": "Enchères décentralisées",
+      "nfts-btn": "nfts (bientôt)",
+      "managment-btn": "gestion d'entreprise",
+      "market-btn": "marché de l'emploi",
+      "description": "Libérez le potentiel de la finance aux enchères",
+      "detail": "Bounce fournit une suite complète d'outils d'enchères décentralisées : Notre plateforme d'enchères décentralisées signature, l'infrastructure SDK pour les enchères, et nos enchères NFT. Construisez et participez à des enchères décentralisées avec notre infrastructure d'applications, d'outils et de solutions sans confiance."
+    },
+    "companyList": {
+      "title": "Suivez et investissez dans les entreprises les plus innovantes de Web3",
+      "more": "Afficher plus de sociétés"
+    },
+    "top-stack": {
+      "title": "Tech Stack",
+      "list": {
+        "item1-title": "Une approche d'infrastructure hybride",
+        "item1-text": "n construisant une plateforme conçue pour servir les masses, nous avons conçu un système qui utilise à la fois une technologie centralisée et décentralisée. Ainsi, les utilisateurs peuvent accéder à notre plateforme via des identifiants Web2, comme le courrier électronique et les médias sociaux, et profiter des avantages de la décentralisation et des registres distribués uniquement en utilisant nos produits Web3.",
+        "item2-title": "Boîte à outils pour les applications décentralisées",
+        "item2-text": "Utilisez la large gamme de solutions de contrats intelligents de Bounce pour répondre à vos besoins uniques ; construisez votre application décentralisée avec flexibilité et interopérabilité. ",
+        "item3-title": "QR code et carte numérique",
+        "item3-text1": "Chaque utilisateur de Bounce recevra un code QR unique qui sera automatiquement attribué à son profil sur Bounce.",
+        "item3-text2": "Scannez le code numérique pour commencer et explorer votre réseau d'amis Web3 !"
       }
     },
-    "investment-page": {
-      "banner": {
-        "title": "Vente aux enchères",
-        "text": "Lancez et financez des investissements Web3 avec l'ensemble complet d'outils de vente aux enchères de Bounce.",
-        "sign-up-btn": "S'inscrire maintenant",
-        "card1": {
-          "title": "Investisseurs",
-          "paragraph1": "Parcourez un large éventail d'offres d'enchères avec Bounce auction, y compris : Les ventes aux enchères de jetons et les ventes aux enchères NFT.",
-          "paragraph2": "Restez à jour sur les dernières informations et opportunités d'enchères avec le répertoire ouvert de Bounce sur les entreprises Web3 de premier plan."
-        },
-        "card2": {
-          "title": "Fondateurs et entreprises",
-          "paragraph1": "Des outils prêts à l'emploi pour soutenir vos stratégies d'enchères uniques.",
-          "paragraph2": "Des applications de vente aux enchères personnalisables, adaptées aux exigences individuelles de votre entreprise."
-        },
-        "tips1": "* Bounce ne fournit que des outils d'investissement et n'héberge aucune activité d'investissement pour qui que ce soit.",
-        "tips2": "Certaines activités d'investissement sont limitées dans certains pays."
-      }
-    },
-    "jobs-employers-page": {
-      "banner": {
-        "title": "Talents pour les employeurs",
-        "description": "Embauchez des talents pour vous aider à construire votre vision",
-        "detail": "Avec plus de 8 millions de demandeurs d'emploi motivés et prêts à démarrer du monde entier et tous les outils et détails dont vous avez besoin pour embaucher.",
-        "sign-up-btn": "Inscrivez-vous maintenant",
-        "post-job-btn": "Publier un emploi gratuit"
-      }
-    },
-    "jobs-talents-page": {
-      "banner": {
-        "title": "Emplois pour les talents ",
-        "description": "Mise en relation des meilleurs talents et des meilleures entreprises",
-        "description1": "Mise en relation des meilleurs talents",
-        "description2": "avec les meilleures entreprises",
-        "detail": "Avec plus de 8 millions de demandeurs d'emploi motivés et prêts à démarrer du monde entier et tous les outils et détails dont vous avez besoin pour embaucher.",
-        "sign-up-btn": "Inscrivez-vous maintenant",
-        "post-job-btn": "Publier un emploi gratuit"
-      }
-    },
-    "company-page": {
-      "banner": {
-        "title": "Entreprise",
-        "description": "Une Infrastructure soutenue votre vision du Web3",
-        "description1": "Une Infrastructure soutenue",
-        "description2": "votre vision de Web3",
-        "detail": "Notre mission est d'inspirer une nouvelle génération d'investisseurs et de fondateurs en leur fournissant tout ce dont ils ont besoin pour lancer et développer un fonds ou une startup.",
-        "join-btn": "Rejoignez-nous",
-        "card1": {
-          "title": "Marché de l'emploi",
-          "paragraph": "Nous pensons que toute personne passionnée par l'innovation devrait pouvoir investir dans des startups qui changent le monde."
-        },
-        "card2": {
-          "title": "Boîte à outils pour applications décentralisées",
-          "paragraph": "Utilisez la large gamme de solutions de contrats intelligents de Bounce pour répondre à vos besoins uniques ; construisez votre application décentralisée avec flexibilité et interopérabilité."
-        },
-        "card3": {
-          "title": "QR code et carte numérique",
-          "paragraph": "Chaque utilisateur de Bounce recevra un code QR unique qui sera automatiquement attribué à son profil sur Bounce. Scannez le code numérique pour commencer et explorer votre réseau d'amis Web3 !"
-        },
-        "jobs-market": {
-          "title": "Marché de l'emploi",
-          "description": "Les outils de Bounce simplifient le processus d'investissement pour tous les anges et les VCs, qu'ils fondent et développent un nouveau fonds ou qu'ils investissent aux côtés de gestionnaires établis.",
-          "post-job-btn": "Publier un emploi gratuit"
-        }
+    "bounce-labs": {
+      "title": "Bounce laboratoires :",
+      "description": "Incuber le futur de l'innovation décentralisée",
+      "detail": "Bounce laboratoires incube un large éventail de startups natives de Web3, chacune ayant pour objectif d'innover des concepts et des idées au-delà de l'écosystème existant des applications Bounce. Découvrez nos initiatives et construisez avec nous dès aujourd'hui !",
+      "list": {
+        "bounce-v1": "Bounce V1",
+        "bounce-v2": "Bounce V2",
+        "fangible": "Fangible",
+        "metalents": "Metalents",
+        "m&a-defi": "Défi M&A",
+        "bounce-metaverse": "Bounce Metaverse",
+        "syndicate-defi": "Syndicate Defi",
+        "bounce-v3": "Bounce V3"
       },
-      "innovative-company": {
-        "title1": "Entreprises innovantes de Web3",
-        "title2": "Processus pour les entreprises en phase de démarrage"
-      },
-      "digital-card": {
-        "title": "Partagez votre code QR et votre carte numérique",
-        "description": "Développez votre réseau numérique grâce à nos cartes de visite QR - l'avenir du commerce est là !",
-        "item1": "Augmentez l'engagement et établissez une connexion unique avec les employeurs/employés potentiels en utilisant les cartes de visite QR - démarquez-vous et souvenez-vous-en !",
-        "item2": "Vous aide à générer de superbes pages de profil pour vos cartes de visite. Il est très facile pour les autres de vous suivre et de mieux vous connaître.",
-        "item3": "Fuseaux horaires - vous pouvez filtrer par fuseaux horaires et voir exactement combien d'heures d'avance ou de retard a un candidat.",
-        "item4": "Créez votre propre page de destination parfaite pour les médias sociaux et convertissez vos visiteurs hors ligne en fans et en adeptes.",
-        "get-card-btn": "Obtenez votre carte de visite numérique",
-        "people-promotion": "Investisseurs et entrepreneurs notables",
-        "toolbox": {
-          "title": "Boîte à outils de candidature décentralisée",
-          "description": "Trouvez différents types d'offres d'investissement, de la vente aux enchères à la fusion et à l'acquisition en passant par la vente de gré à gré, grâce à notre plateforme.",
-          "create-btn": "Créer une activité"
-        }
-      }
-    },
-    "tools-token-page": {
-      "banner": {
-        "title": "$AUCTION",
-        "sub-title": "The Bounce Token",
-        "description": "AUCTION alimente l'ensemble de l'écosystème d'applications décentralisées de Bounce avec un large éventail d'utilités, y compris : la gouvernance, le jalonnement, la place de marché/la monnaie d'enchère dans l'application, et les récompenses pour les détenteurs.",
-        "launch-btn": "Lancer le portail de jetons",
-        "card1": {
-          "title": "Gouvernance",
-          "paragraph": "Protocole entièrement décentralisé et régi par la communauté, Bounce est gouverné exclusivement par les détenteurs de jetons AUCTION."
-        },
-        "card2": {
-          "title": "Dynamic Staking",
-          "paragraph": "AUCTION peut être jalonné pour gagner passivement des récompenses et des rendements générés par l'écosystème de produits Bounce."
-        },
-        "card3": {
-          "title": "Compte Premium",
-          "paragraph": "Les détenteurs de jetons Bounce sont en mesure de débloquer des avantages supplémentaires de Bounce V3 avec des autorisations de compte premium."
-        },
-        "card4": {
-          "title": "Marché de Bounce",
-          "paragraph": "Dépensez votre AUCTION à une variété de différents Bounce Marketplaces ; de l'embauche et le paiement des talents à l'achat d'articles dans le jeu au sein de Bounce Metaverse !"
-        }
-      }
-    },
-    "chains-block": {
-      "tiles": {
-        "bounce-auction": "Bounce Finance",
-        "fangible": "Bounce Fangible",
-        "polka": "Bounce Metalents",
-        "toolbox": "Bounce Dao Toolkit",
-        "metaverse": "Bounce Metaverse"
-      },
-      "chains": {
-        "title": "Jeu à travers<br />chaînes",
-        "text": "Les produits Bounce sont disponibles sur plusieurs blockchains pour plus de jeu, plus de possibilités, plus de potentiel."
-      },
-      "participation": {
-        "title": {
-          "part-one": "Une participation",
-          "part-two": "participation"
-        },
-        "text": "Un écosystème évolutif de produits qui permet à toutes sortes de personnes de participer à des enchères décentralisées.",
-        "item1": "Créez votre propre plateforme d'enchères",
-        "item2": "Menez des projets grâce à des prêts participatifs ou à des échanges d'actifs numériques rares.",
-        "item3": "Participez à l'économie des créateurs",
-        "hint": "Tout est sur la table."
-      }
-    },
-    "bounce-auction": {
-      "brand": "Bounce Finance",
-      "title": "Libérez le potentiel de la finance ouverte",
-      "text": "Échangez des actifs numériques rares dans un environnement d'échange compétitif sur notre plateforme d'enchères polyvalente, décentralisée et sans confiance.",
-      "item1": "Choisissez parmi une gamme de types d'enchères, notamment : Swap fixe, offre scellée, enchères hollandaises et anglaises.",
-      "item2": "Négociez de gré à gré, publiquement ou en privé.",
-      "item3": "Bénéficiez d'une exécution automatique, sans contingence et sans permission.",
-      "item4": "Fonctionne avec une gouvernance sur la chaîne."
-    },
-    "fangible": {
-      "brand": "Fangible",
-      "title": "Place de marché NFT. Les plus grandes stars. Leurs œuvres les plus rares. Directement accessibles aux fans.",
-      "text": "Fangible est un nouveau type d'expérience pour les fans, qui permet d'accéder facilement à une part de l'économie des créateurs. Il met les artistes en relation avec leurs fans et permet à chacun de participer à la conversation NFT.",
       "celebrities": {
-        "title": "Célébrités avec Bounce :",
         "eimi-fukada": {
-            "name": "Eimi Fukada",
-            "text": "Eimi Fukada est une actrice japonaise de vidéos pour adultes depuis 2017. En 2020, elle était la troisième actrice AV classée par les ventes."
-          },
-          "kyle-kuzma": {
-            "name": "Kyle Kuzma",
-            "text": "Kyle Kuzma est un joueur de basket-ball professionnel américain qui joue pour les Los Angeles Lakers de la NBA."
-          },
-          "nick-young": {
-            "name": "Nick Young",
-            "text": "Nick \"Swaggy P\" Young est un ancien joueur de basket-ball professionnel de la NBA originaire de Los Angeles, en Californie."
-          },
-          "skyy-clark": {
-            "name": "Skyy Clark",
-            "text": "Skyy Clark est un joueur de basket-ball 5 étoiles de la High School de Los Angeles, CA."
-          },
-          "asap-rocky": {
-            "name": "A$AP Rocky",
-            "text": "A$AP Rocky est un rappeur, chanteur, auteur-compositeur et acteur de New York."
-          },
-          "deandre-hopkins": {
-            "name": "DeAndre Hopkins",
-            "text": "DeAndre \"Nuk\" Hopkins est un receveur large de l'équipe de football américain des Arizona Cardinals de la NFL."
-          },
-          "devon-dotson": {
-            "name": "Devon Dotson",
-            "text": "Devon Dotson est un joueur professionnel de basket-ball âgé de 21 ans évoluant au sein de l'équipe des Chicago Bulls de la NBA."
-          }
-      }
-    },
-    "bounce-polkadot": {
-      "brand": "Metalents",
-      "title": "Faire correspondre l'offre et la demande de freelances numériques",
-      "text": "Nous pensons que, outre les formes traditionnelles de mise en relation des NFT telles que les peintures traditionnelles et les affiches électroniques, toute œuvre personnalisée, à livraison non standard et livrée par voie électronique peut être mise en relation avec le monde des NFT. En utilisant les NFT comme justificatifs de livraison et la fonction d'enregistrement immuable du réseau décentralisé blockchain, l'auteur, l'acheteur, le moment de la transaction et l'URL de l'œuvre seront tracés et enregistrés en permanence."
-    },
-    "bounce-toolbox": {
-      "brand": "Boîte à outils Bounce DAO",
-      "title": "Tout ce dont vous avez besoin pour construire votre propre plateforme d'enchères décentralisées.",
-      "text": "Un ensemble complet d'outils pour développeurs qui rendent l'exploitation de la puissance des enchères décentralisées plus facile que jamais. Kits d'interface utilisateur, accès API aux NFT de Bounce, contrats intelligents open source. Tout ce dont vous avez besoin pour mettre DeFi à la portée des masses."
-    },
-    "binance-exchange": {
-      "brand": "Bounce",
-      "title": "Binance Exchange",
-      "text": "En tant que l'un des premiers projets à entrer dans l'écosystème Binance, Bounce est devenu la pierre angulaire de l'écosystème Binance, y compris en poursuivant son rôle de mentor pour le programme Most Valuable Builder de BNB Chain.",
-      "btn-text": "Vente aux enchères sur Binance"
-    },
-    "backed-by": {
-      "title": "Soutenu par"
-    },
-    "language": {
-      "en-US": "English",
-      "zh-CN": "中文",
-      "tr-TR": "Türkçe",
-      "ja-JP": "日本語",
-      "ru-RU": "Русский",
-      "fr-FR": "Français",
-      "de-DE": "Deutsch",
-      "ko-KR": "한국어",
-      "id-ID": "Indonesia"
-    },
-    "bounce-metaverse": {
-      "brand": "Bounce laboratoires",
-      "title": "Le métavers de Bounce",
-      "text": "Dans un effort pour embarquer plus d'utilisateurs dans l'écosystème de Bounce, nous avons travaillé pour développer la Metaverse City de Bounce. À nos yeux, le Metaverse de Bounce sera la pièce maîtresse de notre avenir, une base d'accueil virtuelle qui reliera chacun de nos produits pour une expérience immersive et transparente.",
-      "btnText": "Explorez",
-      "metaverse-city": "Metaverse City",
-      "metaverse-city-info": "Le fait que l'ensemble de l'écosystème Bounce soit hébergé dans un seul monde virtuel donne à nos utilisateurs la possibilité d'explorer tous les outils que Bounce a à offrir avec la meilleure expérience utilisateur possible. Lorsque cette fusion (si vous voulez) sera terminée, nous aurons construit la première suite complète de projets Web3 interconnectés offrant une utilité pour tous les différents utilisateurs de l'espace cryptographique. Parmi les caractéristiques de Metaverse City figurent : Des ateliers, un terrain de jeu, une galerie, des jeux et un centre commercial."
-    },
-    "test": {
-      "label": "page de test",
-      "title": "titre de la page de test",
-      "back": "back to home page"
-    },
-    "auction-block": {
-      "title": "Bounce Auction",
-      "subtitle": "Launch and participate in permission-less finance with Bounce's renowned <br /> Decentralized Auction Platform.",
-      "auction-type": {
-        "title": "Bounce offers a comprehensive suite of popular Auction types, including:",
-        "fixed-swap": "fixed Swap Auction",
-        "english-auction": "English Auction",
-        "dutch-auction": "Enchères néerlandaises",
-        "sealed-bid-auction": "Enchère scellée et enchère",
-        "lottery-auction": "Enchères de loterie"
-      },
-      "function": {
-        "title": "Fonctions Premium :",
-        "whitelisting": "Liste blanche",
-        "schedule": "Calendrier de verrouillage de l'horodateur",
-        "dutch-auction": "Contrôle des quotas pour les enchères hollandaises",
-        "nft-certificate": "Certificat NFT"
-      },
-      "tip": "* Supported Asset: ERC20, ERC721, ERC1155"
-    },
-    "bounce-otc": {
-      "title": "SDK et plugin pour les enchères",
-      "subtitle": "Bounce fournit un sdk et un plugin pour créer et héberger des enchères en ligne, rassemblant tout ce qui est nécessaire pour construire une enchère. You can host your own auctions on your website."
-    },
-    "bounce-M&A": {
-      "title": "Les développeurs de Bounce",
-      "smallTitle": "",
-      "subtitle": "expédient plus rapidement avec des API puissantes et faciles à utiliser",
-      "mergeProcess": "Processus d'intégration",
-      "input": "INPUT",
-      "output": "SORTIE",
-      "features": "caractéristiques",
-      "featureList": {
-        "title1": "Composition des jetons",
-        "info1": "La particule de projet prend en charge une variété de jetons, de l'ERC20 aux NFTs.",
-        "title2": "Configuration dynamique",
-        "info2": "Concevez votre chimie pour répondre à vos besoins avec des paramètres personnalisables et une variété d'options d'entrée et de sortie.",
-        "title3": "Exécution automatique, sans code",
-        "info3": "Les nouveaux jetons seront émis de manière réflexe suivant notre processus de consolidation, ce qui signifie que vous n'aurez pas à émettre vos propres nouveaux jetons.",
-        "title4": "Environnement sans permission",
-        "info4": "N'importe qui peut initier une alchimie à tout moment"
-      }
-    },
-    "bounce-NFT": {
-      "title": "Bounce NFT",
-      "smallTitle": "(Plate-forme de lancement & Place de marché)",
-      "subtitle": "Bounce NFT permet aux utilisateurs non seulement d'acheter, de vendre et de gérer des NFT avec notre place de marché, mais aussi de lancer et de créer leurs propres projets NFT en utilisant notre launchpad."
-    },
-    "job-tools": {
-      "title": "Les outils et les ressources dont vous avez besoin pour embaucher, le tout en un seul endroit.",
-      "subtitle": "Commencez à recruter en moins de 10 minutes",
-      "person-list": {
-        "title1": "Statut de l'emploi",
-        "info1": " - nous vous indiquons si un candidat est ouvert aux offres de travail et/ou s'il est prêt à passer un entretien.",
-        "title2": "Compétences et expérience",
-        "info2": " - nous donnons aux candidats la possibilité de les mettre en valeur de manière unique, par exemple en détaillant leur plus grande réalisation et plus encore !",
-        "title3": "Fuseaux horaires",
-        "info3": " - vous pouvez filtrer par fuseau horaire et voir exactement combien d'heures d'avance ou de retard a le candidat.",
-        "title4": "Préférences à distance",
-        "info4": " - recherchez les candidats qui sont ouverts au travail à distance ou en personne, et découvrez le type d'environnement de travail qu'ils préfèrent.",
-        "title5": "Détails sur l'entreprise",
-        "info5": " - Consultez le profil de l'entreprise pour vous aider à mieux évaluer les compétences des candidats."
-      }
-    },
-    "freelance-market": {
-      "title": "Marché des freelances"
-    },
-    "crypto-currencies": {
-      "title": "Achetez des crypto-monnaies avec des monnaies fiduciaires",
-      "subtitle": "Choisissez simplement la crypto que vous voulez acheter, le réseau et le montant que vous souhaitez acheter.",
-      "subtitle2": "Bounce comparera les fournisseurs et vous proposera le meilleur taux.",
-      "poweredBy": "Propulsé par :"
-    },
-    "chain-block": {
-      "title": "Un réseau ouvert d'infrastructures et d'outils d'enchères construit pour l'ensemble du Web3, des particuliers aux institutions.",
-      "circle": {
-        "label1": "Entreprises et investisseurs",
-        "label2": "Particuliers",
-        "label3": "Enchères hébergées",
-        "label4": "NFT's lancés",
-        "label5": "Offres d'emploi publiées"
-      }
-    },
-    "partners": {
-      "title": "Plus de 500 entreprises, partenaires et investisseurs nous font confiance."
-    },
-    "footer": {
-      "copyrights": "©{année} Bounce dao Ltd. Tous droits réservés. ",
-      "terms-of-service": "Conditions d'utilisation",
-      "privacy-policy": "Politique de confidentialité",
-      "social": "Social :",
-      "developer": "Développeur :",
-      "links": {
-        "company": "Société",
-        "auction-homepage": "Page d'accueil des enchères",
-        "company-list": {
-          "create-profile": "Créer un profil",
-          "find-investors": "Trouver des investisseurs",
-          "team-management": "Gestion de l'équipe",
-          "defi-tools": "Outils Defi",
-          "browse-startup-idea": "Parcourir les idées de startups"
+          "name": "Eimi Fukada",
+          "text": "Eimi Fukada est une actrice japonaise de vidéos pour adultes depuis 2017. En 2020, elle était la troisième actrice AV classée par les ventes."
         },
-        "service": "Service",
-        "investment": "Investissement",
-        "investment-list": {
-          "defi-market": "Marché Defi",
-          "browse-company": "Parcourir l'entreprise",
-          "browse-market": "Parcourir le marché",
-          "browse-pool": "Parcourir le pool",
-          "auction-pool": "Pool d'enchères",
-          "nft-launchpad": "Boîte de lancement NFT",
-          "mergers-acquisitions": "Fusions & Acquisitions",
-          "share-startup-idea": "Partager une idée de création d'entreprise",
-          "web3-id-verified": "Web3 ID & Verified",
-          "team-management": "Gestion d'équipe"
+        "kyle-kuzma": {
+          "name": "Kyle Kuzma",
+          "text": "Kyle Kuzma est un joueur de basket-ball professionnel américain qui joue pour les Los Angeles Lakers de la NBA."
         },
-        "jobs": "Emplois",
-        "jobs-list": {
-          "for-employers": "Emplois pour les employeurs",
-          "pos-job": "Publier un emploi gratuit",
-          "browse-talent": "Recherche de talents",
-          "for-talents": "Emplois pour les talents",
-          "browse-jobs": "Parcourir les emplois",
-          "create-portfolio": "Créer un portefeuille"
+        "nick-young": {
+          "name": "Nick Young",
+          "text": "Nick \"Swaggy P\" Young est un ancien joueur de basket-ball professionnel de la NBA originaire de Los Angeles, en Californie."
         },
-        "tools": "Outils",
-        "tools-list": {
-          "defi-tools": "Outils Defi",
-          "auctions": "Enchères",
-          "nft-launchpad": "Boîte de lancement NFT",
-          "mergers-acquisitions": "Fusions & Acquisitions",
-          "startup-tools": "Outils pour les startups",
-          "share-idea": "Partagez votre idée",
-          "web3-verified": "Web3 ID & Verified"
+        "skyy-clark": {
+          "name": "Skyy Clark",
+          "text": "Skyy Clark est un joueur de basket-ball 5 étoiles de la High School de Los Angeles, CA."
         },
-        "labs": "Labs",
-        "labs-list": {
-          "bounce-labs": "Bounce laboratoires",
-          "bounce-v1": "Bounce V1",
-          "bounce-v2": "Bounce V2",
-          "fangible": "Fangible",
-          "metalent": "Metalent",
-          "bounce-metaverse": "Bounce Metaverse"
+        "asap-rocky": {
+          "name": "A$AP Rocky",
+          "text": "A$AP Rocky est un rappeur, chanteur, auteur-compositeur et acteur de New York."
+        },
+        "deandre-hopkins": {
+          "name": "DeAndre Hopkins",
+          "text": "DeAndre \"Nuk\" Hopkins est un receveur large de l'équipe de football américain des Arizona Cardinals de la NFL."
+        },
+        "devon-dotson": {
+          "name": "Devon Dotson",
+          "text": "Devon Dotson est un joueur professionnel de basket-ball âgé de 21 ans évoluant au sein de l'équipe des Chicago Bulls de la NBA."
         }
       }
-    },
-    "extra": {
-      "recently-posted-jobs": "Emplois récemment publiés",
-      "featured-jobs": "Offres d'emploi",
-      "best-talent": "Les meilleurs talents pour répondre à vos besoins uniques"
     }
+  },
+  "investment-page": {
+    "banner": {
+      "title": "Vente aux enchères",
+      "text": "Lancez et financez des investissements Web3 avec l'ensemble complet d'outils de vente aux enchères de Bounce.",
+      "sign-up-btn": "S'inscrire maintenant",
+      "card1": {
+        "title": "Investisseurs",
+        "paragraph1": "Parcourez un large éventail d'offres d'enchères avec Bounce auction, y compris : Les ventes aux enchères de jetons et les ventes aux enchères NFT.",
+        "paragraph2": "Restez à jour sur les dernières informations et opportunités d'enchères avec le répertoire ouvert de Bounce sur les entreprises Web3 de premier plan."
+      },
+      "card2": {
+        "title": "Fondateurs et entreprises",
+        "paragraph1": "Des outils prêts à l'emploi pour soutenir vos stratégies d'enchères uniques.",
+        "paragraph2": "Des applications de vente aux enchères personnalisables, adaptées aux exigences individuelles de votre entreprise."
+      },
+      "tips1": "* Bounce ne fournit que des outils d'investissement et n'héberge aucune activité d'investissement pour qui que ce soit.",
+      "tips2": "Certaines activités d'investissement sont limitées dans certains pays."
+    }
+  },
+  "jobs-employers-page": {
+    "banner": {
+      "title": "Talents pour les employeurs",
+      "description": "Embauchez des talents pour vous aider à construire votre vision",
+      "detail": "Avec plus de 8 millions de demandeurs d'emploi motivés et prêts à démarrer du monde entier et tous les outils et détails dont vous avez besoin pour embaucher.",
+      "sign-up-btn": "Inscrivez-vous maintenant",
+      "post-job-btn": "Publier un emploi gratuit"
+    }
+  },
+  "jobs-talents-page": {
+    "banner": {
+      "title": "Emplois pour les talents ",
+      "description": "Mise en relation des meilleurs talents et des meilleures entreprises",
+      "description1": "Mise en relation des meilleurs talents",
+      "description2": "avec les meilleures entreprises",
+      "detail": "Avec plus de 8 millions de demandeurs d'emploi motivés et prêts à démarrer du monde entier et tous les outils et détails dont vous avez besoin pour embaucher.",
+      "sign-up-btn": "Inscrivez-vous maintenant",
+      "post-job-btn": "Publier un emploi gratuit"
+    }
+  },
+  "company-page": {
+    "banner": {
+      "title": "Entreprise",
+      "description": "Une Infrastructure soutenue votre vision du Web3",
+      "description1": "Une Infrastructure soutenue",
+      "description2": "votre vision de Web3",
+      "detail": "Notre mission est d'inspirer une nouvelle génération d'investisseurs et de fondateurs en leur fournissant tout ce dont ils ont besoin pour lancer et développer un fonds ou une startup.",
+      "join-btn": "Rejoignez-nous",
+      "card1": {
+        "title": "Marché de l'emploi",
+        "paragraph": "Nous pensons que toute personne passionnée par l'innovation devrait pouvoir investir dans des startups qui changent le monde."
+      },
+      "card2": {
+        "title": "Boîte à outils pour applications décentralisées",
+        "paragraph": "Utilisez la large gamme de solutions de contrats intelligents de Bounce pour répondre à vos besoins uniques ; construisez votre application décentralisée avec flexibilité et interopérabilité."
+      },
+      "card3": {
+        "title": "QR code et carte numérique",
+        "paragraph": "Chaque utilisateur de Bounce recevra un code QR unique qui sera automatiquement attribué à son profil sur Bounce. Scannez le code numérique pour commencer et explorer votre réseau d'amis Web3 !"
+      },
+      "jobs-market": {
+        "title": "Marché de l'emploi",
+        "description": "Les outils de Bounce simplifient le processus d'investissement pour tous les anges et les VCs, qu'ils fondent et développent un nouveau fonds ou qu'ils investissent aux côtés de gestionnaires établis.",
+        "post-job-btn": "Publier un emploi gratuit"
+      }
+    },
+    "innovative-company": {
+      "title1": "Entreprises innovantes de Web3",
+      "title2": "Processus pour les entreprises en phase de démarrage"
+    },
+    "digital-card": {
+      "title": "Partagez votre code QR et votre carte numérique",
+      "description": "Développez votre réseau numérique grâce à nos cartes de visite QR - l'avenir du commerce est là !",
+      "item1": "Augmentez l'engagement et établissez une connexion unique avec les employeurs/employés potentiels en utilisant les cartes de visite QR - démarquez-vous et souvenez-vous-en !",
+      "item2": "Vous aide à générer de superbes pages de profil pour vos cartes de visite. Il est très facile pour les autres de vous suivre et de mieux vous connaître.",
+      "item3": "Fuseaux horaires - vous pouvez filtrer par fuseaux horaires et voir exactement combien d'heures d'avance ou de retard a un candidat.",
+      "item4": "Créez votre propre page de destination parfaite pour les médias sociaux et convertissez vos visiteurs hors ligne en fans et en adeptes.",
+      "get-card-btn": "Obtenez votre carte de visite numérique",
+      "people-promotion": "Investisseurs et entrepreneurs notables",
+      "toolbox": {
+        "title": "Boîte à outils de candidature décentralisée",
+        "description": "Trouvez différents types d'offres d'investissement, de la vente aux enchères à la fusion et à l'acquisition en passant par la vente de gré à gré, grâce à notre plateforme.",
+        "create-btn": "Créer une activité"
+      }
+    }
+  },
+  "tools-token-page": {
+    "banner": {
+      "title": "$AUCTION",
+      "sub-title": "The Bounce Token",
+      "description": "AUCTION alimente l'ensemble de l'écosystème d'applications décentralisées de Bounce avec un large éventail d'utilités, y compris : la gouvernance, le jalonnement, la place de marché/la monnaie d'enchère dans l'application, et les récompenses pour les détenteurs.",
+      "launch-btn": "Lancer le portail de jetons",
+      "card1": {
+        "title": "Gouvernance",
+        "paragraph": "Protocole entièrement décentralisé et régi par la communauté, Bounce est gouverné exclusivement par les détenteurs de jetons AUCTION."
+      },
+      "card2": {
+        "title": "Dynamic Staking",
+        "paragraph": "AUCTION peut être jalonné pour gagner passivement des récompenses et des rendements générés par l'écosystème de produits Bounce."
+      },
+      "card3": {
+        "title": "Compte Premium",
+        "paragraph": "Les détenteurs de jetons Bounce sont en mesure de débloquer des avantages supplémentaires de Bounce V3 avec des autorisations de compte premium."
+      },
+      "card4": {
+        "title": "Marché de Bounce",
+        "paragraph": "Dépensez votre AUCTION à une variété de différents Bounce Marketplaces ; de l'embauche et le paiement des talents à l'achat d'articles dans le jeu au sein de Bounce Metaverse !"
+      }
+    }
+  },
+  "chains-block": {
+    "tiles": {
+      "bounce-auction": "Bounce Finance",
+      "fangible": "Bounce Fangible",
+      "polka": "Bounce Metalents",
+      "toolbox": "Bounce Dao Toolkit",
+      "metaverse": "Bounce Metaverse"
+    },
+    "chains": {
+      "title": "Jeu à travers<br />chaînes",
+      "text": "Les produits Bounce sont disponibles sur plusieurs blockchains pour plus de jeu, plus de possibilités, plus de potentiel."
+    },
+    "participation": {
+      "title": {
+        "part-one": "Une participation",
+        "part-two": "participation"
+      },
+      "text": "Un écosystème évolutif de produits qui permet à toutes sortes de personnes de participer à des enchères décentralisées.",
+      "item1": "Créez votre propre plateforme d'enchères",
+      "item2": "Menez des projets grâce à des prêts participatifs ou à des échanges d'actifs numériques rares.",
+      "item3": "Participez à l'économie des créateurs",
+      "hint": "Tout est sur la table."
+    }
+  },
+  "bounce-auction": {
+    "brand": "Bounce Finance",
+    "title": "Libérez le potentiel de la finance ouverte",
+    "text": "Échangez des actifs numériques rares dans un environnement d'échange compétitif sur notre plateforme d'enchères polyvalente, décentralisée et sans confiance.",
+    "item1": "Choisissez parmi une gamme de types d'enchères, notamment : Swap fixe, offre scellée, enchères hollandaises et anglaises.",
+    "item2": "Négociez de gré à gré, publiquement ou en privé.",
+    "item3": "Bénéficiez d'une exécution automatique, sans contingence et sans permission.",
+    "item4": "Fonctionne avec une gouvernance sur la chaîne."
+  },
+  "fangible": {
+    "brand": "Fangible",
+    "title": "Place de marché NFT. Les plus grandes stars. Leurs œuvres les plus rares. Directement accessibles aux fans.",
+    "text": "Fangible est un nouveau type d'expérience pour les fans, qui permet d'accéder facilement à une part de l'économie des créateurs. Il met les artistes en relation avec leurs fans et permet à chacun de participer à la conversation NFT.",
+    "celebrities": {
+      "title": "Célébrités avec Bounce :",
+      "eimi-fukada": {
+        "name": "Eimi Fukada",
+        "text": "Eimi Fukada est une actrice japonaise de vidéos pour adultes depuis 2017. En 2020, elle était la troisième actrice AV classée par les ventes."
+      },
+      "kyle-kuzma": {
+        "name": "Kyle Kuzma",
+        "text": "Kyle Kuzma est un joueur de basket-ball professionnel américain qui joue pour les Los Angeles Lakers de la NBA."
+      },
+      "nick-young": {
+        "name": "Nick Young",
+        "text": "Nick \"Swaggy P\" Young est un ancien joueur de basket-ball professionnel de la NBA originaire de Los Angeles, en Californie."
+      },
+      "skyy-clark": {
+        "name": "Skyy Clark",
+        "text": "Skyy Clark est un joueur de basket-ball 5 étoiles de la High School de Los Angeles, CA."
+      },
+      "asap-rocky": {
+        "name": "A$AP Rocky",
+        "text": "A$AP Rocky est un rappeur, chanteur, auteur-compositeur et acteur de New York."
+      },
+      "deandre-hopkins": {
+        "name": "DeAndre Hopkins",
+        "text": "DeAndre \"Nuk\" Hopkins est un receveur large de l'équipe de football américain des Arizona Cardinals de la NFL."
+      },
+      "devon-dotson": {
+        "name": "Devon Dotson",
+        "text": "Devon Dotson est un joueur professionnel de basket-ball âgé de 21 ans évoluant au sein de l'équipe des Chicago Bulls de la NBA."
+      }
+    }
+  },
+  "bounce-polkadot": {
+    "brand": "Metalents",
+    "title": "Faire correspondre l'offre et la demande de freelances numériques",
+    "text": "Nous pensons que, outre les formes traditionnelles de mise en relation des NFT telles que les peintures traditionnelles et les affiches électroniques, toute œuvre personnalisée, à livraison non standard et livrée par voie électronique peut être mise en relation avec le monde des NFT. En utilisant les NFT comme justificatifs de livraison et la fonction d'enregistrement immuable du réseau décentralisé blockchain, l'auteur, l'acheteur, le moment de la transaction et l'URL de l'œuvre seront tracés et enregistrés en permanence."
+  },
+  "bounce-toolbox": {
+    "brand": "Boîte à outils Bounce DAO",
+    "title": "Tout ce dont vous avez besoin pour construire votre propre plateforme d'enchères décentralisées.",
+    "text": "Un ensemble complet d'outils pour développeurs qui rendent l'exploitation de la puissance des enchères décentralisées plus facile que jamais. Kits d'interface utilisateur, accès API aux NFT de Bounce, contrats intelligents open source. Tout ce dont vous avez besoin pour mettre DeFi à la portée des masses."
+  },
+  "binance-exchange": {
+    "brand": "Bounce",
+    "title": "Binance Exchange",
+    "text": "En tant que l'un des premiers projets à entrer dans l'écosystème Binance, Bounce est devenu la pierre angulaire de l'écosystème Binance, y compris en poursuivant son rôle de mentor pour le programme Most Valuable Builder de BNB Chain.",
+    "btn-text": "Vente aux enchères sur Binance"
+  },
+  "backed-by": {
+    "title": "Soutenu par"
+  },
+  "language": {
+    "en-US": "English",
+    "zh-CN": "中文",
+    "tr-TR": "Türkçe",
+    "ja-JP": "日本語",
+    "ru-RU": "Русский",
+    "fr-FR": "Français",
+    "de-DE": "Deutsch",
+    "ko-KR": "한국어",
+    "id-ID": "Indonesia"
+  },
+  "bounce-metaverse": {
+    "brand": "Bounce laboratoires",
+    "title": "Le métavers de Bounce",
+    "text": "Dans un effort pour embarquer plus d'utilisateurs dans l'écosystème de Bounce, nous avons travaillé pour développer la Metaverse City de Bounce. À nos yeux, le Metaverse de Bounce sera la pièce maîtresse de notre avenir, une base d'accueil virtuelle qui reliera chacun de nos produits pour une expérience immersive et transparente.",
+    "btnText": "Explorez",
+    "metaverse-city": "Metaverse City",
+    "metaverse-city-info": "Le fait que l'ensemble de l'écosystème Bounce soit hébergé dans un seul monde virtuel donne à nos utilisateurs la possibilité d'explorer tous les outils que Bounce a à offrir avec la meilleure expérience utilisateur possible. Lorsque cette fusion (si vous voulez) sera terminée, nous aurons construit la première suite complète de projets Web3 interconnectés offrant une utilité pour tous les différents utilisateurs de l'espace cryptographique. Parmi les caractéristiques de Metaverse City figurent : Des ateliers, un terrain de jeu, une galerie, des jeux et un centre commercial."
+  },
+  "test": {
+    "label": "page de test",
+    "title": "titre de la page de test",
+    "back": "back to home page"
+  },
+  "auction-block": {
+    "title": "Bounce Auction",
+    "subtitle": "Launch and participate in permission-less finance with Bounce's renowned <br /> Decentralized Auction Platform.",
+    "auction-type": {
+      "title": "Bounce offers a comprehensive suite of popular Auction types, including:",
+      "fixed-swap": "fixed Swap Auction",
+      "english-auction": "English Auction",
+      "dutch-auction": "Enchères néerlandaises",
+      "sealed-bid-auction": "Enchère scellée et enchère",
+      "lottery-auction": "Enchères de loterie"
+    },
+    "function": {
+      "title": "Fonctions Premium :",
+      "whitelisting": "Liste blanche",
+      "schedule": "Calendrier de verrouillage de l'horodateur",
+      "dutch-auction": "Contrôle des quotas pour les enchères hollandaises",
+      "nft-certificate": "Certificat NFT"
+    },
+    "tip": "* Supported Asset: ERC20, ERC721, ERC1155"
+  },
+  "bounce-otc": {
+    "title": "SDK et plugin pour les enchères",
+    "subtitle": "Bounce fournit un sdk et un plugin pour créer et héberger des enchères en ligne, rassemblant tout ce qui est nécessaire pour construire une enchère. You can host your own auctions on your website."
+  },
+  "bounce-M&A": {
+    "title": "Les développeurs de Bounce",
+    "smallTitle": "",
+    "subtitle": "expédient plus rapidement avec des API puissantes et faciles à utiliser",
+    "mergeProcess": "Processus d'intégration",
+    "input": "INPUT",
+    "output": "SORTIE",
+    "features": "caractéristiques",
+    "featureList": {
+      "title1": "Composition des jetons",
+      "info1": "La particule de projet prend en charge une variété de jetons, de l'ERC20 aux NFTs.",
+      "title2": "Configuration dynamique",
+      "info2": "Concevez votre chimie pour répondre à vos besoins avec des paramètres personnalisables et une variété d'options d'entrée et de sortie.",
+      "title3": "Exécution automatique, sans code",
+      "info3": "Les nouveaux jetons seront émis de manière réflexe suivant notre processus de consolidation, ce qui signifie que vous n'aurez pas à émettre vos propres nouveaux jetons.",
+      "title4": "Environnement sans permission",
+      "info4": "N'importe qui peut initier une alchimie à tout moment"
+    }
+  },
+  "bounce-NFT": {
+    "title": "Bounce NFT",
+    "smallTitle": "(Plate-forme de lancement & Place de marché)",
+    "subtitle": "Bounce NFT permet aux utilisateurs non seulement d'acheter, de vendre et de gérer des NFT avec notre place de marché, mais aussi de lancer et de créer leurs propres projets NFT en utilisant notre launchpad."
+  },
+  "job-tools": {
+    "title": "Les outils et les ressources dont vous avez besoin pour embaucher, le tout en un seul endroit.",
+    "subtitle": "Commencez à recruter en moins de 10 minutes",
+    "person-list": {
+      "title1": "Statut de l'emploi",
+      "info1": " - nous vous indiquons si un candidat est ouvert aux offres de travail et/ou s'il est prêt à passer un entretien.",
+      "title2": "Compétences et expérience",
+      "info2": " - nous donnons aux candidats la possibilité de les mettre en valeur de manière unique, par exemple en détaillant leur plus grande réalisation et plus encore !",
+      "title3": "Fuseaux horaires",
+      "info3": " - vous pouvez filtrer par fuseau horaire et voir exactement combien d'heures d'avance ou de retard a le candidat.",
+      "title4": "Préférences à distance",
+      "info4": " - recherchez les candidats qui sont ouverts au travail à distance ou en personne, et découvrez le type d'environnement de travail qu'ils préfèrent.",
+      "title5": "Détails sur l'entreprise",
+      "info5": " - Consultez le profil de l'entreprise pour vous aider à mieux évaluer les compétences des candidats."
+    }
+  },
+  "freelance-market": {
+    "title": "Marché des freelances"
+  },
+  "crypto-currencies": {
+    "title": "Achetez des crypto-monnaies avec des monnaies fiduciaires",
+    "subtitle": "Choisissez simplement la crypto que vous voulez acheter, le réseau et le montant que vous souhaitez acheter.",
+    "subtitle2": "Bounce comparera les fournisseurs et vous proposera le meilleur taux.",
+    "poweredBy": "Propulsé par :"
+  },
+  "chain-block": {
+    "title": "Un réseau ouvert d'infrastructures et d'outils d'enchères construit pour l'ensemble du Web3, des particuliers aux institutions.",
+    "circle": {
+      "label1": "Entreprises et investisseurs",
+      "label2": "Particuliers",
+      "label3": "Enchères hébergées",
+      "label4": "NFT's lancés",
+      "label5": "Offres d'emploi publiées"
+    }
+  },
+  "partners": {
+    "title": "Plus de 500 entreprises, partenaires et investisseurs nous font confiance."
+  },
+  "footer": {
+    "copyrights": "©{année} Bounce dao Ltd. Tous droits réservés. ",
+    "terms-of-service": "Conditions d'utilisation",
+    "privacy-policy": "Politique de confidentialité",
+    "social": "Social :",
+    "developer": "Développeur :",
+    "links": {
+      "company": "Société",
+      "auction-homepage": "Page d'accueil des enchères",
+      "company-list": {
+        "create-profile": "Créer un profil",
+        "find-investors": "Trouver des investisseurs",
+        "team-management": "Gestion de l'équipe",
+        "defi-tools": "Outils Defi",
+        "browse-startup-idea": "Parcourir les idées de startups"
+      },
+      "service": "Service",
+      "investment": "Investissement",
+      "investment-list": {
+        "defi-market": "Marché Defi",
+        "browse-company": "Parcourir l'entreprise",
+        "browse-market": "Parcourir le marché",
+        "browse-pool": "Parcourir le pool",
+        "auction-pool": "Pool d'enchères",
+        "nft-launchpad": "Boîte de lancement NFT",
+        "mergers-acquisitions": "Fusions & Acquisitions",
+        "share-startup-idea": "Partager une idée de création d'entreprise",
+        "web3-id-verified": "Web3 ID & Verified",
+        "team-management": "Gestion d'équipe"
+      },
+      "jobs": "Emplois",
+      "jobs-list": {
+        "for-employers": "Emplois pour les employeurs",
+        "pos-job": "Publier un emploi gratuit",
+        "browse-talent": "Recherche de talents",
+        "for-talents": "Emplois pour les talents",
+        "browse-jobs": "Parcourir les emplois",
+        "create-portfolio": "Créer un portefeuille"
+      },
+      "tools": "Outils",
+      "tools-list": {
+        "defi-tools": "Outils Defi",
+        "auctions": "Enchères",
+        "nft-launchpad": "Boîte de lancement NFT",
+        "mergers-acquisitions": "Fusions & Acquisitions",
+        "startup-tools": "Outils pour les startups",
+        "share-idea": "Partagez votre idée",
+        "web3-verified": "Web3 ID & Verified"
+      },
+      "labs": "Labs",
+      "labs-list": {
+        "bounce-labs": "Bounce laboratoires",
+        "bounce-v1": "Bounce V1",
+        "bounce-v2": "Bounce V2",
+        "fangible": "Fangible",
+        "metalent": "Metalent",
+        "bounce-metaverse": "Bounce Metaverse"
+      }
+    }
+  },
+  "extra": {
+    "recently-posted-jobs": "Emplois récemment publiés",
+    "featured-jobs": "Offres d'emploi",
+    "best-talent": "Les meilleurs talents pour répondre à vos besoins uniques"
+  },
+  "home-dialog": {
+    "title": "Let’s Bounce Bitcoin",
+    "content": "A Plug and Play Layer 2 for Bitcoin Powered by $BTC and $AUCTION",
+    "button": "Launch Bouncebit"
   }
+}
