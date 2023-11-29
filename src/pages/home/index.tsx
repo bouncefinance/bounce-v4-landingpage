@@ -12,7 +12,7 @@ import AuctionBlock from 'src/components/home/AuctionBlock';
 import DesignedForEveryone from 'src/components/home/DesignedForEveryone';
 import IndustrySolutions from 'src/components/home/IndustrySolutions';
 import TypesOfAction from 'src/components/home/TypesOfAction';
-import HomeDialog from 'src/components/home/homeDialog';
+// import HomeDialog from 'src/components/home/homeDialog';
 export type IHomeProps = {};
 
 const Home: React.FC<IHomeProps> = ({}) => {
@@ -91,7 +91,7 @@ const Home: React.FC<IHomeProps> = ({}) => {
           ></video>
         </Box>
       )}
-      <HomeDialog />
+    {/*  <HomeDialog />  */}  
     </div>
   );
 };
