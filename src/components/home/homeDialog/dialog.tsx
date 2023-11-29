@@ -45,7 +45,7 @@ const Page = ({ open, onClose }: { open: boolean; onClose: () => void }) => {
             <img src="/images/home/dialog/token2.svg" />
           </Box>
         </Box>
-        <Box className={classes.animationContainer}>
+        {/* <Box className={classes.animationContainer}>
           <Box>
             <img
               src="/images/home/dialog/block-round.png"
@@ -58,7 +58,7 @@ const Page = ({ open, onClose }: { open: boolean; onClose: () => void }) => {
               className={classes.scaleImg}
             />
           </Box>
-        </Box>
+        </Box> */}
         <Button
           className={classes.button}
           onClick={() => {
