@@ -485,7 +485,10 @@
   },
   "home-dialog": {
     "title": "Let’s Bounce Bitcoin",
-    "content": "A Plug and Play Layer 2 for Bitcoin Powered by $BTC and $AUCTION",
-    "button": "Launch Bouncebit"
+    "content1": "A Plug and Play Blockchain for Bitcoin",
+    "content2": "Powered by <span style='font-style: italic'>{ token1 }</span>  and  <span style='font-style: italic'>{ token2 }</span>  ",
+    "button": "Launch Bouncebit",
+    "token1": "$BTCB",
+    "token2": "$AUCTION"
   }
 }

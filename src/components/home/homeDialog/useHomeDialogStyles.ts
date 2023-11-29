@@ -8,7 +8,7 @@ export const useHomeDialogStyles = makeStyles((theme: Theme) => ({
         padding: 24,
       },
       [theme.breakpoints.down('sm')]: {
-        padding: 12,
+        padding: '12px 12px 40px 12px',
       },
       '& .MuiDialogContent-root': {
         [theme.breakpoints.up('md')]: {
@@ -31,10 +31,18 @@ export const useHomeDialogStyles = makeStyles((theme: Theme) => ({
       alignItems: 'center',
 
       [theme.breakpoints.up('sm')]: {
-        gap: 40,
+        gap: 24,
       },
       [theme.breakpoints.down('sm')]: {
-        gap: 20,
+        gap: 0,
+      },
+    },
+    '& .MuiDialog-paperScrollPaper': {
+      [theme.breakpoints.up('sm')]: {
+        maxHeight: 'calc(100% - 64px)',
+      },
+      [theme.breakpoints.down('sm')]: {
+        maxHeight: '100%',
       },
     },
   },
@@ -58,7 +66,7 @@ export const useHomeDialogStyles = makeStyles((theme: Theme) => ({
     textEdge: 'cap',
     fontVariantNumeric: 'lining-nums proportional-nums',
     fontFamily: 'Sharp Grotesk DB Cyr Medium 22',
-
+    marginBottom: 16,
     fontStyle: 'normal',
     fontWeight: 500,
     lineHeight: '130%',
@@ -72,7 +80,6 @@ export const useHomeDialogStyles = makeStyles((theme: Theme) => ({
     },
   },
   content: {
-    marginTop: 10,
     color: '#000',
     textAlign: 'center',
     fontFamily: 'Helvetica Neue',
@@ -80,13 +87,34 @@ export const useHomeDialogStyles = makeStyles((theme: Theme) => ({
     fontWeight: 500,
     lineHeight: '120%' /* 26.4px */,
     letterSpacing: '-0.44px',
-    maxWidth: '70%',
+
     margin: '0 auto',
     [theme.breakpoints.up('sm')]: {
       fontSize: 22,
+      maxWidth: '100%',
+      marginTop: 10,
     },
     [theme.breakpoints.down('sm')]: {
       fontSize: 16,
+      maxWidth: '80%',
+      marginTop: 0,
+    },
+  },
+  tokenBox: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 12,
+    marginTop: 16,
+    '&>img': {
+      [theme.breakpoints.up('sm')]: {
+        width: 48,
+        height: 48,
+      },
+      [theme.breakpoints.down('sm')]: {
+        width: 36,
+        height: 36,
+      },
     },
   },
   animationContainer: {
@@ -102,7 +130,6 @@ export const useHomeDialogStyles = makeStyles((theme: Theme) => ({
     },
   },
   button: {
-    padding: '18px 47px',
     borderRadius: 30,
     background: '#2B51DA',
     textAlign: 'center',
@@ -115,9 +142,12 @@ export const useHomeDialogStyles = makeStyles((theme: Theme) => ({
     whiteSpace: 'nowrap',
     [theme.breakpoints.up('sm')]: {
       fontSize: 16,
+      padding: '18px 47px',
     },
     [theme.breakpoints.down('sm')]: {
       fontSize: 14,
+      padding: '20px',
+      marginTop: 20,
     },
   },
   blockBall: {
@@ -125,8 +155,18 @@ export const useHomeDialogStyles = makeStyles((theme: Theme) => ({
     transformOrigin: 'bottom',
     animation: '$toBall 2s linear infinite',
     marginBottom: '30px',
+    [theme.breakpoints.up('sm')]: {
+      width: 157,
+      height: 157,
+    },
+    [theme.breakpoints.down('sm')]: {
+      width: 127,
+      height: 127,
+    },
   },
   scaleImg: {
+    width: 52,
+    height: 77,
     transformOrigin: 'bottom',
     animation: '$toScale 2s linear infinite',
   },

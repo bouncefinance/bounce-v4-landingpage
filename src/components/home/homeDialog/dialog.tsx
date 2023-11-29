@@ -8,7 +8,7 @@ import {
 } from '@material-ui/core';
 // import CloseSvg from '../../../assets/img/close.svg'
 import { useHomeDialogStyles } from './useHomeDialogStyles';
-import { t } from 'src/i18n/intl';
+import { t, tHTML } from 'src/i18n/intl';
 const Page = ({ open, onClose }: { open: boolean; onClose: () => void }) => {
   const classes = useHomeDialogStyles();
   return (
@@ -32,8 +32,18 @@ const Page = ({ open, onClose }: { open: boolean; onClose: () => void }) => {
             {t('home-dialog.title')}
           </Typography>
           <Typography className={classes.content}>
-            {t('home-dialog.content')}
+            {t('home-dialog.content1')}
           </Typography>
+          <Typography className={classes.content}>
+            {tHTML('home-dialog.content2', {
+              token1: t('home-dialog.token1'),
+              token2: t('home-dialog.token2'),
+            })}
+          </Typography>
+          <Box className={classes.tokenBox}>
+            <img src="/images/home/dialog/token1.svg" />
+            <img src="/images/home/dialog/token2.svg" />
+          </Box>
         </Box>
         <Box className={classes.animationContainer}>
           <Box>
