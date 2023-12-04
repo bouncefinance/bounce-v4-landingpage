@@ -264,6 +264,14 @@ const FooterPc: React.FC<FooterProps> = ({
   const toolsLinks = useMemo(
     () => [
       {
+        label: 'Bounce Quanto',
+        isExternal: true,
+        href: 'https://quanto.bounce.finance/trade',
+        isDisabled: false,
+        extraIcon: '',
+        className: '',
+      },
+      {
         label: 'Support Center',
         isExternal: false,
         href: '/FAQ',

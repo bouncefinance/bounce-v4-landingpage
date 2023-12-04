@@ -105,6 +105,11 @@ export const Header = () => {
         label: 'Resources',
         list: [
           {
+            label: 'Bounce Quanto',
+            isExternal: true,
+            href: 'https://quanto.bounce.finance/trade',
+          },
+          {
             label: 'Support Center',
             isExternal: false,
             href: '/FAQ',
