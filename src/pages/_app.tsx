@@ -6,7 +6,7 @@ import 'swiper/swiper.min.css';
 import { mainTheme } from 'src/modules/theme/mainTheme';
 import Head from 'next/head';
 import { t } from 'src/i18n/intl';
-import HomeDialog from 'src/components/home/homeDialog';
+// import HomeDialog from 'src/components/home/homeDialog';
 interface IAppProps {
   Component: any;
   pageProps: any;
@@ -78,7 +78,7 @@ function App({ Component, pageProps }: IAppProps) {
       </Head>
 
       <MuiThemeProvider theme={mainTheme}>
-        <HomeDialog />
+        {/* <HomeDialog /> */}
         <CssBaseline />
         <Layout>
           <Component {...pageProps} />
