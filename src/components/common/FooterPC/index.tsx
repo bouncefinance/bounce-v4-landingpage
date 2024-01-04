@@ -335,6 +335,14 @@ const FooterPc: React.FC<FooterProps> = ({
         extraIcon: '',
         className: '',
       },
+      {
+        label: 'Private Launchpad Form',
+        isExternal: true,
+        href: 'https://docs.google.com/forms/d/e/1FAIpQLSeSXXbKG6Dk_6NhzGnT1gkZsG5MVvdtDmLVU87sIsnmHdjYWg/viewform?usp=sf_link',
+        isDisabled: false,
+        extraIcon: '',
+        className: '',
+      },
       //   {
       //     label: t('footer.links.labs-list.bounce-metaverse'),
       //     isExternal: true,
