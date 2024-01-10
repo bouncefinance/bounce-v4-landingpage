@@ -63,6 +63,12 @@ export const FAQ = () => {
         'For details, please see : ',
         link:'https://youtu.be/mijzNmoBS5E'
     },
+    {
+        question: 'What countries does Bounce Finance restrict?',
+        answer:
+          'US,Cuba,China,Ukraine,North Korea,Iran,Syria',
+          link:''
+      },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   return (
