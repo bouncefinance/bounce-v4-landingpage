@@ -12,7 +12,7 @@ export const WhatIsBounceBooster = () => {
   const classes = useTypesOfAuctionBounceStyles();
   const offerList = [
     {
-      title: 'Providing multiple avenues for income',
+      title: 'Providing Multiple Avenues for Income',
       desc: 'Bounce Booster optimizes your yield by providing multiple avenues for income, including Binance Launchpool investments, Funding Rate Arbitrage strategies, $AUCTION farming and access to Bounce on-chain Launchpad IDOs.',
     },
     {

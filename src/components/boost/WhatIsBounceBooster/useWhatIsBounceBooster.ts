@@ -28,9 +28,10 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     maxWidth: '1110px !important',
     paddingTop: 20,
     paddingBottom: 120,
+    paddingLeft:'10vw',
     display: 'flex',
     flexFlow: 'column nowrap',
-    margin: '0 auto',
+    margin: '0',
     [theme.breakpoints.down('sm')]: {
       paddingTop: 20,
     },
@@ -82,7 +83,7 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     display: 'flex',
     flexFlow: 'column nowrap',
     justifyContent: 'center',
-    padding: '0 33px 0',
+    padding: '0',
     // height: 175,
     [theme.breakpoints.down('sm')]: {
       borderLeft: '0px',
@@ -96,6 +97,7 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     color: '#fff',
     marginBottom: 18,
     textAlign: 'left',
+    textTransform:'capitalize',
     [theme.breakpoints.down('sm')]: {
       textAlign: 'center',
     },
