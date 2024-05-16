@@ -87,20 +87,25 @@ export const Header = () => {
         ],
       },
       {
-        label: 'Solutions',
-        list: [
-          {
-            label: 'Advertisement',
-            isExternal: false,
-            href: '/advertisementSolution',
-          },
-          {
-            label: 'AI+Auction ',
-            isExternal: false,
-            href: '/aiAuctionSolution',
-          },
-        ],
-      },
+        label: 'Bounce M&A',
+        isExternal: true,
+        href: 'https://mna.bounce.finance/'
+        },
+      // {
+      //   label: 'Solutions',
+      //   list: [
+      //     {
+      //       label: 'Advertisement',
+      //       isExternal: false,
+      //       href: '/advertisementSolution',
+      //     },
+      //     {
+      //       label: 'AI+Auction ',
+      //       isExternal: false,
+      //       href: '/aiAuctionSolution',
+      //     },
+      //   ],
+      // },
       {
         label: 'Resources',
         list: [
@@ -220,10 +225,17 @@ export const Header = () => {
                           key={index}
                           className={classes.mobileMenuLinkItem}
                           onClick={() => {
-                            router.push(item.href || '/');
-                            setMobileNavShowed(2);
-                            setSecondlinks(item?.list || []);
-                            setSecondLabel(item?.label || '');
+                            if(item.isExternal){
+                              window.open(item.href as string, '_blank');
+                            }else{
+                              router.push(item.href || '/');
+                            }
+                            if(item.list){
+                              setMobileNavShowed(2);
+                              setSecondlinks(item?.list || []);
+                              setSecondLabel(item?.label || '');
+                            }
+                             
                           }}
                         >
                           {' '}
