@@ -59,7 +59,6 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     lineHeight: '75px',
     color: '#171717',
     textAlign: 'left',
-    zIndex: 1,
   },
   text: {
     fontFamily: `'Inter'`,

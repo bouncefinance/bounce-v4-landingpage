@@ -27,7 +27,7 @@ function App({ Component, pageProps }: IAppProps) {
   return (
     <>
       <Head>
-        <meta name="title" content={'Bounce'} />
+        <meta name="title" content={'Bounce Finance'} />
         <meta
           name="keywords"
           content={'bounce, bounce finance, finance, DeFi, bot'}
