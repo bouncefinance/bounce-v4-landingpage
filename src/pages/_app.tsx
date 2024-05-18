@@ -54,7 +54,7 @@ function App({ Component, pageProps }: IAppProps) {
           name="google-site-verification"
           content="B5lx8TxvQcU-puuVS2dQoES9kmvDgkf-OVMy7KxTGLI"
         />
-        <title>{'Bounce'}</title>
+        <title>{'Bounce Finance'}</title>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <script
           async
