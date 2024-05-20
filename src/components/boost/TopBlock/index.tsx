@@ -11,7 +11,12 @@ export const TopBlock = () => {
   return (
     <div className={classes.pageRoot}>
       <Container maxWidth={false} className={classes.pageContainer}>
-        <Box>
+        <Box
+          maxWidth={'1350px'}
+          margin="0 auto"
+          width={'100%'}
+          paddingLeft={'24px'}
+        >
           <WithAnimation
             className={classes.title1}
             Component={Typography}
@@ -43,7 +48,11 @@ export const TopBlock = () => {
                   '_blank',
                 );
               }}
-              style={{ background: '#2B51DA', pointerEvents: 'none' }}
+              style={{
+                pointerEvents: 'none',
+                border: 'none',
+                background: '#C5C5C5',
+              }}
             ></ComBtn>
           </WithAnimation>
         </Box>

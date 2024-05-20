@@ -21,7 +21,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
   },
   pageContainer: {
     position: 'relative',
-    padding: '200px 0px 220px 10vw',
+    padding: '200px 0 220px',
     width: '100vw !important',
     maxWidth: '100% !important',
     display: 'flex',
@@ -30,7 +30,7 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
     flexWrap: 'nowrap',
     justifyContent: 'center',
     [theme.breakpoints.down('sm')]: {
-      padding: '150px 0px 170px 10vw',
+      padding: '150px 0 170px',
     },
   },
   title1: {

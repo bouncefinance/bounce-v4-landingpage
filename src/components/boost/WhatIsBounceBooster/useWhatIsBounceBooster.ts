@@ -25,13 +25,13 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
   container: {
     position: 'relative',
     width: '100% !important',
-    maxWidth: '1110px !important',
+    maxWidth: '1350px !important',
     paddingTop: 20,
     paddingBottom: 120,
-    paddingLeft:'10vw',
+    paddingLeft:'24px',
+    margin:'0 auto',
     display: 'flex',
     flexFlow: 'column nowrap',
-    margin: '0',
     [theme.breakpoints.down('sm')]: {
       paddingTop: 20,
     },

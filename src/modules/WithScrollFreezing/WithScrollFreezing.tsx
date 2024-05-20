@@ -27,7 +27,6 @@ export const WithScrollFreezing = ({
   const floatingWrapRef = useRef(null);
 
   const getWrapHeight = useCallback(() => {
-    console.log('resize trriger');
     if (floatingWrapRef.current) {
       const floatingWrap: any = floatingWrapRef.current;
       const height = floatingWrap?.offsetHeight;
