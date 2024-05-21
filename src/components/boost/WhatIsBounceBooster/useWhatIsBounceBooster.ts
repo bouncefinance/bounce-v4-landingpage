@@ -101,6 +101,7 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     textTransform:'capitalize',
     [theme.breakpoints.down('sm')]: {
       textAlign: 'center',
+      fontSize: 18,
     },
   },
   itemDesc: {
@@ -112,6 +113,7 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     textAlign: 'left',
     [theme.breakpoints.down('sm')]: {
       textAlign: 'center',
+      fontSize: 14,
     },
     opacity: 0.8,
   },
