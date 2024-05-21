@@ -39,7 +39,7 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
   title: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
-    fontSize: 44,
+    fontSize: 58,
     color: '#fff',
     textAlign: 'left',
     marginBottom: 30,
@@ -93,7 +93,8 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
   itemTitle: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
-    fontSize: 16,
+    fontSize: 24,
+    lineHeight:'160%',
     color: '#fff',
     marginBottom: 18,
     textAlign: 'left',
@@ -101,14 +102,13 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     [theme.breakpoints.down('sm')]: {
       textAlign: 'center',
     },
-    lineHeight: '20px',
   },
   itemDesc: {
     fontFamily: `'Inter'`,
     fontWeight: 400,
-    fontSize: 14,
+    fontSize: 18,
     color: '#fff',
-    lineHeight: '21px',
+    lineHeight: '160%',
     textAlign: 'left',
     [theme.breakpoints.down('sm')]: {
       textAlign: 'center',

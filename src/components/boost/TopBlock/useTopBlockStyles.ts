@@ -36,8 +36,8 @@ export const useTopBlockStyles = makeStyles<Theme>(theme => ({
   title1: {
     fontFamily: `'Sharp Grotesk DB Cyr Medium 22'`,
     fontWeight: 500,
-    fontSize: 28,
-    mx:'225px',
+    fontSize: 26,
+    marginBottom:'24px',
     [theme.breakpoints.down('sm')]: {
       fontSize: 18,
     },
