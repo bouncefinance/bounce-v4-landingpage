@@ -3,7 +3,7 @@ export default function Side2({
   className,
 }: {
   percent: number;
-  className: string;
+  className?: string;
 }) {
   return (
     <svg

@@ -65,7 +65,7 @@ export const TopBlock = () => {
         >
           <img
             className={classes.animationImg}
-            src={'/images/booster/side.svg'}
+            src={'/images/booster/side.png'}
             alt=""
           />
         </WithAnimation>

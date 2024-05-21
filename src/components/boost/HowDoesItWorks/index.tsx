@@ -53,7 +53,7 @@ export const HowDoesItWorks = () => {
           >
             <img
               className={classes.animationImg}
-              src={'/images/booster/bottom.svg'}
+              src={'/images/booster/bottom.png'}
               alt=""
             />
           </WithAnimation>
