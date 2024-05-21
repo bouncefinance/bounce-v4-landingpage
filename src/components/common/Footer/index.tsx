@@ -4,13 +4,20 @@ import FooterPc from '../FooterPC';
 import FooterMobile from '../FooterMobile';
 export interface FooterProps {
   colorTheme?: 'light' | 'dark';
-  noBg?: boolean
+  noBg?: boolean;
 }
-const Footer: React.FC<FooterProps> = ({ colorTheme = 'light',noBg = false }) => {
+const Footer: React.FC<FooterProps> = ({
+  colorTheme = 'light',
+  noBg = false,
+}) => {
   const isLg = useIsLGDown();
   return (
     <>
-      {isLg ? <FooterMobile colorTheme={colorTheme} noBg={noBg} /> : <FooterPc noBg={noBg} colorTheme={colorTheme} />}
+      {isLg ? (
+        <FooterMobile colorTheme={colorTheme} noBg={noBg} />
+      ) : (
+        <FooterPc noBg={noBg} colorTheme={colorTheme} />
+      )}
     </>
   );
 };

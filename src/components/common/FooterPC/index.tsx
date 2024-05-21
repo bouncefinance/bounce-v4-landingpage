@@ -172,21 +172,37 @@ const FooterPc: React.FC<FooterProps> = ({
   const companyLinks = useMemo(
     () => [
       {
-        label: 'Advertising',
+        label: 'Bounce Booster',
+        href: '/booster',
         isExternal: false,
-        href: '/advertisementSolution',
-        isDisabled: false,
         extraIcon: '',
         className: '',
+        isDisabled: false,
       },
       {
-        label: 'AI+Auction',
-        isExternal: false,
-        href: '/aiAuctionSolution',
-        isDisabled: false,
+        label: 'Bounce M&A',
+        isExternal: true,
+        href: 'https://mna.bounce.finance/',
         extraIcon: '',
         className: '',
+        isDisabled: false,
       },
+      // {
+      //   label: 'Advertising',
+      //   isExternal: false,
+      //   href: '/advertisementSolution',
+      //   isDisabled: false,
+      //   extraIcon: '',
+      //   className: '',
+      // },
+      // {
+      //   label: 'AI+Auction',
+      //   isExternal: false,
+      //   href: '/aiAuctionSolution',
+      //   isDisabled: false,
+      //   extraIcon: '',
+      //   className: '',
+      // },
     ],
     [],
   );
@@ -427,6 +443,36 @@ const FooterPc: React.FC<FooterProps> = ({
             <Grid item xs={3}>
               <FooterLinks title={'Products'} links={InvestmentLinks} />
             </Grid>
+            {/* 
+            {companyLinks.map(item => (
+              <Grid item xs={3}>
+                {item.isExternal ? (
+                  <ExternalLink
+                    // className={linkClass}
+                    className={classNames(classes.linkText, item.className)}
+                    href={item.href as string}
+                    role="link"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    aria-disabled={true}
+                  >
+                    <Typography variant="h5" className={classes.linkTitle}>
+                      {' '}
+                      {item.label}
+                    </Typography>
+                  </ExternalLink>
+                ) : (
+                  <Link href={item.href}>
+                    <a className={classNames(classes.linkText, item.className)}>
+                      <Typography variant="h5" className={classes.linkTitle}>
+                        {item.label}{' '}
+                      </Typography>
+                    </a>
+                  </Link>
+                )}
+              </Grid>
+            ))} */}
+
             <Grid item xs={3}>
               <FooterLinks title={'Solutions'} links={companyLinks} />
             </Grid>
