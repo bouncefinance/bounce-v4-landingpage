@@ -226,21 +226,37 @@ const FooterMobile: React.FC<FooterProps> = ({
   const companyLinks = useMemo(
     () => [
       {
-        label: 'Advertisement',
+        label: 'Bounce Booster',
+        href: '/booster',
         isExternal: false,
-        href: '/advertisementSolution',
-        isDisabled: false,
         extraIcon: '',
         className: '',
+        isDisabled: false,
       },
       {
-        label: 'AI+Auction ',
-        isExternal: false,
-        href: '/aiAuctionSolution',
-        isDisabled: false,
+        label: 'Bounce M&A',
+        isExternal: true,
+        href: 'https://mna.bounce.finance/',
         extraIcon: '',
         className: '',
+        isDisabled: false,
       },
+      // {
+      //   label: 'Advertisement',
+      //   isExternal: false,
+      //   href: '/advertisementSolution',
+      //   isDisabled: false,
+      //   extraIcon: '',
+      //   className: '',
+      // },
+      // {
+      //   label: 'AI+Auction ',
+      //   isExternal: false,
+      //   href: '/aiAuctionSolution',
+      //   isDisabled: false,
+      //   extraIcon: '',
+      //   className: '',
+      // },
     ],
     [],
   );
@@ -444,11 +460,39 @@ const FooterMobile: React.FC<FooterProps> = ({
             defaultAnimation={false}
             addClassInView={classes.inViewStyle}
           >
-            <FooterLinks
+            {/* <FooterLinks
               title={'Solutions'}
               links={companyLinks}
               colorTheme={colorTheme}
-            />
+            /> */}
+            {companyLinks.map(item => (
+              <Box mt={'20px'}>
+                {item.isExternal ? (
+                  <ExternalLink
+                    // className={linkClass}
+                    className={classNames(classes.linkText, item.className)}
+                    href={item.href as string}
+                    role="link"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    aria-disabled={true}
+                  >
+                    <Typography variant="h5" className={classes.linkTitle}>
+                      {' '}
+                      {item.label}
+                    </Typography>
+                  </ExternalLink>
+                ) : (
+                  <Link href={item.href}>
+                    <a className={classNames(classes.linkText, item.className)}>
+                      <Typography variant="h5" className={classes.linkTitle}>
+                        {item.label}{' '}
+                      </Typography>
+                    </a>
+                  </Link>
+                )}
+              </Box>
+            ))}
           </WithAnimation>
           <WithAnimation
             className={classes.defaultStyle}

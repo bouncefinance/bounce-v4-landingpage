@@ -67,10 +67,15 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
         ],
       },
       {
-      label: 'Bounce M&A',
-      list: [],
-      isExternal: true,
-      href: 'https://mna.bounce.finance/'
+        label: 'Bounce Booster',
+        href: '/booster',
+        isExternal: false,
+      },
+      {
+        label: 'Bounce M&A',
+        list: [],
+        isExternal: true,
+        href: 'https://mna.bounce.finance/',
       },
       // {
       //   label: 'Solutions',

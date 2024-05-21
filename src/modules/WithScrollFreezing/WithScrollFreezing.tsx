@@ -11,9 +11,13 @@ import { PARALLAX_MARGIN } from '../theme/const';
 
 interface IWithScrollFreezingProps {
   children: ReactNode;
+  paddingTop?: string;
 }
 
-export const WithScrollFreezing = ({ children }: IWithScrollFreezingProps) => {
+export const WithScrollFreezing = ({
+  children,
+  paddingTop,
+}: IWithScrollFreezingProps) => {
   const classes = useWithScrollFreezingStyles();
 
   const [wrapHeight, setWrapHeight] = useState('auto');
@@ -23,7 +27,6 @@ export const WithScrollFreezing = ({ children }: IWithScrollFreezingProps) => {
   const floatingWrapRef = useRef(null);
 
   const getWrapHeight = useCallback(() => {
-    console.log('resize trriger')
     if (floatingWrapRef.current) {
       const floatingWrap: any = floatingWrapRef.current;
       const height = floatingWrap?.offsetHeight;
@@ -92,6 +95,9 @@ export const WithScrollFreezing = ({ children }: IWithScrollFreezingProps) => {
       <div
         ref={floatingWrapRef}
         className={classNames(classes.floatingWrap, floatingWrapClass)}
+        style={{
+          paddingTop: paddingTop,
+        }}
       >
         {children}
       </div>

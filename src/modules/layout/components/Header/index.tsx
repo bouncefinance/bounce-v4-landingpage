@@ -87,10 +87,15 @@ export const Header = () => {
         ],
       },
       {
+        label: 'Bounce Booster',
+        href: '/booster',
+        isExternal: false,
+      },
+      {
         label: 'Bounce M&A',
         isExternal: true,
-        href: 'https://mna.bounce.finance/'
-        },
+        href: 'https://mna.bounce.finance/',
+      },
       // {
       //   label: 'Solutions',
       //   list: [
@@ -225,17 +230,17 @@ export const Header = () => {
                           key={index}
                           className={classes.mobileMenuLinkItem}
                           onClick={() => {
-                            if(item.isExternal){
+                            if (item.isExternal) {
                               window.open(item.href as string, '_blank');
-                            }else{
+                            } else {
                               router.push(item.href || '/');
+                              handleMenuTogge();
                             }
-                            if(item.list){
+                            if (item.list) {
                               setMobileNavShowed(2);
                               setSecondlinks(item?.list || []);
                               setSecondLabel(item?.label || '');
                             }
-                             
                           }}
                         >
                           {' '}
