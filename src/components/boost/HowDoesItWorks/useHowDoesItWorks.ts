@@ -42,7 +42,7 @@ export const useTypesOfAuctionBounceStyles = makeStyles<Theme>(theme => ({
     fontSize: 48,
     color: '#232323',
     textAlign: 'center',
-    marginBottom: 30,
+    marginBottom: 20,
     [theme.breakpoints.down('sm')]: {
       fontSize: 28,
       marginBottom: 18,
