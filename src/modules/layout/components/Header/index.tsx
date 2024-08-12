@@ -92,9 +92,9 @@ export const Header = () => {
         isExternal: false,
       },
       {
-        label: 'Bounce M&A',
+        label: 'Cedefi Mining',
         isExternal: true,
-        href: 'https://mna.bounce.finance/',
+        href: 'https://app.mba.loans',
       },
       // {
       //   label: 'Solutions',
@@ -114,6 +114,11 @@ export const Header = () => {
       {
         label: 'Resources',
         list: [
+          {
+            label: 'Bounce M&A',
+            isExternal: true,
+            href: 'https://mna.bounce.finance/',
+          },
           {
             label: 'Bounce Quanto',
             isExternal: true,

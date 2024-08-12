@@ -180,9 +180,9 @@ const FooterPc: React.FC<FooterProps> = ({
         isDisabled: false,
       },
       {
-        label: 'Bounce M&A',
+        label: 'Cedefi Mining',
         isExternal: true,
-        href: 'https://mna.bounce.finance/',
+        href: 'https://app.mba.loans',
         extraIcon: '',
         className: '',
         isDisabled: false,
@@ -279,6 +279,14 @@ const FooterPc: React.FC<FooterProps> = ({
 
   const toolsLinks = useMemo(
     () => [
+      {
+        label: 'Bounce M&A',
+        isExternal: true,
+        href: 'https://mna.bounce.finance/',
+        extraIcon: '',
+        className: '',
+        isDisabled: false,
+      },
       {
         label: 'Bounce Quanto',
         isExternal: true,

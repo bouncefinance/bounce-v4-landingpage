@@ -71,11 +71,11 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
         href: '/booster',
         isExternal: false,
       },
+
       {
-        label: 'Bounce M&A',
-        list: [],
+        label: 'Cedefi Mining',
         isExternal: true,
-        href: 'https://mna.bounce.finance/',
+        href: 'https://app.mba.loans',
       },
       // {
       //   label: 'Solutions',
@@ -120,6 +120,11 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
       {
         label: 'Resources',
         list: [
+          {
+            label: 'Bounce M&A',
+            isExternal: true,
+            href: 'https://mna.bounce.finance/',
+          },
           {
             label: 'Bounce Quanto',
             isExternal: true,
