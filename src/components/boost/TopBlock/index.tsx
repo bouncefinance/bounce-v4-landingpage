@@ -40,18 +40,12 @@ export const TopBlock = () => {
           </WithAnimation>
           <WithAnimation className={classes.btnBox}>
             <ComBtn
-              disabled
-              text={'Coming Soon'}
+              text={'Launch'}
               handleClick={() => {
                 window.open(
-                  'https://app.bounce.finance/TokenAuction',
+                  'https://booster.bounce.finance',
                   '_blank',
                 );
-              }}
-              style={{
-                pointerEvents: 'none',
-                border: 'none',
-                background: '#C5C5C5',
               }}
             ></ComBtn>
           </WithAnimation>
