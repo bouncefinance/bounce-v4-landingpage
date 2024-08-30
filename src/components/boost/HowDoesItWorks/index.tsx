@@ -34,7 +34,7 @@ export const HowDoesItWorks = () => {
             Component={Typography}
             variant="h2"
           >
-            How does it work?
+            How does Bounce Booster work?
           </WithAnimation>
 
           <WithAnimation
