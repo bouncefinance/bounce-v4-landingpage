@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Helvetica Neue';
   src: local('Helvetica Neue Roman'), local('Helvetica-Neue-Roman'),
-  url('HelveticaNeueCyr-Roman.woff2') format('woff2'),
-  url('HelveticaNeueCyr-Roman.woff') format('woff'),
-  url('HelveticaNeueCyr-Roman.ttf') format('truetype');
+    url('HelveticaNeueCyr-Roman.woff2') format('woff2'),
+    url('HelveticaNeueCyr-Roman.woff') format('woff'),
+    url('HelveticaNeueCyr-Roman.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -11,7 +11,7 @@
 @font-face {
   font-family: 'Sharp Grotesk DB Cyr Book 20';
   src: local('SharpGroteskDBCyrBook20-Regular'),
-  url('SharpGroteskDBCyrBook20-Regular.otf') format('opentype');
+    url('SharpGroteskDBCyrBook20-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
@@ -19,8 +19,21 @@
 @font-face {
   font-family: 'Sharp Grotesk DB Cyr Medium 22';
   src: local('SharpGroteskDBCyrMedium22-Regular'),
-  url('SharpGroteskDBCyrMedium22-Regular.otf') format('opentype');
+    url('SharpGroteskDBCyrMedium22-Regular.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url('OpenSans-VariableFont_wdth-wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Big Caslon';
+  src: url('BigCaslonFB-Black.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
