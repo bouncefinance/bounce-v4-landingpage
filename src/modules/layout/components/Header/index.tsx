@@ -41,7 +41,11 @@ export const Header = () => {
         role="link"
         rel="noopener noreferrer"
         target="_blank"
-        href={router.pathname === '/booster' ? 'https://booster.bounce.finance' : 'https://app.bounce.finance/'}
+        href={
+          router.pathname === '/booster'
+            ? 'https://booster.bounce.finance'
+            : 'https://app.bounce.finance/'
+        }
       >
         <Button variant="outlined" className={classes.loginBtn}>
           Launch App
@@ -86,16 +90,16 @@ export const Header = () => {
           },
         ],
       },
-      {
-        label: 'Bounce Booster',
-        href: '/booster',
-        isExternal: false,
-      },
-      {
-        label: 'Cedefi Mining',
-        isExternal: true,
-        href: 'https://app.mba.loans',
-      },
+      // {
+      //   label: 'Bounce Booster',
+      //   href: '/booster',
+      //   isExternal: false,
+      // },
+      // {
+      //   label: 'Cedefi Mining',
+      //   isExternal: true,
+      //   href: 'https://app.mba.loans',
+      // },
       // {
       //   label: 'Solutions',
       //   list: [
@@ -303,7 +307,12 @@ export const Header = () => {
                           width: '100%',
                         }}
                         handleClick={() => {
-                          window.open(router.pathname === '/booster' ? 'https://booster.bounce.finance' : 'https://app.bounce.finance/', '_blank');
+                          window.open(
+                            router.pathname === '/booster'
+                              ? 'https://booster.bounce.finance'
+                              : 'https://app.bounce.finance/',
+                            '_blank',
+                          );
                         }}
                         text={'Launch App'}
                       ></ComBtn>
