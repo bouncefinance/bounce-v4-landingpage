@@ -12,7 +12,7 @@ import AuctionBlock from 'src/components/home/AuctionBlock';
 import DesignedForEveryone from 'src/components/home/DesignedForEveryone';
 import IndustrySolutions from 'src/components/home/IndustrySolutions';
 import TypesOfAction from 'src/components/home/TypesOfAction';
-import MonetBlock from 'src/components/home/MonetBlock';
+// import MonetBlock from 'src/components/home/MonetBlock';
 export type IHomeProps = {};
 
 const Home: React.FC<IHomeProps> = ({}) => {
@@ -38,8 +38,8 @@ const Home: React.FC<IHomeProps> = ({}) => {
   //   }, []);
   return (
     <div dateset-a={'123'}>
-      <MonetBlock />
-      {/* <TopBlock /> */}
+      {/* <MonetBlock /> */}
+      <TopBlock />
       <AuctionBlock />
       <TypesOfAction />
       <DesignedForEveryone />
