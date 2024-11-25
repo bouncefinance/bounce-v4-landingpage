@@ -66,17 +66,17 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
           },
         ],
       },
-      {
-        label: 'Bounce Booster',
-        href: '/booster',
-        isExternal: false,
-      },
+      // {
+      //   label: 'Bounce Booster',
+      //   href: '/booster',
+      //   isExternal: false,
+      // },
 
-      {
-        label: 'Cedefi Mining',
-        isExternal: true,
-        href: 'https://app.mba.loans',
-      },
+      // {
+      //   label: 'Cedefi Mining',
+      //   isExternal: true,
+      //   href: 'https://app.mba.loans',
+      // },
       // {
       //   label: 'Solutions',
       //   list: [
