@@ -126,7 +126,7 @@ export const Header = () => {
           {
             label: 'Bounce Quanto',
             isExternal: true,
-            href: 'https://quanto.bounce.finance/trade',
+            href: 'https://broccoli.bounce.finance/trade',
           },
           {
             label: 'Support Center',

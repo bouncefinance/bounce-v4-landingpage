@@ -344,7 +344,7 @@ const FooterMobile: React.FC<FooterProps> = ({
       {
         label: 'Bounce Quanto',
         isExternal: true,
-        href: 'https://quanto.bounce.finance/trade',
+        href: 'https://broccoli.bounce.finance/trade',
         isDisabled: false,
         extraIcon: '',
         className: '',
