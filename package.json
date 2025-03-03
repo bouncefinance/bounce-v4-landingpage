@@ -1,6 +1,6 @@
 {
   "name": "bounce-landing",
-  "version": "0.2.34",
+  "version": "0.2.35",
   "private": true,
   "scripts": {
     "start:dev": "export NODE_OPTIONS=--openssl-legacy-provider && next dev",
