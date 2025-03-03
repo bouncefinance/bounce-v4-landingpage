@@ -5,6 +5,7 @@ import { UrlObject } from 'url';
 import LinkButton from '../LinkButton';
 import LinkMenu from '../LinkMenu';
 import { useNavLinkStyles } from './useNavLinkStyles';
+import { Link as ExternalLink } from '@material-ui/core';
 
 export type INavLinkProps = {};
 
@@ -28,6 +29,7 @@ export interface ILinksItemProps {
   list?: IListProps[];
   isExternal?: boolean;
   href?: Url;
+  isAIAgent?: boolean;
 }
 
 const NavLink: React.FC<INavLinkProps> = ({}) => {
@@ -41,6 +43,13 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
       //     isExternal: false,
       //     href: '/investment',
       //   },
+      {
+        label: 'AI Agent',
+        list: [],
+        isExternal: true,
+        href: 'https://ai.bounce.finance',
+        isAIAgent: true,
+      },
       {
         label: 'Auction Products',
         list: [
@@ -202,11 +211,38 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
   );
 
   return (
-    <nav className={classes.links}>
+    <nav className={classes.links} style={{ alignItems: 'center' }}>
       {links.map(v => (
         <Fragment key={uid(v)}>
           {v.list && v.list.length ? (
             <LinkMenu linkClass={classes.link} data={v} />
+          ) : v.isAIAgent ? (
+            <ExternalLink
+              href={v.href as string}
+              role="link"
+              rel="noopener noreferrer"
+              target="_blank"
+              key={v.label}
+              style={{ height: 'fit-content' }}
+            >
+              <button
+                style={{
+                  borderRadius: '100px',
+                  background:
+                    'var(--linear-color, linear-gradient(140deg, #FF5FC7 7.58%, #67FAFF 100%))',
+                  padding: '8px 40px',
+                  border: 'unset',
+                  color: 'var(--white-01, #FFF)',
+                  fontFamily: 'Sharp Grotesk',
+                  fontSize: 16,
+                  fontWeight: 400,
+                  lineHeight: 1.5,
+                  cursor: 'pointer',
+                }}
+              >
+                {v.label}
+              </button>
+            </ExternalLink>
           ) : (
             <LinkButton linkClass={classes.link} data={v} />
           )}

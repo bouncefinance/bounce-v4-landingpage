@@ -66,6 +66,12 @@ export const Header = () => {
   const links: ILinksItemProps[] = useMemo(
     () => [
       {
+        label: 'AI Agent',
+        href: 'https://ai.bounce.finance',
+        isExternal: true,
+        isAIAgent: true,
+      },
+      {
         label: 'Auction Products',
         list: [
           {
@@ -253,7 +259,27 @@ export const Header = () => {
                           }}
                         >
                           {' '}
-                          {item.label}
+                          {item.isAIAgent ? (
+                            <button
+                              style={{
+                                borderRadius: '100px',
+                                background:
+                                  'var(--linear-color, linear-gradient(140deg, #FF5FC7 7.58%, #67FAFF 100%))',
+                                padding: '8px 40px',
+                                border: 'unset',
+                                color: 'var(--white-01, #FFF)',
+                                fontFamily: 'Sharp Grotesk',
+                                fontSize: 16,
+                                fontWeight: 400,
+                                lineHeight: 1.5,
+                                cursor: 'pointer',
+                              }}
+                            >
+                              {item.label}
+                            </button>
+                          ) : (
+                            item.label
+                          )}
                         </Box>
                       ))}
                     </Box>
