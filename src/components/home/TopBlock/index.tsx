@@ -8,28 +8,31 @@ import { WithAnimation } from 'src/modules/WithAnimation';
 
 export interface IBtnListItemProps {
   className: string;
-  variant:  "text" | "contained" | "outlined" | undefined;
+  variant: 'text' | 'contained' | 'outlined' | undefined;
   href: string;
   text: string;
-};
+}
 
 export const TopBlock = () => {
   const classes = useTopBlockStyles();
-  
-  const btnList: IBtnListItemProps[] = useMemo(() => [
-     {
-      className: 'demoBtn',
-      variant: 'contained',
-      href: 'https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/viewform?edit_requested=true',
-      text: t('home-page.banner.demo')
-     },
-     {
-      className: 'docsBtn',
-      variant: 'outlined',
-      href: 'https://docs.bounce.finance/',
-      text: t('home-page.banner.docs')
-     },
-  ], []);
+
+  const btnList: IBtnListItemProps[] = useMemo(
+    () => [
+      {
+        className: 'demoBtn',
+        variant: 'contained',
+        href: 'https://app.bounce.finance/',
+        text: t('common.launch-app'),
+      },
+      {
+        className: 'docsBtn',
+        variant: 'outlined',
+        href: 'https://coinmarketcap.com/currencies/bounce-token/#Markets',
+        text: t('common.buy-auction'),
+      },
+    ],
+    [],
+  );
 
   return (
     <div className={classes.root}>
@@ -63,21 +66,19 @@ export const TopBlock = () => {
           {t('home-page.banner.text')}
         </WithAnimation>
         <WithAnimation className={classes.btnWrap}>
-          {
-            btnList.map(v => (
-              <Button
-                key={uid(v)}
-                className={classes[v.className]}
-                variant={v.variant}
-                href={v.href}
-                role="link"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                {v.text}
-              </Button>
-            ))
-          }
+          {btnList.map(v => (
+            <Button
+              key={uid(v)}
+              className={classes[v.className]}
+              variant={v.variant}
+              href={v.href}
+              role="link"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              {v.text}
+            </Button>
+          ))}
         </WithAnimation>
       </Container>
     </div>

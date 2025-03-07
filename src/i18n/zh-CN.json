@@ -13,7 +13,8 @@
     "launch-app": "启动应用",
     "learn-more": "了解更多",
     "coming-soon": "敬请期待",
-    "landing-page": "跳转着陆页"
+    "landing-page": "跳转着陆页",
+    "buy-auction": "购买$AUCTION"
   },
   "header": {
     "investment": "拍卖",
@@ -35,7 +36,7 @@
   "home-page": {
     "banner": {
       "title": "拍卖作为一种服务",
-      "text": "一个为所有Web3和DeFi建立的开放的拍卖基础设施和工具网络：从个人到机构",
+      "text": "Web3创新，一站解锁，$AUCTION赋能。",
       "demo": "申请演示",
       "docs": "文档"
     },

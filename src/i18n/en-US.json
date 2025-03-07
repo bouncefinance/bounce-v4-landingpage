@@ -13,7 +13,8 @@
     "launch-app": "Launch app",
     "learn-more": "Learn more",
     "coming-soon": "Coming soon",
-    "landing-page": "Landing page"
+    "landing-page": "Landing page",
+    "buy-auction": "Buy $AUCTION"
   },
   "header": {
     "investment": "Auction",
@@ -35,7 +36,7 @@
   "home-page": {
     "banner": {
       "title": "Auction as a Service",
-      "text": "From customized auction pools to seamless on-chain settlements, Bounce Finance provides the tools you need to unleash the full potential of decentralized auctions. ",
+      "text": "A One-Stop Ecosystem for Web3 Innovations. Powered by $AUCTION. ",
       "demo": "Request a Demo",
       "docs": "Learn more"
     },
