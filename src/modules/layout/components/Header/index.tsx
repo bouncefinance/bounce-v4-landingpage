@@ -260,23 +260,12 @@ export const Header = () => {
                         >
                           {' '}
                           {item.isAIAgent ? (
-                            <button
-                              style={{
-                                borderRadius: '100px',
-                                background:
-                                  'var(--linear-color, linear-gradient(140deg, #FF5FC7 7.58%, #67FAFF 100%))',
-                                padding: '8px 40px',
-                                border: 'unset',
-                                color: 'var(--white-01, #FFF)',
-                                fontFamily: 'Sharp Grotesk',
-                                fontSize: 16,
-                                fontWeight: 400,
-                                lineHeight: 1.5,
-                                cursor: 'pointer',
-                              }}
+                            <span
+                              className="btn-animation-mix-noborder"
+                              data-text="Ai Agent"
                             >
                               {item.label}
-                            </button>
+                            </span>
                           ) : (
                             item.label
                           )}

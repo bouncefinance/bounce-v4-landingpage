@@ -37,3 +37,86 @@
   font-weight: 400;
   font-style: normal;
 }
+
+[class*='btn-animation'] {
+  outline: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-flex;
+  width: fit-content;
+  overflow: hidden;
+  position: relative;
+  padding: 8px 40px;
+  height: 40px;
+  color: var(--white-01, #fff);
+  font-family: 'Sharp Grotesk';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  -webkit-tap-highlight-color: transparent;
+  transition: all 500ms ease-in-out;
+  &::after,
+  &::before {
+    content: '';
+    position: absolute;
+  }
+  &:hover {
+    background: #4e4e4e !important;
+  }
+}
+
+[class*='btn-animation-mix'] {
+  &::after {
+    background: #222;
+    border-radius: 120px;
+    content: attr(data-text);
+    color: #fff;
+    padding: 6px 36px;
+    top: 2px;
+    left: 4px;
+    -moz-user-select: none;
+    user-select: none;
+    user-drag: none;
+  }
+  &::before {
+    background: transparent;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 1em 2em 3em rgba(255, 50, 0, 0.5),
+      4em 0em 2em 2em rgba(155, 50, 0, 0.6),
+      -4em -2em 2em 2em rgba(255, 0, 150, 0.5),
+      -4em 2em 2em 4em rgba(0, 0, 150, 0.5),
+      0 -3em 2em 3em rgba(120, 250, 0, 0.5),
+      2em -1em 2em 2em rgb(149 255 241 / 50%);
+    width: 0;
+    height: 0;
+    animation: mix 5s linear infinite;
+  }
+}
+
+@keyframes mix {
+  30% {
+    box-shadow: 0 -1em 2em 3em rgba(255, 0, 200, 0.5),
+      4em -1em 2em 3em rgba(255, 50, 0, 0.8),
+      -4em 2em 3em 2em rgba(155, 200, 0, 0.5),
+      -4em -2em 2em 2em rgba(200, 0, 150, 0.6),
+      0 3em 2em 2em rgba(20, 250, 0, 0.5),
+      2em 1em 2em 2em rgb(188 175 255 / 50%);
+  }
+  60% {
+    box-shadow: 2em 1em 2em 3em rgb(181 153 255 / 50%),
+      3em 1em 2em 3em rgba(25, 150, 0, 0.6),
+      3em -2em 3em 3em rgba(155, 200, 0, 0.5),
+      -4em 2em 2em 3em rgba(200, 0, 50, 0.6),
+      0 -3em 2em 3em rgba(200, 250, 0, 0.5),
+      -2em 1em 2em 3em rgba(50, 210, 250, 0.6);
+  }
+}
+
+.btn-animation-mix-noborder {
+  &::after {
+    background: transparent !important;
+    color: #fff !important;
+  }
+}
