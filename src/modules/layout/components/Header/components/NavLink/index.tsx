@@ -43,16 +43,27 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
       //     isExternal: false,
       //     href: '/investment',
       //   },
-      {
-        label: 'AI Agent',
-        list: [],
-        isExternal: true,
-        href: 'https://ai.bounce.finance',
-        isAIAgent: true,
-      },
+
       {
         label: 'Auction Products',
         list: [
+          {
+            label: 'AI Agent',
+            // list: [],
+            isExternal: true,
+            href: 'https://ai.bounce.finance',
+            // isAIAgent: true,
+          },
+          {
+            label: 'Bounce M&A',
+            isExternal: true,
+            href: 'https://mna.bounce.finance/',
+          },
+          {
+            label: 'Bounce Quanto',
+            isExternal: true,
+            href: 'https://broccoli.bounce.finance/trade',
+          },
           {
             label: 'Token & NFT Auction',
             isExternal: false,
@@ -129,16 +140,6 @@ const NavLink: React.FC<INavLinkProps> = ({}) => {
       {
         label: 'Resources',
         list: [
-          {
-            label: 'Bounce M&A',
-            isExternal: true,
-            href: 'https://mna.bounce.finance/',
-          },
-          {
-            label: 'Bounce Quanto',
-            isExternal: true,
-            href: 'https://broccoli.bounce.finance/trade',
-          },
           {
             label: 'Support Center',
             isExternal: false,

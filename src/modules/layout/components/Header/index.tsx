@@ -66,14 +66,24 @@ export const Header = () => {
   const links: ILinksItemProps[] = useMemo(
     () => [
       {
-        label: 'AI Agent',
-        href: 'https://ai.bounce.finance',
-        isExternal: true,
-        isAIAgent: true,
-      },
-      {
         label: 'Auction Products',
         list: [
+          {
+            label: 'AI Agent',
+            href: 'https://ai.bounce.finance',
+            isExternal: true,
+            // isAIAgent: true,
+          },
+          {
+            label: 'Bounce M&A',
+            isExternal: true,
+            href: 'https://mna.bounce.finance/',
+          },
+          {
+            label: 'Bounce Quanto',
+            isExternal: true,
+            href: 'https://broccoli.bounce.finance/trade',
+          },
           {
             label: 'Token & NFT Auction',
             isExternal: false,
@@ -124,16 +134,6 @@ export const Header = () => {
       {
         label: 'Resources',
         list: [
-          {
-            label: 'Bounce M&A',
-            isExternal: true,
-            href: 'https://mna.bounce.finance/',
-          },
-          {
-            label: 'Bounce Quanto',
-            isExternal: true,
-            href: 'https://broccoli.bounce.finance/trade',
-          },
           {
             label: 'Support Center',
             isExternal: false,
