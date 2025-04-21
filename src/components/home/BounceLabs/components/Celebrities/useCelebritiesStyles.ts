@@ -151,7 +151,7 @@ export const useCelebritiesStyles = makeStyles<Theme>(theme => ({
       // },
       // TODO (Asap Rocky): remove it
       '$item:nth-child(1) &, $item:nth-child(4) &': {
-        display: 'none',
+        // display: 'none',
       },
     },
   },
