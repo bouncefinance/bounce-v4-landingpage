@@ -49,7 +49,7 @@ export const useCelebritiesStyles = makeStyles<Theme>(theme => ({
       paddingBottom: 200,
       gridTemplateColumns: 'repeat(2,1fr)',
     },
-    [theme.breakpoints.down(BREAKPOINT)]: {
+    '@media(max-width: 577px)': {
       paddingBottom: 100,
       display: 'flex',
       justifyContent: 'space-evenly',
@@ -80,7 +80,7 @@ export const useCelebritiesStyles = makeStyles<Theme>(theme => ({
     },
   },
   itemActive: {
-    '@media(max-width: 645px)': {
+    '@media(max-width: 575px)': {
       '& $itemImage': {
         opacity: 1,
       },
