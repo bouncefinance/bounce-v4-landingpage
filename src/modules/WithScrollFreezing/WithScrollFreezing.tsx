@@ -50,7 +50,7 @@ export const WithScrollFreezing = ({
         setFloatingWrapClass(classes.fixed);
       }
     } else {
-      setFloatingWrapClass(classes.notFixed);
+      scrollTop < wrapBottomFallBack && setFloatingWrapClass(classes.notFixed);
     }
   }, [floatingWrapRef]);
   const waitImgLoaded = async (root: {

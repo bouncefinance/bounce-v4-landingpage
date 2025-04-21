@@ -98,13 +98,14 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
   },
   beginnerTitle: {
     fontFamily: `'Inter'`,
-    fontWeight: 500,
-    fontSize: 16,
+    fontWeight: 700,
+    fontSize: 18,
     color: '#FFFFFF',
     marginBottom: 8,
     lineHeight: '24px',
     [theme.breakpoints.down('sm')]: {
       margin: '0 16px',
+      fontSize: 16,
     },
   },
   beginnerTitleIcon: {
@@ -138,5 +139,14 @@ export const useDesignedForEveryoneStyle = makeStyles<Theme>(theme => ({
     borderRadius: '280px 0px 0px 280px',
     overflow: 'hidden',
     padding: '109px 0 0 30px',
+  },
+  beginnerDesc: {
+    color: '#fff',
+    fontSize: 16,
+    opacity: 0.8,
+    [theme.breakpoints.down('sm')]: {
+      padding: '0 40px',
+      fontSize: 14,
+    },
   },
 }));
