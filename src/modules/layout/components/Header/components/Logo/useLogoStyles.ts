@@ -13,6 +13,9 @@ export const useLogoStyles = makeStyles<Theme>(theme => ({
     '&:hover': {
       color: 'inherit',
     },
+    [theme.breakpoints.down('md')]: {
+      transform: 'scale(0.85)',
+    },
   },
 
   img: {
@@ -21,7 +24,7 @@ export const useLogoStyles = makeStyles<Theme>(theme => ({
     cursor: 'pointer',
     display: 'none',
     [theme.breakpoints.up('lg')]: {
-      display: 'block'
+      display: 'block',
     },
   },
   mobileImg: {
@@ -31,19 +34,19 @@ export const useLogoStyles = makeStyles<Theme>(theme => ({
     cursor: 'pointer',
     display: 'block',
     [theme.breakpoints.up('lg')]: {
-      display: 'none'
+      display: 'none',
     },
   },
   name: {
     fontSize: '24px',
     fontFamily: 'Helvetica Neue',
-    lineHeight:'29px',
+    lineHeight: '29px',
     fontWeight: 700,
     cursor: 'pointer',
     verticalAlign: 'middle',
     display: 'none',
     [theme.breakpoints.up('lg')]: {
-      display: 'block'
+      display: 'block',
     },
   },
 }));
