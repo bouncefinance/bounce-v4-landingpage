@@ -1,7 +1,7 @@
 import { makeStyles, Theme } from '@material-ui/core';
 import { FONTS, PALETTE } from 'src/modules/theme/mainTheme';
 
-const BREAKPOINT = 'xl';
+const BREAKPOINT = 'sm';
 
 export const useCelebritiesStyles = makeStyles<Theme>(theme => ({
   root: {
@@ -25,19 +25,32 @@ export const useCelebritiesStyles = makeStyles<Theme>(theme => ({
     },
   },
   mobileTitle: {
+    display: 'none',
     fontGamily: 'Sharp Grotesk DB Cyr Medium 22',
     fontWeight: 500,
     fontSize: '18px',
     lineHeight: '150%',
     fontFeatureSettings: `'pnum' on, 'lnum' on`,
     color: '#FFFFFF',
+    '@media(max-width: 576px)': {
+      display: 'block',
+      width: '100%',
+      textAlign: 'left',
+    },
   },
   list: {
     position: 'relative',
     pointerEvents: 'none',
     overflow: 'visible',
-    [theme.breakpoints.up(BREAKPOINT)]: {
-      paddingBottom: 300,
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3,1fr)',
+    paddingBottom: 300,
+    [theme.breakpoints.down('md')]: {
+      paddingBottom: 200,
+      gridTemplateColumns: 'repeat(2,1fr)',
+    },
+    '@media(max-width: 577px)': {
+      paddingBottom: 100,
       display: 'flex',
       justifyContent: 'space-evenly',
       flexWrap: 'wrap',
@@ -67,7 +80,7 @@ export const useCelebritiesStyles = makeStyles<Theme>(theme => ({
     },
   },
   itemActive: {
-    [theme.breakpoints.down('lg')]: {
+    '@media(max-width: 575px)': {
       '& $itemImage': {
         opacity: 1,
       },
@@ -138,7 +151,7 @@ export const useCelebritiesStyles = makeStyles<Theme>(theme => ({
       // },
       // TODO (Asap Rocky): remove it
       '$item:nth-child(1) &, $item:nth-child(4) &': {
-        display: 'none',
+        // display: 'none',
       },
     },
   },

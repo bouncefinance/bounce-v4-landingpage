@@ -7,7 +7,6 @@ import { useIsXLUp } from 'src/modules/theme';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import { StarIcon } from 'src/modules/common/components/Icons/StarIcon';
 import { t } from 'src/i18n/intl';
-import { useIsMDDown } from 'src/modules/theme';
 
 export const Celebrities = () => {
   const classes = useCelebritiesStyles();
@@ -31,11 +30,10 @@ export const Celebrities = () => {
   const activeHandle = useCallback(id => {
     setActiveItem(id);
   }, []);
-  const isMd = useIsMDDown();
   return (
     <div className={classes.root}>
       <div className={classes.list}>
-      {isMd && (<Typography className={classes.mobileTitle}>Celebrities:</Typography>)}
+        <Typography className={classes.mobileTitle}>Celebrities:</Typography>
         {celebs.map((item, index) => (
           <WithAnimation
             className={classNames(

@@ -102,6 +102,12 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
     background: '#fff',
     borderRadius: '20px',
     objectFit: 'contain',
+    [theme.breakpoints.down('sm')]: {
+      width: '100%',
+      height: '58px',
+      borderRadius: '13px',
+      margin: 0,
+    },
   },
   rowImgSm: {
     padding: theme.spacing(1),
@@ -109,5 +115,20 @@ export const useBounceLabsStyles = makeStyles<Theme>(theme => ({
     borderRadius: '20px',
     height: '58px',
     width: '100%',
+  },
+
+  imgContainer: {
+    width: '100%',
+    maxWidth: 1280,
+    margin: '0 auto',
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fill,220px)',
+    gridGap: '30px 20px',
+    marginBottom: 100,
+    justifyContent: 'center',
+    [theme.breakpoints.down('sm')]: {
+      gridTemplateColumns: '1fr 1fr',
+      gridGap: '23px 13px',
+    },
   },
 }));
