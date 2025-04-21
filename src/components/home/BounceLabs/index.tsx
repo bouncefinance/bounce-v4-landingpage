@@ -1,7 +1,5 @@
-import { Box, Container, Grid, Typography } from '@material-ui/core';
-import React, { useMemo } from 'react';
-import { uid } from 'react-uid';
-import { t } from 'src/i18n/intl';
+import { Box, Container, Typography } from '@material-ui/core';
+import React, { useEffect, useState } from 'react';
 import { WithAnimation } from 'src/modules/WithAnimation';
 import { WithScrollFreezing } from 'src/modules/WithScrollFreezing';
 import { Celebrities } from './components/Celebrities';
@@ -17,9 +15,26 @@ export type IBounceLabsProps = {};
 
 const BounceLabs: React.FC<IBounceLabsProps> = ({}) => {
   const isMDDown = useIsMDDown();
+  const [isLg, setLg] = useState(false);
 
   const classes = useBounceLabsStyles();
   //   const isMd = useIsMDDown();
+  useEffect(() => {
+    const handleResize = () => {
+      const w = window.innerWidth;
+      if (w <= 1250) {
+        setLg(false);
+      } else {
+        setLg(true);
+      }
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   const imgRow1 = [
     {
       img: '/images/home/partners/logo1.png',
@@ -79,7 +94,18 @@ const BounceLabs: React.FC<IBounceLabsProps> = ({}) => {
               Investors and Partners
             </Typography>
           </WithAnimation>
-          {!isMDDown && (
+          {!isLg ? (
+            <WithAnimation className={classes.imgContainer}>
+              {mbImgRow.map(v => (
+                <img
+                  className={classes.rowImg}
+                  key={v.img}
+                  src={v.img}
+                  alt=""
+                />
+              ))}
+            </WithAnimation>
+          ) : (
             <Box>
               <WithAnimation className={classes.imgRow1}>
                 {imgRow1.map(v => (
@@ -97,15 +123,6 @@ const BounceLabs: React.FC<IBounceLabsProps> = ({}) => {
                 ))}
               </WithAnimation>
             </Box>
-          )}
-          {isMDDown && (
-            <Grid container spacing={1}>
-              {mbImgRow.map(v => (
-                <Grid item xs={6}>
-                  <img className={classes.rowImgSm} src={v.img} alt="" />
-                </Grid>
-              ))}
-            </Grid>
           )}
 
           {/* {isMd ? <IntegrationMobile /> : <Integration />} */}
