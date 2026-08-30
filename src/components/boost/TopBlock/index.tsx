@@ -39,15 +39,7 @@ export const TopBlock = () => {
             Minimize Effort.
           </WithAnimation>
           <WithAnimation className={classes.btnBox}>
-            <ComBtn
-              text={'Launch'}
-              handleClick={() => {
-                window.open(
-                  'https://booster.bounce.finance',
-                  '_blank',
-                );
-              }}
-            ></ComBtn>
+            <ComBtn text={'Coming soon'}></ComBtn>
           </WithAnimation>
         </Box>
 

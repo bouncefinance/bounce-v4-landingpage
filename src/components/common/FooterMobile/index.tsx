@@ -233,14 +233,14 @@ const FooterMobile: React.FC<FooterProps> = ({
         className: '',
         isDisabled: false,
       },
-      {
-        label: 'Cedefi Mining',
-        isExternal: true,
-        href: 'https://app.mba.loans',
-        extraIcon: '',
-        className: '',
-        isDisabled: false,
-      },
+      // {
+      //   label: 'Cedefi Mining',
+      //   isExternal: true,
+      //   href: 'https://app.mba.loans',
+      //   extraIcon: '',
+      //   className: '',
+      //   isDisabled: false,
+      // },
       // {
       //   label: 'Advertisement',
       //   isExternal: false,
@@ -265,16 +265,16 @@ const FooterMobile: React.FC<FooterProps> = ({
     () => [
       {
         label: 'Auction Homepage',
-        isExternal: false,
-        href: '/tokenAndnftAuction',
+        isExternal: true,
+        href: 'https://app.bounce.finance/',
         isDisabled: false,
         extraIcon: '',
         className: '',
       },
       {
         label: 'Token&NFT auction',
-        isExternal: false,
-        href: '/tokenAndnftAuction',
+        isExternal: true,
+        href: 'https://app.bounce.finance/',
         isDisabled: false,
         extraIcon: (
           <img
@@ -287,8 +287,8 @@ const FooterMobile: React.FC<FooterProps> = ({
       },
       {
         label: 'Real-World Collectible Auction',
-        isExternal: false,
-        href: '/realWorldCollectAuction',
+        isExternal: true,
+        href: 'https://rwa.bounce.finance/',
         isDisabled: false,
         extraIcon: (
           <img
@@ -333,22 +333,22 @@ const FooterMobile: React.FC<FooterProps> = ({
 
   const toolsLinks = useMemo(
     () => [
-      {
-        label: 'Bounce M&A',
-        isExternal: true,
-        href: 'https://mna.bounce.finance/',
-        extraIcon: '',
-        className: '',
-        isDisabled: false,
-      },
-      {
-        label: 'Bounce Quanto',
-        isExternal: true,
-        href: 'https://broccoli.bounce.finance/trade',
-        isDisabled: false,
-        extraIcon: '',
-        className: '',
-      },
+      // {
+      //   label: 'Bounce M&A',
+      //   isExternal: true,
+      //   href: 'https://mna.bounce.finance/',
+      //   extraIcon: '',
+      //   className: '',
+      //   isDisabled: false,
+      // },
+      // {
+      //   label: 'Bounce Quanto',
+      //   isExternal: true,
+      //   href: 'https://broccoli.bounce.finance/trade',
+      //   isDisabled: false,
+      //   extraIcon: '',
+      //   className: '',
+      // },
       {
         label: 'Support Center',
         isExternal: false,
@@ -405,14 +405,14 @@ const FooterMobile: React.FC<FooterProps> = ({
       //     extraIcon: '',
       //     className: '',
       //   },
-      {
-        label: 'Contact Sales',
-        isExternal: true,
-        href: 'https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/edit',
-        isDisabled: false,
-        extraIcon: '',
-        className: '',
-      },
+      // {
+      //   label: 'Contact Sales',
+      //   isExternal: true,
+      //   href: 'https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/edit',
+      //   isDisabled: false,
+      //   extraIcon: '',
+      //   className: '',
+      // },
       {
         label: 'Private Launchpad Form',
         isExternal: true,

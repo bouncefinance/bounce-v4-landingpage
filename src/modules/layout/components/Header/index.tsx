@@ -74,25 +74,25 @@ export const Header = () => {
             isExternal: true,
             // isAIAgent: true,
           },
-          {
-            label: 'Bounce M&A',
-            isExternal: true,
-            href: 'https://mna.bounce.finance/',
-          },
-          {
-            label: 'Bounce Quanto',
-            isExternal: true,
-            href: 'https://broccoli.bounce.finance/trade',
-          },
+          // {
+          //   label: 'Bounce M&A',
+          //   isExternal: true,
+          //   href: 'https://mna.bounce.finance/',
+          // },
+          // {
+          //   label: 'Bounce Quanto',
+          //   isExternal: true,
+          //   href: 'https://broccoli.bounce.finance/trade',
+          // },
           {
             label: 'Token & NFT Auction',
-            isExternal: false,
-            href: '/tokenAndnftAuction',
+            isExternal: true,
+            href: 'https://app.bounce.finance/',
           },
           {
             label: 'Real-World Collectible Auction',
-            isExternal: false,
-            href: '/realWorldCollectAuction',
+            isExternal: true,
+            href: 'https://rwa.bounce.finance/',
           },
           {
             label: 'Ad Space Auction',
@@ -154,11 +154,11 @@ export const Header = () => {
             isExternal: false,
             href: '/joinCommunity',
           },
-          {
-            label: 'Contact Sales',
-            isExternal: true,
-            href: `https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/edit`,
-          },
+          // {
+          //   label: 'Contact Sales',
+          //   isExternal: true,
+          //   href: `https://docs.google.com/forms/d/1DJxbqqfv6MnN5-kOwDGU-_DGpXDxbJJkUT2UqKgvbUs/edit`,
+          // },
           {
             label: 'Contact Marketing',
             isExternal: true,
